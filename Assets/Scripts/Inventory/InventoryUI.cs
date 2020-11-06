@@ -24,10 +24,7 @@ public class InventoryUI : MonoBehaviour
     {
         if (Input.GetButtonDown("Inventory"))
         {
-            if (inventoryUI.transform.position.y < 0)
-                anim.SetBool("IsOpen", true);
-            else
-                anim.SetBool("IsOpen", false);
+            inventoryUI.SetActive(!inventoryUI.activeSelf);
         }
     }
 
