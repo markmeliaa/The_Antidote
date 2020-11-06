@@ -6,6 +6,11 @@ using UnityEngine;
 
 public class CursorObject : MonoBehaviour
 {
+    ItemPickUp pickUpItems;
+    private void Awake()
+    {
+        pickUpItems = GetComponentInParent<ItemPickUp>();
+    }
 
     [SerializeField] private CursorManager.CursorType cursorType;
     private void OnMouseEnter()
@@ -20,6 +25,7 @@ public class CursorObject : MonoBehaviour
 
     private void OnMouseDown()
     {
+        pickUpItems.Interact();
         // Hacer cosas al clickar
     }
 }
