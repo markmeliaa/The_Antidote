@@ -9,6 +9,7 @@ public class InventoryUI : MonoBehaviour
     InventorySlot[] slots;
 
     Animator anim;
+    bool animationActivated = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,7 +25,17 @@ public class InventoryUI : MonoBehaviour
     {
         if (Input.GetButtonDown("Inventory"))
         {
-            inventoryUI.SetActive(!inventoryUI.activeSelf);
+            if (!animationActivated)
+            {
+                anim.SetBool("IsOpen", true);
+                animationActivated = true;
+            }
+            else
+            {
+                anim.SetBool("IsOpen", false);
+                animationActivated = false;
+            }
+
         }
     }
 
