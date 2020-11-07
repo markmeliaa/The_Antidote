@@ -25,6 +25,10 @@ public class CursorObject : MonoBehaviour
 
     private void OnMouseDown()
     {
-        pickUpItems.Interact();
+
+        if(pickUpItems != null)
+        {
+            pickUpItems.Interact();
+        } 
     }
 }
