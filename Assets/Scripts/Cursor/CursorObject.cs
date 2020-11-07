@@ -26,6 +26,5 @@ public class CursorObject : MonoBehaviour
     private void OnMouseDown()
     {
         pickUpItems.Interact();
-        // Hacer cosas al clickar
     }
 }
