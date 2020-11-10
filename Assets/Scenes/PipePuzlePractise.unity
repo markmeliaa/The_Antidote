@@ -318,15 +318,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 44834968}
     m_Modifications:
-    - target: {fileID: -1278293575858999891, guid: ced1484b0f987a24f81e97cd9214de4c,
-        type: 3}
-      propertyPath: works
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5133719238413671235, guid: ced1484b0f987a24f81e97cd9214de4c,
         type: 3}
       propertyPath: m_Name
       value: pipeGreen_04
+      objectReference: {fileID: 0}
+    - target: {fileID: -1278293575858999891, guid: ced1484b0f987a24f81e97cd9214de4c,
+        type: 3}
+      propertyPath: correctRotation.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -1278293575858999891, guid: ced1484b0f987a24f81e97cd9214de4c,
+        type: 3}
+      propertyPath: works
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5902049159399383242, guid: ced1484b0f987a24f81e97cd9214de4c,
         type: 3}
@@ -396,6 +401,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pipeGreen_04
+      objectReference: {fileID: 0}
+    - target: {fileID: -1278293575858999891, guid: ced1484b0f987a24f81e97cd9214de4c,
+        type: 3}
+      propertyPath: correctRotation.Array.size
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5902049159399383242, guid: ced1484b0f987a24f81e97cd9214de4c,
         type: 3}
@@ -841,6 +851,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pipeGreen_04
       objectReference: {fileID: 0}
+    - target: {fileID: -1278293575858999891, guid: ced1484b0f987a24f81e97cd9214de4c,
+        type: 3}
+      propertyPath: correctRotation.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5902049159399383242, guid: ced1484b0f987a24f81e97cd9214de4c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -905,15 +920,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 183437608}
     m_Modifications:
-    - target: {fileID: -1278293575858999891, guid: ced1484b0f987a24f81e97cd9214de4c,
-        type: 3}
-      propertyPath: works
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5133719238413671235, guid: ced1484b0f987a24f81e97cd9214de4c,
         type: 3}
       propertyPath: m_Name
       value: pipeGreen_04
+      objectReference: {fileID: 0}
+    - target: {fileID: -1278293575858999891, guid: ced1484b0f987a24f81e97cd9214de4c,
+        type: 3}
+      propertyPath: correctRotation.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -1278293575858999891, guid: ced1484b0f987a24f81e97cd9214de4c,
+        type: 3}
+      propertyPath: works
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5902049159399383242, guid: ced1484b0f987a24f81e97cd9214de4c,
         type: 3}
@@ -1108,6 +1128,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pipeGreen_04
+      objectReference: {fileID: 0}
+    - target: {fileID: -1278293575858999891, guid: ced1484b0f987a24f81e97cd9214de4c,
+        type: 3}
+      propertyPath: correctRotation.Array.size
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5902049159399383242, guid: ced1484b0f987a24f81e97cd9214de4c,
         type: 3}
@@ -1726,6 +1751,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8562728841081709145, guid: 32364be9dab62ee45a5b1a3b758377ee,
+        type: 3}
+      propertyPath: correctRotation.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32364be9dab62ee45a5b1a3b758377ee, type: 3}
 --- !u!1001 &779208335
@@ -2235,15 +2265,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 452076984}
     m_Modifications:
-    - target: {fileID: 6000937038756694147, guid: b06ee10d8d953c443b124dfe8e4d83db,
-        type: 3}
-      propertyPath: works
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 819500177228567099, guid: b06ee10d8d953c443b124dfe8e4d83db,
         type: 3}
       propertyPath: m_Name
       value: pipeGreen_13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000937038756694147, guid: b06ee10d8d953c443b124dfe8e4d83db,
+        type: 3}
+      propertyPath: correctRotation.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000937038756694147, guid: b06ee10d8d953c443b124dfe8e4d83db,
+        type: 3}
+      propertyPath: works
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4469294176849542521, guid: b06ee10d8d953c443b124dfe8e4d83db,
         type: 3}
@@ -2723,14 +2758,14 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: -0
-    y: 0.32
+    y: 0
     width: 1
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 6.265435
+  orthographic size: 5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2767,15 +2802,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 277845401}
     m_Modifications:
-    - target: {fileID: -7071595292112249334, guid: ff7fd85de18225d4a8db2e6347d2429e,
-        type: 3}
-      propertyPath: works
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7012785759872082730, guid: ff7fd85de18225d4a8db2e6347d2429e,
         type: 3}
       propertyPath: m_Name
       value: pipeGreen_01
+      objectReference: {fileID: 0}
+    - target: {fileID: -7071595292112249334, guid: ff7fd85de18225d4a8db2e6347d2429e,
+        type: 3}
+      propertyPath: correctRotation.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7071595292112249334, guid: ff7fd85de18225d4a8db2e6347d2429e,
+        type: 3}
+      propertyPath: works
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8835223327544264585, guid: ff7fd85de18225d4a8db2e6347d2429e,
         type: 3}
@@ -3046,6 +3086,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8562728841081709145, guid: 32364be9dab62ee45a5b1a3b758377ee,
+        type: 3}
+      propertyPath: correctRotation.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32364be9dab62ee45a5b1a3b758377ee, type: 3}
 --- !u!1001 &1607678010
@@ -3180,15 +3225,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 977637225}
     m_Modifications:
-    - target: {fileID: 8053799322636192905, guid: e289a7bad8d11b242be694edb29dc08f,
-        type: 3}
-      propertyPath: works
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5919947751086747651, guid: e289a7bad8d11b242be694edb29dc08f,
         type: 3}
       propertyPath: m_Name
       value: pipeGreen_14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053799322636192905, guid: e289a7bad8d11b242be694edb29dc08f,
+        type: 3}
+      propertyPath: correctRotation.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053799322636192905, guid: e289a7bad8d11b242be694edb29dc08f,
+        type: 3}
+      propertyPath: works
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 68979376696623003, guid: e289a7bad8d11b242be694edb29dc08f,
         type: 3}
@@ -3258,6 +3308,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pipeGreen_04
+      objectReference: {fileID: 0}
+    - target: {fileID: -1278293575858999891, guid: ced1484b0f987a24f81e97cd9214de4c,
+        type: 3}
+      propertyPath: correctRotation.Array.size
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5902049159399383242, guid: ced1484b0f987a24f81e97cd9214de4c,
         type: 3}
@@ -3698,15 +3753,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 708329134}
     m_Modifications:
-    - target: {fileID: -7071595292112249334, guid: ff7fd85de18225d4a8db2e6347d2429e,
-        type: 3}
-      propertyPath: works
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7012785759872082730, guid: ff7fd85de18225d4a8db2e6347d2429e,
         type: 3}
       propertyPath: m_Name
       value: pipeGreen_01
+      objectReference: {fileID: 0}
+    - target: {fileID: -7071595292112249334, guid: ff7fd85de18225d4a8db2e6347d2429e,
+        type: 3}
+      propertyPath: correctRotation.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7071595292112249334, guid: ff7fd85de18225d4a8db2e6347d2429e,
+        type: 3}
+      propertyPath: works
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8835223327544264585, guid: ff7fd85de18225d4a8db2e6347d2429e,
         type: 3}
@@ -3777,6 +3837,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pipeGreen_13
       objectReference: {fileID: 0}
+    - target: {fileID: 6000937038756694147, guid: b06ee10d8d953c443b124dfe8e4d83db,
+        type: 3}
+      propertyPath: correctRotation.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4469294176849542521, guid: b06ee10d8d953c443b124dfe8e4d83db,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3841,11 +3906,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2052172659}
     m_Modifications:
-    - target: {fileID: -8562728841081709145, guid: 32364be9dab62ee45a5b1a3b758377ee,
-        type: 3}
-      propertyPath: works
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3728538724467336288, guid: 32364be9dab62ee45a5b1a3b758377ee,
         type: 3}
       propertyPath: m_Name
@@ -3905,6 +3965,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8562728841081709145, guid: 32364be9dab62ee45a5b1a3b758377ee,
+        type: 3}
+      propertyPath: correctRotation.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8562728841081709145, guid: 32364be9dab62ee45a5b1a3b758377ee,
+        type: 3}
+      propertyPath: works
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32364be9dab62ee45a5b1a3b758377ee, type: 3}
@@ -3990,15 +4060,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 574506412}
     m_Modifications:
-    - target: {fileID: -1278293575858999891, guid: ced1484b0f987a24f81e97cd9214de4c,
-        type: 3}
-      propertyPath: works
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5133719238413671235, guid: ced1484b0f987a24f81e97cd9214de4c,
         type: 3}
       propertyPath: m_Name
       value: pipeGreen_04
+      objectReference: {fileID: 0}
+    - target: {fileID: -1278293575858999891, guid: ced1484b0f987a24f81e97cd9214de4c,
+        type: 3}
+      propertyPath: correctRotation.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -1278293575858999891, guid: ced1484b0f987a24f81e97cd9214de4c,
+        type: 3}
+      propertyPath: works
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5902049159399383242, guid: ced1484b0f987a24f81e97cd9214de4c,
         type: 3}
@@ -4069,6 +4144,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: pipeGreen_01
       objectReference: {fileID: 0}
+    - target: {fileID: -7071595292112249334, guid: ff7fd85de18225d4a8db2e6347d2429e,
+        type: 3}
+      propertyPath: correctRotation.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8835223327544264585, guid: ff7fd85de18225d4a8db2e6347d2429e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4133,15 +4213,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1701515530}
     m_Modifications:
-    - target: {fileID: 8053799322636192905, guid: e289a7bad8d11b242be694edb29dc08f,
-        type: 3}
-      propertyPath: works
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5919947751086747651, guid: e289a7bad8d11b242be694edb29dc08f,
         type: 3}
       propertyPath: m_Name
       value: pipeGreen_14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053799322636192905, guid: e289a7bad8d11b242be694edb29dc08f,
+        type: 3}
+      propertyPath: correctRotation.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053799322636192905, guid: e289a7bad8d11b242be694edb29dc08f,
+        type: 3}
+      propertyPath: works
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 68979376696623003, guid: e289a7bad8d11b242be694edb29dc08f,
         type: 3}
@@ -4207,15 +4292,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607678011}
     m_Modifications:
-    - target: {fileID: 8388451107897865368, guid: d4b0a6f35b7b59245a2f6359e379d141,
-        type: 3}
-      propertyPath: works
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7851458323078935055, guid: d4b0a6f35b7b59245a2f6359e379d141,
         type: 3}
       propertyPath: m_Name
       value: pipeGreen_06
+      objectReference: {fileID: 0}
+    - target: {fileID: 8388451107897865368, guid: d4b0a6f35b7b59245a2f6359e379d141,
+        type: 3}
+      propertyPath: correctRotation.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8388451107897865368, guid: d4b0a6f35b7b59245a2f6359e379d141,
+        type: 3}
+      propertyPath: works
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7557468061946211926, guid: d4b0a6f35b7b59245a2f6359e379d141,
         type: 3}
