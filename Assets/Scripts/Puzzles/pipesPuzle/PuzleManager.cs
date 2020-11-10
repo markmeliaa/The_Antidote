@@ -5,7 +5,7 @@ using UnityEngine;
 public class PuzleManager : MonoBehaviour
 {
     public GameObject PipesHolder;
-    public GameObject[] Pipes;
+    public GameObject[][] Pipes;
 
     [SerializeField]
     int totalPipes = 0;
@@ -13,12 +13,22 @@ public class PuzleManager : MonoBehaviour
     void Start()
     {
         totalPipes = PipesHolder.transform.childCount;
-        Pipes = new GameObject[totalPipes];
-
-        int k = 0;
+        Pipes = new GameObject[totalPipes/5][];
         for (int i = 0; i < Pipes.Length; i++)
         {
-            Pipes[i] = PipesHolder.transform.GetChild(i).gameObject.transform.GetChild(0).gameObject;
+            Pipes[i] = new GameObject[5];
+        }
+
+        for (int i = 0; i < Pipes.Length; i++)
+        {
+            for(int j = 0; j < Pipes[0].Length; j++)
+            {
+                Pipes[i][j] = PipesHolder.transform.GetChild(i).gameObject.transform.GetChild(0).gameObject;
+
+                if (i != 0)
+                    //Pipes[i][j].GetComponent<PipeScript>().connectedPipes.Add();
+            }
+                
         }
     }
 

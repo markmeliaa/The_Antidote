@@ -5,7 +5,7 @@ using UnityEngine;
 public class PipeScript : MonoBehaviour
 {
     public float[] correctRotation;
-    public int[] connectedPipes;
+    public List<int> connectedPipes;
 
     [SerializeField]
     bool isPlaced = false;
