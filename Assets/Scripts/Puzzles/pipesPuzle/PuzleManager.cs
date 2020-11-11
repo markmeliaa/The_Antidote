@@ -25,8 +25,7 @@ public class PuzleManager : MonoBehaviour
             {
                 Pipes[i][j] = PipesHolder.transform.GetChild(i).gameObject.transform.GetChild(0).gameObject;
 
-                if (i != 0)
-                    //Pipes[i][j].GetComponent<PipeScript>().connectedPipes.Add();
+                //Pipes[i][j].GetComponent<PipeScript>().connectedPipes.Add();
             }
                 
         }
