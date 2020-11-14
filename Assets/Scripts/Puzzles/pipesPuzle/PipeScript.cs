@@ -2,65 +2,96 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PipeScript : MonoBehaviour
+public abstract class PipeScript : MonoBehaviour
 {
-    public float[] correctRotation;
-    public List<int> connectedPipes;
+    public sealed class Pair
+    {
+        public int i;
+        public int j;
+        public Pair(int newi, int newj)
+        {
+            i = newi;
+            j = newj;
+        }
+    };
 
-    [SerializeField]
-    bool isPlaced = false;
+    public List<Pair> connectedPipes;
+    public int myI = 0;
+    public int myJ = 0;
+    public int types; //type 0 start, type 1 end, type 2 L, type 3 horizontal, type 4 +
 
-    int posibleRotation = 1;
-    PuzleManager puzleManager;
+
+    public Sprite waterSprite;
+    public Sprite pipeSprite;
+    public SpriteRenderer sp;
+    public PuzleManager puzleManager;
+
+    public bool notRotable;
+    public bool connected = false;
+
     float[] rotations = { 0, 90, 180, 270 };
+    
 
     private void Awake()
     {
+        connectedPipes = new List<Pair>();
+        sp = GetComponent<SpriteRenderer>();
         puzleManager = GameObject.Find("PuzleManager").GetComponent<PuzleManager>();
     }
 
     private void Start()
     {
-        posibleRotation = correctRotation.Length;
-        correctRotation[0] = transform.rotation.z;
-        if(posibleRotation == 2)
+        if (!notRotable)
         {
-            correctRotation[1] = 180;
+            int rand = Random.Range(0, rotations.Length);
+            transform.eulerAngles = new Vector3(0, 0, rotations[rand]);
+        }
+
+        if (types != 0)
+        {
+            for (int i = 0; i < connectedPipes.Count; i++)
+            {
+                if (types == 1)
+                    notRotable = true;
+                else
+                    notRotable = false;
+
+                checkPipes(i);
+            }
         }
         else
         {
-            for (int i = 0; i < posibleRotation; i++)
-            {
-                correctRotation[i] = 90 * i;
-            }
-        }
+            connected = true;
+            notRotable = true;
+        }  
+    }
 
-        int rand = Random.Range(0, rotations.Length);
-        transform.eulerAngles = new Vector3(0, 0, rotations[rand]);
-
-        for (int i = 0; i < posibleRotation; i++)
+    private void Update()
+    {
+        if(types != 0)
         {
-            if (transform.eulerAngles.z > correctRotation[i] - 1 && transform.eulerAngles.z < correctRotation[i] + 1)
+            int count = 0;
+            for (int i = 0; i < connectedPipes.Count; i++)
             {
-                isPlaced = true;
+                count += checkPipes(i);
             }
+            if (count == connectedPipes.Count)
+                connected = false;
         }
+
+        if (connected)
+            sp.sprite = waterSprite;
+        else
+            sp.sprite = pipeSprite;
     }
     private void OnMouseDown()
     {
-        transform.Rotate(new Vector3(0, 0, 90));
-
-        for (int i = 0; i < posibleRotation; i++)
+        if (!notRotable)
         {
-            if (transform.eulerAngles.z > correctRotation[i] - 1 && transform.eulerAngles.z < correctRotation[i] + 1)
-            {
-                isPlaced = true;
-                break;
-            }
-            else
-            {
-                isPlaced = false;
-            }
+            transform.Rotate(new Vector3(0, 0, 90));
         }
+        connected = false;
     }
+
+    public abstract int checkPipes(int indice);
 }

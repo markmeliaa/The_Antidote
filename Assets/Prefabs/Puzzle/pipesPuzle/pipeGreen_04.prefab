@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5902049159399383242}
   - component: {fileID: 1908306430069378265}
   - component: {fileID: 4272773200051463192}
-  - component: {fileID: -1278293575858999891}
+  - component: {fileID: 893934990803902657}
   m_Layer: 0
   m_Name: pipeGreen_04
   m_TagString: Untagged
@@ -26,7 +26,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5133719238413671235}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 40.399998, y: 40.399998, z: 40.399998}
   m_Children: []
@@ -68,9 +68,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingLayerID: -1481609047
+  m_SortingLayer: 2
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 0a05c2f9fc06faa44b6d52abbcfc3d5a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -108,7 +108,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.19, y: 1.02}
   m_EdgeRadius: 0
---- !u!114 &-1278293575858999891
+--- !u!114 &893934990803902657
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -117,6 +117,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 5133719238413671235}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ab196d7291444f40aac4ba81fd457ce, type: 3}
+  m_Script: {fileID: 11500000, guid: ef75b0fbfcfb24a4e9b621e119056498, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myI: 0
+  myJ: 0
+  types: 3
+  waterSprite: {fileID: 21300000, guid: 0288272c34932c141be09b5e7ec2d99c, type: 3}
+  pipeSprite: {fileID: 21300000, guid: 0a05c2f9fc06faa44b6d52abbcfc3d5a, type: 3}
+  sp: {fileID: 0}
+  puzleManager: {fileID: 0}
+  notRotable: 0
+  connected: 0
