@@ -15,7 +15,7 @@ TagManager:
   - 
   - 
   - UI Characters
-  - 
+  - Puzle
   - 
   - 
   - 
@@ -41,6 +41,9 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Text
+    uniqueID: 3040397043
     locked: 0
   - name: Puzle
     uniqueID: 2813358249

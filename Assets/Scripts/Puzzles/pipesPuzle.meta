@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: cb0e5a76fa41e674491dcab4b185acc8
+=======
+guid: 564853b98ebcca44f9be77ad558ec633
+>>>>>>> origin/pipePuzle
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
