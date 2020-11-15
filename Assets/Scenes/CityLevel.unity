@@ -3393,7 +3393,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -23, y: -134}
+  m_AnchoredPosition: {x: -322, y: -134}
   m_SizeDelta: {x: 309.9, y: 691.1}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!1 &807756824
@@ -5369,12 +5369,12 @@ Camera:
     x: 0
     y: 0
     width: 1
-    height: 1.09
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 4.8519053
+  orthographic size: 5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -5488,7 +5488,7 @@ PrefabInstance:
     - target: {fileID: 5098521966465880904, guid: de5b63ec41d531745a782388d47cf9b9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.030000001
+      value: -0.03
       objectReference: {fileID: 0}
     - target: {fileID: 5098521966465880904, guid: de5b63ec41d531745a782388d47cf9b9,
         type: 3}
@@ -6195,7 +6195,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1599529623
 Transform:
   m_ObjectHideFlags: 0
@@ -7257,7 +7257,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1959324171
 Transform:
   m_ObjectHideFlags: 0
