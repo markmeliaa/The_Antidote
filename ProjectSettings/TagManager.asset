@@ -16,7 +16,7 @@ TagManager:
   - 
   - UI Characters
   - Puzle
-  - 
+  - ShadowPuzle
   - 
   - 
   - 
@@ -44,6 +44,9 @@ TagManager:
     locked: 0
   - name: Text
     uniqueID: 3040397043
+    locked: 0
+  - name: PuzleShadow
+    uniqueID: 2136561445
     locked: 0
   - name: Puzle
     uniqueID: 2813358249
