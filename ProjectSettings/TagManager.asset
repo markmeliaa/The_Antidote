@@ -51,3 +51,6 @@ TagManager:
   - name: Puzle
     uniqueID: 2813358249
     locked: 0
+  - name: Background
+    uniqueID: 1248002379
+    locked: 0
