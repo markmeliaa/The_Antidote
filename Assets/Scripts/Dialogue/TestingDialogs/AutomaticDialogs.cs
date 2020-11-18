@@ -9,7 +9,6 @@ public class AutomaticDialogs : MonoBehaviour
     float timer;
     bool activated = false;
 
-    [SerializeField]
     Tester tester;
 
     // Start is called before the first frame update
