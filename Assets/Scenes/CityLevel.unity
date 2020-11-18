@@ -1242,7 +1242,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &219006582
 Transform:
   m_ObjectHideFlags: 0
@@ -4143,7 +4143,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &614370883
 Transform:
   m_ObjectHideFlags: 0
@@ -8807,7 +8807,7 @@ GameObject:
   - component: {fileID: 1559186193}
   - component: {fileID: 1559186192}
   m_Layer: 0
-  m_Name: Arrow-ToValeriesHome
+  m_Name: Arrow-ToCrossRoads
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8852,7 +8852,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b44c530f4d2ba54484b8fdaa9bac56a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextLocation: {fileID: 1984939460}
+  nextLocation: {fileID: 827117483}
   currentLocation: {fileID: 219006581}
   dialogueManager: {fileID: 1171928259}
 --- !u!212 &1559186194
