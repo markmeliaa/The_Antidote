@@ -19,3 +19,11 @@ MonoBehaviour:
     dialogue: "...Y hoy es el primer dia de clases...espero que no sean m\xE1s que
       las t\xEDpicas presentaciones de los profesores porque hoy no voy a poder rendir
       en lo abs\u2026"
+  - speaker: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+    dialogue: '*beep beep*'
+  - speaker: {fileID: 11400000, guid: d10ecfe38086a0b47820494ecb643916, type: 2}
+    dialogue: "\u201CGatrie\u201D: Oye colega, en 10 minutos estoy en tu puerta, espero
+      que no te hayas olvidado de que hoy empiezan las clases y me vayas a dejar tirado.
+      No tardes mucho en prepararte que luego pasamos a buscar a Valerie."
+  - speaker: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+    dialogue: "Bueno, no creo que el d\xEDa de hoy vaya a ser tan malo."

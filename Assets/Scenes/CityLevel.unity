@@ -129,6 +129,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 10249339}
+  - component: {fileID: 10249340}
+  - component: {fileID: 10249341}
   m_Layer: 0
   m_Name: KieransRoom
   m_TagString: Untagged
@@ -154,6 +156,36 @@ Transform:
   m_Father: {fileID: 1479407755}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &10249340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10249338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5c42e610dc01d043b83fc8f173e6637, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  finalTime: 2
+  tester: {fileID: 0}
+--- !u!114 &10249341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10249338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e9cf877592e63d44801d9270de6a1e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  convoButton: {fileID: 0}
+  convo:
+  - {fileID: 11400000, guid: 87a8b8beafbeef0468225aad46418cc9, type: 2}
+  - {fileID: 11400000, guid: 25ca165f473c09d44ae79ed1903fbda9, type: 2}
 --- !u!1 &62001677
 GameObject:
   m_ObjectHideFlags: 0
@@ -848,6 +880,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 219006582}
+  - component: {fileID: 219006584}
+  - component: {fileID: 219006583}
   m_Layer: 0
   m_Name: KieransHome
   m_TagString: Untagged
@@ -873,6 +907,35 @@ Transform:
   m_Father: {fileID: 1479407755}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &219006583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219006581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e9cf877592e63d44801d9270de6a1e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  convoButton: {fileID: 0}
+  convo:
+  - {fileID: 11400000, guid: c26c8392acf101548acee696b1d0753a, type: 2}
+--- !u!114 &219006584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219006581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5c42e610dc01d043b83fc8f173e6637, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  finalTime: 1
+  tester: {fileID: 0}
 --- !u!4 &225181861 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5098521966465880904, guid: de5b63ec41d531745a782388d47cf9b9,
@@ -4142,8 +4205,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9cf877592e63d44801d9270de6a1e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  convo: {fileID: 0}
   convoButton: {fileID: 907300575}
+  convo: []
 --- !u!114 &907300578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4596,7 +4659,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &975349208
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4629,8 +4692,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9cf877592e63d44801d9270de6a1e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  convo: {fileID: 11400000, guid: c26c8392acf101548acee696b1d0753a, type: 2}
   convoButton: {fileID: 975349207}
+  convo:
+  - {fileID: 11400000, guid: c26c8392acf101548acee696b1d0753a, type: 2}
 --- !u!114 &975349210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5145,8 +5209,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9cf877592e63d44801d9270de6a1e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  convo: {fileID: 11400000, guid: c26c8392acf101548acee696b1d0753a, type: 2}
   convoButton: {fileID: 1082392281}
+  convo: []
 --- !u!114 &1082392284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7148,8 +7212,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9cf877592e63d44801d9270de6a1e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  convo: {fileID: 11400000, guid: a9d52cd9a8274eb468242e714b0edba7, type: 2}
   convoButton: {fileID: 1576694355}
+  convo:
+  - {fileID: 11400000, guid: a9d52cd9a8274eb468242e714b0edba7, type: 2}
 --- !u!114 &1576694358
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7796,8 +7861,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9cf877592e63d44801d9270de6a1e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  convo: {fileID: 11400000, guid: e6c7223190b7c9d43a82b285c1c89ce6, type: 2}
   convoButton: {fileID: 1741397449}
+  convo:
+  - {fileID: 11400000, guid: 82279c216adb109469cb77a432d2f883, type: 2}
 --- !u!114 &1741397452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8531,7 +8597,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1959324171
 Transform:
   m_ObjectHideFlags: 0
@@ -8567,7 +8633,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1984939461
 Transform:
   m_ObjectHideFlags: 0
@@ -8607,7 +8673,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1987114829
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8639,8 +8705,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9cf877592e63d44801d9270de6a1e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  convo: {fileID: 11400000, guid: 87a8b8beafbeef0468225aad46418cc9, type: 2}
   convoButton: {fileID: 1987114828}
+  convo: []
 --- !u!114 &1987114831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8945,6 +9011,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2031988502}
+  - component: {fileID: 2031988504}
+  - component: {fileID: 2031988503}
   m_Layer: 0
   m_Name: Corridor
   m_TagString: Untagged
@@ -8970,6 +9038,35 @@ Transform:
   m_Father: {fileID: 1479407755}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2031988503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031988501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e9cf877592e63d44801d9270de6a1e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  convoButton: {fileID: 0}
+  convo:
+  - {fileID: 11400000, guid: af53bc518660c7b4cb738d0e6f01ea01, type: 2}
+--- !u!114 &2031988504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031988501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5c42e610dc01d043b83fc8f173e6637, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  finalTime: 1
+  tester: {fileID: 0}
 --- !u!1 &2034140017
 GameObject:
   m_ObjectHideFlags: 0
@@ -9121,8 +9218,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9cf877592e63d44801d9270de6a1e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  convo: {fileID: 11400000, guid: e6c7223190b7c9d43a82b285c1c89ce6, type: 2}
   convoButton: {fileID: 2046248903}
+  convo:
+  - {fileID: 11400000, guid: e6c7223190b7c9d43a82b285c1c89ce6, type: 2}
 --- !u!114 &2046248906
 MonoBehaviour:
   m_ObjectHideFlags: 0
