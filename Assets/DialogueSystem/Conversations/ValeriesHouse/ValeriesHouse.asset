@@ -12,4 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6e7c39a969bf014181dc345647a0e83, type: 3}
   m_Name: ValeriesHouse
   m_EditorClassIdentifier: 
-  allLines: []
+  allLines:
+  - speaker: {fileID: 11400000, guid: 1cf53bd0622200d4c94289a40df5af7f, type: 2}
+    dialogue: "Ya era hora chicos, \xBFes que quer\xE9is llegar tarde el primer d\xEDa
+      de clases?"
+  - speaker: {fileID: 11400000, guid: d10ecfe38086a0b47820494ecb643916, type: 2}
+    dialogue: "Oh venga ya, no seas exagerada, aun falta media hora para que empiece
+      la jornada, en 15 minutos estaremos all\xED.\r\n"
+  - speaker: {fileID: 11400000, guid: 1cf53bd0622200d4c94289a40df5af7f, type: 2}
+    dialogue: "Bueno, mientras no lleguemos tarde no me quejare. \r\n"

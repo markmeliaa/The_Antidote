@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6e7c39a969bf014181dc345647a0e83, type: 3}
+  m_Name: Classroom2
+  m_EditorClassIdentifier: 
+  allLines:
+  - speaker: {fileID: 0}
+    dialogue: "Perfecto, si hab\xE9is entendido todos este apartado, podemos continuar."
+  - speaker: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+    dialogue: "Papa no me ha hablado en todo el dia...de verdad que tengo un mal presentimiento.\r\n"
