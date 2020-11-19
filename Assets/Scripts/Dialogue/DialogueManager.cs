@@ -5,8 +5,8 @@ using System.Collections;
 
 public class DialogueManager : MonoBehaviour
 {
-    public TextMeshProUGUI speakerName, dialogue, navButtonText;
-    public Image speakerSprite;
+    public TextMeshProUGUI speakerName, dialogue;
+    public Image speakerSprite, speakerBox;
 
     private int currentIndex;
     private Conversation currentConvo;
@@ -36,7 +36,6 @@ public class DialogueManager : MonoBehaviour
         instance.currentConvo = convo;
         instance.speakerName.text = "";
         instance.dialogue.text = "";
-        instance.navButtonText.text = "NEXT >";
 
         instance.ReadNext();
     }
@@ -69,13 +68,9 @@ public class DialogueManager : MonoBehaviour
             typing = instance.StartCoroutine(TypeText(currentConvo.GetLineByIndex(currentIndex).dialogue));
         }
         
-        speakerSprite.sprite = currentConvo.GetLineByIndex(currentIndex).speaker.GetSprite();
+        speakerSprite.sprite = currentConvo.GetLineByIndex(currentIndex).speaker.GetSpeakerSprite();
+        //speakerBox.sprite = currentConvo.GetLineByIndex(currentIndex).speaker.GetSpeakerBox();
         currentIndex++;
-
-        if (currentIndex > currentConvo.GetLength())
-        {
-            navButtonText.text = "END X";
-        }
     }
 
     private IEnumerator TypeText(string text)

@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speakerName: Valerie
   speakerSprite: {fileID: 21300000, guid: 5e5997c7df0d6e94eab20f9c9c09a27b, type: 3}
+  speakerBox: {fileID: 21300000, guid: 7ccb5c05e72adfa438ea0c83501a3054, type: 3}
