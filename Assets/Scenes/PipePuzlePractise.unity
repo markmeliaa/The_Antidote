@@ -3282,6 +3282,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PipesHolder: {fileID: 510335832}
   endText: {fileID: 1858519754}
+  rowSize: 5
   totalPipes: 0
 --- !u!1 &1455759844
 GameObject:

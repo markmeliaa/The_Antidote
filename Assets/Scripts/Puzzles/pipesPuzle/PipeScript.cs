@@ -57,6 +57,8 @@ public abstract class PipeScript : MonoBehaviour
                     notRotable = false;
 
                 checkPipes(i);
+                if (connected)
+                    break;
             }
         }
         else
@@ -74,6 +76,8 @@ public abstract class PipeScript : MonoBehaviour
             for (int i = 0; i < connectedPipes.Count; i++)
             {
                 count += checkPipes(i);
+                if (connected)
+                    break;
             }
             if (count == connectedPipes.Count)
                 connected = false;

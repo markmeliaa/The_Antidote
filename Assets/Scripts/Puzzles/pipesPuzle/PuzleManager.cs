@@ -8,6 +8,7 @@ public class PuzleManager : MonoBehaviour
     public GameObject PipesHolder;
     public GameObject[,] Pipes;
     public Text endText;
+    public int rowSize;
 
     GameObject lastPipe;
 
@@ -17,7 +18,7 @@ public class PuzleManager : MonoBehaviour
     void Start()
     {
         totalPipes = PipesHolder.transform.childCount;
-        Pipes = new GameObject[totalPipes/5, 5];
+        Pipes = new GameObject[totalPipes/rowSize, rowSize];
 
         int col = 0;
         int fil = 0;
