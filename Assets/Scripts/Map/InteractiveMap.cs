@@ -13,9 +13,11 @@ public class InteractiveMap : MonoBehaviour
         {
             // Desactivamos la ubicación actual
             GameObject actualLocation = GameObject.Find("Map Locations").transform.GetChild(i).gameObject;
+            Map mapScript = GameObject.Find("InteractiveMap").GetComponent<Map>();
             actualLocation.SetActive(false);
 
             // Activamos la ubicación a la que queremos viajar
+            mapScript.dialogueCanvas.SetActive(true);
             nextLocation.SetActive(true);
         }
     }

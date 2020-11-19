@@ -7813,7 +7813,7 @@ GameObject:
   - component: {fileID: 1171928261}
   - component: {fileID: 1171928260}
   m_Layer: 5
-  m_Name: DialogueManager (Canvas)
+  m_Name: DialogueManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
