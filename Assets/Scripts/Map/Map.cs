@@ -18,7 +18,7 @@ public class Map : MonoBehaviour
         mapAnimator = GetComponent<Animator>();
     }
 
-    private void Update()
+    /*private void Update()
     {
         if (Input.GetKey(KeyCode.M) && mapAnimator.GetBool("isShowing") == false)
         {
@@ -35,5 +35,25 @@ public class Map : MonoBehaviour
             startConvoButton.SetActive(true);
             dialogueCanvas.SetActive(true);
         }
+    }*/
+
+    public void openMap()
+    {
+        mapAnimator.SetBool("isShowing", true);
+        background.SetActive(false);
+        dialogueCanvas.SetActive(false);
+
+        if(startConvoButton != null)
+            startConvoButton.SetActive(false);
     }
+
+   public void closeMap()
+   {
+        mapAnimator.SetBool("isShowing", false);
+        background.SetActive(true);
+        dialogueCanvas.SetActive(true);
+
+        if (startConvoButton != null)
+            startConvoButton.SetActive(true);
+   }
 }

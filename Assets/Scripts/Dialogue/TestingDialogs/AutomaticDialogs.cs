@@ -5,9 +5,10 @@ using UnityEngine;
 public class AutomaticDialogs : MonoBehaviour
 {
     public float finalTime;
+    public bool activated = false;
 
     float timer;
-    bool activated = false;
+    
 
     Tester tester;
 
@@ -21,7 +22,7 @@ public class AutomaticDialogs : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!activated)
+        if (!activated && tester.index < tester.convo.Length)
         {
             timer += Time.deltaTime;
 

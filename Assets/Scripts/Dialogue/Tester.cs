@@ -5,9 +5,9 @@ using UnityEngine;
 public class Tester : MonoBehaviour
 {
     public GameObject convoButton;
-    [SerializeField] private Conversation[] convo;
+    public int index;
+    public Conversation[] convo;
     List<bool> activate;
-    int index = 0;
 
     public void Start()
     {
@@ -28,8 +28,6 @@ public class Tester : MonoBehaviour
             index++;
             if (index < convo.Length)
                 activate[index] = true;
-            else
-                index = 0;
         }
     }
 
