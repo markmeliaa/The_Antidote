@@ -69,7 +69,7 @@ public class DialogueManager : MonoBehaviour
         }
         
         speakerSprite.sprite = currentConvo.GetLineByIndex(currentIndex).speaker.GetSpeakerSprite();
-        //speakerBox.sprite = currentConvo.GetLineByIndex(currentIndex).speaker.GetSpeakerBox();
+        speakerBox.sprite = currentConvo.GetLineByIndex(currentIndex).speaker.GetSpeakerBox();
         currentIndex++;
     }
 
