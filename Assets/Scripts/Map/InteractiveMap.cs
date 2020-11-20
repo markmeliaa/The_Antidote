@@ -13,9 +13,15 @@ public class InteractiveMap : MonoBehaviour
     {
         for (int i = 0; i < locations; i++)
         {
-            // Desactivamos la ubicación actual
+            // Desactivamos la ubicación actual pero activamos el interactive background en el que estamos
             GameObject actualLocation = GameObject.Find("Map Locations").transform.GetChild(i).gameObject;
             Map mapScript = GameObject.Find("InteractiveMap").GetComponent<Map>();
+            for (int j = 0; j < actualLocation.transform.childCount; j++)
+            {
+                actualLocation.transform.GetChild(j).gameObject.SetActive(true);
+                miniMap.opened = false;
+            }
+
             actualLocation.SetActive(false);
 
             // Activamos la ubicación a la que queremos viajar
