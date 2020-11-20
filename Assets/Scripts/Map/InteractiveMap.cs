@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class InteractiveMap : MonoBehaviour
 {
+    public miniMap miniMap;
+
     [SerializeField] private GameObject nextLocation;
     public int locations;
 
@@ -19,6 +21,9 @@ public class InteractiveMap : MonoBehaviour
             // Activamos la ubicación a la que queremos viajar
             mapScript.dialogueCanvas.SetActive(true);
             nextLocation.SetActive(true);
+
+            //Charge mini Map
+            miniMap.GetComponent<miniMap>().chargeMap();
         }
     }
 }
