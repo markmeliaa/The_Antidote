@@ -8,7 +8,7 @@ public class Map : MonoBehaviour
 {
     public float speed;
 
-    [SerializeField] private GameObject background;
+    [SerializeField] private GameObject interactiveBackground;
     public GameObject dialogueCanvas;
     [SerializeField] private GameObject startConvoButton;
     private Animator mapAnimator;
@@ -40,7 +40,7 @@ public class Map : MonoBehaviour
     public void openMap()
     {
         mapAnimator.SetBool("isShowing", true);
-        background.SetActive(false);
+        interactiveBackground.SetActive(false);
         dialogueCanvas.SetActive(false);
 
         if(startConvoButton != null)
@@ -50,7 +50,7 @@ public class Map : MonoBehaviour
    public void closeMap()
    {
         mapAnimator.SetBool("isShowing", false);
-        background.SetActive(true);
+        interactiveBackground.SetActive(true);
         dialogueCanvas.SetActive(true);
 
         if (startConvoButton != null)
