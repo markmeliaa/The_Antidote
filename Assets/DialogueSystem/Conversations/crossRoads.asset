@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6e7c39a969bf014181dc345647a0e83, type: 3}
+  m_Name: crossRoads
+  m_EditorClassIdentifier: 
+  allLines:
+  - speaker: {fileID: 11400000, guid: 1cf53bd0622200d4c94289a40df5af7f, type: 2}
+    dialogue: "\xBFY qu\xE9 tal vuestros veranos chicos?"
+  - speaker: {fileID: 11400000, guid: d10ecfe38086a0b47820494ecb643916, type: 2}
+    dialogue: "El mio...pues como todos, he estado ayudando a mi madre en casa con
+      mi hermano. Los ratos libres se los he dedicado a la consola y poco m\xE1s la
+      verdad. "
+  - speaker: {fileID: 11400000, guid: 1cf53bd0622200d4c94289a40df5af7f, type: 2}
+    dialogue: "Pues mi familia y yo nos fuimos de vacaciones a Francia, para celebrar
+      el progreso de mi padre con la terapia para su adicci\xF3n. De hecho, nos las
+      pag\xF3 \xE9l, con dinero que antes hubiera gastado en el juego.\r\n"
+  - speaker: {fileID: 11400000, guid: d10ecfe38086a0b47820494ecb643916, type: 2}
+    dialogue: "Joder, eso si que es un GRAN progreso, estareis todos muy contentos
+      en casa \xBFverdad?\r\n"
+  - speaker: {fileID: 11400000, guid: 1cf53bd0622200d4c94289a40df5af7f, type: 2}
+    dialogue: "No te voy a decir que no, la verdad, estoy muy orgullosa de \xE9l.
+      \xBFY tu que Kieran? \xBFNo tienes nada que contarnos sobre tu verano?\r\n\r\n"
+  - speaker: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+    dialogue: "\u2026"
+  - speaker: {fileID: 11400000, guid: 1cf53bd0622200d4c94289a40df5af7f, type: 2}
+    dialogue: "\xBFEstas bien Kieran?, llevas todo el camino bastante callado, y,
+      siendo sincera, te he visto con mala cara desde que llegasteis a mi casa."
+  - speaker: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+    dialogue: "Tranquilos chicos, no es nada, perdonad, es que estaba distra\xEDdo
+      en mi mundo."
+  - speaker: {fileID: 11400000, guid: 1cf53bd0622200d4c94289a40df5af7f, type: 2}
+    dialogue: "Claro, como si nos fu\xE9ramos a creer eso, ni que no te conoci\xE9ramos."
+  - speaker: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+    dialogue: "No lo se chicos, la verdad es que llevo unas cuantas noches que casi
+      no he pegado ojo...y no es solo eso...tengo el presentimiento de que algo no
+      anda bien, pap\xE1 ha estado actuando muy extra\xF1o \xFAltimamente."
+  - speaker: {fileID: 11400000, guid: 1cf53bd0622200d4c94289a40df5af7f, type: 2}
+    dialogue: "Venga Kieran, \xE9l mismo te dijo que estar\xEDa trabajando hasta tarde,
+      seguro que no es nada."
+  - speaker: {fileID: 11400000, guid: d10ecfe38086a0b47820494ecb643916, type: 2}
+    dialogue: "Claro, lo m\xE1s probable es que sea eso Kieran, no te estes preocupando,
+      adem\xE1s, sabes mejor que nadie lo trabajador que es tu padre, debe traerse
+      algo grande entre manos."
+  - speaker: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+    dialogue: "Si, teneis raz\xF3n, seran los nervios por el nuevo curso jug\xE1ndome
+      una mala pasada."
+  - speaker: {fileID: 11400000, guid: d10ecfe38086a0b47820494ecb643916, type: 2}
+    dialogue: "No te estreses anda, que ya sabes que tienes tu carrera super controlada,
+      despu\xE9s de todo eres el hijo de tu padre.\r\n"
+  - speaker: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+    dialogue: "Muchas gracias chicos...pero, \xBFhab\xE9is visto qu\xE9 hora es?\r\n"

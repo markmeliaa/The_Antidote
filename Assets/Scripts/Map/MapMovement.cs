@@ -29,10 +29,7 @@ public class MapMovement : MonoBehaviour
             currentDialogScript.enabled = false;
 
         if(nextDialogScript != null)
-        {
             nextDialogScript.enabled = true;
-            nextDialogScript.activated = false;
-        }
             
 
         nextLocation.SetActive(true);

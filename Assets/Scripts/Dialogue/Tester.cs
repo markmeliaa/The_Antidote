@@ -7,6 +7,8 @@ public class Tester : MonoBehaviour
     public GameObject convoButton;
     public int index;
     public Conversation[] convo;
+    public bool play = false;
+
     List<bool> activate;
 
     public void Start()
@@ -21,10 +23,11 @@ public class Tester : MonoBehaviour
     }
     public void starConvo()
     {
-        if (activate[index])
+        if (activate[index] && play)
         {
             DialogueManager.StartConversation(convo[index]);
 
+            play = false;
             index++;
             if (index < convo.Length)
                 activate[index] = true;
@@ -34,5 +37,10 @@ public class Tester : MonoBehaviour
     public void destroyButton()
     {
         Destroy(convoButton);
+    }
+
+    public void activeConvo()
+    {
+        play = true;
     }
 }
