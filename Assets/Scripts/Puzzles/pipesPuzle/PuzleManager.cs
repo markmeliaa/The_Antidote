@@ -5,6 +5,12 @@ using UnityEngine.UI;
 
 public class PuzleManager : MonoBehaviour
 {
+    //Scene controller
+    public GameObject puzleParent;
+    public GameObject interactiveBackground;
+    public GameObject miniMap;
+
+    //Puzle Stuff
     public GameObject PipesHolder;
     public GameObject[,] Pipes;
     public Text endText;
@@ -14,7 +20,11 @@ public class PuzleManager : MonoBehaviour
 
     [SerializeField]
     int totalPipes = 0;
-    // Start is called before the first frame update
+    float timer = 0.0f;
+    float time = 5.0f;
+    bool endShowing = false;
+    
+    //Keeping all the pipes
     void Start()
     {
         totalPipes = PipesHolder.transform.childCount;
@@ -39,6 +49,7 @@ public class PuzleManager : MonoBehaviour
             }   
         }
 
+        //Saving the neightbours of each pipe
         for (int i = 0; i < Pipes.GetLength(0); i++)
         {
             for (int j = 0; j < Pipes.GetLength(1); j++)
@@ -63,21 +74,43 @@ public class PuzleManager : MonoBehaviour
         }
     }
 
+    //Checking the victory condition
     private void Update()
     {
         if (lastPipe.GetComponent<PipeScript>().connected)
+        {
+            if(timer == 0.0f)
+            {
+                endText.gameObject.SetActive(true);
+
+                for (int i = 0; i < Pipes.GetLength(0); i++)
+                {
+                    for (int j = 0; j < Pipes.GetLength(1); j++)
+                    {
+                        Pipes[i, j].GetComponent<PipeScript>().notRotable = true;
+                    }
+                }
+            }
+
             endPuzle();
+        }   
     }
 
     private void endPuzle()
     {
-        endText.gameObject.SetActive(true);
-        for (int i = 0; i < Pipes.GetLength(0); i++)
+        if (timer >= time)
+            endShowing = true;
+
+        if (endShowing)
         {
-            for (int j = 0; j < Pipes.GetLength(1); j++)
-            {
-                Pipes[i, j].GetComponent<PipeScript>().notRotable = true;
-            }
+            endText.gameObject.SetActive(false);
+
+            puzleParent.SetActive(false);
+            interactiveBackground.SetActive(true);
+            miniMap.SetActive(true);
         }
+        else
+            timer += Time.deltaTime;
+        
     }
 }

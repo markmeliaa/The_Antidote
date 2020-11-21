@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Classroom1
   m_EditorClassIdentifier: 
   allLines:
-  - speaker: {fileID: 0}
+  - speaker: {fileID: 11400000, guid: f60ef90396ff4864893224b68bea0d5d, type: 2}
     dialogue: "Bien clase, \xBFCu\xE1l es la soluci\xF3n al problema de la pizarra?"
   - speaker: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
     dialogue: "\u2026"

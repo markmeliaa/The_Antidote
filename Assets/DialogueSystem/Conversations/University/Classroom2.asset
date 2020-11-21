@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Classroom2
   m_EditorClassIdentifier: 
   allLines:
-  - speaker: {fileID: 0}
+  - speaker: {fileID: 11400000, guid: f60ef90396ff4864893224b68bea0d5d, type: 2}
     dialogue: "Perfecto, si hab\xE9is entendido todos este apartado, podemos continuar."
   - speaker: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
     dialogue: "Papa no me ha hablado en todo el dia...de verdad que tengo un mal presentimiento.\r\n"
