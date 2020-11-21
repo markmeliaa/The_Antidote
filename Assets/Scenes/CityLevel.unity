@@ -137,7 +137,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &10249339
 Transform:
   m_ObjectHideFlags: 0
@@ -1999,6 +1999,7 @@ MonoBehaviour:
   index: 0
   convo:
   - {fileID: 11400000, guid: c26c8392acf101548acee696b1d0753a, type: 2}
+  - {fileID: 11400000, guid: 544c8c22708961040b3e5fe9b56d9f08, type: 2}
   play: 0
 --- !u!114 &219006584
 MonoBehaviour:
@@ -3612,8 +3613,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab44405e4f2f7d04c84be3daf569a6ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puzleParent: {fileID: 1618394161}
-  interactiveBackground: {fileID: 2094041321}
+  location: {fileID: 614370882}
   miniMap: {fileID: 1880567386}
   PipesHolder: {fileID: 1412923496}
   endText: {fileID: 1398005185}
@@ -4638,7 +4638,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &614370883
 Transform:
   m_ObjectHideFlags: 0
@@ -5888,6 +5888,7 @@ MonoBehaviour:
   index: 0
   convo:
   - {fileID: 11400000, guid: 71ce322c0c9bd28478d5f4b9300f339a, type: 2}
+  - {fileID: 11400000, guid: 9f677ba4c8aa51245bacc08c0ad15110, type: 2}
   play: 0
 --- !u!114 &872371781
 MonoBehaviour:
@@ -11730,6 +11731,7 @@ GameObject:
   - component: {fileID: 1726002416}
   - component: {fileID: 1726002415}
   - component: {fileID: 1726002414}
+  - component: {fileID: 1726002417}
   m_Layer: 0
   m_Name: Door
   m_TagString: Untagged
@@ -11806,6 +11808,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.379548, y: 2.790872}
   m_EdgeRadius: 0
+--- !u!114 &1726002417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726002412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89559b7be3fc5434fb1e7482fc2f44e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueLocations:
+  - {fileID: 872371778}
+  - {fileID: 1984939460}
+  - {fileID: 219006581}
 --- !u!1 &1734062569
 GameObject:
   m_ObjectHideFlags: 0
@@ -13374,6 +13392,7 @@ MonoBehaviour:
   index: 0
   convo:
   - {fileID: 11400000, guid: 0088390f1dfde02409cad9cae7fdf813, type: 2}
+  - {fileID: 11400000, guid: 79d1028d8bfdc494097709cfa04bad3b, type: 2}
   play: 0
 --- !u!114 &1984939463
 MonoBehaviour:

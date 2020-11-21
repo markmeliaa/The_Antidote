@@ -6,8 +6,7 @@ using UnityEngine.UI;
 public class PuzleManager : MonoBehaviour
 {
     //Scene controller
-    public GameObject puzleParent;
-    public GameObject interactiveBackground;
+    public GameObject location;
     public GameObject miniMap;
 
     //Puzle Stuff
@@ -105,9 +104,12 @@ public class PuzleManager : MonoBehaviour
         {
             endText.gameObject.SetActive(false);
 
-            puzleParent.SetActive(false);
-            interactiveBackground.SetActive(true);
+            location.transform.GetChild(0).gameObject.SetActive(false); //Disactivating the puzle
+            location.transform .GetChild(1).gameObject.SetActive(true); //Activating interactive Background
             miniMap.SetActive(true);
+
+            location.GetComponent<AutomaticDialogs>().activated = false;
+            location.GetComponent<Tester>().play = true;
         }
         else
             timer += Time.deltaTime;
