@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 10249339}
   - component: {fileID: 10249340}
   - component: {fileID: 10249341}
+  - component: {fileID: 10249342}
   m_Layer: 0
   m_Name: KieransRoom
   m_TagString: Untagged
@@ -167,7 +168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5c42e610dc01d043b83fc8f173e6637, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  finalTime: 2
+  finalTime: 1
   activated: 0
 --- !u!114 &10249341
 MonoBehaviour:
@@ -187,6 +188,21 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 87a8b8beafbeef0468225aad46418cc9, type: 2}
   - {fileID: 11400000, guid: 25ca165f473c09d44ae79ed1903fbda9, type: 2}
   play: 1
+--- !u!114 &10249342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10249338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1394256eece24840b14698c8839276c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newBackground: {fileID: 21300000, guid: 9d378478e03ddfd4199d9e336e91f4d2, type: 3}
+  miniMap: {fileID: 1880567386}
+  change: 0
 --- !u!1001 &27492775
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4687,7 +4703,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5c42e610dc01d043b83fc8f173e6637, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  finalTime: 2
+  finalTime: 1
   activated: 0
 --- !u!224 &619754397 stripped
 RectTransform:
@@ -5736,7 +5752,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5c42e610dc01d043b83fc8f173e6637, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  finalTime: 2
+  finalTime: 1
   activated: 0
 --- !u!1 &847023113
 GameObject:
@@ -5902,7 +5918,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5c42e610dc01d043b83fc8f173e6637, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  finalTime: 2
+  finalTime: 1
   activated: 0
 --- !u!1 &877449509
 GameObject:
@@ -8643,7 +8659,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -11731,6 +11747,7 @@ GameObject:
   - component: {fileID: 1726002416}
   - component: {fileID: 1726002415}
   - component: {fileID: 1726002414}
+  - component: {fileID: 1726002418}
   - component: {fileID: 1726002417}
   m_Layer: 0
   m_Name: Door
@@ -11825,6 +11842,20 @@ MonoBehaviour:
   - {fileID: 1984939460}
   - {fileID: 219006581}
   - {fileID: 1750754165}
+--- !u!114 &1726002418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726002412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2acd4a580158d5e43b800794eb2103a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  backgroundLocations:
+  - {fileID: 10249338}
 --- !u!1 &1734062569
 GameObject:
   m_ObjectHideFlags: 0
@@ -12121,7 +12152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5c42e610dc01d043b83fc8f173e6637, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  finalTime: 2
+  finalTime: 1
   activated: 0
 --- !u!1001 &1766807708
 PrefabInstance:
@@ -13440,7 +13471,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5c42e610dc01d043b83fc8f173e6637, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  finalTime: 2
+  finalTime: 1
   activated: 0
 --- !u!1001 &2011218485
 PrefabInstance:
