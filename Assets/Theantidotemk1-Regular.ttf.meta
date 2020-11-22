@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: bbca7a83e54b4ee4f822eba455fe3fd1
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Theantidotemk1
+  fontNames:
+  - Theantidotemk1
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 005ae29d4638f284e92199d437292ed4, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

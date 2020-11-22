@@ -16,3 +16,5 @@ MonoBehaviour:
   - speaker: {fileID: 11400000, guid: d10ecfe38086a0b47820494ecb643916, type: 2}
     dialogue: OYEEE! *Grita Gatrie desde la puerta de la casa* Que te estoy viendo,
       baja ya tio que como lleguemos tarde Valerie nos mata.
+    listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
