@@ -51,6 +51,15 @@ public class DialogueManager : MonoBehaviour
             speakeranim.SetBool("showCharacter", true);
         }
 
+        if (currentIndex > currentConvo.GetLength())
+        {
+            instance.anim.SetBool("isOpen", false);
+            speakeranim.SetBool("showCharacter", false);
+            listeneranim1.SetBool("showCharacter2", false);
+            listeneranim2.SetBool("showCharacter3", false);
+            return;
+        }
+
         // Show first listener
         if (instance.currentConvo.GetLineByIndex(currentIndex).listener1.GetName() != "No one")
         {
@@ -75,13 +84,6 @@ public class DialogueManager : MonoBehaviour
             listeneranim2.SetBool("showCharacter3", false);
         }
 
-        if (currentIndex > currentConvo.GetLength())
-        {
-            instance.anim.SetBool("isOpen", false);
-            speakeranim.SetBool("showCharacter", false);
-            return;
-        }
-
         speakerName.text = currentConvo.GetLineByIndex(currentIndex).speaker.GetName();
         
         if(typing == null)
@@ -96,6 +98,9 @@ public class DialogueManager : MonoBehaviour
         }
         
         speakerSprite.sprite = currentConvo.GetLineByIndex(currentIndex).speaker.GetSpeakerSprite();
+        listenerSprite1.sprite = currentConvo.GetLineByIndex(currentIndex).listener1.GetSpeakerSprite();
+        listenerSprite2.sprite = currentConvo.GetLineByIndex(currentIndex).listener2.GetSpeakerSprite();
+
         speakerBox.sprite = currentConvo.GetLineByIndex(currentIndex).speaker.GetSpeakerBox();
         currentIndex++;
     }
