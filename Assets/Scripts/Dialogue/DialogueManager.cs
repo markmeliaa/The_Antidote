@@ -6,14 +6,14 @@ using System.Collections;
 public class DialogueManager : MonoBehaviour
 {
     public TextMeshProUGUI speakerName, dialogue;
-    public Image speakerSprite, speakerBox;
+    public Image speakerSprite, listenerSprite1, listenerSprite2, speakerBox;
 
     private int currentIndex;
     private Conversation currentConvo;
     private static DialogueManager instance;
     private Animator anim;
     private Coroutine typing;
-    private Animator speakeranim;
+    private Animator speakeranim, listeneranim1, listeneranim2;
 
     private void Awake()
     {
@@ -43,12 +43,39 @@ public class DialogueManager : MonoBehaviour
     public void ReadNext()
     {
         speakeranim = speakerSprite.GetComponent<Animator>();
+        listeneranim1 = listenerSprite1.GetComponent<Animator>();
+        listeneranim2 = listenerSprite2.GetComponent<Animator>();
+
         if (speakeranim.GetBool("showCharacter") == false)
         {
             speakeranim.SetBool("showCharacter", true);
         }
 
-        if(currentIndex > currentConvo.GetLength())
+        // Show first listener
+        if (instance.currentConvo.GetLineByIndex(currentIndex).listener1.GetName() != "No one")
+        {
+            listeneranim1.SetBool("showCharacter2", true);
+        }
+
+        // Hide first listener
+        if (instance.currentConvo.GetLineByIndex(currentIndex).listener1.GetName() == "No one")
+        {
+            listeneranim1.SetBool("showCharacter2", false);
+        }
+
+        // Show second listener
+        if (instance.currentConvo.GetLineByIndex(currentIndex).listener2.GetName() != "No one")
+        {
+            listeneranim2.SetBool("showCharacter3", true);
+        }
+
+        // Hide second listener
+        if (instance.currentConvo.GetLineByIndex(currentIndex).listener2.GetName() == "No one")
+        {
+            listeneranim2.SetBool("showCharacter3", false);
+        }
+
+        if (currentIndex > currentConvo.GetLength())
         {
             instance.anim.SetBool("isOpen", false);
             speakeranim.SetBool("showCharacter", false);
