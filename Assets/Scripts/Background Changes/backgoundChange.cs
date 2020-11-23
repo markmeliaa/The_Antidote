@@ -10,12 +10,13 @@ public class backgoundChange : MonoBehaviour
     [SerializeField] bool change = false;
     float timer = 0.0f;
     float time = 2.0f;
+    int type;
 
     private void Update()
     {
         if (change)
         {
-            if(timer == 0.0f)
+            if(type == 0 && timer == 0.0f)
             {
                 for(int i = 0; i < transform.childCount; i++)
                 {
@@ -44,8 +45,9 @@ public class backgoundChange : MonoBehaviour
         }
     }
 
-    public void changeBackground()
+    public void changeBackground(int newType)
     {
         change = true;
+        type = newType;
     }
 }

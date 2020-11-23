@@ -104,8 +104,9 @@ public class PuzleManager : MonoBehaviour
         {
             endText.gameObject.SetActive(false);
 
-            location.transform.GetChild(0).gameObject.SetActive(false); //Disactivating the puzle
-            location.transform .GetChild(1).gameObject.SetActive(true); //Activating interactive Background
+            location.transform.Find("Puzle").gameObject.SetActive(false);
+            location.transform.Find("InteractiveBackground").gameObject.SetActive(true);
+            
             miniMap.SetActive(true);
 
             location.GetComponent<AutomaticDialogs>().activated = false;

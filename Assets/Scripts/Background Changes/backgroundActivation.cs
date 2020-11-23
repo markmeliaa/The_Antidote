@@ -5,6 +5,7 @@ using UnityEngine;
 public class backgroundActivation : MonoBehaviour
 {
     public GameObject[] backgroundLocations;
+    public int changeType;
 
     backgoundChange nextBackground;
 
@@ -16,7 +17,7 @@ public class backgroundActivation : MonoBehaviour
 
             if(nextBackground != null)
             {
-                nextBackground.changeBackground();
+                nextBackground.changeBackground(changeType);
             }
         }
     }
