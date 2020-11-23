@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/CityLevel.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Levels/CityLevel.unity
+    guid: 94c40b104e798f74f8a85f63f242b09f
+  - enabled: 1
+    path: Assets/Scenes/Levels/HospitalLevel.unity
+    guid: 95ba31b18418ceb49a5af989cdebbf74
   m_configObjects: {}
