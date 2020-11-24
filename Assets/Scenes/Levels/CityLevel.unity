@@ -2587,12 +2587,12 @@ GameObject:
   - component: {fileID: 240592861}
   - component: {fileID: 240592860}
   m_Layer: 0
-  m_Name: warehouseLab
+  m_Name: warehouse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &240592859
 Transform:
   m_ObjectHideFlags: 0
@@ -2624,7 +2624,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   convoButton: {fileID: 0}
   index: 0
-  convo: []
+  convo:
+  - {fileID: 11400000, guid: 4daf5848039ed374ea26af3bf477100d, type: 2}
   play: 0
 --- !u!114 &240592861
 MonoBehaviour:
@@ -12437,7 +12438,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   convoButton: {fileID: 0}
   index: 0
-  convo: []
+  convo:
+  - {fileID: 11400000, guid: be0eeb66ae64dc74b9ad747c3f18c5f0, type: 2}
   play: 0
 --- !u!114 &1631023951
 MonoBehaviour:
@@ -14488,7 +14490,7 @@ GameObject:
   - component: {fileID: 1917770520}
   - component: {fileID: 1917770519}
   m_Layer: 0
-  m_Name: warehouse
+  m_Name: warehouseOutside
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14508,7 +14510,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   convoButton: {fileID: 0}
   index: 0
-  convo: []
+  convo:
+  - {fileID: 11400000, guid: a9dc8281bce523f4b81df971be2bb629, type: 2}
   play: 0
 --- !u!114 &1917770520
 MonoBehaviour:
@@ -14754,8 +14757,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   convoButton: {fileID: 0}
   index: 0
-  convo:
-  - {fileID: 11400000, guid: a9d52cd9a8274eb468242e714b0edba7, type: 2}
+  convo: []
   play: 0
 --- !u!114 &1959324173
 MonoBehaviour:
