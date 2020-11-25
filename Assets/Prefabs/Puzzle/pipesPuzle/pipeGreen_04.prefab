@@ -69,9 +69,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1481609047
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 0a05c2f9fc06faa44b6d52abbcfc3d5a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e48226fd552a653478dbb05c71079187, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -99,7 +99,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.19, y: 1.02}
+    oldSize: {x: 1.6, y: 1.6}
     newSize: {x: 2.19, y: 1.02}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -123,8 +123,8 @@ MonoBehaviour:
   myI: 0
   myJ: 0
   types: 3
-  waterSprite: {fileID: 21300000, guid: 0288272c34932c141be09b5e7ec2d99c, type: 3}
-  pipeSprite: {fileID: 21300000, guid: 0a05c2f9fc06faa44b6d52abbcfc3d5a, type: 3}
+  waterSprite: {fileID: 21300000, guid: af3a81ec0be68fc41abbb192541dadd0, type: 3}
+  pipeSprite: {fileID: 21300000, guid: e48226fd552a653478dbb05c71079187, type: 3}
   sp: {fileID: 0}
   puzleManager: {fileID: 0}
   notRotable: 0

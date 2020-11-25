@@ -25,13 +25,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1263768054964135410}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
   m_LocalPosition: {x: 0, y: -9, z: 0}
   m_LocalScale: {x: 40.399998, y: 40.399998, z: 40.399998}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!212 &6221669067152969728
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -68,9 +68,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1481609047
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 33cf039780f070e44b93854ec7c3a68d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c34083f363bbb904697d29eca860b945, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -96,8 +96,8 @@ MonoBehaviour:
   myI: 0
   myJ: 0
   types: 1
-  waterSprite: {fileID: 21300000, guid: 5c8726deb4b79a249ab6cb64d87e8b04, type: 3}
-  pipeSprite: {fileID: 21300000, guid: 33cf039780f070e44b93854ec7c3a68d, type: 3}
+  waterSprite: {fileID: 21300000, guid: 242995d0961933b40bfda4bd2cc71a1a, type: 3}
+  pipeSprite: {fileID: 21300000, guid: c34083f363bbb904697d29eca860b945, type: 3}
   sp: {fileID: 0}
   puzleManager: {fileID: 0}
   notRotable: 1

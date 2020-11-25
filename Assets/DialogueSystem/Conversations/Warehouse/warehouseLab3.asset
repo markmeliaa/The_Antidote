@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f6e7c39a969bf014181dc345647a0e83, type: 3}
-  m_Name: warehouseLan3
+  m_Name: warehouseLab3
   m_EditorClassIdentifier: 
   allLines:
   - speaker: {fileID: 11400000, guid: 1cf53bd0622200d4c94289a40df5af7f, type: 2}
