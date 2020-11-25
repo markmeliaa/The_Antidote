@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3c97cc7ded6cf4b48a165560fba43229, type: 3}
-  m_Name: PhoneKieran
+  m_Name: Kieran_movil
   m_EditorClassIdentifier: 
   speakerName: '[ ... ]'
-  speakerSprite: {fileID: 21300000, guid: 59932cd5d4187cc4684b38636ccac287, type: 3}
+  speakerSprite: {fileID: 21300000, guid: a6dcd4847cb2d0e4aa3537b5689eb24d, type: 3}
   speakerBox: {fileID: 21300000, guid: 5faef9deca570c44293fe5c58e7ca7e5, type: 3}
