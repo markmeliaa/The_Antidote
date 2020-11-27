@@ -20,25 +20,6 @@ public class InventoryUI : MonoBehaviour
         anim = GetComponentInChildren<Animator>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetButtonDown("Inventory"))
-        {
-            if (!animationActivated)
-            {
-                anim.SetBool("IsOpen", true);
-                animationActivated = true;
-            }
-            else
-            {
-                anim.SetBool("IsOpen", false);
-                animationActivated = false;
-            }
-
-        }
-    }
-
     void UpdateUI()
     {
         for(int i = 0; i < slots.Length; i++)
@@ -51,6 +32,20 @@ public class InventoryUI : MonoBehaviour
             {
                 slots[i].ClearSlot();
             }
+        }
+    }
+
+    public void changeInventoryState()
+    {
+        if (!animationActivated)
+        {
+            anim.SetBool("IsOpen", true);
+            animationActivated = true;
+        }
+        else
+        {
+            anim.SetBool("IsOpen", false);
+            animationActivated = false;
         }
     }
 }
