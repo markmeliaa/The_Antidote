@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 [CreateAssetMenu(fileName = "New Item", menuName = "Inventory/Item")]
 public class Item : ScriptableObject
@@ -9,10 +10,18 @@ public class Item : ScriptableObject
     public Sprite icon = null;
     public string description = "New description";
 
+    [SerializeField]
+    GameObject descriptionText;
+
+
+    public virtual void showDescription()
+    {
+        descriptionText = GameObject.Find("description").gameObject;
+        descriptionText.GetComponentInChildren<Text>().text = description;
+    }
+
     public virtual void Use()
     {
-        //Aqui metemos que pase algo si pulsa en el inventario sobre un item
-
-        Debug.Log("Using " + name);
+        Debug.Log("Using on a Puzle");
     }
 }

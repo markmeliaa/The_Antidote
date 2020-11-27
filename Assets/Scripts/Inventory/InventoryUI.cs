@@ -4,12 +4,13 @@ public class InventoryUI : MonoBehaviour
 {
     public Transform itemsParent;
     public GameObject inventoryUI;
+    public bool animationActivated = false;
 
     Inventory inventory;
     InventorySlot[] slots;
 
     Animator anim;
-    bool animationActivated = false;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -18,25 +19,6 @@ public class InventoryUI : MonoBehaviour
 
         slots = itemsParent.GetComponentsInChildren<InventorySlot>();
         anim = GetComponentInChildren<Animator>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetButtonDown("Inventory"))
-        {
-            if (!animationActivated)
-            {
-                anim.SetBool("IsOpen", true);
-                animationActivated = true;
-            }
-            else
-            {
-                anim.SetBool("IsOpen", false);
-                animationActivated = false;
-            }
-
-        }
     }
 
     void UpdateUI()
@@ -51,6 +33,20 @@ public class InventoryUI : MonoBehaviour
             {
                 slots[i].ClearSlot();
             }
+        }
+    }
+
+    public void changeInventoryState()
+    {
+        if (!animationActivated)
+        {
+            anim.SetBool("IsOpen", true);
+            animationActivated = true;
+        }
+        else
+        {
+            anim.SetBool("IsOpen", false);
+            animationActivated = false;
         }
     }
 }

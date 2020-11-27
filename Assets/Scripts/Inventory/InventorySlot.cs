@@ -4,8 +4,10 @@ using UnityEngine.UI;
 public class InventorySlot : MonoBehaviour
 {
     public Image icon;
+    public bool inAPuzle = false;
 
     Item item;
+    
 
     public void AddItem(Item newItem)
     {
@@ -32,7 +34,17 @@ public class InventorySlot : MonoBehaviour
     {
         if(item != null)
         {
-            item.Use();
+            if (!inAPuzle)
+                item.showDescription();
+            else
+            {
+                item.Use();
+
+                //Si es el que necesitamos
+                //RemoveItem();
+                //Sino
+                //Texto aviso
+            }   
         }
     }
 }
