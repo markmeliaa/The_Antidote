@@ -6,14 +6,22 @@ using UnityEngine.UI;
 [CreateAssetMenu(fileName = "New Item", menuName = "Inventory/Item")]
 public class Item : ScriptableObject
 {
-    public Text descriptionText;
     new public string name = "New Item";
     public Sprite icon = null;
     public string description = "New description";
 
+    [SerializeField]
+    GameObject descriptionText;
+
+
+    public virtual void showDescription()
+    {
+        descriptionText = GameObject.Find("description").gameObject;
+        descriptionText.GetComponentInChildren<Text>().text = description;
+    }
+
     public virtual void Use()
     {
-        descriptionText.text = description;
-        Debug.Log("Using " + name);
+        Debug.Log("Using on a Puzle");
     }
 }

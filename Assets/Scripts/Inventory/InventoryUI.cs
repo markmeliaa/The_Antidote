@@ -4,12 +4,13 @@ public class InventoryUI : MonoBehaviour
 {
     public Transform itemsParent;
     public GameObject inventoryUI;
+    public bool animationActivated = false;
 
     Inventory inventory;
     InventorySlot[] slots;
 
     Animator anim;
-    bool animationActivated = false;
+    
     // Start is called before the first frame update
     void Start()
     {

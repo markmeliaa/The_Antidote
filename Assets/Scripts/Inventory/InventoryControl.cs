@@ -8,7 +8,6 @@ public class InventoryControl : MonoBehaviour
     public GameObject inventoryUI;
 
     InventoryUI inventory;
-    bool opened = false;
 
     private void Awake()
     {
@@ -18,15 +17,14 @@ public class InventoryControl : MonoBehaviour
     private void OnMouseDown()
     {
         inventory.changeInventoryState();
-        if (!opened)
+
+        if (inventory.animationActivated)
         {
             inventoryIcon.SetActive(false);
-            opened = true;
         }
         else
         {
             inventoryIcon.SetActive(true);
-            opened = false;
         }
         
     }
