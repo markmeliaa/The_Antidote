@@ -138,7 +138,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &10249339
 Transform:
   m_ObjectHideFlags: 0
@@ -960,6 +960,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b44c530f4d2ba54484b8fdaa9bac56a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mapLocations: {fileID: 1479407754}
   nextLocation: {fileID: 2031988501}
   currentLocation: {fileID: 1959324170}
   miniMap: {fileID: 1880567386}
@@ -1274,6 +1275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b44c530f4d2ba54484b8fdaa9bac56a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mapLocations: {fileID: 1479407754}
   nextLocation: {fileID: 827117483}
   currentLocation: {fileID: 872371778}
   miniMap: {fileID: 1880567386}
@@ -2075,6 +2077,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b44c530f4d2ba54484b8fdaa9bac56a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mapLocations: {fileID: 1479407754}
   nextLocation: {fileID: 240592858}
   currentLocation: {fileID: 1917770518}
   miniMap: {fileID: 1880567386}
@@ -2574,6 +2577,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b44c530f4d2ba54484b8fdaa9bac56a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mapLocations: {fileID: 1479407754}
   nextLocation: {fileID: 219006581}
   currentLocation: {fileID: 1750754165}
   miniMap: {fileID: 1880567386}
@@ -2701,6 +2705,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b44c530f4d2ba54484b8fdaa9bac56a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mapLocations: {fileID: 1479407754}
   nextLocation: {fileID: 1631023949}
   currentLocation: {fileID: 1984939460}
   miniMap: {fileID: 1880567386}
@@ -3977,6 +3982,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b44c530f4d2ba54484b8fdaa9bac56a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mapLocations: {fileID: 0}
   nextLocation: {fileID: 1917770518}
   currentLocation: {fileID: 1631023949}
   miniMap: {fileID: 1880567386}
@@ -4639,6 +4645,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b44c530f4d2ba54484b8fdaa9bac56a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mapLocations: {fileID: 1479407754}
   nextLocation: {fileID: 1144247024}
   currentLocation: {fileID: 240592858}
   miniMap: {fileID: 1880567386}
@@ -4803,6 +4810,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b44c530f4d2ba54484b8fdaa9bac56a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mapLocations: {fileID: 1479407754}
   nextLocation: {fileID: 2031988501}
   currentLocation: {fileID: 1750754165}
   miniMap: {fileID: 1880567386}
@@ -5027,6 +5035,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b44c530f4d2ba54484b8fdaa9bac56a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mapLocations: {fileID: 1479407754}
   nextLocation: {fileID: 1631023949}
   currentLocation: {fileID: 1917770518}
   miniMap: {fileID: 1880567386}
@@ -5303,6 +5312,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b44c530f4d2ba54484b8fdaa9bac56a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mapLocations: {fileID: 1479407754}
   nextLocation: {fileID: 1750754165}
   currentLocation: {fileID: 927060332}
   miniMap: {fileID: 1880567386}
@@ -5441,6 +5451,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b44c530f4d2ba54484b8fdaa9bac56a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mapLocations: {fileID: 1479407754}
   nextLocation: {fileID: 1750754165}
   currentLocation: {fileID: 2031988501}
   miniMap: {fileID: 1880567386}
@@ -6840,6 +6851,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b44c530f4d2ba54484b8fdaa9bac56a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mapLocations: {fileID: 1479407754}
   nextLocation: {fileID: 614370882}
   currentLocation: {fileID: 872371778}
   miniMap: {fileID: 1880567386}
@@ -7848,6 +7860,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b44c530f4d2ba54484b8fdaa9bac56a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mapLocations: {fileID: 1479407754}
   nextLocation: {fileID: 240592858}
   currentLocation: {fileID: 1144247024}
   miniMap: {fileID: 1880567386}
@@ -8283,6 +8296,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b44c530f4d2ba54484b8fdaa9bac56a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mapLocations: {fileID: 0}
   nextLocation: {fileID: 1984939460}
   currentLocation: {fileID: 1631023949}
   miniMap: {fileID: 1880567386}
@@ -8446,6 +8460,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b44c530f4d2ba54484b8fdaa9bac56a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mapLocations: {fileID: 1479407754}
   nextLocation: {fileID: 1750754165}
   currentLocation: {fileID: 219006581}
   miniMap: {fileID: 1880567386}
@@ -8589,6 +8604,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b44c530f4d2ba54484b8fdaa9bac56a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mapLocations: {fileID: 1479407754}
   nextLocation: {fileID: 872371778}
   currentLocation: {fileID: 827117483}
   miniMap: {fileID: 1880567386}
@@ -10006,6 +10022,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b44c530f4d2ba54484b8fdaa9bac56a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mapLocations: {fileID: 1479407754}
   nextLocation: {fileID: 827117483}
   currentLocation: {fileID: 1984939460}
   miniMap: {fileID: 1880567386}
@@ -10298,6 +10315,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b44c530f4d2ba54484b8fdaa9bac56a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mapLocations: {fileID: 1479407754}
   nextLocation: {fileID: 1917770518}
   currentLocation: {fileID: 240592858}
   miniMap: {fileID: 1880567386}
@@ -12736,6 +12754,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1479407755}
+  - component: {fileID: 1479407756}
   m_Layer: 0
   m_Name: Map Locations
   m_TagString: Untagged
@@ -12771,6 +12790,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1479407756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1479407754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 767d371556e67674d9036af193e03dba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1485741106
 GameObject:
   m_ObjectHideFlags: 0
@@ -13485,6 +13516,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b44c530f4d2ba54484b8fdaa9bac56a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mapLocations: {fileID: 1479407754}
   nextLocation: {fileID: 827117483}
   currentLocation: {fileID: 219006581}
   miniMap: {fileID: 1880567386}
@@ -14242,6 +14274,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b44c530f4d2ba54484b8fdaa9bac56a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mapLocations: {fileID: 1479407754}
   nextLocation: {fileID: 219006581}
   currentLocation: {fileID: 827117483}
   miniMap: {fileID: 1880567386}
@@ -15174,6 +15207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b44c530f4d2ba54484b8fdaa9bac56a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mapLocations: {fileID: 1479407754}
   nextLocation: {fileID: 872371778}
   currentLocation: {fileID: 614370882}
   miniMap: {fileID: 1880567386}
@@ -15410,6 +15444,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b44c530f4d2ba54484b8fdaa9bac56a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mapLocations: {fileID: 1479407754}
   nextLocation: {fileID: 10249338}
   currentLocation: {fileID: 2031988501}
   miniMap: {fileID: 1880567386}
@@ -15875,6 +15910,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b44c530f4d2ba54484b8fdaa9bac56a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mapLocations: {fileID: 1479407754}
   nextLocation: {fileID: 2031988501}
   currentLocation: {fileID: 10249338}
   miniMap: {fileID: 1880567386}
@@ -17777,6 +17813,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b44c530f4d2ba54484b8fdaa9bac56a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mapLocations: {fileID: 1479407754}
   nextLocation: {fileID: 1959324170}
   currentLocation: {fileID: 2031988501}
   miniMap: {fileID: 1880567386}
@@ -18529,6 +18566,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b44c530f4d2ba54484b8fdaa9bac56a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mapLocations: {fileID: 1479407754}
   nextLocation: {fileID: 1984939460}
   currentLocation: {fileID: 827117483}
   miniMap: {fileID: 1880567386}
@@ -18784,6 +18822,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b44c530f4d2ba54484b8fdaa9bac56a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mapLocations: {fileID: 1479407754}
   nextLocation: {fileID: 927060332}
   currentLocation: {fileID: 1750754165}
   miniMap: {fileID: 1880567386}

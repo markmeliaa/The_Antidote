@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MapMovement : MonoBehaviour
 {
+    public GameObject mapLocations;
     public GameObject nextLocation;
     public GameObject currentLocation;
     public GameObject miniMap;
@@ -21,6 +22,10 @@ public class MapMovement : MonoBehaviour
 
         //Reset location
         currentLocation.SetActive(false);
+
+        //Change state of location
+        if (!mapLocations.GetComponent<sceneManager>().getLocationBool(nextLocation.name))
+            mapLocations.GetComponent<sceneManager>().setLocationBool(nextLocation.name);
 
         currentDialogScript = currentLocation.GetComponent<AutomaticDialogs>();
         nextDialogScript = nextLocation.GetComponent<AutomaticDialogs>();
