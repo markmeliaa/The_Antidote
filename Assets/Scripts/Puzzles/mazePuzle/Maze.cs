@@ -23,6 +23,9 @@ public class Maze : MonoBehaviour
 
     private Cell[] cells;
 
+    public int currentCell = 0;
+    private int totalCells;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -102,6 +105,69 @@ public class Maze : MonoBehaviour
             cells[cellprocess].east = allWalls[eastWestProcess];
             cells[cellprocess].north = allWalls[(childProcess + (xSize + 1) * ySize) + xSize - 1];
         }
+
+        CreateMaze();
+    }
+
+    void CreateMaze()
+    {
+        GiveMeNeighbour();
+    }
+
+    void GiveMeNeighbour()
+    {
+        totalCells = xSize * ySize;
+        int length = 0;
+        int[] neighbours = new int[4];
+        int checkCorner;
+
+        checkCorner = ((currentCell + 1) / xSize);
+        checkCorner -= 1;
+        checkCorner *= xSize;
+        checkCorner += xSize;
+
+        // Exists east cell
+        if(currentCell + 1 < totalCells && (currentCell + 1) != checkCorner)
+        {
+            if(cells[currentCell + 1].visited == false)
+            {
+                neighbours[length] = currentCell + 1;
+                length++;
+            }
+        }
+
+        // Exists west cell
+        if (currentCell - 1 >= 0 && currentCell != checkCorner)
+        {
+            if (cells[currentCell - 1].visited == false)
+            {
+                neighbours[length] = currentCell - 1;
+                length++;
+            }
+        }
+
+        // Exists north cell
+        if (currentCell + xSize < totalCells)
+        {
+            if (cells[currentCell + xSize].visited == false)
+            {
+                neighbours[length] = currentCell + xSize;
+                length++;
+            }
+        }
+
+        // Exists south cell
+        if (currentCell - xSize >= 0)
+        {
+            if (cells[currentCell - xSize].visited == false)
+            {
+                neighbours[length] = currentCell - xSize;
+                length++;
+            }
+        }
+
+        for (int i = 0; i < length; i++)
+            Debug.Log(neighbours[i]);
     }
 
     // Update is called once per frame

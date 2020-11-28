@@ -234,9 +234,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wall: {fileID: 3170139276705235139, guid: afceb8bfc8e7ee344830e74ba5714115, type: 3}
   wallLength: 1
-  xSize: 1
-  ySize: 1
-  cells: []
+  xSize: 5
+  ySize: 5
+  currentCell: 20
 --- !u!4 &1262640336
 Transform:
   m_ObjectHideFlags: 0
