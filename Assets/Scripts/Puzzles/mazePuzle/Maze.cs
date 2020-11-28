@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿#pragma warning disable CS0649
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,10 +10,10 @@ public class Maze : MonoBehaviour
     public class Cell
     {
         public bool visited;
-        public GameObject north;
-        public GameObject east;
-        public GameObject west;
-        public GameObject south;
+        public GameObject north; // 1
+        public GameObject west; // 2
+        public GameObject east; // 3
+        public GameObject south; // 4
     }
 
     public GameObject wall;
@@ -23,11 +25,19 @@ public class Maze : MonoBehaviour
 
     private Cell[] cells;
 
-    public int currentCell = 0;
+    private int currentCell;
     private int totalCells;
 
+    private int visitedCells = 0;
+    private bool startedBuilding = false;
+    private int currentNeighbour;
+    private List<int> lastCells;
+    private int backingUp = 0;
+
+    private int wallToBreak = 0;
+
     // Start is called before the first frame update
-    void Start()
+    private void OnMouseDown()
     {
         CreateWalls();
     }
@@ -70,6 +80,9 @@ public class Maze : MonoBehaviour
 
     void CreateCells()
     {
+        lastCells = new List<int>();
+        lastCells.Clear();
+        totalCells = xSize * ySize;
         int children = wallHolder.transform.childCount;
         GameObject[] allWalls = new GameObject[children];
         cells = new Cell[xSize * ySize];
@@ -86,18 +99,17 @@ public class Maze : MonoBehaviour
         // Assigns walls to the cells
         for (int cellprocess = 0; cellprocess < cells.Length; cellprocess++)
         {
+            if (termCount == xSize)
+            {
+                eastWestProcess++;
+                termCount = 0;
+            }
+
             cells[cellprocess] = new Cell();
             cells[cellprocess].west = allWalls[eastWestProcess];
             cells[cellprocess].south = allWalls[childProcess + (xSize + 1) * ySize];
 
-            if (termCount == xSize)
-            {
-                eastWestProcess += 2;
-                termCount = 0;
-            }
-
-            else
-                eastWestProcess++;
+           eastWestProcess++;
 
             termCount++;
             childProcess++;
@@ -111,14 +123,52 @@ public class Maze : MonoBehaviour
 
     void CreateMaze()
     {
-        GiveMeNeighbour();
+        while(visitedCells < totalCells)
+        {
+            if (startedBuilding)
+            {
+                GiveMeNeighbour();
+                if(cells[currentNeighbour].visited == false && cells[currentCell].visited == true)
+                {
+                    BreakWall();
+                    cells[currentNeighbour].visited = true;
+                    visitedCells++;
+                    lastCells.Add(currentCell);
+                    currentCell = currentNeighbour;
+
+                    if(lastCells.Count > 0)
+                    {
+                        backingUp = lastCells.Count - 1;
+                    }
+                }
+            }
+
+            else
+            {
+                currentCell = Random.Range(0, totalCells);
+                cells[currentCell].visited = true;
+                visitedCells++;
+                startedBuilding = true;
+            }
+        }
+    }
+
+    void BreakWall()
+    {
+        switch (wallToBreak)
+        {
+            case 1: Destroy(cells[currentCell].north); break;
+            case 2: Destroy(cells[currentCell].west); break;
+            case 3: Destroy(cells[currentCell].east); break;
+            case 4: Destroy(cells[currentCell].south); break;
+        }
     }
 
     void GiveMeNeighbour()
     {
-        totalCells = xSize * ySize;
         int length = 0;
         int[] neighbours = new int[4];
+        int[] connectingWall = new int[4];
         int checkCorner;
 
         checkCorner = ((currentCell + 1) / xSize);
@@ -132,6 +182,7 @@ public class Maze : MonoBehaviour
             if(cells[currentCell + 1].visited == false)
             {
                 neighbours[length] = currentCell + 1;
+                connectingWall[length] = 3;
                 length++;
             }
         }
@@ -142,6 +193,7 @@ public class Maze : MonoBehaviour
             if (cells[currentCell - 1].visited == false)
             {
                 neighbours[length] = currentCell - 1;
+                connectingWall[length] = 2;
                 length++;
             }
         }
@@ -152,6 +204,7 @@ public class Maze : MonoBehaviour
             if (cells[currentCell + xSize].visited == false)
             {
                 neighbours[length] = currentCell + xSize;
+                connectingWall[length] = 1;
                 length++;
             }
         }
@@ -162,13 +215,27 @@ public class Maze : MonoBehaviour
             if (cells[currentCell - xSize].visited == false)
             {
                 neighbours[length] = currentCell - xSize;
+                connectingWall[length] = 4;
                 length++;
             }
         }
 
-        for (int i = 0; i < length; i++)
-            Debug.Log(neighbours[i]);
-    }
+        if(length != 0)
+        {
+            int theChosenOne = Random.Range(0, length);
+            currentNeighbour = neighbours[theChosenOne];
+            wallToBreak = connectingWall[theChosenOne];
+        }
+
+        else
+        {
+            if(backingUp > 0)
+            {
+                currentCell = lastCells[backingUp];
+                backingUp--;
+            }
+        }
+    }     
 
     // Update is called once per frame
     void Update()
