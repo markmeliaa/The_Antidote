@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class Tester : MonoBehaviour
 {
-    public GameObject convoButton;
+    public bool play;
     public int index;
     public Conversation[] convo;
-    public bool play = false;
 
     List<bool> activate;
+    sceneManager manager;
 
     public void Start()
     {
+        manager = GetComponentInParent<sceneManager>();
         activate = new List<bool>();
 
         activate.Add(true);
@@ -23,24 +24,15 @@ public class Tester : MonoBehaviour
     }
     public void starConvo()
     {
-        if (activate[index] && play)
+        if (activate[index])
         {
             DialogueManager.StartConversation(convo[index]);
 
-            play = false;
+            manager.setLocationTimes(gameObject.name);
+
             index++;
             if (index < convo.Length)
                 activate[index] = true;
         }
-    }
-
-    public void destroyButton()
-    {
-        Destroy(convoButton);
-    }
-
-    public void activeConvo()
-    {
-        play = true;
     }
 }

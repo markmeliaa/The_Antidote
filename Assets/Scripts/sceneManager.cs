@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class sceneManager : MonoBehaviour
 {
-    struct Pair {
+    public sealed class Pair {
         public int times;
         public bool visited;
 
@@ -14,18 +14,19 @@ public class sceneManager : MonoBehaviour
             visited = false;
         }
 
-        public void changeBool(bool state)
+        public void changeBool()
         {
-            visited = state;
+            visited = true;
         }
 
-        public void changeTimes(int newTimes)
+        public void changeTimes()
         {
-            times = newTimes;
+            times++;
         }
     }
 
     Dictionary<string, Pair> locations;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -36,6 +37,8 @@ public class sceneManager : MonoBehaviour
             Pair newPair = new Pair(0);
             locations.Add(transform.GetChild(i).name, newPair);
         }
+
+        setLocationBool("KieransRoom");
     }
 
     public bool getLocationBool(string currentLoc)
@@ -43,18 +46,18 @@ public class sceneManager : MonoBehaviour
         return locations[currentLoc].visited;
     }
 
-    public int GetLocationTimes(string currentLoc)
+    public int getLocationTimes(string currentLoc)
     {
         return locations[currentLoc].times;
     }
 
     public void setLocationBool(string currentLoc)
     {
-        locations[currentLoc].changeBool(true);
+        locations[currentLoc].changeBool();
     }
 
-    public void setLocationTimes(string currentLoc, int newTimes)
+    public void setLocationTimes(string currentLoc)
     {
-        locations[currentLoc].changeTimes(newTimes);
+        locations[currentLoc].changeTimes();
     }
 }

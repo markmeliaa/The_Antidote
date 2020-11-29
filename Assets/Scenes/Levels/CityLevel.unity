@@ -138,7 +138,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &10249339
 Transform:
   m_ObjectHideFlags: 0
@@ -169,7 +169,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   finalTime: 1
-  activated: 0
+  activated: 1
+  locConditions:
+  - {fileID: 10249338}
+  - {fileID: 2031988501}
+  - {fileID: 614370882}
+  timesVisited: 000000000100000001000000
 --- !u!114 &10249341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -182,13 +187,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9cf877592e63d44801d9270de6a1e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  convoButton: {fileID: 0}
+  play: 1
   index: 0
   convo:
   - {fileID: 11400000, guid: 87a8b8beafbeef0468225aad46418cc9, type: 2}
   - {fileID: 11400000, guid: 25ca165f473c09d44ae79ed1903fbda9, type: 2}
   - {fileID: 11400000, guid: 99f45ced7c652784ebebd0de609f361f, type: 2}
-  play: 1
 --- !u!114 &10249342
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2235,13 +2239,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9cf877592e63d44801d9270de6a1e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  convoButton: {fileID: 0}
+  play: 0
   index: 0
   convo:
   - {fileID: 11400000, guid: c26c8392acf101548acee696b1d0753a, type: 2}
   - {fileID: 11400000, guid: 544c8c22708961040b3e5fe9b56d9f08, type: 2}
   - {fileID: 11400000, guid: 065c666b7b4554e49bfd3f7eb05de6dd, type: 2}
-  play: 0
 --- !u!114 &219006584
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2256,6 +2259,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   finalTime: 1
   activated: 0
+  locConditions: []
+  timesVisited: 
 --- !u!1 &225837526
 GameObject:
   m_ObjectHideFlags: 0
@@ -2846,11 +2851,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9cf877592e63d44801d9270de6a1e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  convoButton: {fileID: 0}
+  play: 0
   index: 0
   convo:
   - {fileID: 11400000, guid: 4daf5848039ed374ea26af3bf477100d, type: 2}
-  play: 0
 --- !u!114 &240592861
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2865,6 +2869,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   finalTime: 1
   activated: 0
+  locConditions: []
+  timesVisited: 
 --- !u!1 &242623652
 GameObject:
   m_ObjectHideFlags: 0
@@ -5553,12 +5559,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9cf877592e63d44801d9270de6a1e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  convoButton: {fileID: 0}
+  play: 0
   index: 0
   convo:
   - {fileID: 11400000, guid: 6b7e9db6eaf3bbe469dc9a574c4f5596, type: 2}
   - {fileID: 11400000, guid: 90c6659a51b1c9148af1c0356b074654, type: 2}
-  play: 0
 --- !u!114 &614370885
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5573,6 +5578,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   finalTime: 1
   activated: 0
+  locConditions: []
+  timesVisited: 
 --- !u!1001 &615290066
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6956,11 +6963,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9cf877592e63d44801d9270de6a1e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  convoButton: {fileID: 0}
+  play: 0
   index: 0
   convo:
   - {fileID: 11400000, guid: 637b4e739a0e15a4faf1242e6126199d, type: 2}
-  play: 0
 --- !u!114 &827117486
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6975,6 +6981,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   finalTime: 1
   activated: 0
+  locConditions: []
+  timesVisited: 
 --- !u!1 &829143632
 GameObject:
   m_ObjectHideFlags: 0
@@ -7341,12 +7349,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9cf877592e63d44801d9270de6a1e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  convoButton: {fileID: 0}
+  play: 0
   index: 0
   convo:
   - {fileID: 11400000, guid: 71ce322c0c9bd28478d5f4b9300f339a, type: 2}
   - {fileID: 11400000, guid: 9f677ba4c8aa51245bacc08c0ad15110, type: 2}
-  play: 0
 --- !u!114 &872371781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7361,6 +7368,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   finalTime: 1
   activated: 0
+  locConditions: []
+  timesVisited: 
 --- !u!1 &877449509
 GameObject:
   m_ObjectHideFlags: 0
@@ -9736,14 +9745,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9cf877592e63d44801d9270de6a1e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  convoButton: {fileID: 0}
+  play: 0
   index: 0
   convo:
   - {fileID: 11400000, guid: 2aa16304117782940875a97dc1f36c7a, type: 2}
   - {fileID: 11400000, guid: 3e5982ff3ea508c49baf053a6dc0e452, type: 2}
   - {fileID: 11400000, guid: 360dfb19a46491a49a5f394544a44aa9, type: 2}
   - {fileID: 11400000, guid: e12d6729a685c6f45a24b198bcd4ad75, type: 2}
-  play: 0
 --- !u!114 &1144247027
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9758,6 +9766,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   finalTime: 1
   activated: 0
+  locConditions: []
+  timesVisited: 
 --- !u!1001 &1171570535
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14418,11 +14428,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9cf877592e63d44801d9270de6a1e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  convoButton: {fileID: 0}
+  play: 0
   index: 0
   convo:
   - {fileID: 11400000, guid: be0eeb66ae64dc74b9ad747c3f18c5f0, type: 2}
-  play: 0
 --- !u!114 &1631023951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14437,6 +14446,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   finalTime: 1
   activated: 0
+  locConditions: []
+  timesVisited: 
 --- !u!4 &1631023952
 Transform:
   m_ObjectHideFlags: 0
@@ -15549,13 +15560,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9cf877592e63d44801d9270de6a1e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  convoButton: {fileID: 0}
+  play: 0
   index: 0
   convo:
   - {fileID: 11400000, guid: c9f473b1ca911204298bec8768d9175e, type: 2}
   - {fileID: 11400000, guid: 376fbbe8898842a43824045979550ef5, type: 2}
   - {fileID: 11400000, guid: ccfe16a852d599a499d6cd22681d5e56, type: 2}
-  play: 0
 --- !u!114 &1750754168
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15570,6 +15580,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   finalTime: 1
   activated: 0
+  locConditions: []
+  timesVisited: 
 --- !u!1001 &1766807708
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15849,7 +15861,6 @@ GameObject:
   - component: {fileID: 1775375703}
   - component: {fileID: 1775375701}
   - component: {fileID: 1775375702}
-  - component: {fileID: 1775375705}
   - component: {fileID: 1775375704}
   m_Layer: 0
   m_Name: Arrow - ToCorridor
@@ -15977,20 +15988,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cursorType: 2
---- !u!114 &1775375705
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1775375699}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89559b7be3fc5434fb1e7482fc2f44e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueLocations:
-  - {fileID: 2031988501}
 --- !u!1001 &1794112828
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16723,7 +16720,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1917770519
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16736,12 +16733,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9cf877592e63d44801d9270de6a1e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  convoButton: {fileID: 0}
+  play: 0
   index: 0
   convo:
   - {fileID: 11400000, guid: a9dc8281bce523f4b81df971be2bb629, type: 2}
   - {fileID: 11400000, guid: ac65e77bfc439134ab737f51d46e3854, type: 2}
-  play: 0
 --- !u!114 &1917770520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16756,6 +16752,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   finalTime: 1
   activated: 0
+  locConditions: []
+  timesVisited: 
 --- !u!4 &1917770521
 Transform:
   m_ObjectHideFlags: 0
@@ -16982,10 +16980,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9cf877592e63d44801d9270de6a1e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  convoButton: {fileID: 0}
+  play: 0
   index: 0
   convo: []
-  play: 0
 --- !u!114 &1959324173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17000,6 +16997,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   finalTime: 1
   activated: 0
+  locConditions: []
+  timesVisited: 
 --- !u!1001 &1962895216
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17296,14 +17295,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9cf877592e63d44801d9270de6a1e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  convoButton: {fileID: 0}
+  play: 0
   index: 0
   convo:
   - {fileID: 11400000, guid: 0088390f1dfde02409cad9cae7fdf813, type: 2}
   - {fileID: 11400000, guid: 79d1028d8bfdc494097709cfa04bad3b, type: 2}
   - {fileID: 11400000, guid: 2d7588b171579d340a59bca95cf23ad1, type: 2}
   - {fileID: 11400000, guid: 52fe10108951fcf47a8e90b6deb7751f, type: 2}
-  play: 0
 --- !u!114 &1984939463
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17318,6 +17316,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   finalTime: 1
   activated: 0
+  locConditions: []
+  timesVisited: 
 --- !u!1001 &2011218485
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17623,12 +17623,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9cf877592e63d44801d9270de6a1e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  convoButton: {fileID: 0}
+  play: 0
   index: 0
   convo:
   - {fileID: 11400000, guid: af53bc518660c7b4cb738d0e6f01ea01, type: 2}
   - {fileID: 11400000, guid: c8a53186b1d191942a240c4d9d4472db, type: 2}
-  play: 0
 --- !u!114 &2031988504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17643,6 +17642,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   finalTime: 1
   activated: 0
+  locConditions:
+  - {fileID: 10249338}
+  - {fileID: 614370882}
+  timesVisited: 0100000001000000
 --- !u!1001 &2049809717
 PrefabInstance:
   m_ObjectHideFlags: 0
