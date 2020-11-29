@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Tester : MonoBehaviour
 {
-    public bool play;
     public int index;
     public Conversation[] convo;
+    public bool sceneWithInteraction = false;
 
     List<bool> activate;
     sceneManager manager;
@@ -28,7 +28,8 @@ public class Tester : MonoBehaviour
         {
             DialogueManager.StartConversation(convo[index]);
 
-            manager.setLocationTimes(gameObject.name);
+            if(!sceneWithInteraction)
+                manager.setLocationTimes(gameObject.name);
 
             index++;
             if (index < convo.Length)

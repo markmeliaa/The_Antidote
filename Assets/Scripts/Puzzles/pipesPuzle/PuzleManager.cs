@@ -8,6 +8,7 @@ public class PuzleManager : MonoBehaviour
     //Scene controller
     public GameObject location;
     public GameObject miniMap;
+    public GameObject mapLoc;
 
     //Puzle Stuff
     public GameObject PipesHolder;
@@ -108,9 +109,9 @@ public class PuzleManager : MonoBehaviour
             location.transform.Find("InteractiveBackground").gameObject.SetActive(true);
             
             miniMap.SetActive(true);
-
-            location.GetComponent<AutomaticDialogs>().activated = false;
-            location.GetComponent<Tester>().play = true;
+            mapLoc.GetComponent<sceneManager>().setLocationTimes(location.name);
+            location.GetComponent<Tester>().sceneWithInteraction = false;
+            
         }
         else
             timer += Time.deltaTime;
