@@ -33,6 +33,11 @@ public class AutomaticDialogs : MonoBehaviour
 
             if (timer >= finalTime)
             {
+                if (tester.index < locConditions.Length - 1 && locConditions[tester.index + 1].name == gameObject.name)
+                {
+                    tester.sceneWithInteraction = true;    
+                }
+
                 timer = 0;
                 tester.starConvo();
             }

@@ -30,6 +30,7 @@ public class Tester : MonoBehaviour
 
             if(!sceneWithInteraction)
                 manager.setLocationTimes(gameObject.name);
+            Debug.Log("Times en " + gameObject.name + ": " + manager.getLocationTimes(gameObject.name));
 
             index++;
             if (index < convo.Length)
