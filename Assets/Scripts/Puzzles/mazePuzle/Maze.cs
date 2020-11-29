@@ -37,7 +37,7 @@ public class Maze : MonoBehaviour
     private int wallToBreak = 0;
 
     // Start is called before the first frame update
-    private void OnMouseDown()
+    void Start()
     {
         CreateWalls();
     }
