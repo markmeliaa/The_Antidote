@@ -5827,7 +5827,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "El inventario est\xE1 vacio"
+  m_Text: "No has seleccionado ning\xFAn objeto"
 --- !u!222 &620552858
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14167,6 +14167,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventoryIcon: {fileID: 1579540527}
   inventoryUI: {fileID: 877449509}
+  dialogManager: {fileID: 147225104}
 --- !u!1 &1604542350
 GameObject:
   m_ObjectHideFlags: 0
@@ -14760,6 +14761,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventoryIcon: {fileID: 1579540527}
   inventoryUI: {fileID: 877449509}
+  dialogManager: {fileID: 147225104}
 --- !u!61 &1679528492
 BoxCollider2D:
   m_ObjectHideFlags: 0

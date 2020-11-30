@@ -6,6 +6,7 @@ public class InventoryControl : MonoBehaviour
 {
     public GameObject inventoryIcon;
     public GameObject inventoryUI;
+    public GameObject dialogManager;
 
     InventoryUI inventory;
 
@@ -16,16 +17,18 @@ public class InventoryControl : MonoBehaviour
 
     private void OnMouseDown()
     {
-        inventory.changeInventoryState();
+        if (!dialogManager.GetComponent<DialogueManager>().InConvo)
+        {
+            inventory.changeInventoryState();
 
-        if (inventory.animationActivated)
-        {
-            inventoryIcon.SetActive(false);
+            if (inventory.animationActivated)
+            {
+                inventoryIcon.SetActive(false);
+            }
+            else
+            {
+                inventoryIcon.SetActive(true);
+            }
         }
-        else
-        {
-            inventoryIcon.SetActive(true);
-        }
-        
     }
 }
