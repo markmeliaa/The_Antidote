@@ -6,6 +6,8 @@ using UnityEngine;
 
 public class InteractiveMap : MonoBehaviour
 {
+    public GameObject mapLocations; //Para cargar scene manager y limitar los lugares a los que puede viajar el jugador
+
     public miniMap miniMap;
 
     [SerializeField] private GameObject nextLocation;
@@ -24,14 +26,17 @@ public class InteractiveMap : MonoBehaviour
                 miniMap.opened = false;
             }
 
-            actualLocation.SetActive(false);
+            if (mapLocations.GetComponent<sceneManager>().getLocationBool(nextLocation.name))
+            {
+                actualLocation.SetActive(false);
 
-            // Activamos la ubicación a la que queremos viajar
-            mapScript.dialogueCanvas.SetActive(true);
-            nextLocation.SetActive(true);
+                // Activamos la ubicación a la que queremos viajar
+                mapScript.dialogueCanvas.SetActive(true);
+                nextLocation.SetActive(true);
 
-            //Charge mini Map
-            miniMap.GetComponent<miniMap>().chargeMap();
+                //Charge mini Map
+                miniMap.GetComponent<miniMap>().chargeMap();
+            }
         }
     }
 }

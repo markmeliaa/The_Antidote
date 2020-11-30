@@ -206,7 +206,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newBackground: {fileID: 21300000, guid: 9d378478e03ddfd4199d9e336e91f4d2, type: 3}
   miniMap: {fileID: 1880567386}
-  change: 0
+  changeConditions: []
+  changeTimes: 
 --- !u!1001 &27492775
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -888,8 +889,8 @@ GameObject:
   m_Component:
   - component: {fileID: 93580580}
   - component: {fileID: 93580584}
-  - component: {fileID: 93580583}
   - component: {fileID: 93580582}
+  - component: {fileID: 93580583}
   - component: {fileID: 93580581}
   m_Layer: 0
   m_Name: Arrow - ToCorridor
@@ -5296,8 +5297,8 @@ GameObject:
   m_Component:
   - component: {fileID: 612154769}
   - component: {fileID: 612154773}
-  - component: {fileID: 612154772}
   - component: {fileID: 612154771}
+  - component: {fileID: 612154772}
   - component: {fileID: 612154770}
   m_Layer: 0
   m_Name: Arrow - ToLivingRoom
@@ -15045,7 +15046,6 @@ GameObject:
   - component: {fileID: 1726002416}
   - component: {fileID: 1726002415}
   - component: {fileID: 1726002414}
-  - component: {fileID: 1726002418}
   m_Layer: 0
   m_Name: Door
   m_TagString: Untagged
@@ -15123,21 +15123,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.379548, y: 2.790872}
   m_EdgeRadius: 0
---- !u!114 &1726002418
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1726002412}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2acd4a580158d5e43b800794eb2103a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  backgroundLocations:
-  - {fileID: 10249338}
-  changeType: 0
 --- !u!1 &1734062569
 GameObject:
   m_ObjectHideFlags: 0
@@ -15361,8 +15346,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1746522956}
   - component: {fileID: 1746522959}
-  - component: {fileID: 1746522958}
   - component: {fileID: 1746522957}
+  - component: {fileID: 1746522958}
   m_Layer: 0
   m_Name: kieransRoom
   m_TagString: Untagged
@@ -17725,8 +17710,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2053924100}
   - component: {fileID: 2053924103}
-  - component: {fileID: 2053924102}
   - component: {fileID: 2053924101}
+  - component: {fileID: 2053924102}
   m_Layer: 0
   m_Name: fathersRoom
   m_TagString: Untagged
