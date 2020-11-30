@@ -5,6 +5,7 @@ using UnityEngine;
 public class miniMap : MonoBehaviour
 {
     public GameObject mapLocations;
+    public GameObject dialogManager;
     public bool opened;
 
     Map map;
@@ -29,15 +30,18 @@ public class miniMap : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (!opened)
+        if (!dialogManager.GetComponent<DialogueManager>().InConvo)
         {
-            map.openMap();
-            opened = true;
-        }
-        else
-        {
-            map.closeMap();
-            opened = false;
+            if (!opened)
+            {
+                map.openMap();
+                opened = true;
+            }
+            else
+            {
+                map.closeMap();
+                opened = false;
+            }
         }
     }
 }

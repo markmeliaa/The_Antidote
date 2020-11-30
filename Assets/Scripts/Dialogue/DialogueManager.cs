@@ -7,6 +7,7 @@ public class DialogueManager : MonoBehaviour
 {
     public TextMeshProUGUI speakerName, dialogue;
     public Image speakerSprite, listenerSprite1, listenerSprite2, speakerBox;
+    public bool InConvo = false;
 
     private int currentIndex;
     private Conversation currentConvo;
@@ -36,6 +37,7 @@ public class DialogueManager : MonoBehaviour
         instance.currentConvo = convo;
         instance.speakerName.text = "";
         instance.dialogue.text = "";
+        instance.InConvo = true;
 
         instance.ReadNext();
     }
@@ -57,6 +59,8 @@ public class DialogueManager : MonoBehaviour
             speakeranim.SetBool("showCharacter", false);
             listeneranim1.SetBool("showCharacter2", false);
             listeneranim2.SetBool("showCharacter3", false);
+
+            instance.InConvo = false;
             return;
         }
 
