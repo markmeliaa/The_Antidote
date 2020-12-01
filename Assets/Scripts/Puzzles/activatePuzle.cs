@@ -6,6 +6,7 @@ public class activatePuzle : MonoBehaviour
 {
     public GameObject puzle;
     public GameObject background;
+    public TextMesh winText;
 
     private void OnMouseDown()
     {
@@ -15,7 +16,7 @@ public class activatePuzle : MonoBehaviour
 
     private void Update()
     {
-        if (puzle.gameObject.activeSelf && GameObject.Find("PuzzleHandler").GetComponent<WinScript>().currentPoints >= GameObject.Find("PuzzleHandler").GetComponent<WinScript>().pointsToWin)
+        if (winText.gameObject.activeSelf)
         {
             StartCoroutine("waitWin");
         }
@@ -23,7 +24,7 @@ public class activatePuzle : MonoBehaviour
 
     IEnumerator waitWin()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(2);
         background.SetActive(true);
         puzle.SetActive(false);
     }
