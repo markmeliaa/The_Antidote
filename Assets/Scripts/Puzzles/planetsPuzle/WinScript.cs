@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class WinScript : MonoBehaviour
 {
-    private int pointsToWin;
-    private int currentPoints;
-    public GameObject mySwords;
+    public int pointsToWin;
+    public int currentPoints;
+    public GameObject myPlanets;
     
     void Start()
     {
-        pointsToWin = mySwords.transform.childCount;
+        pointsToWin = myPlanets.transform.childCount;
     }
 
     

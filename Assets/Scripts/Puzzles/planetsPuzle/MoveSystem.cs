@@ -20,6 +20,11 @@ public class MoveSystem : MonoBehaviour
 
     void Update()
     {
+        if (GameObject.Find("PuzzleHandler").GetComponent<WinScript>().currentPoints >= GameObject.Find("PuzzleHandler").GetComponent<WinScript>().pointsToWin)
+        {
+            return;
+        }
+
         if (!finish)
         {
             if (moving)
@@ -52,12 +57,16 @@ public class MoveSystem : MonoBehaviour
     {
         moving = false;
 
-        if ((Mathf.Abs(this.transform.localPosition.x - correctForm.transform.localPosition.x) <= 0.5f) && (Mathf.Abs(this.transform.localPosition.y - correctForm.transform.localPosition.y) <= 0.5f))
+        if ((Mathf.Abs(this.transform.localPosition.x - correctForm.transform.localPosition.x) <= 1.5f) && (Mathf.Abs(this.transform.localPosition.y - correctForm.transform.localPosition.y) <= 1.5f) && correctForm.gameObject.activeSelf)
         {
             this.transform.localPosition = new Vector3(correctForm.transform.localPosition.x, correctForm.transform.localPosition.y, correctForm.transform.localPosition.z);
-            finish = true;
+            //finish = true; // Para que no se pueda mover más una vez está en el sitio correcto
 
-            GameObject.Find("PointHandler").GetComponent<WinScript>().AddPoints();
+            GameObject.Find("PuzzleHandler").GetComponent<questionManager>().changeQuestion(this.gameObject);
+
+            this.transform.localPosition = new Vector3(resetPosition.x, resetPosition.y, resetPosition.z);
+
+            GameObject.Find("PuzzleHandler").GetComponent<questionManager>().newQuestion();
         }
 
         else
