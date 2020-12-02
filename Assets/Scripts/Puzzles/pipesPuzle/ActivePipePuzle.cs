@@ -8,12 +8,36 @@ public class ActivePipePuzle : MonoBehaviour
     public GameObject interactiveBackground;
     public GameObject miniMap;
     public bool puzleDone = false;
+    public DialogueManager manager;
+
+    bool active;
+
+    private void Start()
+    {
+        manager = GameObject.Find("DialogueBox").GetComponent<DialogueManager>();
+    }
+    private void Update()
+    {
+        if (manager.InConvo)
+        {
+            GetComponent<CursorObject>().active = false;
+            active = false;
+        }
+        else
+        {
+            GetComponent<CursorObject>().active = true;
+            active = true;
+        }
+    }
 
     private void OnMouseDown()
     {
-        miniMap.SetActive(false);
-        interactiveBackground.SetActive(false);
-        puzleObject.SetActive(true);
-        transform.GetComponent<CursorObject>().gameObject.SetActive(false);
+        if (active)
+        {
+            miniMap.SetActive(false);
+            interactiveBackground.SetActive(false);
+            puzleObject.SetActive(true);
+            transform.GetComponent<CursorObject>().gameObject.SetActive(false);
+        }
     }
 }
