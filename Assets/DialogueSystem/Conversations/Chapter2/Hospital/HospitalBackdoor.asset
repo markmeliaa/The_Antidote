@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6e7c39a969bf014181dc345647a0e83, type: 3}
+  m_Name: HospitalBackdoor
+  m_EditorClassIdentifier: 
+  allLines:
+  - speaker: {fileID: 11400000, guid: 912f80863de6eca48bfec096847c71c4, type: 2}
+    dialogue: "Estoy cansado de pasarme aqu\xED todos los d\xEDas, \xBFPor qu\xE9
+      tenemos que vigilar la habitaci\xF3n del t\xEDo ese?, en unos d\xEDas estirara
+      la pata. Adem\xE1s, no es como si tuviera a alguien cercano como para contarle
+      lo que sabe."
+    listener1: {fileID: 11400000, guid: 912f80863de6eca48bfec096847c71c4, type: 2}
+    listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+  - speaker: {fileID: 11400000, guid: 912f80863de6eca48bfec096847c71c4, type: 2}
+    dialogue: "Bueno...el jefe quiere asegurarse, as\xED que tendremos que seguir
+      aqu\xED hasta que eso pase. Con los a\xF1os uno ha aprendido a callar y obedecer,
+      y a ti te convendr\xEDa aprenderlo r\xE1pido, el jefe ha estado especialmente
+      \u201Cinquieto\u201D desde hace unas semanas."
+    listener1: {fileID: 11400000, guid: 912f80863de6eca48bfec096847c71c4, type: 2}
+    listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+  - speaker: {fileID: 11400000, guid: 912f80863de6eca48bfec096847c71c4, type: 2}
+    dialogue: "Y que lo digas, se me ponen los pelos de punta de pensar en lo que
+      le pas\xF3 al novato del otro d\xEDa, no est\xE1 dejando pasar ni una."
+    listener1: {fileID: 11400000, guid: 912f80863de6eca48bfec096847c71c4, type: 2}
+    listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+  - speaker: {fileID: 11400000, guid: 912f80863de6eca48bfec096847c71c4, type: 2}
+    dialogue: " \u2026no tendr\xEDamos que estar hablando de esto, ser\xE1 mejor que
+      volvamos a nuestro puesto."
+    listener1: {fileID: 11400000, guid: 912f80863de6eca48bfec096847c71c4, type: 2}
+    listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+  - speaker: {fileID: 11400000, guid: 912f80863de6eca48bfec096847c71c4, type: 2}
+    dialogue: "Ya...supongo que te har\xE9 caso con eso de callar y obedecer."
+    listener1: {fileID: 11400000, guid: 912f80863de6eca48bfec096847c71c4, type: 2}
+    listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+  - speaker: {fileID: 11400000, guid: 912f80863de6eca48bfec096847c71c4, type: 2}
+    dialogue: Haces bien, y ahora vamos.
+    listener1: {fileID: 11400000, guid: 912f80863de6eca48bfec096847c71c4, type: 2}
+    listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
