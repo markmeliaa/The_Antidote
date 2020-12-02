@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class CursorObject : MonoBehaviour
 {
+    public bool active = true;
     ItemPickUp pickUpItems;
     private void Awake()
     {
@@ -15,7 +16,8 @@ public class CursorObject : MonoBehaviour
     [SerializeField] private CursorManager.CursorType cursorType;
     private void OnMouseEnter()
     {
-        CursorManager.Instance.SetActiveCursorType(cursorType);
+        if(active)
+            CursorManager.Instance.SetActiveCursorType(cursorType);
     }
 
     private void OnMouseExit()

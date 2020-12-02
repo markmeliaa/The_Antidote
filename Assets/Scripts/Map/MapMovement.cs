@@ -15,35 +15,63 @@ public class MapMovement : MonoBehaviour
 
     private AutomaticDialogs currentDialogScript = null;
     private AutomaticDialogs nextDialogScript = null;
+    private DialogueManager manager;
+    private bool active;
+
+    private void Start()
+    {
+        manager = dialogueManager.transform.Find("DialogueBox").GetComponent<DialogueManager>();
+    }
+
+    private void Update()
+    {
+        if (manager.InConvo)
+        {
+            if(GetComponent<SpriteRenderer>() != null)
+                GetComponent<SpriteRenderer>().enabled = false;
+            GetComponent<CursorObject>().active= false;
+            active = false;
+        }
+        else
+        {
+            if (GetComponent<SpriteRenderer>() != null)
+                GetComponent<SpriteRenderer>().enabled = true;
+            GetComponent<CursorObject>().active= true;
+            active = true;
+        }
+    }
 
     private void OnMouseDown()
     {
-        //Reset dialogueManager
-        dialogueManager.SetActive(false);
-        dialogueManager.SetActive(true);
+        if (active)
+        {
+            //Reset dialogueManager
+            dialogueManager.SetActive(false);
+            dialogueManager.SetActive(true);
 
-        //Reset location
-        currentLocation.SetActive(false);
+            //Reset location
+            currentLocation.SetActive(false);
 
-        //Change state of location
-        if (!mapLocations.GetComponent<sceneManager>().getLocationBool(nextLocation.name))
-            mapLocations.GetComponent<sceneManager>().setLocationBool(nextLocation.name);
+            //Change state of location
+            if (!mapLocations.GetComponent<sceneManager>().getLocationBool(nextLocation.name))
+                mapLocations.GetComponent<sceneManager>().setLocationBool(nextLocation.name);
 
-        currentDialogScript = currentLocation.GetComponent<AutomaticDialogs>();
-        nextDialogScript = nextLocation.GetComponent<AutomaticDialogs>();
+            currentDialogScript = currentLocation.GetComponent<AutomaticDialogs>();
+            nextDialogScript = nextLocation.GetComponent<AutomaticDialogs>();
 
-        if (currentDialogScript != null)
-            currentDialogScript.enabled = false;
+            if (currentDialogScript != null)
+                currentDialogScript.enabled = false;
 
-        if(nextDialogScript != null)
-            nextDialogScript.enabled = true;
-            
+            if (nextDialogScript != null)
+                nextDialogScript.enabled = true;
 
-        nextLocation.SetActive(true);
 
-        //Charge new Map
-        miniMap.GetComponent<miniMap>().chargeMap();
+            nextLocation.SetActive(true);
 
-        CursorManager.Instance.SetActiveCursorType(CursorManager.CursorType.Arrow);
+            //Charge new Map
+            miniMap.GetComponent<miniMap>().chargeMap();
+
+            CursorManager.Instance.SetActiveCursorType(CursorManager.CursorType.Arrow);
+        }
     }
 }
