@@ -14,7 +14,7 @@ public class ActivePipePuzle : MonoBehaviour
 
     private void Start()
     {
-        manager = GameObject.Find("DialogueBox").GetComponent<DialogueManager>();
+        manager = GameObject.Find("DialogueBox1").GetComponent<DialogueManager>();
     }
     private void Update()
     {

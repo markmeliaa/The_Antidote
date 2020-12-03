@@ -60,6 +60,7 @@ public class DialogueManager : MonoBehaviour
         if (currentIndex > currentConvo.GetLength())
         {
             instance.anim.SetBool("isOpen", false);
+            anim2.SetBool("isOpen", false);
             speakeranim.SetBool("showCharacter", false);
             speakeranim2.SetBool("showCharacter2", false);
             speakeranim3.SetBool("showCharacter3", false);
@@ -99,14 +100,14 @@ public class DialogueManager : MonoBehaviour
             {
                 typing = instance.StartCoroutine(TypeText(currentConvo.GetLineByIndex(currentIndex).dialogue, dialogue));
                 speakerName.text = currentConvo.GetLineByIndex(currentIndex).speaker.GetName();
+                speakerBox.sprite = currentConvo.GetLineByIndex(currentIndex).speaker.GetSpeakerBox();
                 if (anim2.GetBool("isOpen"))
                 {
                     anim2.SetBool("isOpen", false);
                     anim.SetBool("isOpen", true);
-                    speakerBox.sprite = currentConvo.GetLineByIndex(currentIndex).speaker.GetSpeakerBox();
                 }
             }
-                
+
 
             else if (currentConvo.GetLineByIndex(currentIndex).dialogue2 != "")
             {
@@ -117,10 +118,9 @@ public class DialogueManager : MonoBehaviour
                 {
                     anim.SetBool("isOpen", false);
                     anim2.SetBool("isOpen", true);
-                    speakerBox.sprite = currentConvo.GetLineByIndex(currentIndex).speaker.GetSpeakerBox();
                 }
             }
-                
+
 
             else if (currentConvo.GetLineByIndex(currentIndex).dialogue3 != "")
             {
@@ -131,9 +131,8 @@ public class DialogueManager : MonoBehaviour
                 {
                     anim.SetBool("isOpen", false);
                     anim2.SetBool("isOpen", true);
-                    speakerBox.sprite = currentConvo.GetLineByIndex(currentIndex).speaker.GetSpeakerBox();
                 }
-            }    
+            }
         }
 
         else
@@ -143,11 +142,12 @@ public class DialogueManager : MonoBehaviour
             if (currentConvo.GetLineByIndex(currentIndex).dialogue != "")
             {
                 typing = instance.StartCoroutine(TypeText(currentConvo.GetLineByIndex(currentIndex).dialogue, dialogue));
+                speakerName.text = currentConvo.GetLineByIndex(currentIndex).speaker.GetName();
+                speakerBox.sprite = currentConvo.GetLineByIndex(currentIndex).speaker.GetSpeakerBox();
                 if (anim2.GetBool("isOpen"))
                 {
                     anim2.SetBool("isOpen", false);
                     anim.SetBool("isOpen", true);
-                    speakerBox.sprite = currentConvo.GetLineByIndex(currentIndex).speaker.GetSpeakerBox();
                 }
             }
 
@@ -155,12 +155,12 @@ public class DialogueManager : MonoBehaviour
             else if (currentConvo.GetLineByIndex(currentIndex).dialogue2 != "")
             {
                 typing = instance.StartCoroutine(TypeText(currentConvo.GetLineByIndex(currentIndex).dialogue2, dialogue2));
+                speakerName2.text = currentConvo.GetLineByIndex(currentIndex).listener1.GetName();
                 speakerBox2.sprite = currentConvo.GetLineByIndex(currentIndex).listener1.GetSpeakerBox();
                 if (anim.GetBool("isOpen"))
                 {
                     anim.SetBool("isOpen", false);
                     anim2.SetBool("isOpen", true);
-                    speakerBox.sprite = currentConvo.GetLineByIndex(currentIndex).speaker.GetSpeakerBox();
                 }
             }
 
@@ -168,12 +168,12 @@ public class DialogueManager : MonoBehaviour
             else if (currentConvo.GetLineByIndex(currentIndex).dialogue3 != "")
             {
                 typing = instance.StartCoroutine(TypeText(currentConvo.GetLineByIndex(currentIndex).dialogue3, dialogue2));
+                speakerName2.text = currentConvo.GetLineByIndex(currentIndex).listener2.GetName();
                 speakerBox2.sprite = currentConvo.GetLineByIndex(currentIndex).listener2.GetSpeakerBox();
                 if (anim.GetBool("isOpen"))
                 {
                     anim.SetBool("isOpen", false);
                     anim2.SetBool("isOpen", true);
-                    speakerBox.sprite = currentConvo.GetLineByIndex(currentIndex).speaker.GetSpeakerBox();
                 }
             }
         }
