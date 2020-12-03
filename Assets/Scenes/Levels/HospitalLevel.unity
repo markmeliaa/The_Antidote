@@ -339,11 +339,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9cf877592e63d44801d9270de6a1e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  convoButton: {fileID: 0}
   index: 0
   convo:
   - {fileID: 0}
-  play: 0
+  sceneWithInteraction: 0
 --- !u!114 &129424197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -357,7 +356,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   finalTime: 1
-  activated: 0
+  locConditions: []
+  timesVisited: 
 --- !u!1001 &167352409
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -522,6 +522,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3aae8d6c85225554cb19db9e61445193, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  active: 1
   cursorType: 2
 --- !u!61 &195024354
 BoxCollider2D:
@@ -561,6 +562,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b44c530f4d2ba54484b8fdaa9bac56a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mapLocations: {fileID: 0}
   nextLocation: {fileID: 129424194}
   currentLocation: {fileID: 1195832267}
   miniMap: {fileID: 1514480582}
@@ -1216,11 +1218,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9cf877592e63d44801d9270de6a1e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  convoButton: {fileID: 0}
   index: 0
   convo:
   - {fileID: 0}
-  play: 0
+  sceneWithInteraction: 0
 --- !u!114 &643165346
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1234,7 +1235,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   finalTime: 1
-  activated: 0
+  locConditions: []
+  timesVisited: 
 --- !u!1 &669588306
 GameObject:
   m_ObjectHideFlags: 0
@@ -1962,7 +1964,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -3
-  m_Sprite: {fileID: 21300000, guid: 4cec5eb791f45e440ae4ff0448d8990a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 82b3b2ef6470c3d49b66a43de6209f0c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2043,7 +2045,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -3
-  m_Sprite: {fileID: 21300000, guid: aac2e2c1c79ab9b42a21509151754fc0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 57c03141bc1462841ae97009d5149a46, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2121,6 +2123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3aae8d6c85225554cb19db9e61445193, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  active: 1
   cursorType: 2
 --- !u!61 &1055288290
 BoxCollider2D:
@@ -2160,6 +2163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b44c530f4d2ba54484b8fdaa9bac56a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mapLocations: {fileID: 0}
   nextLocation: {fileID: 643165343}
   currentLocation: {fileID: 1195832267}
   miniMap: {fileID: 1514480582}
@@ -2268,7 +2272,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -5
-  m_Sprite: {fileID: 21300000, guid: aac2e2c1c79ab9b42a21509151754fc0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 57c03141bc1462841ae97009d5149a46, type: 3}
   m_Color: {r: 0.3301887, g: 0.3301887, b: 0.3301887, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2472,11 +2476,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9cf877592e63d44801d9270de6a1e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  convoButton: {fileID: 0}
   index: 0
   convo:
   - {fileID: 0}
-  play: 0
+  sceneWithInteraction: 0
 --- !u!114 &1195832270
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2490,7 +2493,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   finalTime: 1
-  activated: 0
+  locConditions: []
+  timesVisited: 
 --- !u!1001 &1215022472
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3089,6 +3093,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mapLocations: {fileID: 816347353}
+  dialogManager: {fileID: 0}
   opened: 0
 --- !u!114 &1514480584
 MonoBehaviour:
@@ -3102,6 +3107,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3aae8d6c85225554cb19db9e61445193, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  active: 1
   cursorType: 1
 --- !u!61 &1514480585
 BoxCollider2D:
@@ -3428,6 +3434,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemsParent: {fileID: 384496031}
   inventoryUI: {fileID: 821019953}
+  animationActivated: 0
 --- !u!114 &1640485555
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3563,7 +3570,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -5
-  m_Sprite: {fileID: 21300000, guid: fea8f71d8918b294281cfaedb9bb9c2e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b7219b21c471e7045a0769fd244396bd, type: 3}
   m_Color: {r: 0.3301887, g: 0.3301887, b: 0.3301887, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3727,11 +3734,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speakerName: {fileID: 1475291075}
+  speakerName2: {fileID: 0}
   dialogue: {fileID: 749634065}
+  dialogue2: {fileID: 0}
   speakerSprite: {fileID: 2063605992}
-  listenerSprite1: {fileID: 820613355}
-  listenerSprite2: {fileID: 31624136}
+  speakerSprite2: {fileID: 0}
+  speakerSprite3: {fileID: 0}
   speakerBox: {fileID: 1923833731}
+  speakerBox2: {fileID: 0}
+  InConvo: 0
+  anim2: {fileID: 0}
 --- !u!114 &1923833731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3887,7 +3899,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -3
-  m_Sprite: {fileID: 21300000, guid: fea8f71d8918b294281cfaedb9bb9c2e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b7219b21c471e7045a0769fd244396bd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3960,6 +3972,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3aae8d6c85225554cb19db9e61445193, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  active: 1
   cursorType: 2
 --- !u!61 &1955782021
 BoxCollider2D:
@@ -3999,6 +4012,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b44c530f4d2ba54484b8fdaa9bac56a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mapLocations: {fileID: 0}
   nextLocation: {fileID: 1195832267}
   currentLocation: {fileID: 129424194}
   miniMap: {fileID: 1514480582}
@@ -4098,6 +4112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3aae8d6c85225554cb19db9e61445193, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  active: 1
   cursorType: 2
 --- !u!61 &1987131999
 BoxCollider2D:
@@ -4137,6 +4152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b44c530f4d2ba54484b8fdaa9bac56a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mapLocations: {fileID: 0}
   nextLocation: {fileID: 1195832267}
   currentLocation: {fileID: 643165343}
   miniMap: {fileID: 1514480582}
@@ -4245,7 +4261,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -5
-  m_Sprite: {fileID: 21300000, guid: 4cec5eb791f45e440ae4ff0448d8990a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 82b3b2ef6470c3d49b66a43de6209f0c, type: 3}
   m_Color: {r: 0.3301887, g: 0.3301887, b: 0.3301887, a: 1}
   m_FlipX: 0
   m_FlipY: 0

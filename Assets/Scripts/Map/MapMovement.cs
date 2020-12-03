@@ -20,7 +20,7 @@ public class MapMovement : MonoBehaviour
 
     private void Start()
     {
-        manager = dialogueManager.transform.Find("DialogueBox").GetComponent<DialogueManager>();
+        manager = dialogueManager.transform.Find("DialogueBox1").GetComponent<DialogueManager>();
     }
 
     private void Update()
