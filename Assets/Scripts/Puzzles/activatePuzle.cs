@@ -27,5 +27,6 @@ public class activatePuzle : MonoBehaviour
         yield return new WaitForSeconds(2);
         background.SetActive(true);
         puzle.SetActive(false);
+        this.gameObject.SetActive(false);
     }
 }
