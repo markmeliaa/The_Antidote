@@ -36,9 +36,12 @@ public class sceneManager : MonoBehaviour
         {
             Pair newPair = new Pair(0);
             locations.Add(transform.GetChild(i).name, newPair);
-        }
 
-        setLocationBool("KieransRoom");
+            if (transform.GetChild(i).name == "KieransRoom")
+                setLocationBool("KieransRoom");
+            else if (transform.GetChild(i).name == "HospitalEntrance")
+                setLocationBool("HospitalEntrance");
+        }
     }
 
     public bool getLocationBool(string currentLoc)
