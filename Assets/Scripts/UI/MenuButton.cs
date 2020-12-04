@@ -8,6 +8,8 @@ public class MenuButton : MonoBehaviour
     [SerializeField] Animator animator;
     [SerializeField] AnimatorFunctions animatorFunctions;
     [SerializeField] int thisIndex;
+    [SerializeField] LevelLoader levelLoader;
+    [SerializeField] GameObject circleWipe;
 
     // Update is called once per frame
     void Update()
@@ -19,6 +21,8 @@ public class MenuButton : MonoBehaviour
             if (Input.GetAxis("Submit") == 1)
             {
                 animator.SetBool("pressed", true);
+                circleWipe.SetActive(true);
+                levelLoader.LoadNextLevel();
             }
 
             else if (animator.GetBool("pressed"))
