@@ -13,15 +13,21 @@ MonoBehaviour:
   m_Name: HospitalFFloor
   m_EditorClassIdentifier: 
   allLines:
-  - speaker: {fileID: 11400000, guid: 1cf53bd0622200d4c94289a40df5af7f, type: 2}
-    dialogue: Mirad, hay marcos en las paredes con los nombres de los pacientes.
+  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue: 
     listener1: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
-    listener2: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
-  - speaker: {fileID: 11400000, guid: d10ecfe38086a0b47820494ecb643916, type: 2}
-    dialogue: " Eso va a facilitar bastante la b\xFAsqueda."
-    listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: 1cf53bd0622200d4c94289a40df5af7f, type: 2}
+    dialogue3: Mirad, hay marcos en las paredes con los nombres de los pacientes.
+  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: d10ecfe38086a0b47820494ecb643916, type: 2}
+    dialogue2: " Eso va a facilitar bastante la b\xFAsqueda."
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue3: 
   - speaker: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
     dialogue: Si, pero no parece que este sea el piso que buscamos.
     listener1: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue2: 
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue3: 

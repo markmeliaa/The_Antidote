@@ -17,12 +17,18 @@ MonoBehaviour:
     dialogue: "Av\xEDsame cuando est\xE9s frente a mi casa. Quiz\xE1s deber\xEDa llevar
       algunas cosas, como el USB de pap\xE1, por si acaso."
     listener1: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
-  - speaker: {fileID: 11400000, guid: d10ecfe38086a0b47820494ecb643916, type: 2}
-    dialogue: Compa, ya estoy llegando a tu casa, estate atento.
-    listener1: {fileID: 11400000, guid: cdecdb91477a52a449d6ef1f87454e81, type: 2}
+    dialogue3: 
+  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: d10ecfe38086a0b47820494ecb643916, type: 2}
+    dialogue2: Compa, ya estoy llegando a tu casa, estate atento.
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue3: 
   - speaker: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
     dialogue: "Ser\xE1 mejor que le espere en la puerta."
     listener1: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue3: 

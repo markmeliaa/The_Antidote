@@ -10469,9 +10469,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   finalTime: 1
   locConditions:
-  - {fileID: 10249338}
+  - {fileID: 827117483}
   - {fileID: 614370882}
-  timesVisited: 0200000002000000
+  timesVisited: 0100000002000000
 --- !u!1 &877449509
 GameObject:
   m_ObjectHideFlags: 0

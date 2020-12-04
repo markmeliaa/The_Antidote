@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f6e7c39a969bf014181dc345647a0e83, type: 3}
-  m_Name: C2_ValerieOutside
+  m_Name: C2_crossRoads2_2
   m_EditorClassIdentifier: 
   allLines:
   - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: d10ecfe38086a0b47820494ecb643916, type: 2}
-    dialogue2: "Mira, ah\xED est\xE1 Valerie. \xA1VALERIEEEEEEE!"
+    dialogue2: "Uff, menuda carrerita que llevamos hoy, \xBFverdad?"
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
   - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
@@ -24,11 +24,23 @@ MonoBehaviour:
     listener1: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: 1cf53bd0622200d4c94289a40df5af7f, type: 2}
-    dialogue3: "No hac\xEDa falta que gritaras Gatrie, ya os estaba viendo."
+    dialogue3: "Ya te digo...madre m\xEDa."
+  - speaker: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+    dialogue: "\u2026"
+    listener1: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue3: 
   - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: d10ecfe38086a0b47820494ecb643916, type: 2}
-    dialogue2: Oye quien sabe, igual estabas en tu mundo, como uno que yo me se.
+    dialogue2: "\xBFY bien colega? \xBFQu\xE9 te ha contado Hubert?"
+    listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue3: 
+  - speaker: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+    dialogue: "No se si deber\xEDa cont\xE1roslo\u2026"
+    listener1: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue2: 
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
   - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
@@ -36,25 +48,16 @@ MonoBehaviour:
     listener1: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: 1cf53bd0622200d4c94289a40df5af7f, type: 2}
-    dialogue3: "Madre mia Kieran, que mala cara, si vas casi arrastr\xE1ndote, \xBFuna
-      mala noche?"
-  - speaker: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
-    dialogue: Como todas...pero esta ha sido especialmente mala la verdad, los nervios
-      no me han dejado tranquilo.
-    listener1: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
-    dialogue2: 
-    listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
-    dialogue3: 
+    dialogue3: "Ah no, hemos hecho todo esto juntos, as\xED que ni se te ocurra dejarnos
+      fuera ahora."
   - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: d10ecfe38086a0b47820494ecb643916, type: 2}
-    dialogue2: "No te preocupes anda, ya ver\xE1s como ahora cuando vayamos al hospital
-      el compa\xF1ero de tu padre nos explica todo. Seguro que tu padre solo est\xE1
-      haciendo varios turnos seguidos para solucionar el problema con el silicio."
+    dialogue2: ' Exacto.'
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
   - speaker: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
-    dialogue: "Ya\u2026"
+    dialogue: '...Esta bien.'
     listener1: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
