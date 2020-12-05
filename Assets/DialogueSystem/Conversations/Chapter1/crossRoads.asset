@@ -25,8 +25,8 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: d10ecfe38086a0b47820494ecb643916, type: 2}
     dialogue3: "El mio...pues como todos, he estado ayudando a mi madre en casa con
-      mi hermano. Los ratos libres se los he dedicado a la consola y poco m\xE1s la
-      verdad. "
+      mi hermano. Los ratos libres se los he dedicado a la consola y poco m\xE1s
+      la verdad. "
   - speaker: {fileID: 11400000, guid: 1cf53bd0622200d4c94289a40df5af7f, type: 2}
     dialogue: "Pues mi familia y yo nos fuimos de vacaciones a Francia, para celebrar
       el progreso de mi padre con la terapia para su adicci\xF3n. De hecho, nos las
@@ -36,9 +36,7 @@ MonoBehaviour:
     listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue3: 
   - speaker: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
-    dialogue: '
-
-'
+    dialogue: 
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: d10ecfe38086a0b47820494ecb643916, type: 2}
@@ -86,8 +84,8 @@ MonoBehaviour:
     listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue3: 
   - speaker: {fileID: 11400000, guid: 1cf53bd0622200d4c94289a40df5af7f, type: 2}
-    dialogue: "Venga Kieran, \xE9l mismo te dijo que estar\xEDa trabajando hasta tarde,
-      seguro que no es nada."
+    dialogue: "Venga Kieran, \xE9l mismo te dijo que estar\xEDa trabajando hasta
+      tarde, seguro que no es nada."
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}

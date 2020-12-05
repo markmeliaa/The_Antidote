@@ -13,49 +13,49 @@ MonoBehaviour:
   m_Name: C2_ValerieOutside
   m_EditorClassIdentifier: 
   allLines:
-  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
-    dialogue: 
-    listener1: {fileID: 11400000, guid: d10ecfe38086a0b47820494ecb643916, type: 2}
-    dialogue2: "Mira, ah\xED est\xE1 Valerie. \xA1VALERIEEEEEEE!"
+  - speaker: {fileID: 11400000, guid: d10ecfe38086a0b47820494ecb643916, type: 2}
+    dialogue: "Mira, ah\xED est\xE1 Valerie. \xA1VALERIEEEEEEE!"
+    listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue2: 
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
-  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+  - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: 1cf53bd0622200d4c94289a40df5af7f, type: 2}
     dialogue3: "No hac\xEDa falta que gritaras Gatrie, ya os estaba viendo."
-  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
-    dialogue: 
-    listener1: {fileID: 11400000, guid: d10ecfe38086a0b47820494ecb643916, type: 2}
-    dialogue2: Oye quien sabe, igual estabas en tu mundo, como uno que yo me se.
+  - speaker: {fileID: 11400000, guid: d10ecfe38086a0b47820494ecb643916, type: 2}
+    dialogue: Oye quien sabe, igual estabas en tu mundo, como uno que yo me se.
+    listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue2: 
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
-  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+  - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: 1cf53bd0622200d4c94289a40df5af7f, type: 2}
     dialogue3: "Madre mia Kieran, que mala cara, si vas casi arrastr\xE1ndote, \xBFuna
       mala noche?"
-  - speaker: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
-    dialogue: Como todas...pero esta ha sido especialmente mala la verdad, los nervios
+  - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+    dialogue2: Como todas...pero esta ha sido especialmente mala la verdad, los nervios
       no me han dejado tranquilo.
-    listener1: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
-    dialogue2: 
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
-  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
-    dialogue: 
-    listener1: {fileID: 11400000, guid: d10ecfe38086a0b47820494ecb643916, type: 2}
-    dialogue2: "No te preocupes anda, ya ver\xE1s como ahora cuando vayamos al hospital
+  - speaker: {fileID: 11400000, guid: d10ecfe38086a0b47820494ecb643916, type: 2}
+    dialogue: "No te preocupes anda, ya ver\xE1s como ahora cuando vayamos al hospital
       el compa\xF1ero de tu padre nos explica todo. Seguro que tu padre solo est\xE1
       haciendo varios turnos seguidos para solucionar el problema con el silicio."
+    listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue2: 
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
-  - speaker: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
-    dialogue: "Ya\u2026"
-    listener1: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
-    dialogue2: 
+  - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+    dialogue2: "Ya\u2026"
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 

@@ -34,9 +34,7 @@ MonoBehaviour:
     listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue3: 
   - speaker: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
-    dialogue: '
-
-'
+    dialogue: 
     listener1: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
     dialogue2: "Gracias Valerie.\r"
     listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
@@ -65,6 +63,6 @@ MonoBehaviour:
   - speaker: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
-    dialogue2: '...Claro, adelante.'
+    dialogue2: ...Claro, adelante.
     listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue3: 

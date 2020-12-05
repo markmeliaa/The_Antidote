@@ -175,7 +175,8 @@ MonoBehaviour:
   - {fileID: 10249338}
   - {fileID: 2031988501}
   - {fileID: 614370882}
-  timesVisited: 000000000100000002000000
+  - {fileID: 1144247024}
+  timesVisited: 00000000010000000200000004000000
 --- !u!114 &10249341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -193,6 +194,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 87a8b8beafbeef0468225aad46418cc9, type: 2}
   - {fileID: 11400000, guid: 25ca165f473c09d44ae79ed1903fbda9, type: 2}
   - {fileID: 11400000, guid: 99f45ced7c652784ebebd0de609f361f, type: 2}
+  - {fileID: 11400000, guid: 758ebe3fb53fd6940a919eee5082eb97, type: 2}
   sceneWithInteraction: 0
 --- !u!114 &10249342
 MonoBehaviour:
@@ -3211,6 +3213,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c26c8392acf101548acee696b1d0753a, type: 2}
   - {fileID: 11400000, guid: 544c8c22708961040b3e5fe9b56d9f08, type: 2}
   - {fileID: 11400000, guid: 065c666b7b4554e49bfd3f7eb05de6dd, type: 2}
+  - {fileID: 11400000, guid: 2c6eb39abf5844849aa8e1a1063329aa, type: 2}
   sceneWithInteraction: 0
 --- !u!114 &219006584
 MonoBehaviour:
@@ -3229,7 +3232,8 @@ MonoBehaviour:
   - {fileID: 10249338}
   - {fileID: 1984939460}
   - {fileID: 1750754165}
-  timesVisited: 020000000200000003000000
+  - {fileID: 10249338}
+  timesVisited: 02000000020000000300000004000000
 --- !u!1 &225837526
 GameObject:
   m_ObjectHideFlags: 0
@@ -18937,6 +18941,8 @@ MonoBehaviour:
   index: 0
   convo:
   - {fileID: 11400000, guid: be0eeb66ae64dc74b9ad747c3f18c5f0, type: 2}
+  - {fileID: 11400000, guid: eaf4843b04c25714a83f5411167682f3, type: 2}
+  - {fileID: 11400000, guid: 5e09dd4160e43044e931007e5256574a, type: 2}
   sceneWithInteraction: 0
 --- !u!114 &1631023951
 MonoBehaviour:
@@ -18953,7 +18959,9 @@ MonoBehaviour:
   finalTime: 1
   locConditions:
   - {fileID: 1984939460}
-  timesVisited: 04000000
+  - {fileID: 1984939460}
+  - {fileID: 0}
+  timesVisited: 040000000500000000000000
 --- !u!4 &1631023952
 Transform:
   m_ObjectHideFlags: 0
@@ -22751,6 +22759,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 79d1028d8bfdc494097709cfa04bad3b, type: 2}
   - {fileID: 11400000, guid: 2d7588b171579d340a59bca95cf23ad1, type: 2}
   - {fileID: 11400000, guid: 52fe10108951fcf47a8e90b6deb7751f, type: 2}
+  - {fileID: 11400000, guid: 906fd403df4976143bea24a64d6b8a25, type: 2}
+  - {fileID: 11400000, guid: 72dee21bbd4b5da4b9f353684b18d335, type: 2}
   sceneWithInteraction: 0
 --- !u!114 &1984939463
 MonoBehaviour:
@@ -22770,7 +22780,9 @@ MonoBehaviour:
   - {fileID: 614370882}
   - {fileID: 10249338}
   - {fileID: 1984939460}
-  timesVisited: 02000000020000000300000003000000
+  - {fileID: 219006581}
+  - {fileID: 0}
+  timesVisited: 020000000200000003000000030000000400000000000000
 --- !u!1001 &2011218485
 PrefabInstance:
   m_ObjectHideFlags: 0
