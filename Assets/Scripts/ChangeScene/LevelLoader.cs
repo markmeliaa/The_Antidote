@@ -12,9 +12,32 @@ public class LevelLoader : MonoBehaviour
 
     public int nextScene;
 
+    public DialogueManager manager;
+
+    private bool active;
+
+
+    private void Update()
+    {
+        if (manager.InConvo)
+        {
+            if (GetComponent<SpriteRenderer>() != null)
+                GetComponent<SpriteRenderer>().enabled = false;
+            GetComponent<CursorObject>().active = false;
+            active = false;
+        }
+        else
+        {
+            if (GetComponent<SpriteRenderer>() != null)
+                GetComponent<SpriteRenderer>().enabled = true;
+            GetComponent<CursorObject>().active = true;
+            active = true;
+        }
+    }
+
     private void OnMouseDown()
     {
-        if (SceneManager.GetActiveScene().buildIndex != nextScene)
+        if (active && SceneManager.GetActiveScene().buildIndex != nextScene)
         {
             LoadNextLevel();
         }

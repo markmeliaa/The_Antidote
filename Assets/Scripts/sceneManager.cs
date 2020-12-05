@@ -39,6 +39,8 @@ public class sceneManager : MonoBehaviour
 
             if (transform.GetChild(i).name == "KieransRoom")
                 setLocationBool("KieransRoom");
+            else if (transform.GetChild(i).name == "crossRoads2")
+                setLocationBool("crossRoads2");
             else if (transform.GetChild(i).name == "HospitalEntrance")
                 setLocationBool("HospitalEntrance");
         }

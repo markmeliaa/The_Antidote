@@ -24,16 +24,6 @@ public class backgoundChange : MonoBehaviour
         if (index < changeConditions.Length && manager.getLocationBool(changeConditions[index].name) 
             && manager.getLocationTimes(changeConditions[index].name) == changeTimes[index])
         {
-            if(gameObject.name == "KieransRoom" && timer == 0.0f)
-            {
-                for(int i = 0; i < transform.childCount; i++)
-                {
-                    transform.GetChild(i).gameObject.SetActive(false);
-                }
-
-                miniMap.SetActive(false);
-            }
-
             timer += Time.deltaTime;
 
             if(timer >= time)
