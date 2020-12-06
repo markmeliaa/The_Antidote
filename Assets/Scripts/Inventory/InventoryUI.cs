@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-
+using UnityEngine.UI;
 public class InventoryUI : MonoBehaviour
 {
     public Transform itemsParent;
@@ -47,6 +47,7 @@ public class InventoryUI : MonoBehaviour
         {
             anim.SetBool("IsOpen", false);
             animationActivated = false;
+            transform.GetChild(0).Find("description").gameObject.GetComponentInChildren<Text>().text = "No has seleccionado ningún objeto";
         }
     }
 }

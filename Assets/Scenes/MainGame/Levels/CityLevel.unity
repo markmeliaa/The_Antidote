@@ -19194,7 +19194,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1631023950
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23134,7 +23134,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1984939461
 Transform:
   m_ObjectHideFlags: 0
@@ -23192,8 +23192,8 @@ MonoBehaviour:
   - {fileID: 10249338}
   - {fileID: 1984939460}
   - {fileID: 219006581}
-  - {fileID: 1631023949}
-  timesVisited: 020000000200000003000000030000000400000001000000
+  - {fileID: 1984939460}
+  timesVisited: 020000000200000003000000030000000400000000000000
 --- !u!1001 &2011218485
 PrefabInstance:
   m_ObjectHideFlags: 0

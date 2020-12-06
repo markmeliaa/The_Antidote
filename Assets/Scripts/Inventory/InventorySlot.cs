@@ -5,6 +5,7 @@ public class InventorySlot : MonoBehaviour
 {
     public Image icon;
     public bool inAPuzle = false;
+    public GameObject mapLoc;
 
     Item item;
     
@@ -38,13 +39,15 @@ public class InventorySlot : MonoBehaviour
                 item.showDescription();
             else
             {
-                item.Use();
-
-                //Si es el que necesitamos
-                //RemoveItem();
-                //Sino
-                //Texto aviso
-            }   
+                for (int i = 0; i < mapLoc.transform.childCount; i++)
+                {
+                    if (mapLoc.transform.GetChild(i).name == item.puzleAim.name)
+                    {
+                        item.Use();
+                        RemoveItem();
+                    }
+                }
+            }
         }
     }
 }

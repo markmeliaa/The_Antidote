@@ -9,8 +9,9 @@ public class Item : ScriptableObject
     new public string name = "New Item";
     public Sprite icon = null;
     public string description = "New description";
+    public GameObject spawnObject;
+    public GameObject puzleAim;
 
-    [SerializeField]
     GameObject descriptionText;
 
 
@@ -22,6 +23,6 @@ public class Item : ScriptableObject
 
     public virtual void Use()
     {
-        Debug.Log("Using on a Puzle");
+        Instantiate(spawnObject, new Vector3(0, -100, 0), Quaternion.identity);
     }
 }
