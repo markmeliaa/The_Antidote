@@ -25,6 +25,8 @@ public class sceneManager : MonoBehaviour
         }
     }
 
+    private bool inAPuzle = false;
+
     Dictionary<string, Pair> locations;
 
     // Start is called before the first frame update
@@ -64,5 +66,15 @@ public class sceneManager : MonoBehaviour
     public void setLocationTimes(string currentLoc)
     {
         locations[currentLoc].changeTimes();
+    }
+
+    public void changePuzleState()
+    {
+        inAPuzle = !inAPuzle;
+    }
+
+    public bool getPuzleState()
+    {
+        return inAPuzle;
     }
 }

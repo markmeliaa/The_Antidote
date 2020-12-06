@@ -10,7 +10,7 @@ public class Item : ScriptableObject
     public Sprite icon = null;
     public string description = "New description";
     public GameObject spawnObject;
-    public GameObject puzleAim;
+    public string puzleAim;
 
     GameObject descriptionText;
 

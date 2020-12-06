@@ -9,6 +9,7 @@ public class ActivePipePuzle : MonoBehaviour
     public GameObject miniMap;
     public bool puzleDone = false;
     public DialogueManager manager;
+    public sceneManager sceneManager;
 
     bool active;
 
@@ -34,6 +35,7 @@ public class ActivePipePuzle : MonoBehaviour
     {
         if (active)
         {
+            sceneManager.changePuzleState();
             miniMap.SetActive(false);
             interactiveBackground.SetActive(false);
             puzleObject.SetActive(true);

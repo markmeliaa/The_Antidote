@@ -4,7 +4,6 @@ using UnityEngine.UI;
 public class InventorySlot : MonoBehaviour
 {
     public Image icon;
-    public bool inAPuzle = false;
     public GameObject mapLoc;
 
     Item item;
@@ -35,17 +34,19 @@ public class InventorySlot : MonoBehaviour
     {
         if(item != null)
         {
-            if (!inAPuzle)
+            if (!mapLoc.GetComponent<sceneManager>().getPuzleState())
                 item.showDescription();
             else
             {
                 for (int i = 0; i < mapLoc.transform.childCount; i++)
                 {
-                    if (mapLoc.transform.GetChild(i).name == item.puzleAim.name)
+                    if (mapLoc.transform.GetChild(i).gameObject.activeSelf && mapLoc.transform.GetChild(i).name == item.puzleAim)
                     {
                         item.Use();
                         RemoveItem();
                     }
+                    else
+                        gameObject.GetComponentInParent<GameObject>().GetComponentInParent<Transform>().Find("description").transform.GetComponent<Text>().text = "Este objeto no es util en este puzle";
                 }
             }
         }

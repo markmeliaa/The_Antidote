@@ -7,9 +7,11 @@ public class activatePuzle : MonoBehaviour
     public GameObject puzle;
     public GameObject background;
     public TextMesh winText;
+    public GameObject mapLoc;
 
     private void OnMouseDown()
     {
+        mapLoc.GetComponent<sceneManager>().changePuzleState();
         background.SetActive(false);
         puzle.SetActive(true);
     }

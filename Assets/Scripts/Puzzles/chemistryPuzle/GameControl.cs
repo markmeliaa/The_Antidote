@@ -11,6 +11,7 @@ public class GameControl : MonoBehaviour
 
     public static Color fingerColor;
     public static Color[] properColors;
+    public sceneManager manager;
 
     public static bool redIsRed, orangeIsOrange, yellowIsYellow, greenIsGreen, blueIsBlue, purpleIsPurple;
 
@@ -41,6 +42,7 @@ public class GameControl : MonoBehaviour
         if (redIsRed && orangeIsOrange && yellowIsYellow && greenIsGreen && blueIsBlue && purpleIsPurple)
         {
             victory.SetActive(true);
+            manager.changePuzleState();
         }
     }
 

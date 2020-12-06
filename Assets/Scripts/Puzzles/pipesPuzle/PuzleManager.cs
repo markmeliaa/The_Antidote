@@ -110,6 +110,7 @@ public class PuzleManager : MonoBehaviour
             
             miniMap.SetActive(true);
             mapLoc.GetComponent<sceneManager>().setLocationTimes(location.name);
+            mapLoc.GetComponent<sceneManager>().changePuzleState();
             location.GetComponent<Tester>().sceneWithInteraction = false;
             
         }
