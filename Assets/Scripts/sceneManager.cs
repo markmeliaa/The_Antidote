@@ -25,6 +25,7 @@ public class sceneManager : MonoBehaviour
         }
     }
 
+    [SerializeField]
     private bool inAPuzle = false;
 
     Dictionary<string, Pair> locations;

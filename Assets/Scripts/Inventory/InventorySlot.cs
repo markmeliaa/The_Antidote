@@ -40,13 +40,12 @@ public class InventorySlot : MonoBehaviour
             {
                 for (int i = 0; i < mapLoc.transform.childCount; i++)
                 {
+                    //Debug.Log("Estamos en el bucle");
                     if (mapLoc.transform.GetChild(i).gameObject.activeSelf && mapLoc.transform.GetChild(i).name == item.puzleAim)
                     {
-                        item.Use();
+                        item.Use(mapLoc.transform.GetChild(i).gameObject);
                         RemoveItem();
                     }
-                    else
-                        gameObject.GetComponentInParent<GameObject>().GetComponentInParent<Transform>().Find("description").transform.GetComponent<Text>().text = "Este objeto no es util en este puzle";
                 }
             }
         }

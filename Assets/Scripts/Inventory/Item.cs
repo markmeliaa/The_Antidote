@@ -21,8 +21,9 @@ public class Item : ScriptableObject
         descriptionText.GetComponentInChildren<Text>().text = description;
     }
 
-    public virtual void Use()
+    public virtual void Use(GameObject location)
     {
-        Instantiate(spawnObject, new Vector3(0, -100, 0), Quaternion.identity);
+        GameObject newObject = Instantiate(spawnObject, new Vector3(0, -3, 0), Quaternion.identity);
+        newObject.GetComponent<MoveItems>().puzleLocation = location;
     }
 }
