@@ -61,7 +61,7 @@ public class MoveItems : MonoBehaviour
             finish = true; // Para que no se pueda mover más una vez está en el sitio correcto
             puzleLocation.transform.Find("InteractiveBackground").GetComponent<SpriteRenderer>().sprite = newSprite;
             puzleLocation.transform.Find("BackgroundMapGrey").GetComponent<SpriteRenderer>().sprite = newSprite;
-            puzleLocation.transform.Find("InteractiveBackground").GetChild(0).gameObject.SetActive(false);
+            puzleLocation.transform.Find("InteractiveBackground").transform.Find(correctForm.name).gameObject.SetActive(false);
             Destroy(gameObject);
         }
 
