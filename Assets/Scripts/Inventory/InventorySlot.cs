@@ -40,7 +40,8 @@ public class InventorySlot : MonoBehaviour
             {
                 for (int i = 0; i < mapLoc.transform.childCount; i++)
                 {
-                    //Debug.Log("Estamos en el bucle");
+                    Debug.Log("Bucle de escenas: " + mapLoc.transform.GetChild(i).name);
+                    Debug.Log("puzleAim: " + item.puzleAim);
                     if (mapLoc.transform.GetChild(i).gameObject.activeSelf && mapLoc.transform.GetChild(i).name == item.puzleAim)
                     {
                         item.Use(mapLoc.transform.GetChild(i).gameObject);
