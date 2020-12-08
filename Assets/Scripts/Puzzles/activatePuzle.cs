@@ -8,12 +8,16 @@ public class activatePuzle : MonoBehaviour
     public GameObject background;
     public TextMesh winText;
     public GameObject mapLoc;
+    public DialogueManager manager;
 
     private void OnMouseDown()
     {
-        mapLoc.GetComponent<sceneManager>().changePuzleState();
-        background.SetActive(false);
-        puzle.SetActive(true);
+        if (!manager.InConvo)
+        {
+            mapLoc.GetComponent<sceneManager>().changePuzleState();
+            background.SetActive(false);
+            puzle.SetActive(true);
+        }
     }
 
     private void Update()

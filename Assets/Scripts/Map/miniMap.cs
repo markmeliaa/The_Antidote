@@ -30,7 +30,7 @@ public class miniMap : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (!dialogManager.GetComponent<DialogueManager>().InConvo)
+        if (!dialogManager.GetComponent<DialogueManager>().InConvo && !mapLocations.GetComponent<sceneManager>().getPuzleState() )
         {
             if (!opened)
             {

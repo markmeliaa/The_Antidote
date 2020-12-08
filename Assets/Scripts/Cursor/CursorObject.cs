@@ -8,9 +8,13 @@ public class CursorObject : MonoBehaviour
 {
     public bool active = true;
     ItemPickUp pickUpItems;
+    DialogueManager manager;
+    sceneManager sceneManager;
     private void Awake()
     {
         pickUpItems = GetComponentInParent<ItemPickUp>();
+        manager = GameObject.Find("DialogueBox1").GetComponent<DialogueManager>();
+        sceneManager = GameObject.Find("Map Locations").GetComponent<sceneManager>();
     }
 
     [SerializeField] private CursorManager.CursorType cursorType;
@@ -27,8 +31,7 @@ public class CursorObject : MonoBehaviour
 
     private void OnMouseDown()
     {
-
-        if(pickUpItems != null)
+        if( !manager.InConvo && !sceneManager.getPuzleState() && pickUpItems != null)
         {
             pickUpItems.Interact();
         } 

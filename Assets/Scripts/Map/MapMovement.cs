@@ -25,7 +25,7 @@ public class MapMovement : MonoBehaviour
 
     private void Update()
     {
-        if (manager.InConvo)
+        if (manager.InConvo || mapLocations.GetComponent<sceneManager>().getPuzleState())
         {
             if(GetComponent<SpriteRenderer>() != null)
                 GetComponent<SpriteRenderer>().enabled = false;
