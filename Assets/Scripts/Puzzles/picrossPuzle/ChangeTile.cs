@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿#pragma warning disable CS0414
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,7 +12,8 @@ public class ChangeTile : MonoBehaviour
     private bool blanco = true, x, negro;
     private SpriteRenderer sprite;
     public bool marcada = false;
-    private bool averiguada = false;
+    public bool averiguada = false;
+    public bool destapada = false;
 
     void Start()
     {
