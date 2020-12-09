@@ -21,7 +21,7 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+    listener1: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
     dialogue2: "Una grabadora. \xBFDe qu\xE9 a\xF1o es esto?"
     listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue3: 
@@ -35,7 +35,7 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+    listener1: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
     dialogue2: "Gracias Valerie.\r"
     listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue3: 
@@ -49,20 +49,20 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+    listener1: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
     dialogue2: De acuerdo, deja que les eche un vistazo.
     listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue3: 
   - speaker: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
-    dialogue2: "De mientras tu haces eso, \xBFDeber\xEDamos escuchar lo que tenga
+    listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: bef8c97b57e0c614e911ca547aa2b5be, type: 2}
+    dialogue3: "De mientras tu haces eso, \xBFDeber\xEDamos escuchar lo que tenga
       la grabadora no?"
-    listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
-    dialogue3: 
   - speaker: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+    listener1: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
     dialogue2: ...Claro, adelante.
     listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue3: 

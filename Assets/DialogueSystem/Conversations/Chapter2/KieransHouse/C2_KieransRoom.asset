@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allLines:
   - speaker: {fileID: 11400000, guid: f0b0912442ae7f94491edc4972be45ad, type: 2}
-    dialogue: "Av\xEDsame cuando est\xE9s frente a mi casa. Quiz\xE1s deber\xEDa llevar
-      algunas cosas, como el USB de pap\xE1, por si acaso."
+    dialogue: "Av\xEDsame cuando est\xE9s frente a mi casa. Quiz\xE1s deber\xEDa
+      llevar algunas cosas, como el USB de pap\xE1, por si acaso."
     listener1: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
   - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: d10ecfe38086a0b47820494ecb643916, type: 2}
+    listener1: {fileID: 11400000, guid: bef8c97b57e0c614e911ca547aa2b5be, type: 2}
     dialogue2: Compa, ya estoy llegando a tu casa, estate atento.
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 

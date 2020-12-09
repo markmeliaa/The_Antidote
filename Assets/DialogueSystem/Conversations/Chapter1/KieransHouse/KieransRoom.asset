@@ -41,7 +41,7 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: cdecdb91477a52a449d6ef1f87454e81, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: d10ecfe38086a0b47820494ecb643916, type: 2}
+    listener1: {fileID: 11400000, guid: bef8c97b57e0c614e911ca547aa2b5be, type: 2}
     dialogue2: "\u201CGatrie\u201D: Oye colega, en 10 minutos estoy en tu puerta,
       espero que no te hayas olvidado de que hoy empiezan las clases y me vayas a
       dejar tirado. No tardes mucho en prepararte que luego pasamos a buscar a Valerie."

@@ -24,7 +24,7 @@ MonoBehaviour:
     dialogue: 
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 
-    listener2: {fileID: 11400000, guid: d10ecfe38086a0b47820494ecb643916, type: 2}
+    listener2: {fileID: 11400000, guid: bef8c97b57e0c614e911ca547aa2b5be, type: 2}
     dialogue3: "Oh venga ya, no seas exagerada, aun falta media hora para que empiece
       la jornada, en 15 minutos estaremos all\xED.\r"
   - speaker: {fileID: 11400000, guid: 1cf53bd0622200d4c94289a40df5af7f, type: 2}

@@ -18,13 +18,13 @@ MonoBehaviour:
       tenemos que vigilar la habitaci\xF3n del t\xEDo ese?, en unos d\xEDas estirara
       la pata. Adem\xE1s, no es como si tuviera a alguien cercano como para contarle
       lo que sabe."
-    listener1: {fileID: 11400000, guid: 912f80863de6eca48bfec096847c71c4, type: 2}
+    listener1: {fileID: 11400000, guid: fc407688f4b7a7541ab68eb8a9175407, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
-  - speaker: {fileID: 11400000, guid: 912f80863de6eca48bfec096847c71c4, type: 2}
+  - speaker: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: 912f80863de6eca48bfec096847c71c4, type: 2}
+    listener1: {fileID: 11400000, guid: ed4d4e58331af1a45950af4f989f2ac8, type: 2}
     dialogue2: "Bueno...el jefe quiere asegurarse, as\xED que tendremos que seguir
       aqu\xED hasta que eso pase. Con los a\xF1os uno ha aprendido a callar y obedecer,
       y a ti te convendr\xEDa aprenderlo r\xE1pido, el jefe ha estado especialmente
@@ -34,26 +34,26 @@ MonoBehaviour:
   - speaker: {fileID: 11400000, guid: 912f80863de6eca48bfec096847c71c4, type: 2}
     dialogue: "Y que lo digas, se me ponen los pelos de punta de pensar en lo que
       le pas\xF3 al novato del otro d\xEDa, no est\xE1 dejando pasar ni una."
-    listener1: {fileID: 11400000, guid: 912f80863de6eca48bfec096847c71c4, type: 2}
+    listener1: {fileID: 11400000, guid: fc407688f4b7a7541ab68eb8a9175407, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
-  - speaker: {fileID: 11400000, guid: 912f80863de6eca48bfec096847c71c4, type: 2}
+  - speaker: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: 912f80863de6eca48bfec096847c71c4, type: 2}
+    listener1: {fileID: 11400000, guid: ed4d4e58331af1a45950af4f989f2ac8, type: 2}
     dialogue2: " \u2026no tendr\xEDamos que estar hablando de esto, ser\xE1 mejor
       que volvamos a nuestro puesto."
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
   - speaker: {fileID: 11400000, guid: 912f80863de6eca48bfec096847c71c4, type: 2}
     dialogue: "Ya...supongo que te har\xE9 caso con eso de callar y obedecer."
-    listener1: {fileID: 11400000, guid: 912f80863de6eca48bfec096847c71c4, type: 2}
+    listener1: {fileID: 11400000, guid: fc407688f4b7a7541ab68eb8a9175407, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
-  - speaker: {fileID: 11400000, guid: 912f80863de6eca48bfec096847c71c4, type: 2}
+  - speaker: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: 912f80863de6eca48bfec096847c71c4, type: 2}
+    listener1: {fileID: 11400000, guid: ed4d4e58331af1a45950af4f989f2ac8, type: 2}
     dialogue2: Haces bien, y ahora vamos.
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 

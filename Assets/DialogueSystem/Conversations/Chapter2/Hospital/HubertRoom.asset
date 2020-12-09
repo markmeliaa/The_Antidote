@@ -21,7 +21,7 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: 3b82cffc8102b454086c91fc9af87910, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+    listener1: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
     dialogue2: "No soy tu doctor, perdona la intromisi\xF3n. Soy Kieran, mi padre
       es el Sr. Barclay, \xE9l me dijo que viniera a verte."
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
@@ -36,7 +36,7 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: 3b82cffc8102b454086c91fc9af87910, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+    listener1: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
     dialogue2: "Quiz\xE1s tenga algo que ver con los hombres que ten\xEDa custodiando
       su puerta afuera, dec\xEDan que hab\xEDan cerrado toda la planta.\r\n"
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
@@ -50,7 +50,7 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: 3b82cffc8102b454086c91fc9af87910, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+    listener1: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
     dialogue2: "\xBFSe encuentra bien?, cuando preguntamos por usted en recepci\xF3n
       nos dijeron que se encontraba en estado cr\xEDtico."
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
@@ -64,7 +64,7 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: 3b82cffc8102b454086c91fc9af87910, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+    listener1: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
     dialogue2: "Ver\xE1...mi padre lleva algunos d\xEDas sin venir por casa, y cuando
       fui a su cuarto a buscar algo que me dijera d\xF3nde pod\xEDa estar encontr\xE9
       una nota que indicaba unos viejos almacenes."
@@ -72,7 +72,7 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: 3b82cffc8102b454086c91fc9af87910, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+    listener1: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
     dialogue2: "Cuando llegu\xE9 all\xED no estaban tan abandonados como esperaba,
       mi padre hab\xEDa montado una especie de laboratorio all\xED...en este laboratorio
       hab\xEDa una grabadora en la que se le mencionaba a usted..."
@@ -80,7 +80,7 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: 3b82cffc8102b454086c91fc9af87910, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+    listener1: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
     dialogue2: "Con lo que pens\xE9 que, si quer\xEDa conseguir informaci\xF3n sobre
       el paradero de mi padre, primero deber\xEDa preguntarle a usted.\r\n"
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
@@ -95,7 +95,7 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: 3b82cffc8102b454086c91fc9af87910, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+    listener1: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
     dialogue2: "\xBFPor qu\xE9 lo pregunta?"
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
@@ -108,7 +108,7 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: 3b82cffc8102b454086c91fc9af87910, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+    listener1: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
     dialogue2: "Por favor, mi padre es lo poco que me queda en la vida, si sabe algo
       de \xE9l, tiene que cont\xE1rmelo."
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}

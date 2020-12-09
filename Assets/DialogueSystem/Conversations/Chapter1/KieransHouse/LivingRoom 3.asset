@@ -21,7 +21,7 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+    listener1: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
     dialogue2: "Es mi padre Gatrie, ha desaparecido, su tel\xE9fono no da se\xF1al,
       y lo \xFAnico que he conseguido entrando a su cuarto es esta nota...Estaba
       en su escritorio...Justo frente a su ordenador, y parec\xEDa que llevaba bastante
@@ -37,7 +37,7 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+    listener1: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
     dialogue2: "No creo que haya un n\xFAmero de tel\xE9fono al que pueda llamar
       para eso\u2026"
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
@@ -50,7 +50,7 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+    listener1: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
     dialogue2: "...No se que hay en esta direcci\xF3n, pero si mi padre me ha dejado
       una nota marcando ese lugar, tiene que significar algo, voy a ir all\xED a
       buscarlo.\r"
@@ -64,7 +64,7 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+    listener1: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
     dialogue2: "Ni de broma Gatrie, te he llamado para que supieras que iba a ir,
       y para qu\xE9, si me pasaba algo, tu supieras donde empezar a buscarme, no
       para que vengas conmigo\u2026 no se que me encontrar\xE9, pero tu hermano te
@@ -80,7 +80,7 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+    listener1: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
     dialogue2: "Eres imbecil\u2026 Gracias.\r"
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 

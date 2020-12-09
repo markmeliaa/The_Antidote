@@ -23,7 +23,7 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: 1cf53bd0622200d4c94289a40df5af7f, type: 2}
+    listener1: {fileID: 11400000, guid: 8b585fabed81bde489aed1696e555c0d, type: 2}
     dialogue2: "Y no solo eso, \xBFc\xF3mo puede ser que un trabajador de una empresa
       con tanto renombre como Kemtek termine en el hospital y que no haya ni una
       sola noticia sobre ello en internet? No tiene sentido.\r"
@@ -37,7 +37,7 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: 1cf53bd0622200d4c94289a40df5af7f, type: 2}
+    listener1: {fileID: 11400000, guid: 8b585fabed81bde489aed1696e555c0d, type: 2}
     dialogue2: "Se llama Hubert, a veces escuchaba a pap\xE1 hablar con un tal Hubert
       por tel\xE9fono, dec\xEDa que era un amigo del trabajo, nunca le escuche hablar
       con nadie m\xE1s de ese entorno.\r"
@@ -51,7 +51,7 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: 1cf53bd0622200d4c94289a40df5af7f, type: 2}
+    listener1: {fileID: 11400000, guid: 8b585fabed81bde489aed1696e555c0d, type: 2}
     dialogue2: "\xBFY qu\xE9 hacemos ahora chicos? No puedo ser la \xFAnica a la
       que todo esto le est\xE1 oliendo a chamusquina."
     listener2: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
@@ -60,7 +60,7 @@ MonoBehaviour:
     dialogue: 
     listener1: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue2: 
-    listener2: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+    listener2: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
     dialogue3: "A mi me gustar\xEDa ir a hablar con \xE9l, si eran tan amigos como
       parece seguro que puede decirnos algo sobre el paradero de mi padre."
   - speaker: {fileID: 11400000, guid: d10ecfe38086a0b47820494ecb643916, type: 2}
@@ -73,7 +73,7 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: 1cf53bd0622200d4c94289a40df5af7f, type: 2}
+    listener1: {fileID: 11400000, guid: 8b585fabed81bde489aed1696e555c0d, type: 2}
     dialogue2: "Definitivamente ser\xE1 menos peligroso que venir a estos almacenes
       que estaban supuestamente abandonados...Pero creo que ya no son horas, si Gatrie
       y yo no volvemos a nuestras casa nuestras familias podr\xEDan empezar a preocuparse."
@@ -90,5 +90,5 @@ MonoBehaviour:
     dialogue: 
     listener1: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue2: 
-    listener2: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+    listener2: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
     dialogue3: La verdad es que con todo esto ya ni me acordaba.
