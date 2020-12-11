@@ -13,7 +13,7 @@ public class Movement : MonoBehaviour
     public TextMeshProUGUI choquesText;
     private int collectibles = 5;
     public TextMeshProUGUI collectiblesText;
-    public TextMeshProUGUI winnerText;
+    public TextMesh winnerText;
 
     // Start is called before the first frame update
     void Start()

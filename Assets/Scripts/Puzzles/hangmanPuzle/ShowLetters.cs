@@ -6,13 +6,12 @@ public class ShowLetters : MonoBehaviour
 {
     public GameObject letters;
     public GameObject hangman;
-    public GameObject c;
-    public GameObject e1;
-    public GameObject r;
-    public GameObject e2;
-    public GameObject a;
-    public GameObject l;
-    public GameObject e3;
+    public GameObject w;
+    public GameObject i;
+    public GameObject n;
+    public GameObject d;
+    public GameObject o;
+    public GameObject w2;
     public GameObject s;
     private int errores = 0;
     private int aciertos = 0;
@@ -41,35 +40,34 @@ public class ShowLetters : MonoBehaviour
 
         else
         {
-            if (Input.GetKeyDown(KeyCode.C) && !c.activeSelf)
+            if (Input.GetKeyDown(KeyCode.W) && !w.activeSelf)
             {
-                c.SetActive(true);
+                w.SetActive(true);
+                w2.SetActive(true);
+                aciertos += 2;
+            }
+
+            if (Input.GetKeyDown(KeyCode.I) && !i.activeSelf)
+            {
+                i.SetActive(true);
                 aciertos++;
             }
 
-            if (Input.GetKeyDown(KeyCode.E) && !e1.activeSelf)
+            if (Input.GetKeyDown(KeyCode.N) && !n.activeSelf)
             {
-                e1.SetActive(true);
-                e2.SetActive(true);
-                e3.SetActive(true);
-                aciertos += 3;
-            }
-
-            if (Input.GetKeyDown(KeyCode.R) && !r.activeSelf)
-            {
-                r.SetActive(true);
+                n.SetActive(true);
                 aciertos++;
             }
 
-            if (Input.GetKeyDown(KeyCode.A) && !a.activeSelf)
+            if (Input.GetKeyDown(KeyCode.D) && !d.activeSelf)
             {
-                a.SetActive(true);
+                d.SetActive(true);
                 aciertos++;
             }
 
-            if (Input.GetKeyDown(KeyCode.L) && !l.activeSelf)
+            if (Input.GetKeyDown(KeyCode.O) && !o.activeSelf)
             {
-                l.SetActive(true);
+                o.SetActive(true);
                 aciertos++;
             }
 
@@ -79,8 +77,9 @@ public class ShowLetters : MonoBehaviour
                 aciertos++;
             }
 
-            if (!Input.GetKeyDown(KeyCode.C) && !Input.GetKeyDown(KeyCode.E) && !Input.GetKeyDown(KeyCode.R) && 
-                !Input.GetKeyDown(KeyCode.A) && !Input.GetKeyDown(KeyCode.L) && !Input.GetKeyDown(KeyCode.S) && Input.anyKeyDown == true)
+            if (!Input.GetKeyDown(KeyCode.W) && !Input.GetKeyDown(KeyCode.I) && !Input.GetKeyDown(KeyCode.N) && 
+                !Input.GetKeyDown(KeyCode.D) && !Input.GetKeyDown(KeyCode.O) && !Input.GetKeyDown(KeyCode.S) && 
+                !Input.GetMouseButtonDown(0) && !Input.GetMouseButtonDown(1) && !Input.GetMouseButtonDown(2) && Input.anyKeyDown)
             {
                 errores++;
                 hangman.transform.GetChild(errores).gameObject.SetActive(true);

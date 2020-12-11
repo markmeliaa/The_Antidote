@@ -36,6 +36,8 @@ public class Maze : MonoBehaviour
 
     private int wallToBreak = 0;
 
+    [SerializeField] GameObject gameArea;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -46,6 +48,7 @@ public class Maze : MonoBehaviour
     {
         wallHolder = new GameObject();
         wallHolder.name = "Maze";
+        wallHolder.transform.SetParent(gameArea.transform);
 
         initialPos = new Vector3((-xSize/2) + wallLength/2, (-ySize/2) + wallLength/2, 0.0f);
         Vector3 myPos = initialPos;
