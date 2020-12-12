@@ -14,6 +14,7 @@ public class GameControl : MonoBehaviour
     public sceneManager manager;
 
     public static bool redIsRed, orangeIsOrange, yellowIsYellow, greenIsGreen, blueIsBlue, purpleIsPurple;
+    public static bool resetSelection = false;
 
     private void Awake()
     {
@@ -35,6 +36,11 @@ public class GameControl : MonoBehaviour
     {
         fingerColor = colorpicked;
         selection.transform.position = new Vector3(colorPosition.x, colorPosition.y, colorPosition.z);
+        if (resetSelection)
+        {
+            selection.transform.position = new Vector3(-2, 7, 0);
+            resetSelection = false;
+        }
     }
 
     private void CheckResults()
