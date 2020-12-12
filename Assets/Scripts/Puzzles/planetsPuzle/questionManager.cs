@@ -127,4 +127,12 @@ public class questionManager : MonoBehaviour
         GameObject.Find("PuzzleHandler").GetComponent<WinScript>().AddPoints();
         yield return null;
     }
+
+    public void Reset()
+    {
+        venus = false;
+        neptune = false;
+        saturn = false;
+        theEarth = false;
+    }
 }
