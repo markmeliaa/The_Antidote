@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speakerName: RECEP.
   speakerSprite: {fileID: 21300000, guid: 372facd14ed9b0b49b44b85774662f84, type: 3}
-  speakerBox: {fileID: 21300000, guid: b223c6167bb375a42aad95468c544bb1, type: 3}
+  speakerBox: {fileID: 21300000, guid: ebaa9b313885463408a52606b9818034, type: 3}
