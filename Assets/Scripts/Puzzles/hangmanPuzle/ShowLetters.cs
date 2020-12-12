@@ -86,4 +86,25 @@ public class ShowLetters : MonoBehaviour
             }
         }
     }
+
+    public void resetValues()
+    {
+        aciertos = 0;
+        errores = 0;
+        w.SetActive(false);
+        i.SetActive(false);
+        n.SetActive(false);
+        d.SetActive(false);
+        o.SetActive(false);
+        w2.SetActive(false);
+        s.SetActive(false);
+
+        for (int i = 0; i < hangman.transform.childCount; i++)
+        {
+            if (hangman.transform.GetChild(i).name != "Hangman_0" && hangman.transform.GetChild(i).gameObject.activeSelf)
+            {
+                hangman.transform.GetChild(i).gameObject.SetActive(false);
+            }
+        }
+    }
 }
