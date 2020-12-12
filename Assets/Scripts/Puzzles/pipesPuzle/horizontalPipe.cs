@@ -11,19 +11,19 @@ public class horizontalPipe : PipeScript
         {
             if (currentPipe.GetComponent<PipeScript>().types == 2)
             {
-                if ((transform.eulerAngles.z < 91 && transform.eulerAngles.z > 89) || (transform.eulerAngles.z > 269 && transform.eulerAngles.z < 271))
+                if ((Mathf.Round(transform.eulerAngles.z) < 91 && Mathf.Round(transform.eulerAngles.z) > 89) || (Mathf.Round(transform.eulerAngles.z) > 269 && Mathf.Round(transform.eulerAngles.z) < 271))
                 {
-                    if (connectedPipes[indice].i < myI && (currentPipe.transform.eulerAngles.z == 180 || (currentPipe.transform.eulerAngles.z > 269 && currentPipe.transform.eulerAngles.z < 271)))
+                    if (connectedPipes[indice].i < myI && (Mathf.Round(currentPipe.transform.eulerAngles.z) == 180 || (Mathf.Round(currentPipe.transform.eulerAngles.z) > 269 && Mathf.Round(currentPipe.transform.eulerAngles.z) < 271)))
                         connected = true;
-                    else if (connectedPipes[indice].i > myI && (currentPipe.transform.eulerAngles.z == 0 || (currentPipe.transform.eulerAngles.z < 91 && currentPipe.transform.eulerAngles.z > 89)))
+                    else if (connectedPipes[indice].i > myI && (Mathf.Round(currentPipe.transform.eulerAngles.z) == 0 || (Mathf.Round(currentPipe.transform.eulerAngles.z) < 91 && Mathf.Round(currentPipe.transform.eulerAngles.z) > 89)))
                         connected = true;
                 }
 
-                else if (transform.eulerAngles.z == 180 || transform.eulerAngles.z == 0)
+                else if (Mathf.Round(transform.eulerAngles.z) == 180 || Mathf.Round(transform.eulerAngles.z) == 0)
                 {
-                    if (connectedPipes[indice].j < myJ && (currentPipe.transform.eulerAngles.z == 0 || (currentPipe.transform.eulerAngles.z > 269 && currentPipe.transform.eulerAngles.z < 271)))
+                    if (connectedPipes[indice].j < myJ && (Mathf.Round(currentPipe.transform.eulerAngles.z) == 0 || (Mathf.Round(currentPipe.transform.eulerAngles.z) > 269 && Mathf.Round(currentPipe.transform.eulerAngles.z) < 271)))
                         connected = true;
-                    else if (connectedPipes[indice].j > myJ && (currentPipe.transform.eulerAngles.z == 180 || (currentPipe.transform.eulerAngles.z < 91 && currentPipe.transform.eulerAngles.z > 89)))
+                    else if (connectedPipes[indice].j > myJ && (Mathf.Round(currentPipe.transform.eulerAngles.z) == 180 || (Mathf.Round(currentPipe.transform.eulerAngles.z) < 91 && Mathf.Round(currentPipe.transform.eulerAngles.z) > 89)))
                         connected = true;
                 }
                 else if (connected)
@@ -31,22 +31,22 @@ public class horizontalPipe : PipeScript
             }
             else if (currentPipe.GetComponent<PipeScript>().types == 3 || currentPipe.GetComponent<PipeScript>().types == 0 || currentPipe.GetComponent<PipeScript>().types == 1)
             {
-                if ((connectedPipes[indice].i < myI || connectedPipes[indice].i > myI) && ((currentPipe.transform.eulerAngles.z < 91 && currentPipe.transform.eulerAngles.z > 89)
-                    || (currentPipe.transform.eulerAngles.z > 269 && currentPipe.transform.eulerAngles.z < 271))
-                    && ((transform.eulerAngles.z < 91 && transform.eulerAngles.z > 89) || (transform.eulerAngles.z > 269 && transform.eulerAngles.z < 271)))
+                if ((connectedPipes[indice].i < myI || connectedPipes[indice].i > myI) && ((Mathf.Round(currentPipe.transform.eulerAngles.z) < 91 && Mathf.Round(currentPipe.transform.eulerAngles.z) > 89)
+                    || (Mathf.Round(currentPipe.transform.eulerAngles.z) > 269 && Mathf.Round(currentPipe.transform.eulerAngles.z) < 271))
+                    && ((Mathf.Round(transform.eulerAngles.z) < 91 && Mathf.Round(transform.eulerAngles.z) > 89) || (Mathf.Round(transform.eulerAngles.z) > 269 && Mathf.Round(transform.eulerAngles.z) < 271)))
                     connected = true;
-                else if ((connectedPipes[indice].j < myJ || connectedPipes[indice].j > myJ) && (currentPipe.transform.eulerAngles.z == 0 || currentPipe.transform.eulerAngles.z == 180)
-                    && (transform.eulerAngles.z == 0 || transform.eulerAngles.z == 180))
+                else if ((connectedPipes[indice].j < myJ || connectedPipes[indice].j > myJ) && (Mathf.Round(currentPipe.transform.eulerAngles.z) == 0 || Mathf.Round(currentPipe.transform.eulerAngles.z) == 180)
+                    && (Mathf.Round(transform.eulerAngles.z) == 0 || Mathf.Round(transform.eulerAngles.z) == 180))
                     connected = true;
                 else if (connected)
                     connected = false;
             }
             else if (currentPipe.GetComponent<PipeScript>().types == 4)
             {
-                if ((connectedPipes[indice].i < myI || connectedPipes[indice].i > myI) && ((transform.eulerAngles.z < 91 && transform.eulerAngles.z > 89)
-                    || (transform.eulerAngles.z > 269 && transform.eulerAngles.z < 271)))
+                if ((connectedPipes[indice].i < myI || connectedPipes[indice].i > myI) && ((Mathf.Round(transform.eulerAngles.z) < 91 && Mathf.Round(transform.eulerAngles.z) > 89)
+                    || (Mathf.Round(transform.eulerAngles.z) > 269 && Mathf.Round(transform.eulerAngles.z) < 271)))
                     connected = true;
-                else if ((connectedPipes[indice].j < myJ || connectedPipes[indice].j > myJ) && (transform.eulerAngles.z == 0 || transform.eulerAngles.z == 180))
+                else if ((connectedPipes[indice].j < myJ || connectedPipes[indice].j > myJ) && (Mathf.Round(transform.eulerAngles.z) == 0 || Mathf.Round(transform.eulerAngles.z) == 180))
                     connected = true;
                 else if (connected)
                     connected = false;

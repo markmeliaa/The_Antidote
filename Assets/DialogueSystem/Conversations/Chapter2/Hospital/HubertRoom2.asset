@@ -45,19 +45,19 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
-  - speaker: {fileID: 11400000, guid: 3b82cffc8102b454086c91fc9af87910, type: 2}
+  - speaker: {fileID: 11400000, guid: fc407688f4b7a7541ab68eb8a9175407, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    listener1: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: 0d6dd02f0c1502648a7f7114264a3720, type: 2}
     dialogue3: "\xBFTambi\xE9n se te ha escapado la mocosa eh?"
-  - speaker: {fileID: 11400000, guid: 3b82cffc8102b454086c91fc9af87910, type: 2}
-    dialogue: 
-    listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
-    dialogue2: 
-    listener2: {fileID: 11400000, guid: ed4d4e58331af1a45950af4f989f2ac8, type: 2}
-    dialogue3: "Cierra el pico, el jefe no puede enterarse de esto, as\xED que si
+  - speaker: {fileID: 11400000, guid: 4bd94bad2ebefbe4192fc700aa5069f9, type: 2}
+    dialogue: "Cierra el pico, el jefe no puede enterarse de esto, as\xED que si
       aprecias tu pellejo mas te vale mantener la boca cerrada."
+    listener1: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
+    dialogue3: 
   - speaker: {fileID: 11400000, guid: 202b0927d4902024fa0420dbc2c2451c, type: 2}
     dialogue: "Son ellos, se est\xE1n acercando, tienes que irte."
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}

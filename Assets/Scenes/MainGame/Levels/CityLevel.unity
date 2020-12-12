@@ -4204,13 +4204,14 @@ GameObject:
   - component: {fileID: 219006582}
   - component: {fileID: 219006584}
   - component: {fileID: 219006583}
+  - component: {fileID: 219006585}
   m_Layer: 0
   m_Name: KieransHome
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &219006582
 Transform:
   m_ObjectHideFlags: 0
@@ -4266,6 +4267,24 @@ MonoBehaviour:
   - {fileID: 1750754165}
   - {fileID: 10249338}
   timesVisited: 02000000020000000300000004000000
+--- !u!114 &219006585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219006581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1394256eece24840b14698c8839276c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newBackground: {fileID: 21300000, guid: 3fdce8bbac216894885261fc5ed67724, type: 3}
+  miniMap: {fileID: 1880567386}
+  changeConditions:
+  - {fileID: 10249338}
+  changeTimes: 03000000
+  time: 0.1
 --- !u!1001 &221016018
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11304,7 +11323,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &614370883
 Transform:
   m_ObjectHideFlags: 0
@@ -14983,6 +15002,7 @@ GameObject:
   - component: {fileID: 827117484}
   - component: {fileID: 827117486}
   - component: {fileID: 827117485}
+  - component: {fileID: 827117487}
   m_Layer: 0
   m_Name: CrossRoads
   m_TagString: Untagged
@@ -15039,6 +15059,24 @@ MonoBehaviour:
   locConditions:
   - {fileID: 1984939460}
   timesVisited: 01000000
+--- !u!114 &827117487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827117483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1394256eece24840b14698c8839276c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newBackground: {fileID: 21300000, guid: 36f234c75adade043a116b3c02d63f46, type: 3}
+  miniMap: {fileID: 1880567386}
+  changeConditions:
+  - {fileID: 219006581}
+  changeTimes: 03000000
+  time: 0.1
 --- !u!1 &829143632
 GameObject:
   m_ObjectHideFlags: 0
@@ -18698,7 +18736,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1012638760
 Transform:
   m_ObjectHideFlags: 0
@@ -29612,6 +29650,7 @@ GameObject:
   - component: {fileID: 1631023952}
   - component: {fileID: 1631023951}
   - component: {fileID: 1631023950}
+  - component: {fileID: 1631023953}
   m_Layer: 0
   m_Name: CrossRoads2
   m_TagString: Untagged
@@ -29672,6 +29711,24 @@ Transform:
   m_Father: {fileID: 1479407755}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1631023953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631023949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1394256eece24840b14698c8839276c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newBackground: {fileID: 21300000, guid: 36f234c75adade043a116b3c02d63f46, type: 3}
+  miniMap: {fileID: 1880567386}
+  changeConditions:
+  - {fileID: 219006581}
+  changeTimes: 03000000
+  time: 0.1
 --- !u!1 &1633212081
 GameObject:
   m_ObjectHideFlags: 0
@@ -36137,6 +36194,7 @@ GameObject:
   - component: {fileID: 1984939461}
   - component: {fileID: 1984939463}
   - component: {fileID: 1984939462}
+  - component: {fileID: 1984939464}
   m_Layer: 0
   m_Name: ValeriesHome
   m_TagString: Untagged
@@ -36203,6 +36261,24 @@ MonoBehaviour:
   - {fileID: 219006581}
   - {fileID: 1984939460}
   timesVisited: 020000000200000003000000030000000400000000000000
+--- !u!114 &1984939464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984939460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1394256eece24840b14698c8839276c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newBackground: {fileID: 21300000, guid: 4025c843ffcb3254882a2ee556b5f5ef, type: 3}
+  miniMap: {fileID: 1880567386}
+  changeConditions:
+  - {fileID: 219006581}
+  changeTimes: 03000000
+  time: 0.1
 --- !u!1 &1985565028
 GameObject:
   m_ObjectHideFlags: 0
