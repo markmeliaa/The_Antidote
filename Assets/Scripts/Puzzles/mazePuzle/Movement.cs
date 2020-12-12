@@ -8,6 +8,8 @@ public class Movement : MonoBehaviour
     private Rigidbody rb;
     private float moveSpeed;
     private float dirX, dirY;
+    private float startX;
+    private float startY;
 
     private int choques = 0;
     public TextMeshProUGUI choquesText;
@@ -20,6 +22,8 @@ public class Movement : MonoBehaviour
     {
         moveSpeed = 5.0f;
         rb = GetComponent<Rigidbody>();
+        startX = rb.transform.position.x;
+        startY = rb.transform.position.y;
     }
 
     // Update is called once per frame
@@ -57,7 +61,16 @@ public class Movement : MonoBehaviour
         if (collision.gameObject.tag == "Collectible")
         {
             collectibles--;
-            Destroy(collision.gameObject);
+            collision.gameObject.SetActive(false);
         }
+    }
+
+    public void resetValues()
+    {
+        collectibles = 5;
+        choques = 0;
+        collectiblesText.text = "Faltan " + collectibles + "objetos por recoger";
+        choquesText.text = "Choques: " + choques;
+        rb.transform.position = new Vector3(startX, startY, 0);
     }
 }

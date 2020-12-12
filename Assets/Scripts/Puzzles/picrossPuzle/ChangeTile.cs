@@ -46,4 +46,13 @@ public class ChangeTile : MonoBehaviour
             averiguada = false;
         }
     }
+
+    public void resetCasilla()
+    {
+        negro = false;
+        x = false;
+        blanco = true;
+        averiguada = false;
+        sprite.sprite = Blanco;
+    }
 }

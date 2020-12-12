@@ -38,4 +38,12 @@ public class CountPoints : MonoBehaviour
             }
         }
     }
+
+    public void resetGame()
+    {
+        for (int i = 0; i < casillasBlancas.transform.childCount; i++)
+        {
+            casillasBlancas.transform.GetChild(i).GetComponent<ChangeTile>().resetCasilla();
+        }
+    }
 }

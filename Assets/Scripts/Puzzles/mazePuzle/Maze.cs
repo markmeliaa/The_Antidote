@@ -238,7 +238,31 @@ public class Maze : MonoBehaviour
                 backingUp--;
             }
         }
-    }     
+    }
+
+    public void resetValues(GameObject gameArea)
+    {
+        GameObject maze = gameArea.transform.Find("Maze").gameObject;
+
+
+        for (int i = 0; i < maze.transform.childCount; i++)
+        {
+            Destroy(maze.transform.GetChild(i).gameObject);
+        }
+
+        Destroy(maze);
+
+        cells = new Cell[0];
+        currentCell = 0;
+        totalCells = 0;
+        visitedCells = 0;
+        startedBuilding = false;
+        currentNeighbour = 0;
+        lastCells.Clear();
+        backingUp = 0;
+        wallToBreak = 0;
+        CreateWalls();
+    }
 
     // Update is called once per frame
     void Update()
