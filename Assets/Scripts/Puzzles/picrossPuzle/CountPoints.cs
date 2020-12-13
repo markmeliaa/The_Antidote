@@ -12,7 +12,6 @@ public class CountPoints : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         if (totalPoints >= casillasNegras.transform.childCount)
         {
             for (int i = 0; i < casillasBlancas.transform.childCount; i++)
