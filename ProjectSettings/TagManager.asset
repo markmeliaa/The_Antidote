@@ -7,6 +7,7 @@ TagManager:
   - Ficha
   - Wall
   - Collectible
+  - Exit
   layers:
   - Default
   - TransparentFX
