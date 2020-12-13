@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ObjectMovement : MonoBehaviour
 {
-    Vector3 screenSpace, initialPosition, offset, startPosition;
+    Vector3 initialPosition, offset, startPosition;
     Sensors sensors;
     public bool horizontal;
     [SerializeField]
@@ -18,7 +18,6 @@ public class ObjectMovement : MonoBehaviour
 
     private void OnMouseDown()
     {
-        screenSpace = Camera.main.WorldToScreenPoint(transform.position);
         offset = transform.position - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0));
         initialPosition = transform.position;
     }
@@ -66,5 +65,21 @@ public class ObjectMovement : MonoBehaviour
         movingLeft = false;
         movingUp = false;
         movingDown = false;
+    }
+
+    public void resetObjects()
+    {
+        transform.position = startPosition;
+        movingRight = false;
+        movingLeft = false;
+        movingUp = false;
+        movingDown = false;
+        offset = Vector3.zero;
+        initialPosition = Vector3.zero;
+
+        sensors.blockedDown = false;
+        sensors.blockedLeft = false;
+        sensors.blockedRight = false;
+        sensors.blockedUp = false;
     }
 }
