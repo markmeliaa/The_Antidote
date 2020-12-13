@@ -229,7 +229,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &10249339
 Transform:
   m_ObjectHideFlags: 0
@@ -7505,6 +7505,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   puzle: {fileID: 1091363641}
   background: {fileID: 1720863715}
+  miniMap: {fileID: 1880567386}
   winText: {fileID: 1179602762}
   mapLoc: {fileID: 1479407754}
   manager: {fileID: 147225106}
@@ -8852,7 +8853,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: -5
   m_Sprite: {fileID: 21300000, guid: 46e94294c8ef80f40a7f666207377b25, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -13402,15 +13403,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 630955486}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba5f6bcaf0acfc843832fec1023c5781, type: 3}
+  m_Script: {fileID: 11500000, guid: a9fc8b31801f1fe46b28a673051fddf4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puzleObject: {fileID: 0}
-  interactiveBackground: {fileID: 2094041321}
+  puzle: {fileID: 0}
+  background: {fileID: 614370882}
   miniMap: {fileID: 1880567386}
-  puzleDone: 0
+  winText: {fileID: 0}
+  mapLoc: {fileID: 1479407754}
   manager: {fileID: 147225106}
-  sceneManager: {fileID: 1479407756}
 --- !u!114 &630955490
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21854,7 +21855,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &1043578699
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24110,6 +24111,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   puzle: {fileID: 1689313570}
   background: {fileID: 924659489}
+  miniMap: {fileID: 1880567386}
   winText: {fileID: 1722957778}
   mapLoc: {fileID: 1479407754}
   manager: {fileID: 147225106}
@@ -26995,6 +26997,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   puzle: {fileID: 495392537}
   background: {fileID: 1537880178}
+  miniMap: {fileID: 1880567386}
   winText: {fileID: 1430498252}
   mapLoc: {fileID: 1479407754}
   manager: {fileID: 147225106}
@@ -28114,6 +28117,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   puzle: {fileID: 502551540}
   background: {fileID: 2020781307}
+  miniMap: {fileID: 1880567386}
   winText: {fileID: 2138737125}
   mapLoc: {fileID: 1479407754}
   manager: {fileID: 147225106}
@@ -31050,7 +31054,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1561889537
 Transform:
   m_ObjectHideFlags: 0
@@ -33968,6 +33972,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   puzle: {fileID: 1604958715}
   background: {fileID: 990359017}
+  miniMap: {fileID: 1880567386}
   winText: {fileID: 1272439749}
   mapLoc: {fileID: 1479407754}
   manager: {fileID: 147225106}
@@ -36248,6 +36253,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   puzle: {fileID: 1561889536}
   background: {fileID: 2020781307}
+  miniMap: {fileID: 1880567386}
   winText: {fileID: 1226225635}
   mapLoc: {fileID: 1479407754}
   manager: {fileID: 147225106}

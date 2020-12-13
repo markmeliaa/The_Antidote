@@ -25,7 +25,7 @@ public class retryPuzzle : MonoBehaviour
                 if (questions.GetChild(i).gameObject.activeSelf)
                     questions.GetChild(i).gameObject.SetActive(false);
             }
-            questions.Find("Mercury").gameObject.SetActive(true);
+            questions.GetChild(0).gameObject.SetActive(true);
 
             Transform shadowObjects = currentPuzle.transform.Find("ShadowObjects").transform;
 
@@ -34,7 +34,7 @@ public class retryPuzzle : MonoBehaviour
                 if (shadowObjects.GetChild(i).name != "Background" && shadowObjects.GetChild(i).gameObject.activeSelf)
                     shadowObjects.GetChild(i).gameObject.SetActive(false);
             }
-            shadowObjects.Find("Mercury").gameObject.SetActive(true);
+            shadowObjects.GetChild(1).gameObject.SetActive(true);
         }
     }
 }

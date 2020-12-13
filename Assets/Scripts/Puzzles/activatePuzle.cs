@@ -6,17 +6,20 @@ public class activatePuzle : MonoBehaviour
 {
     public GameObject puzle;
     public GameObject background;
+    public GameObject miniMap;
     public TextMesh winText;
     public GameObject mapLoc;
     public DialogueManager manager;
 
+    bool active;
     private void OnMouseDown()
     {
-        if (!manager.InConvo)
+        if (active)
         {
             mapLoc.GetComponent<sceneManager>().changePuzleState();
             background.SetActive(false);
             puzle.SetActive(true);
+            miniMap.SetActive(false);
         }
     }
 
@@ -25,6 +28,17 @@ public class activatePuzle : MonoBehaviour
         if (winText.gameObject.activeSelf)
         {
             StartCoroutine("waitWin");
+        }
+
+        if (manager.InConvo)
+        {
+            GetComponent<CursorObject>().active = false;
+            active = false;
+        }
+        else
+        {
+            GetComponent<CursorObject>().active = true;
+            active = true;
         }
     }
 
