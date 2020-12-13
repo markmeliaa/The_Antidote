@@ -7,28 +7,24 @@ public class PuzleManager : MonoBehaviour
 {
     //Scene controller
     public GameObject location;
-    public GameObject miniMap;
     public GameObject mapLoc;
 
     //Puzle Stuff
     public GameObject PipesHolder;
     public GameObject[,] Pipes;
     public Text endText;
-    public int rowSize;
+    public int colSize;
 
     GameObject lastPipe;
 
     [SerializeField]
     int totalPipes = 0;
-    float timer = 0.0f;
-    float time = 5.0f;
-    bool endShowing = false;
     
     //Keeping all the pipes
     void Start()
     {
         totalPipes = PipesHolder.transform.childCount;
-        Pipes = new GameObject[totalPipes/rowSize, rowSize];
+        Pipes = new GameObject[totalPipes/colSize, colSize];
 
         int col = 0;
         int fil = 0;
@@ -42,7 +38,7 @@ public class PuzleManager : MonoBehaviour
             }
 
             col++;
-            if (col >= 5)
+            if (col >= colSize)
             {
                 col = 0;
                 fil++;
@@ -79,43 +75,35 @@ public class PuzleManager : MonoBehaviour
     {
         if (lastPipe.GetComponent<PipeScript>().connected)
         {
-            if(timer == 0.0f)
+
+            for (int i = 0; i < Pipes.GetLength(0); i++)
             {
-                endText.gameObject.SetActive(true);
-
-                for (int i = 0; i < Pipes.GetLength(0); i++)
-                {
-                    for (int j = 0; j < Pipes.GetLength(1); j++)
-                    {
-                        Pipes[i, j].GetComponent<PipeScript>().notRotable = true;
-                    }
-                }
+               for (int j = 0; j < Pipes.GetLength(1); j++)
+               {
+                    Pipes[i, j].GetComponent<PipeScript>().notRotable = true;
+               }
             }
-
             endPuzle();
         }   
     }
 
+    public void resetPuzle()
+    {
+        for (int i = 0; i < Pipes.GetLength(0); i++)
+        {
+            for (int j = 0; j < Pipes.GetLength(1); j++)
+            {
+                PipeScript currentPipe = Pipes[i, j].GetComponent<PipeScript>();
+
+                currentPipe.resetPipes();
+            }
+        }
+    }
+
     private void endPuzle()
     {
-        if (timer >= time)
-            endShowing = true;
-
-        if (endShowing)
-        {
-            endText.gameObject.SetActive(false);
-
-            location.transform.Find("Puzle").gameObject.SetActive(false);
-            location.transform.Find("InteractiveBackground").gameObject.SetActive(true);
-            
-            miniMap.SetActive(true);
-            mapLoc.GetComponent<sceneManager>().setLocationTimes(location.name);
-            mapLoc.GetComponent<sceneManager>().changePuzleState();
-            location.GetComponent<Tester>().sceneWithInteraction = false;
-            
-        }
-        else
-            timer += Time.deltaTime;
-        
+        endText.gameObject.SetActive(true);    
+        mapLoc.GetComponent<sceneManager>().setLocationTimes(location.name);    
+        location.GetComponent<Tester>().sceneWithInteraction = false;
     }
 }

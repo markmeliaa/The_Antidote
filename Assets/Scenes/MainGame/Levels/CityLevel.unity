@@ -229,7 +229,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &10249339
 Transform:
   m_ObjectHideFlags: 0
@@ -431,6 +431,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentPuzzle: {fileID: 502551540}
   background: {fileID: 2020781307}
+  mapLoc: {fileID: 0}
+  miniMap: {fileID: 0}
 --- !u!65 &27601910
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14513,6 +14515,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentPuzzle: {fileID: 1689313570}
   background: {fileID: 924659489}
+  mapLoc: {fileID: 0}
+  miniMap: {fileID: 0}
 --- !u!65 &712050751
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28344,6 +28348,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentPuzzle: {fileID: 1561889536}
   background: {fileID: 2020781307}
+  mapLoc: {fileID: 0}
+  miniMap: {fileID: 0}
 --- !u!65 &1406398629
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30250,6 +30256,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentPuzzle: {fileID: 1091363641}
   background: {fileID: 1720863715}
+  mapLoc: {fileID: 0}
+  miniMap: {fileID: 0}
 --- !u!65 &1530781887
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31054,7 +31062,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1561889537
 Transform:
   m_ObjectHideFlags: 0
@@ -39381,6 +39389,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentPuzzle: {fileID: 1604958715}
   background: {fileID: 990359017}
+  mapLoc: {fileID: 0}
+  miniMap: {fileID: 0}
 --- !u!65 &1948057172
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40465,6 +40475,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentPuzzle: {fileID: 495392537}
   background: {fileID: 1537880178}
+  mapLoc: {fileID: 0}
+  miniMap: {fileID: 0}
 --- !u!65 &1985565031
 BoxCollider:
   m_ObjectHideFlags: 0

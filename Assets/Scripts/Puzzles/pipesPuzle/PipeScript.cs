@@ -41,31 +41,7 @@ public abstract class PipeScript : MonoBehaviour
 
     private void Start()
     {
-        if (!notRotable)
-        {
-            int rand = Random.Range(0, rotations.Length);
-            transform.eulerAngles = new Vector3(0, 0, rotations[rand]);
-        }
-
-        if (types != 0)
-        {
-            for (int i = 0; i < connectedPipes.Count; i++)
-            {
-                if (types == 1)
-                    notRotable = true;
-                else
-                    notRotable = false;
-
-                checkPipes(i);
-                if (connected)
-                    break;
-            }
-        }
-        else
-        {
-            connected = true;
-            notRotable = true;
-        }  
+        resetPipes();
     }
 
     private void Update()
@@ -95,6 +71,35 @@ public abstract class PipeScript : MonoBehaviour
             transform.Rotate(new Vector3(0, 0, 90));
         }
         connected = false;
+    }
+
+    public void resetPipes()
+    {
+        if (!notRotable)
+        {
+            int rand = Random.Range(0, rotations.Length);
+            transform.eulerAngles = new Vector3(0, 0, rotations[rand]);
+        }
+
+        if (types != 0)
+        {
+            for (int i = 0; i < connectedPipes.Count; i++)
+            {
+                if (types == 1)
+                    notRotable = true;
+                else
+                    notRotable = false;
+
+                checkPipes(i);
+                if (connected)
+                    break;
+            }
+        }
+        else
+        {
+            connected = true;
+            notRotable = true;
+        }
     }
 
     public abstract int checkPipes(int indice);
