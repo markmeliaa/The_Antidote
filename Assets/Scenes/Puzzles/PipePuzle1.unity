@@ -3562,6 +3562,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   location: {fileID: 0}
   mapLoc: {fileID: 0}
+  puzleEnding: {fileID: 211144856}
   PipesHolder: {fileID: 510335832}
   endText: {fileID: 1858519754}
   colSize: 5
