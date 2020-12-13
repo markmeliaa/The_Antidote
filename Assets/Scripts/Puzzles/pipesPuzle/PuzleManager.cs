@@ -12,7 +12,7 @@ public class PuzleManager : MonoBehaviour
     //Puzle Stuff
     public GameObject PipesHolder;
     public GameObject[,] Pipes;
-    public Text endText;
+    public TextMesh endText;
     public int colSize;
 
     GameObject lastPipe;

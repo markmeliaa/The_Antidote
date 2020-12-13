@@ -5,12 +5,13 @@ using UnityEngine;
 public class RetryPipes : MonoBehaviour
 {
     public GameObject currentPuzle;
+    public TextMesh winText;
 
     private void OnMouseDown()
     {
-        if (!currentPuzle.transform.Find("Text").Find("winnerText").gameObject.activeSelf)
+        if (winText.gameObject.activeSelf)
         {
-            currentPuzle.transform.Find("Puzle Manager").GetComponent<PuzleManager>().resetPuzle();
+            currentPuzle.transform.Find("PuzleManager").GetComponent<PuzleManager>().resetPuzle();
         }
     }
 }

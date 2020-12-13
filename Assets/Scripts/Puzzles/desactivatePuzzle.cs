@@ -8,6 +8,7 @@ public class desactivatePuzzle : MonoBehaviour
     [SerializeField] GameObject background;
     public GameObject mapLoc;
     public GameObject miniMap;
+    public GameObject inventory;
 
     private void OnMouseDown()
     {
@@ -19,6 +20,7 @@ public class desactivatePuzzle : MonoBehaviour
         currentPuzzle.SetActive(false);
         background.SetActive(true);
         miniMap.SetActive(true);
+        inventory.SetActive(true);
         mapLoc.GetComponent<sceneManager>().changePuzleState();
     }
 }

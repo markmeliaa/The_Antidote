@@ -1075,6 +1075,7 @@ MonoBehaviour:
   background: {fileID: 0}
   mapLoc: {fileID: 0}
   miniMap: {fileID: 0}
+  inventory: {fileID: 0}
 --- !u!61 &211144857
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2322,6 +2323,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 510335833}
     m_Modifications:
+    - target: {fileID: 2109637910653958706, guid: 2a14f4ecaa2b4c246bf1f2d065d165b8,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2109637910653958706, guid: 2a14f4ecaa2b4c246bf1f2d065d165b8,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2109637910653958706, guid: 2a14f4ecaa2b4c246bf1f2d065d165b8,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6327954579539924716, guid: 2a14f4ecaa2b4c246bf1f2d065d165b8,
         type: 3}
       propertyPath: m_Pivot.x
@@ -3163,6 +3179,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 510335833}
     m_Modifications:
+    - target: {fileID: 2109637910653958706, guid: 2a14f4ecaa2b4c246bf1f2d065d165b8,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2109637910653958706, guid: 2a14f4ecaa2b4c246bf1f2d065d165b8,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2109637910653958706, guid: 2a14f4ecaa2b4c246bf1f2d065d165b8,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6327954579539924716, guid: 2a14f4ecaa2b4c246bf1f2d065d165b8,
         type: 3}
       propertyPath: m_Pivot.x
@@ -4267,7 +4298,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 3.5, y: -163}
+  m_AnchoredPosition: {x: 3.5, y: -338}
   m_SizeDelta: {x: 907.1, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1858519754
@@ -4283,19 +4314,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 59
+    m_Font: {fileID: 12800000, guid: 883075cd4d3256347bbda24abe4c517b, type: 3}
+    m_FontSize: 55
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 5
-    m_MaxSize: 59
+    m_MinSize: 0
+    m_MaxSize: 149
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
