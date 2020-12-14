@@ -12,7 +12,8 @@ public class activatePuzle : MonoBehaviour
     public DialogueManager manager;
     public Animator rectangleL;
     public Animator rectangleR;
-    private int transitionTime = 2;
+    public float transitionTime = 0f;
+    public Animator texts;
 
     bool active;
 
@@ -22,6 +23,7 @@ public class activatePuzle : MonoBehaviour
         {
             rectangleL.SetBool("startPuzzle", true);
             rectangleR.SetBool("startPuzzle", true);
+            texts.SetBool("startGame", true);
             StartCoroutine("waitPuzzle");
         }
     }
@@ -47,14 +49,16 @@ public class activatePuzle : MonoBehaviour
 
     IEnumerator waitPuzzle()
     {
-        yield return new WaitForSeconds(transitionTime);
+        yield return new WaitForSeconds(4);
         rectangleL.SetBool("startPuzzle", false);
         rectangleR.SetBool("startPuzzle", false);
+        texts.SetBool("startGame", false);
+        yield return new WaitForSeconds(transitionTime);
         mapLoc.GetComponent<sceneManager>().changePuzleState();
         background.SetActive(false);
         puzle.SetActive(true);
         inventory.SetActive(false);
-        yield return new WaitForSeconds(transitionTime);
+        yield return new WaitForSeconds(2);
     }
 
     IEnumerator waitWin()

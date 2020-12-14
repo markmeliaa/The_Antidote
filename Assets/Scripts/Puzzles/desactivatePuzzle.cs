@@ -11,7 +11,7 @@ public class desactivatePuzzle : MonoBehaviour
     public GameObject inventory;
     public Animator rectangleL;
     public Animator rectangleR;
-    public TextMeshProUGUI thanksText;
+    public Animator text;
 
     private void OnMouseDown()
     {
@@ -27,16 +27,16 @@ public class desactivatePuzzle : MonoBehaviour
     {
         rectangleL.SetBool("startPuzzle", true);
         rectangleR.SetBool("startPuzzle", true);
+        text.SetBool("endGame", true);
         yield return new WaitForSeconds(2);
-        thanksText.gameObject.SetActive(true);
         yield return new WaitForSeconds(1);
         currentPuzzle.SetActive(false);
         background.SetActive(true);
         inventory.SetActive(true);
+        Debug.Log(1);
         mapLoc.GetComponent<sceneManager>().changePuzleState();
+        text.SetBool("endGame", false);
         rectangleL.SetBool("startPuzzle", false);
         rectangleR.SetBool("startPuzzle", false);
-        thanksText.gameObject.SetActive(false);
-        yield return new WaitForSeconds(2);
     }
 }
