@@ -9,7 +9,7 @@ public class RetryPipes : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (winText.gameObject.activeSelf)
+        if (!winText.gameObject.activeSelf)
         {
             currentPuzle.transform.Find("PuzleManager").GetComponent<PuzleManager>().resetPuzle();
         }

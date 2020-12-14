@@ -6,8 +6,6 @@ using UnityEngine.UI;
 public class PuzleManager : MonoBehaviour
 {
     //Scene controller
-    public GameObject location;
-    public GameObject mapLoc;
     public desactivatePuzzle puzleEnding;
 
     //Puzle Stuff
@@ -104,8 +102,6 @@ public class PuzleManager : MonoBehaviour
     private void endPuzle()
     {
         endText.gameObject.SetActive(true);    
-        mapLoc.GetComponent<sceneManager>().setLocationTimes(location.name);    
-        location.GetComponent<Tester>().sceneWithInteraction = false;
         puzleEnding.desactivate();
     }
 }

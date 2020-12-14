@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CountPoints : MonoBehaviour
 {
+    public desactivatePuzzle endPuzle;
     [SerializeField] GameObject casillasBlancas;
     [SerializeField] GameObject casillasNegras;
     private int totalPoints = 0;
@@ -19,6 +20,7 @@ public class CountPoints : MonoBehaviour
                 casillasBlancas.transform.GetChild(i).GetComponent<BoxCollider2D>().enabled = false;
             }
             winText.SetActive(true);
+            endPuzle.desactivate();
             return;
         }
 

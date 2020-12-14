@@ -30,18 +30,15 @@ public class miniMap : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (!dialogManager.GetComponent<DialogueManager>().InConvo && !mapLocations.GetComponent<sceneManager>().getPuzleState() )
+        if (!opened)
         {
-            if (!opened)
-            {
-                map.openMap();
-                opened = true;
-            }
-            else
-            {
-                map.closeMap();
-                opened = false;
-            }
+            map.openMap();
+            opened = true;
+        }
+        else
+        {
+            map.closeMap();
+            opened = false;
         }
     }
 }

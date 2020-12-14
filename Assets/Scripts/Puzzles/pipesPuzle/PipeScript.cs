@@ -75,6 +75,7 @@ public abstract class PipeScript : MonoBehaviour
 
     public void resetPipes()
     {
+        connected = false;
         if (!notRotable)
         {
             int rand = Random.Range(0, rotations.Length);

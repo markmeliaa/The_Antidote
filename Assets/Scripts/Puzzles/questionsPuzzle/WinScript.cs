@@ -7,7 +7,7 @@ public class WinScript : MonoBehaviour
     public int pointsToWin;
     public int currentPoints;
     public GameObject myPlanets;
-    public sceneManager manager;
+    public desactivatePuzzle endPuzle;
     void Start()
     {
         pointsToWin = myPlanets.transform.childCount;
@@ -18,7 +18,7 @@ public class WinScript : MonoBehaviour
     {
         if (currentPoints >= pointsToWin)
         {
-            manager.changePuzleState();
+            endPuzle.desactivate();
             // WIN
             transform.GetChild(0).gameObject.SetActive(true);
         }

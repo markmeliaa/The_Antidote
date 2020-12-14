@@ -1192,8 +1192,6 @@ MonoBehaviour:
   currentPuzzle: {fileID: 502551540}
   background: {fileID: 2020781307}
   mapLoc: {fileID: 1479407754}
-  miniMap: {fileID: 1880567386}
-  inventory: {fileID: 1579540527}
 --- !u!65 &27601910
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7209,9 +7207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab44405e4f2f7d04c84be3daf569a6ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  location: {fileID: 1631023949}
-  mapLoc: {fileID: 1479407754}
-  puzleEnding: {fileID: 0}
+  puzleEnding: {fileID: 1911217402}
   PipesHolder: {fileID: 780550742}
   endText: {fileID: 563845805}
   colSize: 5
@@ -8195,8 +8191,6 @@ MonoBehaviour:
   currentPuzzle: {fileID: 1318162456}
   background: {fileID: 1282254093}
   mapLoc: {fileID: 1479407754}
-  miniMap: {fileID: 1880567386}
-  inventory: {fileID: 1579540527}
 --- !u!65 &180197382
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10515,8 +10509,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   puzle: {fileID: 1318162456}
   background: {fileID: 1282254093}
-  miniMap: {fileID: 1880567386}
-  inventory: {fileID: 1579540527}
   winText: {fileID: 1977174929}
   mapLoc: {fileID: 1479407754}
   manager: {fileID: 147225106}
@@ -12054,7 +12046,7 @@ MonoBehaviour:
   pointsToWin: 5
   currentPoints: 0
   myPlanets: {fileID: 94301365}
-  manager: {fileID: 1479407756}
+  endPuzle: {fileID: 712050750}
 --- !u!4 &243551255
 Transform:
   m_ObjectHideFlags: 0
@@ -12209,9 +12201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab44405e4f2f7d04c84be3daf569a6ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  location: {fileID: 1144247024}
-  mapLoc: {fileID: 1479407754}
-  puzleEnding: {fileID: 0}
+  puzleEnding: {fileID: 287534765}
   PipesHolder: {fileID: 1484685155}
   endText: {fileID: 743087606}
   colSize: 6
@@ -13550,8 +13540,6 @@ MonoBehaviour:
   currentPuzzle: {fileID: 1611619441}
   background: {fileID: 1066985678}
   mapLoc: {fileID: 1479407754}
-  miniMap: {fileID: 1880567386}
-  inventory: {fileID: 1579540527}
 --- !u!61 &287534766
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16711,8 +16699,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   puzle: {fileID: 1091363641}
   background: {fileID: 1720863715}
-  miniMap: {fileID: 1880567386}
-  inventory: {fileID: 1579540527}
   winText: {fileID: 1179602762}
   mapLoc: {fileID: 1479407754}
   manager: {fileID: 147225106}
@@ -27317,8 +27303,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   puzle: {fileID: 0}
   background: {fileID: 614370882}
-  miniMap: {fileID: 1880567386}
-  inventory: {fileID: 0}
   winText: {fileID: 0}
   mapLoc: {fileID: 1479407754}
   manager: {fileID: 147225106}
@@ -27932,8 +27916,6 @@ MonoBehaviour:
   currentPuzzle: {fileID: 206621267}
   background: {fileID: 1066985678}
   mapLoc: {fileID: 1479407754}
-  miniMap: {fileID: 1880567386}
-  inventory: {fileID: 1579540527}
 --- !u!65 &656330920
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30075,8 +30057,6 @@ MonoBehaviour:
   currentPuzzle: {fileID: 1689313570}
   background: {fileID: 924659489}
   mapLoc: {fileID: 1479407754}
-  miniMap: {fileID: 1880567386}
-  inventory: {fileID: 1579540527}
 --- !u!65 &712050751
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30187,8 +30167,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   puzle: {fileID: 440518073}
   background: {fileID: 2112843573}
-  miniMap: {fileID: 1880567386}
-  inventory: {fileID: 1579540527}
   winText: {fileID: 898914306}
   mapLoc: {fileID: 1479407754}
   manager: {fileID: 147225106}
@@ -34096,8 +34074,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   puzle: {fileID: 1560553522}
   background: {fileID: 2112843573}
-  miniMap: {fileID: 1880567386}
-  inventory: {fileID: 1579540527}
   winText: {fileID: 1556887707}
   mapLoc: {fileID: 1479407754}
   manager: {fileID: 147225106}
@@ -38390,6 +38366,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33836ebc92c57c048a61b3d690fc3ceb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  endPuzle: {fileID: 656330919}
   casillasBlancas: {fileID: 954616607}
   casillasNegras: {fileID: 1866754586}
   winText: {fileID: 792860885}
@@ -42925,8 +42902,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   puzle: {fileID: 1559546799}
   background: {fileID: 1485949458}
-  miniMap: {fileID: 1880567386}
-  inventory: {fileID: 1579540527}
   winText: {fileID: 1643663572}
   mapLoc: {fileID: 1479407754}
   manager: {fileID: 147225106}
@@ -48266,6 +48241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33836ebc92c57c048a61b3d690fc3ceb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  endPuzle: {fileID: 1948057171}
   casillasBlancas: {fileID: 1445728261}
   casillasNegras: {fileID: 897702561}
   winText: {fileID: 1272439747}
@@ -50048,8 +50024,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   puzle: {fileID: 1689313570}
   background: {fileID: 924659489}
-  miniMap: {fileID: 1880567386}
-  inventory: {fileID: 1579540527}
   winText: {fileID: 1722957778}
   mapLoc: {fileID: 1479407754}
   manager: {fileID: 147225106}
@@ -54720,8 +54694,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   puzle: {fileID: 202510453}
   background: {fileID: 1265050042}
-  miniMap: {fileID: 1880567386}
-  inventory: {fileID: 1579540527}
   winText: {fileID: 563845805}
   mapLoc: {fileID: 1479407754}
   manager: {fileID: 147225106}
@@ -55176,6 +55148,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   winText: {fileID: 1977174927}
   vytcontroller: {fileID: 470029295}
+  endPuzle: {fileID: 180197381}
 --- !u!212 &1309663197
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -55866,8 +55839,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   puzle: {fileID: 495392537}
   background: {fileID: 1537880178}
-  miniMap: {fileID: 1880567386}
-  inventory: {fileID: 1579540527}
   winText: {fileID: 1430498252}
   mapLoc: {fileID: 1479407754}
   manager: {fileID: 147225106}
@@ -58203,7 +58174,7 @@ MonoBehaviour:
   pointsToWin: 5
   currentPoints: 0
   myPlanets: {fileID: 588821379}
-  manager: {fileID: 1479407756}
+  endPuzle: {fileID: 1406398628}
 --- !u!4 &1373615126 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4007186989862042848, guid: ecd75c278229e924e887fe882ca70cb8,
@@ -58857,8 +58828,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   puzle: {fileID: 502551540}
   background: {fileID: 2020781307}
-  miniMap: {fileID: 1880567386}
-  inventory: {fileID: 1579540527}
   winText: {fileID: 2138737125}
   mapLoc: {fileID: 1479407754}
   manager: {fileID: 147225106}
@@ -59434,8 +59403,6 @@ MonoBehaviour:
   currentPuzzle: {fileID: 1561889536}
   background: {fileID: 2020781307}
   mapLoc: {fileID: 1479407754}
-  miniMap: {fileID: 1880567386}
-  inventory: {fileID: 1579540527}
 --- !u!65 &1406398629
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -59582,8 +59549,6 @@ MonoBehaviour:
   currentPuzzle: {fileID: 1560553522}
   background: {fileID: 2112843573}
   mapLoc: {fileID: 1479407754}
-  miniMap: {fileID: 1880567386}
-  inventory: {fileID: 1579540527}
 --- !u!65 &1411605010
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -63820,8 +63785,6 @@ MonoBehaviour:
   currentPuzzle: {fileID: 1091363641}
   background: {fileID: 1720863715}
   mapLoc: {fileID: 1479407754}
-  miniMap: {fileID: 1880567386}
-  inventory: {fileID: 1579540527}
 --- !u!65 &1530781887
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -64414,8 +64377,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   puzle: {fileID: 206621267}
   background: {fileID: 1066985678}
-  miniMap: {fileID: 1880567386}
-  inventory: {fileID: 1579540527}
   winText: {fileID: 792860886}
   mapLoc: {fileID: 1479407754}
   manager: {fileID: 147225106}
@@ -64873,8 +64834,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   puzle: {fileID: 1611619441}
   background: {fileID: 1066985678}
-  miniMap: {fileID: 1880567386}
-  inventory: {fileID: 1579540527}
   winText: {fileID: 743087606}
   mapLoc: {fileID: 1479407754}
   manager: {fileID: 147225106}
@@ -66389,6 +66348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc2d32b05252d524098e46e5e929349b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  miniMapIcon: {fileID: 1880567386}
   inventoryIcon: {fileID: 1579540527}
   inventoryUI: {fileID: 877449509}
   dialogManager: {fileID: 147225104}
@@ -66950,6 +66910,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33836ebc92c57c048a61b3d690fc3ceb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  endPuzle: {fileID: 1411605009}
   casillasBlancas: {fileID: 2010622651}
   casillasNegras: {fileID: 1204405695}
   winText: {fileID: 1556887706}
@@ -70262,8 +70223,6 @@ MonoBehaviour:
   currentPuzzle: {fileID: 1559546799}
   background: {fileID: 1485949458}
   mapLoc: {fileID: 1479407754}
-  miniMap: {fileID: 1880567386}
-  inventory: {fileID: 1579540527}
 --- !u!65 &1662441892
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -71242,6 +71201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc2d32b05252d524098e46e5e929349b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  miniMapIcon: {fileID: 1880567386}
   inventoryIcon: {fileID: 1579540527}
   inventoryUI: {fileID: 877449509}
   dialogManager: {fileID: 147225104}
@@ -72141,8 +72101,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   puzle: {fileID: 1604958715}
   background: {fileID: 990359017}
-  miniMap: {fileID: 1880567386}
-  inventory: {fileID: 1579540527}
   winText: {fileID: 1272439749}
   mapLoc: {fileID: 1479407754}
   manager: {fileID: 147225106}
@@ -75927,8 +75885,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   puzle: {fileID: 1561889536}
   background: {fileID: 2020781307}
-  miniMap: {fileID: 1880567386}
-  inventory: {fileID: 1579540527}
   winText: {fileID: 1226225635}
   mapLoc: {fileID: 1479407754}
   manager: {fileID: 147225106}
@@ -80289,7 +80245,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   selection: {fileID: 1764329484}
   victory: {fileID: 898914305}
-  manager: {fileID: 1479407756}
+  endPuzle: {fileID: 1891447549}
 --- !u!1 &1854235837
 GameObject:
   m_ObjectHideFlags: 0
@@ -81539,8 +81495,6 @@ MonoBehaviour:
   currentPuzzle: {fileID: 440518073}
   background: {fileID: 2112843573}
   mapLoc: {fileID: 1479407754}
-  miniMap: {fileID: 1880567386}
-  inventory: {fileID: 1579540527}
 --- !u!65 &1891447550
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -82066,8 +82020,6 @@ MonoBehaviour:
   currentPuzzle: {fileID: 202510453}
   background: {fileID: 1265050042}
   mapLoc: {fileID: 1479407754}
-  miniMap: {fileID: 1880567386}
-  inventory: {fileID: 1579540527}
 --- !u!61 &1911217403
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -82702,7 +82654,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   selection: {fileID: 2125246993}
   victory: {fileID: 2138737124}
-  manager: {fileID: 1479407756}
+  endPuzle: {fileID: 27601909}
 --- !u!1 &1939009846
 GameObject:
   m_ObjectHideFlags: 0
@@ -83034,8 +82986,6 @@ MonoBehaviour:
   currentPuzzle: {fileID: 1604958715}
   background: {fileID: 990359017}
   mapLoc: {fileID: 1479407754}
-  miniMap: {fileID: 1880567386}
-  inventory: {fileID: 1579540527}
 --- !u!65 &1948057172
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -85192,8 +85142,6 @@ MonoBehaviour:
   currentPuzzle: {fileID: 495392537}
   background: {fileID: 1537880178}
   mapLoc: {fileID: 1479407754}
-  miniMap: {fileID: 1880567386}
-  inventory: {fileID: 1579540527}
 --- !u!65 &1985565031
 BoxCollider:
   m_ObjectHideFlags: 0

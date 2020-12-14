@@ -6,8 +6,6 @@ public class activatePuzle : MonoBehaviour
 {
     public GameObject puzle;
     public GameObject background;
-    public GameObject miniMap;
-    public GameObject inventory;
     public TextMesh winText;
     public GameObject mapLoc;
     public DialogueManager manager;
@@ -20,8 +18,6 @@ public class activatePuzle : MonoBehaviour
             mapLoc.GetComponent<sceneManager>().changePuzleState();
             background.SetActive(false);
             puzle.SetActive(true);
-            miniMap.SetActive(false);
-            inventory.SetActive(false);
         }
     }
 
@@ -50,7 +46,5 @@ public class activatePuzle : MonoBehaviour
         background.SetActive(true);
         puzle.SetActive(false);
         this.gameObject.SetActive(false);
-        miniMap.SetActive(true);
-        inventory.SetActive(true);
     }
 }
