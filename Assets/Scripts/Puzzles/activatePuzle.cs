@@ -8,16 +8,21 @@ public class activatePuzle : MonoBehaviour
     public GameObject background;
     public TextMesh winText;
     public GameObject mapLoc;
+    public GameObject inventory;
     public DialogueManager manager;
+    public Animator rectangleL;
+    public Animator rectangleR;
+    private int transitionTime = 2;
 
     bool active;
+
     private void OnMouseDown()
     {
         if (active)
         {
-            mapLoc.GetComponent<sceneManager>().changePuzleState();
-            background.SetActive(false);
-            puzle.SetActive(true);
+            rectangleL.SetBool("startPuzzle", true);
+            rectangleR.SetBool("startPuzzle", true);
+            StartCoroutine("waitPuzzle");
         }
     }
 
@@ -40,11 +45,24 @@ public class activatePuzle : MonoBehaviour
         }
     }
 
+    IEnumerator waitPuzzle()
+    {
+        yield return new WaitForSeconds(transitionTime);
+        rectangleL.SetBool("startPuzzle", false);
+        rectangleR.SetBool("startPuzzle", false);
+        mapLoc.GetComponent<sceneManager>().changePuzleState();
+        background.SetActive(false);
+        puzle.SetActive(true);
+        inventory.SetActive(false);
+        yield return new WaitForSeconds(transitionTime);
+    }
+
     IEnumerator waitWin()
     {
         yield return new WaitForSeconds(2);
         background.SetActive(true);
         puzle.SetActive(false);
         this.gameObject.SetActive(false);
+        inventory.SetActive(true);
     }
 }

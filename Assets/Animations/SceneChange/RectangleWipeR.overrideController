@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RectangleWipeR
+  m_Controller: {fileID: 9100000, guid: d20fcf4609a2a524f9a912ce1d5b87c5, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 6a2697498e9ddeb44afc2bff7f1ddac4, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 7d4c6bf768279fe42b6c7ea261c0f5ce, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ca8f8ae7344065546a3f0c8063ed39ef, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 61790281a4e9b284699d1fdf8ddc1250, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 01e30ea2c63503d439a57dd13c22be0a, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: afa48b4ef450b9349b309dc8add50d5f, type: 2}
