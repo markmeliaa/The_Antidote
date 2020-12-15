@@ -21,22 +21,15 @@ public class InventoryControl : MonoBehaviour
 
     private void Update()
     {
-        if (dialogManager.GetComponent<DialogueManager>().InConvo)
-        {
-            inventoryIcon.SetActive(false);
-        }
-        else
-        {
-            inventoryIcon.SetActive(true);
-        }
-
         if (!dialogManager.GetComponent<DialogueManager>().InConvo && !mapLocations.GetComponent<sceneManager>().getPuzleState())
         {
             miniMapIcon.SetActive(true);
+            inventoryIcon.SetActive(true);
         }
         else
         {
             miniMapIcon.SetActive(false);
+            inventoryIcon.SetActive(false);
         }
     }
 

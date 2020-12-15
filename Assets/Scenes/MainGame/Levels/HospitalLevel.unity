@@ -594,6 +594,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc2d32b05252d524098e46e5e929349b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  miniMapIcon: {fileID: 1514480582}
   inventoryIcon: {fileID: 32858495}
   inventoryUI: {fileID: 1330634643}
   dialogManager: {fileID: 1923833728}
@@ -6408,6 +6409,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc2d32b05252d524098e46e5e929349b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  miniMapIcon: {fileID: 1514480582}
   inventoryIcon: {fileID: 32858495}
   inventoryUI: {fileID: 1330634643}
   dialogManager: {fileID: 1923833728}
