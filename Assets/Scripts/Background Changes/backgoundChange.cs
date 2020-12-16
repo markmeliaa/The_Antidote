@@ -4,13 +4,10 @@ using UnityEngine;
 
 public class backgoundChange : MonoBehaviour
 {
-    public Sprite newBackground;
+    public Sprite[] newBackground;
     public GameObject miniMap;
     public GameObject[] changeConditions;
     public int[] changeTimes;
-    public float time = 2.0f;
-
-    float timer = 0.0f;
     int index = 0;
     sceneManager manager;
 
@@ -21,25 +18,20 @@ public class backgoundChange : MonoBehaviour
 
     private void Update()
     {
-        if (index < changeConditions.Length && manager.getLocationBool(changeConditions[index].name) 
+        if (index < changeConditions.Length && manager.getLocationBool(changeConditions[index].name)
             && manager.getLocationTimes(changeConditions[index].name) == changeTimes[index])
         {
-            timer += Time.deltaTime;
 
-            if(timer >= time)
+            for (int i = 0; i < transform.childCount; i++)
             {
-                timer = 0;
-                index++;
-
-                for (int i = 0; i < transform.childCount; i++)
-                {
-                    transform.GetChild(i).gameObject.SetActive(true);
-                }
-
-                miniMap.SetActive(true);
-                transform.Find("InteractiveBackground").GetComponent<SpriteRenderer>().sprite = newBackground;
-                transform.Find("BackgroundMapGrey").GetComponent<SpriteRenderer>().sprite = newBackground;
+                transform.GetChild(i).gameObject.SetActive(true);
             }
+
+            miniMap.SetActive(true);
+            transform.Find("InteractiveBackground").GetComponent<SpriteRenderer>().sprite = newBackground[index];
+            transform.Find("BackgroundMapGrey").GetComponent<SpriteRenderer>().sprite = newBackground[index];
+            index++;
+
         }
     }
 }
