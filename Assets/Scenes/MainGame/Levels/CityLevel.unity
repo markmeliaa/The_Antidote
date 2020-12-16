@@ -29702,7 +29702,6 @@ GameObject:
   - component: {fileID: 630955487}
   - component: {fileID: 630955488}
   - component: {fileID: 630955490}
-  - component: {fileID: 630955489}
   m_Layer: 0
   m_Name: Blackboard - ColorsPuzzle
   m_TagString: Untagged
@@ -29750,28 +29749,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.9942849, y: 1.3505011}
   m_EdgeRadius: 0
---- !u!114 &630955489
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 630955486}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a9fc8b31801f1fe46b28a673051fddf4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  puzle: {fileID: 0}
-  background: {fileID: 614370882}
-  winText: {fileID: 0}
-  mapLoc: {fileID: 1479407754}
-  inventory: {fileID: 1579540527}
-  manager: {fileID: 147225106}
-  rectangleL: {fileID: 1879507924}
-  rectangleR: {fileID: 60091210}
-  transitionTime: 0
-  texts: {fileID: 1788702136}
 --- !u!114 &630955490
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -91119,6 +91096,11 @@ PrefabInstance:
       propertyPath: nextLocation
       value: 
       objectReference: {fileID: 219006581}
+    - target: {fileID: 6083792400439289430, guid: e01a40a9a0e30c94b9ea0c04d694d969,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 6909905808136761089, guid: e01a40a9a0e30c94b9ea0c04d694d969,
         type: 3}
       propertyPath: miniMap
@@ -94589,6 +94571,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: InteractiveMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 482360012879671494, guid: e01a40a9a0e30c94b9ea0c04d694d969,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3145212987245627184, guid: e01a40a9a0e30c94b9ea0c04d694d969,
         type: 3}

@@ -8,6 +8,7 @@ TagManager:
   - Wall
   - Collectible
   - Exit
+  - Animation
   layers:
   - Default
   - TransparentFX
