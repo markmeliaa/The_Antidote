@@ -6858,6 +6858,7 @@ GameObject:
   - component: {fileID: 135460017}
   - component: {fileID: 135460019}
   - component: {fileID: 135460018}
+  - component: {fileID: 135460020}
   m_Layer: 5
   m_Name: Objetivo
   m_TagString: Untagged
@@ -6922,6 +6923,48 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 135460016}
   m_CullTransparentMesh: 0
+--- !u!114 &135460020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 135460016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 001b80c0335d65a46b12f9dbe94ba78a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectives:
+  - Reunirme con Gatrie
+  - Ir a por Valerie a su casa
+  - Ir a la Universidad
+  - Entrar en clase
+  - Dejar a Valerie en su casa
+  - Volver a mi casa
+  - "Subir a mi habitaci\xF3n"
+  - "Investigar la habitaci\xF3n de pap\xE1"
+  - Reunirme con Gatrie
+  - "Ir en bus a la ubicaci\xF3n desconocida"
+  - Colarme en el almacen
+  - Investigar el almacen
+  - Volver a mi casa
+  locations:
+  - {fileID: 10249338}
+  - {fileID: 219006581}
+  - {fileID: 1984939460}
+  - {fileID: 872371778}
+  - {fileID: 614370882}
+  - {fileID: 1984939460}
+  - {fileID: 219006581}
+  - {fileID: 10249338}
+  - {fileID: 1959324170}
+  - {fileID: 219006581}
+  - {fileID: 1917770518}
+  - {fileID: 240592858}
+  - {fileID: 1144247024}
+  timesVisited: 00000000010000000100000001000000020000000200000002000000030000000200000003000000010000000100000004000000
+  manager: {fileID: 1479407756}
 --- !u!1001 &135591696
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -86143,7 +86186,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: e75bdcc54a4de534695f1472b9670440, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
