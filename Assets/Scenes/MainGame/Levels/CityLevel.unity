@@ -463,6 +463,7 @@ GameObject:
   - component: {fileID: 10249340}
   - component: {fileID: 10249341}
   - component: {fileID: 10249342}
+  - component: {fileID: 10249343}
   m_Layer: 0
   m_Name: KieransRoom
   m_TagString: Untagged
@@ -543,7 +544,24 @@ MonoBehaviour:
   miniMap: {fileID: 1880567386}
   changeConditions:
   - {fileID: 614370882}
-  changeTimes: 02000000
+  - {fileID: 1144247024}
+  changeTimes: 0200000004000000
+--- !u!114 &10249343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10249338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34aee618a51d14b44af5e26e561fe01f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navigationItem:
+  - {fileID: 1775375699}
+  - {fileID: 612154768}
+  timesVisitedActivations: 0100000002000000
 --- !u!4 &10984405 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2348164879031134972, guid: a7f6d66e8a484bc41979cd4bd76f5b29,
@@ -7467,7 +7485,7 @@ GameObject:
   - component: {fileID: 145989656}
   - component: {fileID: 145989655}
   m_Layer: 0
-  m_Name: Arrow-ToCrossroads2
+  m_Name: Arrow-ToCrossroads1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7514,7 +7532,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mapLocations: {fileID: 1479407754}
-  nextLocation: {fileID: 1631023949}
+  nextLocation: {fileID: 827117483}
   currentLocation: {fileID: 872371778}
   miniMap: {fileID: 1880567386}
   dialogueManager: {fileID: 1171928259}
@@ -11691,6 +11709,7 @@ GameObject:
   - component: {fileID: 219006584}
   - component: {fileID: 219006583}
   - component: {fileID: 219006585}
+  - component: {fileID: 219006586}
   m_Layer: 0
   m_Name: KieransHome
   m_TagString: Untagged
@@ -11771,7 +11790,23 @@ MonoBehaviour:
   miniMap: {fileID: 1880567386}
   changeConditions:
   - {fileID: 10249338}
-  changeTimes: 03000000
+  - {fileID: 10249338}
+  changeTimes: 0300000004000000
+--- !u!114 &219006586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219006581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb983b98b34546f4988975ca165b3f59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navigationItem:
+  - {fileID: 1559186190}
+  timesVisitedDesactivations: 02000000
 --- !u!1001 &221016018
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12640,7 +12675,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &230661375
 Transform:
   m_ObjectHideFlags: 0
@@ -12884,6 +12919,7 @@ GameObject:
   - component: {fileID: 240592859}
   - component: {fileID: 240592861}
   - component: {fileID: 240592860}
+  - component: {fileID: 240592862}
   m_Layer: 0
   m_Name: WarehouseInside
   m_TagString: Untagged
@@ -12940,6 +12976,21 @@ MonoBehaviour:
   locConditions:
   - {fileID: 1917770518}
   timesVisited: 01000000
+--- !u!114 &240592862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 240592858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb983b98b34546f4988975ca165b3f59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navigationItem:
+  - {fileID: 1217672611}
+  timesVisitedDesactivations: 01000000
 --- !u!1001 &242709744
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27756,6 +27807,10 @@ GameObject:
   m_Component:
   - component: {fileID: 596874467}
   - component: {fileID: 596874468}
+  - component: {fileID: 596874470}
+  - component: {fileID: 596874469}
+  - component: {fileID: 596874472}
+  - component: {fileID: 596874471}
   m_Layer: 0
   m_Name: FatherLetter
   m_TagString: Untagged
@@ -27772,7 +27827,7 @@ Transform:
   m_GameObject: {fileID: 596874466}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.52, y: 0.08, z: 0}
-  m_LocalScale: {x: 0.4670742, y: 0.4670742, z: 0.4670742}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 1822588700}
   m_RootOrder: 0
@@ -27827,6 +27882,72 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &596874469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 596874466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42cc37414c45d0145a5772b8fee37138, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: b49780212e7d91247a990af4bed85854, type: 2}
+--- !u!61 &596874470
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 596874466}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.9761319, y: 0.32546806}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.5, y: 2.5}
+    newSize: {x: 19.2, y: 10.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7.4899483, y: 6.0013924}
+  m_EdgeRadius: 0
+--- !u!114 &596874471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 596874466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3aae8d6c85225554cb19db9e61445193, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  active: 1
+  cursorType: 1
+--- !u!114 &596874472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 596874466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bebe64ce2d1b3b49b7dfb4ca54e0908, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  location: {fileID: 1959324170}
 --- !u!1 &597050682
 GameObject:
   m_ObjectHideFlags: 0
@@ -28401,7 +28522,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &612154769
 Transform:
   m_ObjectHideFlags: 0
@@ -28534,6 +28655,8 @@ GameObject:
   - component: {fileID: 614370883}
   - component: {fileID: 614370885}
   - component: {fileID: 614370884}
+  - component: {fileID: 614370887}
+  - component: {fileID: 614370886}
   m_Layer: 0
   m_Name: UniClassRoom
   m_TagString: Untagged
@@ -28592,6 +28715,36 @@ MonoBehaviour:
   - {fileID: 872371778}
   - {fileID: 614370882}
   timesVisited: 0100000001000000
+--- !u!114 &614370886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 614370882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb983b98b34546f4988975ca165b3f59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navigationItem:
+  - {fileID: 1726002412}
+  timesVisitedDesactivations: 00000000
+--- !u!114 &614370887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 614370882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34aee618a51d14b44af5e26e561fe01f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navigationItem:
+  - {fileID: 1726002412}
+  timesVisitedActivations: 02000000
 --- !u!4 &615121523 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2348164879031134972, guid: a7f6d66e8a484bc41979cd4bd76f5b29,
@@ -29563,6 +29716,7 @@ GameObject:
   - component: {fileID: 630955487}
   - component: {fileID: 630955488}
   - component: {fileID: 630955490}
+  - component: {fileID: 630955489}
   m_Layer: 0
   m_Name: Blackboard - ColorsPuzzle
   m_TagString: Untagged
@@ -29610,6 +29764,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.9942849, y: 1.3505011}
   m_EdgeRadius: 0
+--- !u!114 &630955489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 630955486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bebe64ce2d1b3b49b7dfb4ca54e0908, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  location: {fileID: 614370882}
 --- !u!114 &630955490
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38706,7 +38873,8 @@ MonoBehaviour:
   miniMap: {fileID: 1880567386}
   changeConditions:
   - {fileID: 219006581}
-  changeTimes: 03000000
+  - {fileID: 219006581}
+  changeTimes: 0300000004000000
 --- !u!1 &829143632
 GameObject:
   m_ObjectHideFlags: 0
@@ -40846,6 +41014,8 @@ GameObject:
   - component: {fileID: 872371779}
   - component: {fileID: 872371781}
   - component: {fileID: 872371780}
+  - component: {fileID: 872371783}
+  - component: {fileID: 872371782}
   m_Layer: 0
   m_Name: UniOutside
   m_TagString: Untagged
@@ -40904,6 +41074,36 @@ MonoBehaviour:
   - {fileID: 827117483}
   - {fileID: 614370882}
   timesVisited: 0100000002000000
+--- !u!114 &872371782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872371778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb983b98b34546f4988975ca165b3f59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navigationItem:
+  - {fileID: 145989653}
+  timesVisitedDesactivations: 00000000
+--- !u!114 &872371783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872371778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34aee618a51d14b44af5e26e561fe01f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navigationItem:
+  - {fileID: 145989653}
+  timesVisitedActivations: 02000000
 --- !u!1001 &875439195
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43036,7 +43236,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: a60062eb8d194274393922220072dfab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -47996,7 +48196,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1012638760
 Transform:
   m_ObjectHideFlags: 0
@@ -53447,6 +53647,7 @@ GameObject:
   - component: {fileID: 1144247025}
   - component: {fileID: 1144247027}
   - component: {fileID: 1144247026}
+  - component: {fileID: 1144247028}
   m_Layer: 0
   m_Name: WarehouseLab
   m_TagString: Untagged
@@ -53509,6 +53710,21 @@ MonoBehaviour:
   - {fileID: 1144247024}
   - {fileID: 1144247024}
   timesVisited: 01000000010000000200000003000000
+--- !u!114 &1144247028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1144247024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34aee618a51d14b44af5e26e561fe01f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navigationItem:
+  - {fileID: 1217672611}
+  timesVisitedActivations: 04000000
 --- !u!1001 &1147343828
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -75468,7 +75684,8 @@ MonoBehaviour:
   miniMap: {fileID: 1880567386}
   changeConditions:
   - {fileID: 219006581}
-  changeTimes: 03000000
+  - {fileID: 219006581}
+  changeTimes: 0300000004000000
 --- !u!1001 &1632469555
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -81877,6 +82094,7 @@ GameObject:
   - component: {fileID: 1750754166}
   - component: {fileID: 1750754168}
   - component: {fileID: 1750754167}
+  - component: {fileID: 1750754169}
   m_Layer: 0
   m_Name: LivingRoom
   m_TagString: Untagged
@@ -81937,6 +82155,21 @@ MonoBehaviour:
   - {fileID: 10249338}
   - {fileID: 1750754165}
   timesVisited: 020000000300000002000000
+--- !u!114 &1750754169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1750754165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34aee618a51d14b44af5e26e561fe01f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navigationItem:
+  - {fileID: 228877620}
+  timesVisitedActivations: 03000000
 --- !u!1001 &1750982495
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -83586,7 +83819,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1775375700
 Transform:
   m_ObjectHideFlags: 0
@@ -85849,6 +86082,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1822588700}
   - component: {fileID: 1822588701}
+  - component: {fileID: 1822588702}
   m_Layer: 0
   m_Name: SuitcaseOpen
   m_TagString: Untagged
@@ -85921,6 +86155,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1822588702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822588699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f549e94cb68f1dc4f8f01e309421e844, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  background: {fileID: 1537880178}
+  miniMapIcon: {fileID: 1880567386}
+  inventoryIcon: {fileID: 1579540527}
 --- !u!4 &1822968988 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4007186989862042848, guid: ecd75c278229e924e887fe882ca70cb8,
@@ -89270,6 +89519,8 @@ GameObject:
   - component: {fileID: 1917770521}
   - component: {fileID: 1917770520}
   - component: {fileID: 1917770519}
+  - component: {fileID: 1917770523}
+  - component: {fileID: 1917770522}
   m_Layer: 0
   m_Name: WarehouseOutside
   m_TagString: Untagged
@@ -89328,6 +89579,37 @@ Transform:
   m_Father: {fileID: 1479407755}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1917770522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917770518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb983b98b34546f4988975ca165b3f59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navigationItem:
+  - {fileID: 576522519}
+  timesVisitedDesactivations: 01000000
+--- !u!114 &1917770523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917770518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34aee618a51d14b44af5e26e561fe01f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navigationItem:
+  - {fileID: 1177838133}
+  - {fileID: 576522519}
+  timesVisitedActivations: 0200000002000000
 --- !u!1 &1919027778
 GameObject:
   m_ObjectHideFlags: 0
@@ -90596,6 +90878,8 @@ GameObject:
   - component: {fileID: 1959324173}
   - component: {fileID: 1959324172}
   - component: {fileID: 1959324174}
+  - component: {fileID: 1959324175}
+  - component: {fileID: 1959324176}
   m_Layer: 0
   m_Name: FathersRoom
   m_TagString: Untagged
@@ -90634,7 +90918,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 0
-  convo: []
+  convo:
+  - {fileID: 11400000, guid: 99f45ced7c652784ebebd0de609f361f, type: 2}
   sceneWithInteraction: 0
 --- !u!114 &1959324173
 MonoBehaviour:
@@ -90649,8 +90934,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   finalTime: 1
-  locConditions: []
-  timesVisited: 
+  locConditions:
+  - {fileID: 2031988501}
+  timesVisited: 02000000
 --- !u!114 &1959324174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -90669,7 +90955,40 @@ MonoBehaviour:
   miniMap: {fileID: 1479407754}
   changeConditions:
   - {fileID: 10249338}
-  changeTimes: 03000000
+  - {fileID: 10249338}
+  changeTimes: 0300000004000000
+--- !u!114 &1959324175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1959324170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34aee618a51d14b44af5e26e561fe01f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navigationItem:
+  - {fileID: 612154768}
+  - {fileID: 93580579}
+  timesVisitedActivations: 0100000002000000
+--- !u!114 &1959324176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1959324170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb983b98b34546f4988975ca165b3f59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navigationItem:
+  - {fileID: 228877620}
+  - {fileID: 93580579}
+  timesVisitedDesactivations: 0100000001000000
 --- !u!1 &1959492175
 GameObject:
   m_ObjectHideFlags: 0
@@ -92219,6 +92538,8 @@ GameObject:
   - component: {fileID: 1984939463}
   - component: {fileID: 1984939462}
   - component: {fileID: 1984939464}
+  - component: {fileID: 1984939466}
+  - component: {fileID: 1984939465}
   m_Layer: 0
   m_Name: ValeriesHome
   m_TagString: Untagged
@@ -92303,7 +92624,42 @@ MonoBehaviour:
   miniMap: {fileID: 1880567386}
   changeConditions:
   - {fileID: 219006581}
-  changeTimes: 03000000
+  - {fileID: 219006581}
+  changeTimes: 0300000004000000
+--- !u!114 &1984939465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984939460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb983b98b34546f4988975ca165b3f59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navigationItem:
+  - {fileID: 1613091284}
+  - {fileID: 1012638759}
+  - {fileID: 1177838133}
+  timesVisitedDesactivations: 010000000200000002000000
+--- !u!114 &1984939466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984939460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34aee618a51d14b44af5e26e561fe01f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navigationItem:
+  - {fileID: 1012638759}
+  - {fileID: 1613091284}
+  - {fileID: 230661374}
+  timesVisitedActivations: 010000000200000004000000
 --- !u!1 &1985565028
 GameObject:
   m_ObjectHideFlags: 0
@@ -93970,6 +94326,8 @@ GameObject:
   - component: {fileID: 2031988502}
   - component: {fileID: 2031988504}
   - component: {fileID: 2031988503}
+  - component: {fileID: 2031988506}
+  - component: {fileID: 2031988505}
   m_Layer: 0
   m_Name: Corridor
   m_TagString: Untagged
@@ -94028,6 +94386,38 @@ MonoBehaviour:
   - {fileID: 10249338}
   - {fileID: 10249338}
   timesVisited: 0100000003000000
+--- !u!114 &2031988505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031988501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb983b98b34546f4988975ca165b3f59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navigationItem:
+  - {fileID: 1746522955}
+  - {fileID: 612154768}
+  timesVisitedDesactivations: 0100000002000000
+--- !u!114 &2031988506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031988501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34aee618a51d14b44af5e26e561fe01f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navigationItem:
+  - {fileID: 94199061}
+  - {fileID: 1559186190}
+  timesVisitedActivations: 0200000002000000
 --- !u!4 &2035908770 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4007186989862042848, guid: ecd75c278229e924e887fe882ca70cb8,
@@ -94591,7 +94981,7 @@ MonoBehaviour:
   CorridorBackground: {fileID: 990359019}
   NewCorridorBackground: {fileID: 21300000, guid: 156da18bb4bf8a54084d9dc36dd6d870,
     type: 3}
-  NewDoor: {fileID: 94199061}
+  newDoor: {fileID: 1746522955}
 --- !u!1001 &2055247042
 PrefabInstance:
   m_ObjectHideFlags: 0
