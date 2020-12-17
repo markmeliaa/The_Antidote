@@ -9,6 +9,9 @@ public class OptionsButton : MonoBehaviour
     [SerializeField] AnimatorFunctions animatorFunctions;
     [SerializeField] int thisIndex;
     [SerializeField] GameObject circleWipe;
+    [SerializeField] GameObject currentcircleWipe;
+    [SerializeField] Canvas currentCanvas;
+    [SerializeField] Canvas nextCanvas;
 
     // Update is called once per frame
     void Update()
@@ -22,7 +25,7 @@ public class OptionsButton : MonoBehaviour
                 animator.SetBool("pressed", true);
                 circleWipe.SetActive(true);
                 circleWipe.GetComponent<Animator>().SetTrigger("Start");
-                circleWipe.GetComponent<Animator>().SetTrigger("Start");
+                StartCoroutine("wait");
             }
 
             else if (animator.GetBool("pressed"))
@@ -34,5 +37,14 @@ public class OptionsButton : MonoBehaviour
 
         else
             animator.SetBool("selected", false);
+    }
+
+    IEnumerator wait()
+    {
+        yield return new WaitForSeconds(1);
+        circleWipe.SetActive(false);
+        currentcircleWipe.SetActive(true);
+        currentCanvas.gameObject.SetActive(false);
+        nextCanvas.gameObject.SetActive(true);
     }
 }
