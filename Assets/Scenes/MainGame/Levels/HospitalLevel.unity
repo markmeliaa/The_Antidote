@@ -5855,7 +5855,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 107070455}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.1699996, y: 4.54, z: -10}
+  m_LocalPosition: {x: 1.99, y: 4.54, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1042160147}
@@ -5869,7 +5869,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 107070455}
-  m_Text: 255, 165, 0
+  m_Text: 0, 50, 100, 0
   m_OffsetZ: 0
   m_CharacterSize: 0.03
   m_LineSpacing: 1
@@ -9233,7 +9233,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 170999924}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 058cba836c1846c3aa1c5fd2e28aea77, type: 3}
   m_Name: 
@@ -16508,7 +16508,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 329255821}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.36, y: 4.54, z: -10}
+  m_LocalPosition: {x: -8.44, y: 4.36, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1042160147}
@@ -16522,7 +16522,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 329255821}
-  m_Text: 255, 255, 0
+  m_Text: 0, 0, 100, 0
   m_OffsetZ: 0
   m_CharacterSize: 0.03
   m_LineSpacing: 1
@@ -20160,8 +20160,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1401536959}
+  m_Children: []
   m_Father: {fileID: 1136912229}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -20637,13 +20636,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 434353607}
-  m_LocalRotation: {x: -0, y: -0, z: -0.7001001, w: -0.7140447}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0.23, y: -4.25, z: 0}
   m_LocalScale: {x: 0.2873936, y: 0.2878524, z: 0.27376}
   m_Children: []
   m_Father: {fileID: 1437491182}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 448.87}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!114 &434353609
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23605,12 +23604,12 @@ GameObject:
   - component: {fileID: 500553310}
   - component: {fileID: 500553311}
   m_Layer: 0
-  m_Name: MazePuzzle1 (5)
+  m_Name: ChemistryPuzzle3 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &500553310
 RectTransform:
   m_ObjectHideFlags: 0
@@ -24072,9 +24071,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'ENCONTRANDO
+  m_text: 'APRENDIENDO
 
-    EL CAMINO'
+    COLORES'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 514da1d19edf9f3459e60ffa6496c87d, type: 2}
   m_sharedMaterial: {fileID: 2821384056221650075, guid: 514da1d19edf9f3459e60ffa6496c87d,
@@ -24144,10 +24143,10 @@ MonoBehaviour:
   m_margin: {x: -318.40543, y: -54.0625, z: -517.64215, w: -57.714134}
   m_textInfo:
     textComponent: {fileID: 513094344}
-    characterCount: 21
+    characterCount: 19
     spriteCount: 0
-    spaceCount: 2
-    wordCount: 3
+    spaceCount: 1
+    wordCount: 2
     linkCount: 0
     lineCount: 2
     pageCount: 1
@@ -28561,9 +28560,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentPuzzle: {fileID: 1401536958}
-  background: {fileID: 0}
-  mapLoc: {fileID: 0}
-  inventory: {fileID: 0}
+  background: {fileID: 933113129}
+  mapLoc: {fileID: 816347353}
+  inventory: {fileID: 32858495}
   rectangleL: {fileID: 1096783244}
   rectangleR: {fileID: 1553640105}
   text: {fileID: 1013679313}
@@ -29071,7 +29070,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &643165344
 Transform:
   m_ObjectHideFlags: 0
@@ -29840,7 +29839,7 @@ GameObject:
   - component: {fileID: 653367518}
   - component: {fileID: 653367517}
   m_Layer: 0
-  m_Name: Stairs_PB_1
+  m_Name: Door - ToStairsPB1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29853,13 +29852,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 653367515}
-  m_LocalRotation: {x: -0, y: -0, z: -0.7001001, w: -0.7140447}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: -6.04, y: 0.01, z: 0}
   m_LocalScale: {x: 0.28739, y: 0.28785, z: 0.27376}
   m_Children: []
   m_Father: {fileID: 1437491182}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 448.87}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!114 &653367517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34007,7 +34006,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 730750544}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.6499996, y: 1.79, z: -10}
+  m_LocalPosition: {x: -6.09, y: 1.79, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1042160147}
@@ -34021,7 +34020,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 730750544}
-  m_Text: 0, 255, 0
+  m_Text: 100, 0, 100, 0
   m_OffsetZ: 0
   m_CharacterSize: 0.03
   m_LineSpacing: 1
@@ -37082,7 +37081,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &802637327
 Transform:
   m_ObjectHideFlags: 0
@@ -37093,7 +37092,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1401536959}
   m_Father: {fileID: 1066425265}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -43638,16 +43638,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9fc8b31801f1fe46b28a673051fddf4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puzle: {fileID: 0}
-  background: {fileID: 0}
-  winText: {fileID: 0}
-  mapLoc: {fileID: 0}
-  inventory: {fileID: 0}
-  manager: {fileID: 0}
-  rectangleL: {fileID: 0}
-  rectangleR: {fileID: 0}
+  puzle: {fileID: 1401536958}
+  background: {fileID: 933113129}
+  winText: {fileID: 1848084779}
+  mapLoc: {fileID: 816347353}
+  inventory: {fileID: 32858495}
+  manager: {fileID: 1923833730}
+  rectangleL: {fileID: 1096783244}
+  rectangleR: {fileID: 1553640105}
   transitionTime: 0
-  texts: {fileID: 0}
+  texts: {fileID: 2103656811}
 --- !u!114 &947336720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52051,7 +52051,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1127107986}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.31, y: 1.84, z: -10}
+  m_LocalPosition: {x: -0.62, y: 1.84, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1042160147}
@@ -52065,7 +52065,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1127107986}
-  m_Text: 255, 0, 0
+  m_Text: 0, 100, 100, 0
   m_OffsetZ: 0
   m_CharacterSize: 0.03
   m_LineSpacing: 1
@@ -53271,7 +53271,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1155010090}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.91, y: 4.55, z: -10}
+  m_LocalPosition: {x: -3.5, y: 4.55, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1042160147}
@@ -53285,7 +53285,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1155010090}
-  m_Text: 0, 0, 255
+  m_Text: 100, 100, 0, 0
   m_OffsetZ: 0
   m_CharacterSize: 0.03
   m_LineSpacing: 1
@@ -56800,7 +56800,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1237489039}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 058cba836c1846c3aa1c5fd2e28aea77, type: 3}
   m_Name: 
@@ -57599,9 +57599,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'BUSCANDO
-
-    LA FORMA'
+  m_text: "COMBINACI\xD3N\nCOLORIDA\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 514da1d19edf9f3459e60ffa6496c87d, type: 2}
   m_sharedMaterial: {fileID: 2821384056221650075, guid: 514da1d19edf9f3459e60ffa6496c87d,
@@ -57671,9 +57669,9 @@ MonoBehaviour:
   m_margin: {x: -318.40543, y: -54.0625, z: -517.64215, w: -57.714134}
   m_textInfo:
     textComponent: {fileID: 1259920816}
-    characterCount: 17
+    characterCount: 21
     spriteCount: 0
-    spaceCount: 2
+    spaceCount: 3
     wordCount: 3
     linkCount: 0
     lineCount: 2
@@ -61167,7 +61165,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1363199740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62442,7 +62440,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1401536959}
   m_Layer: 0
-  m_Name: VyTPuzzle1
+  m_Name: VyTPuzzle2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -62455,7 +62453,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1401536958}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -62467,7 +62465,7 @@ Transform:
   - {fileID: 1848084778}
   - {fileID: 1750511353}
   - {fileID: 630134982}
-  m_Father: {fileID: 412577127}
+  m_Father: {fileID: 802637327}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1403184494
@@ -64147,7 +64145,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1433684299}
   m_Layer: 0
-  m_Name: ChemistryPuzzle1
+  m_Name: ChemistryPuzzle3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -64172,8 +64170,8 @@ Transform:
   - {fileID: 879061271}
   - {fileID: 1579157488}
   - {fileID: 2129955065}
-  m_Father: {fileID: 1476093803}
-  m_RootOrder: 1
+  m_Father: {fileID: 2139688668}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1434932842
 GameObject:
@@ -64350,6 +64348,7 @@ Transform:
   m_Children:
   - {fileID: 434353608}
   - {fileID: 653367516}
+  - {fileID: 1918202973}
   m_Father: {fileID: 1657292320}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -65576,7 +65575,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1188708679}
-  - {fileID: 1433684299}
   m_Father: {fileID: 1136912229}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -66007,7 +66005,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1486536514}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 058cba836c1846c3aa1c5fd2e28aea77, type: 3}
   m_Name: 
@@ -70050,9 +70048,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentPuzzle: {fileID: 1433684298}
-  background: {fileID: 0}
-  mapLoc: {fileID: 0}
-  inventory: {fileID: 0}
+  background: {fileID: 1437491180}
+  mapLoc: {fileID: 816347353}
+  inventory: {fileID: 32858495}
   rectangleL: {fileID: 1096783244}
   rectangleR: {fileID: 1553640105}
   text: {fileID: 1013679313}
@@ -74901,7 +74899,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1698354264}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.82, y: 1.86, z: -10}
+  m_LocalPosition: {x: 4.69, y: 1.86, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1042160147}
@@ -74915,7 +74913,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1698354264}
-  m_Text: 128, 0 , 128
+  m_Text: 50, 100, 0, 0
   m_OffsetZ: 0
   m_CharacterSize: 0.03
   m_LineSpacing: 1
@@ -80306,7 +80304,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: P U Z L E    IV
+  m_text: P U Z L E    XVIII
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 514da1d19edf9f3459e60ffa6496c87d, type: 2}
   m_sharedMaterial: {fileID: 2821384056221650075, guid: 514da1d19edf9f3459e60ffa6496c87d,
@@ -80335,8 +80333,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 75
-  m_fontSizeBase: 75
+  m_fontSize: 70
+  m_fontSizeBase: 70
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -80373,10 +80371,10 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -448.15527, y: -54.0625, z: -166.73952, w: -57.714134}
+  m_margin: {x: -450.34674, y: -54.0625, z: -236.86943, w: -57.714134}
   m_textInfo:
     textComponent: {fileID: 1806240465}
-    characterCount: 15
+    characterCount: 18
     spriteCount: 0
     spaceCount: 8
     wordCount: 6
@@ -85836,6 +85834,101 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!1 &1918202972
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1918202973}
+  - component: {fileID: 1918202976}
+  - component: {fileID: 1918202975}
+  - component: {fileID: 1918202974}
+  m_Layer: 0
+  m_Name: Poster - ChemistryPuzzle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1918202973
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918202972}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -6.04, y: 0.01, z: 0}
+  m_LocalScale: {x: 0.28739, y: 0.28785, z: 0.27376}
+  m_Children: []
+  m_Father: {fileID: 1437491182}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!114 &1918202974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918202972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9fc8b31801f1fe46b28a673051fddf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puzle: {fileID: 1433684298}
+  background: {fileID: 1437491180}
+  winText: {fileID: 854412808}
+  mapLoc: {fileID: 816347353}
+  inventory: {fileID: 32858495}
+  manager: {fileID: 1923833730}
+  rectangleL: {fileID: 1096783244}
+  rectangleR: {fileID: 1553640105}
+  transitionTime: 0
+  texts: {fileID: 500553311}
+--- !u!114 &1918202975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918202972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3aae8d6c85225554cb19db9e61445193, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  active: 1
+  cursorType: 1
+--- !u!61 &1918202976
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918202972}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 2.2021532, y: -18.111115}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.12, y: 4.84}
+    newSize: {x: 5.12, y: 4.84}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.2425394, y: 2.4634247}
+  m_EdgeRadius: 0
 --- !u!1001 &1919028207
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -92686,7 +92779,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2053073074}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 058cba836c1846c3aa1c5fd2e28aea77, type: 3}
   m_Name: 
@@ -96058,12 +96151,12 @@ GameObject:
   - component: {fileID: 2103656810}
   - component: {fileID: 2103656811}
   m_Layer: 0
-  m_Name: PicrossPuzzle1 (4)
+  m_Name: VyTPuzzle2 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2103656810
 RectTransform:
   m_ObjectHideFlags: 0
@@ -97086,7 +97179,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1730, y: 264}
+  m_AnchoredPosition: {x: -1625, y: 264}
   m_SizeDelta: {x: 72.900024, y: 26.02002}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2128642148
@@ -97108,7 +97201,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: P U Z L E    V
+  m_text: P U Z L E    XIX
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 514da1d19edf9f3459e60ffa6496c87d, type: 2}
   m_sharedMaterial: {fileID: 2821384056221650075, guid: 514da1d19edf9f3459e60ffa6496c87d,
@@ -97175,10 +97268,10 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -448.15527, y: -54.0625, z: -166.73952, w: -57.714134}
+  m_margin: {x: -414.02115, y: -54.0625, z: -248.01132, w: -57.714134}
   m_textInfo:
     textComponent: {fileID: 2128642148}
-    characterCount: 14
+    characterCount: 16
     spriteCount: 0
     spaceCount: 8
     wordCount: 6
@@ -97588,7 +97681,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2139688668
 Transform:
   m_ObjectHideFlags: 0
@@ -97599,7 +97692,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1433684299}
   m_Father: {fileID: 1066425265}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
