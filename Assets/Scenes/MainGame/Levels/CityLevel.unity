@@ -32022,8 +32022,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '[Dialogue]'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 514da1d19edf9f3459e60ffa6496c87d, type: 2}
-  m_sharedMaterial: {fileID: 2821384056221650075, guid: 514da1d19edf9f3459e60ffa6496c87d,
+  m_fontAsset: {fileID: 11400000, guid: fc8c9bfff80733b429b246f8cee61eaf, type: 2}
+  m_sharedMaterial: {fileID: -8202626287268705801, guid: fc8c9bfff80733b429b246f8cee61eaf,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -35336,8 +35336,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 514da1d19edf9f3459e60ffa6496c87d, type: 2}
-  m_sharedMaterial: {fileID: 2821384056221650075, guid: 514da1d19edf9f3459e60ffa6496c87d,
+  m_fontAsset: {fileID: 11400000, guid: 03ac710c049ce844da2289567549bf70, type: 2}
+  m_sharedMaterial: {fileID: -3901043151055851948, guid: 03ac710c049ce844da2289567549bf70,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}

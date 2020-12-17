@@ -191,6 +191,28 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1 &501847923 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4369065082735945917, guid: cb8a23977bbfe464c94de10749844d44,
+    type: 3}
+  m_PrefabInstance: {fileID: 1684533585}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &501847925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501847923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 782222f0c68cc144f9196eead93fc871, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menuButtonController: {fileID: 1419359570}
+  animator: {fileID: 1526016410}
+  animatorFunctions: {fileID: 1526016413}
+  thisIndex: 2
 --- !u!224 &520300686 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4369065082735945914, guid: cb8a23977bbfe464c94de10749844d44,
@@ -209,7 +231,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 607756405}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1262858363}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c0bab635dc209914da7ef0293374fd15, type: 3}
@@ -232,6 +254,16 @@ PrefabInstance:
       propertyPath: thisIndex
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 108262633419003054, guid: cb8a23977bbfe464c94de10749844d44,
+        type: 3}
+      propertyPath: circleWipe
+      value: 
+      objectReference: {fileID: 1020024245}
+    - target: {fileID: 108262633419003054, guid: cb8a23977bbfe464c94de10749844d44,
+        type: 3}
+      propertyPath: levelLoader
+      value: 
+      objectReference: {fileID: 1203486148}
     - target: {fileID: 108262633419003054, guid: cb8a23977bbfe464c94de10749844d44,
         type: 3}
       propertyPath: animatorFunctions
@@ -404,6 +436,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 715450882012552304, guid: cb8a23977bbfe464c94de10749844d44, type: 3}
+    - {fileID: 108262633419003054, guid: cb8a23977bbfe464c94de10749844d44, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: cb8a23977bbfe464c94de10749844d44, type: 3}
 --- !u!1 &777695202
 GameObject:
@@ -998,6 +1031,29 @@ MonoBehaviour:
   transitionTime: 1
   nextScene: 1
   manager: {fileID: 0}
+--- !u!1 &1262858363 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4369065082735945917, guid: cb8a23977bbfe464c94de10749844d44,
+    type: 3}
+  m_PrefabInstance: {fileID: 607756405}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1262858364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262858363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4f8e2b0e14947d4a8d7ccc4c73f9d31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menuButtonController: {fileID: 1419359570}
+  animator: {fileID: 520300687}
+  animatorFunctions: {fileID: 520300690}
+  thisIndex: 1
+  circleWipe: {fileID: 1020024245}
 --- !u!1 &1399792407
 GameObject:
   m_ObjectHideFlags: 0
@@ -1306,7 +1362,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1684533585}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 501847923}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c0bab635dc209914da7ef0293374fd15, type: 3}
@@ -1395,6 +1451,16 @@ PrefabInstance:
       propertyPath: thisIndex
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 108262633419003054, guid: cb8a23977bbfe464c94de10749844d44,
+        type: 3}
+      propertyPath: circleWipe
+      value: 
+      objectReference: {fileID: 1020024245}
+    - target: {fileID: 108262633419003054, guid: cb8a23977bbfe464c94de10749844d44,
+        type: 3}
+      propertyPath: levelLoader
+      value: 
+      objectReference: {fileID: 1203486148}
     - target: {fileID: 108262633419003054, guid: cb8a23977bbfe464c94de10749844d44,
         type: 3}
       propertyPath: animatorFunctions
@@ -1567,6 +1633,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 715450882012552304, guid: cb8a23977bbfe464c94de10749844d44, type: 3}
+    - {fileID: 108262633419003054, guid: cb8a23977bbfe464c94de10749844d44, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: cb8a23977bbfe464c94de10749844d44, type: 3}
 --- !u!1 &2017601392 stripped
 GameObject:
