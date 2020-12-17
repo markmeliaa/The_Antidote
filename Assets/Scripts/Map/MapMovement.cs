@@ -28,14 +28,25 @@ public class MapMovement : MonoBehaviour
         if (manager.InConvo || mapLocations.GetComponent<sceneManager>().getPuzleState())
         {
             if(GetComponent<SpriteRenderer>() != null)
-                GetComponent<SpriteRenderer>().enabled = false;
+            {
+                if (GetComponent<SpriteRenderer>().sprite.name == "Parada Bus")
+                    GetComponent<BoxCollider2D>().enabled = false;
+                else
+                    GetComponent<SpriteRenderer>().enabled = false;
+            }
             GetComponent<CursorObject>().active= false;
             active = false;
         }
         else
         {
             if (GetComponent<SpriteRenderer>() != null)
-                GetComponent<SpriteRenderer>().enabled = true;
+            {
+                if (GetComponent<SpriteRenderer>().sprite.name == "Parada Bus")
+                    GetComponent<BoxCollider2D>().enabled = true;
+                else
+                    GetComponent<SpriteRenderer>().enabled = true;
+            }
+                
             GetComponent<CursorObject>().active= true;
             active = true;
         }

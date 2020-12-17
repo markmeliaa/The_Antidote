@@ -26,7 +26,13 @@ public class arrowActivation : MonoBehaviour
     {
         if (indexActivations < timesVisitedActivations.Length && manager.getLocationTimes(gameObject.name) == timesVisitedActivations[indexActivations])
         {
-            navigationItem[indexActivations].SetActive(true);
+            if (navigationItem[indexActivations].GetComponent<SpriteRenderer>() != null
+                && navigationItem[indexActivations].GetComponent<SpriteRenderer>().sprite.name == "Parada Bus")
+            {
+                navigationItem[indexActivations].GetComponent<BoxCollider2D>().enabled = true;
+            }
+            else
+                navigationItem[indexActivations].SetActive(true);
             indexActivations++;
         }
     }
