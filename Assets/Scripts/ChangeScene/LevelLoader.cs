@@ -19,6 +19,9 @@ public class LevelLoader : MonoBehaviour
 
     private void Update()
     {
+        if (manager == null)
+            return;
+
         if (manager.InConvo)
         {
             if (GetComponent<SpriteRenderer>() != null)
