@@ -12,6 +12,13 @@ public class retryHangman : MonoBehaviour
             currentPuzzle.transform.Find("HangmanManager").GetComponent<ShowLetters>().resetValues();
 
         if (!currentPuzzle.transform.Find("YouLose").gameObject.activeSelf && !currentPuzzle.transform.Find("YouWin").gameObject.activeSelf && currentPuzzle.transform.Find("HangmanManager").GetComponent<ShowLetters>() == null)
-            currentPuzzle.transform.Find("HangmanManager").GetComponent<ShowLetters2>().resetValues();
+        {
+            if (!currentPuzzle.transform.Find("YouLose").gameObject.activeSelf && !currentPuzzle.transform.Find("YouWin").gameObject.activeSelf && currentPuzzle.transform.Find("HangmanManager").GetComponent<ShowLetters2>() != null)
+                currentPuzzle.transform.Find("HangmanManager").GetComponent<ShowLetters2>().resetValues();
+
+            if (!currentPuzzle.transform.Find("YouLose").gameObject.activeSelf && !currentPuzzle.transform.Find("YouWin").gameObject.activeSelf && currentPuzzle.transform.Find("HangmanManager").GetComponent<ShowLetters2>() == null)
+                currentPuzzle.transform.Find("HangmanManager").GetComponent<ShowLetters3>().resetValues();
+        }
+            
     }
 }
