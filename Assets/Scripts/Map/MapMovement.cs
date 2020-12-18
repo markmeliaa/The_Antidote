@@ -10,17 +10,20 @@ public class MapMovement : MonoBehaviour
     public GameObject nextLocation;
     public GameObject currentLocation;
     public GameObject miniMap;
+    public bool active;
 
     [SerializeField] private GameObject dialogueManager;
 
     private AutomaticDialogs currentDialogScript = null;
     private AutomaticDialogs nextDialogScript = null;
     private DialogueManager manager;
-    private bool active;
+    
+    private sceneManager sceneManager;
 
     private void Start()
     {
         manager = dialogueManager.transform.Find("DialogueBox1").GetComponent<DialogueManager>();
+        sceneManager = GameObject.Find("Map Locations").GetComponent<sceneManager>();
     }
 
     private void Update()
@@ -76,6 +79,15 @@ public class MapMovement : MonoBehaviour
             if (nextDialogScript != null)
                 nextDialogScript.enabled = true;
 
+            //Change puzle state
+            if (nextLocation.GetComponent<ScenePuzle>() != null && !nextLocation.GetComponent<ScenePuzle>().doorState())
+            {
+                sceneManager.changePuzleState();
+            }
+            else if (sceneManager.getPuzleState())
+            {
+                sceneManager.changePuzleState();
+            }
 
             nextLocation.SetActive(true);
 
@@ -83,6 +95,10 @@ public class MapMovement : MonoBehaviour
             miniMap.GetComponent<miniMap>().chargeMap();
 
             CursorManager.Instance.SetActiveCursorType(CursorManager.CursorType.Arrow);
+        }
+        else if (currentLocation.GetComponent<ScenePuzle>() != null)
+        {
+            currentLocation.GetComponent<ScenePuzle>().showWarning();
         }
     }
 }

@@ -58,10 +58,11 @@ public class MoveItems : MonoBehaviour
         if ((Mathf.Abs(this.transform.localPosition.x - correctForm.transform.localPosition.x) <= 1.5f) && (Mathf.Abs(this.transform.localPosition.y - correctForm.transform.localPosition.y) <= 1.5f) && correctForm.gameObject.activeSelf)
         {
             this.transform.localPosition = new Vector3(correctForm.transform.localPosition.x, correctForm.transform.localPosition.y, correctForm.transform.localPosition.z);
-            finish = true; // Para que no se pueda mover más una vez está en el sitio correcto
+            finish = true; // Para que no se pueda mover más, una vez está en el sitio correcto
             puzleLocation.transform.Find("InteractiveBackground").GetComponent<SpriteRenderer>().sprite = newSprite;
             puzleLocation.transform.Find("BackgroundMapGrey").GetComponent<SpriteRenderer>().sprite = newSprite;
             puzleLocation.transform.Find("InteractiveBackground").transform.Find(correctForm.name).gameObject.SetActive(false);
+            puzleLocation.GetComponent<ScenePuzle>().openTheDoor();
             Destroy(gameObject);
         }
 

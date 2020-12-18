@@ -17,4 +17,4 @@ MonoBehaviour:
   description: "Una tarjeta que me dejo mi padre camuflada como una fotograf\xEDa"
   spawnObject: {fileID: 6337073837311553164, guid: 777e6d6f792d65f44a1073fa1c58ddca,
     type: 3}
-  puzleAim: doorPuzle (Testing)
+  puzleAim: HospitalBackDoor
