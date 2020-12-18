@@ -123,5 +123,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   correctForm: {fileID: 3648293507522984394, guid: 9052db8d738421247bb1c260a42d9bd0,
     type: 3}
-  newSprite: {fileID: 21300000, guid: d223f07730b9c7547837815e2087a170, type: 3}
+  newSprite: {fileID: 21300000, guid: e1011abb3c2dc09469694472c178a15b, type: 3}
   puzleLocation: {fileID: 0}

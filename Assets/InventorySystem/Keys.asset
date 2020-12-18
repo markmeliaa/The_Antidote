@@ -17,4 +17,4 @@ MonoBehaviour:
   description: Llaves misteriosas
   spawnObject: {fileID: 4955594557179698220, guid: 6794038b63f42e140b11adf5756b8f24,
     type: 3}
-  puzleAim: doorPuzle (Testing)
+  puzleAim: WarehouseOutside
