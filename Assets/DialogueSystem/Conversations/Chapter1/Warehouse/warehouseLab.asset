@@ -22,7 +22,7 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: 8b585fabed81bde489aed1696e555c0d, type: 2}
+    listener1: {fileID: 11400000, guid: ccf31a4b588b1bf4e90d6dc6e12b689a, type: 2}
     dialogue2: "Pero\u2026\xBFqu\xE9 es todo esto? \xBFque es este lugar?"
     listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue3: 
@@ -38,11 +38,11 @@ MonoBehaviour:
     dialogue: 
     listener1: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue2: 
-    listener2: {fileID: 11400000, guid: bef8c97b57e0c614e911ca547aa2b5be, type: 2}
+    listener2: {fileID: 11400000, guid: 0d5640ea1eed9424a989b09192b5928b, type: 2}
     dialogue3: "Tu padre s\xED que es un buen decorador de interiores...No creo que
       se haya gastado precisamente poco en todo el material que hay aqu\xED. \xBFPor
       qu\xE9 se molestar\xEDa en montar todo esto, y adem\xE1s sin cont\xE1rtelo?"
-  - speaker: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+  - speaker: {fileID: 11400000, guid: f8f161c3634a91540bcd1e152ecfe0ae, type: 2}
     dialogue: "...No tengo ni idea\u2026"
     listener1: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue2: 

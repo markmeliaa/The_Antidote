@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: UniOutside
   m_EditorClassIdentifier: 
   allLines:
-  - speaker: {fileID: 11400000, guid: 1cf53bd0622200d4c94289a40df5af7f, type: 2}
+  - speaker: {fileID: 11400000, guid: 9d19dfeeadebb0d4badb2fb1ab640415, type: 2}
     dialogue: "No me lo puedo creer, al final s\xED que vamos a llegar tarde, tendr\xEDas
       que haber salido antes."
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
@@ -24,10 +24,10 @@ MonoBehaviour:
     dialogue: 
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 
-    listener2: {fileID: 11400000, guid: bef8c97b57e0c614e911ca547aa2b5be, type: 2}
+    listener2: {fileID: 11400000, guid: 8967d214f6bddbd40bea9d37dca9104c, type: 2}
     dialogue3: Oh venga, solo nos perderemos las presentaciones de los profesores
       nuevos, nada grave.
-  - speaker: {fileID: 11400000, guid: 1cf53bd0622200d4c94289a40df5af7f, type: 2}
+  - speaker: {fileID: 11400000, guid: 9d19dfeeadebb0d4badb2fb1ab640415, type: 2}
     dialogue: Si, lo que tu digas, me voy directa a mi facultad, hasta luego.
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 

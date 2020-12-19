@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: KieransRoom
   m_EditorClassIdentifier: 
   allLines:
-  - speaker: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
-    dialogue: "[Bosteza] Madre mia, que noche he pasado\u2026"
+  - speaker: {fileID: 11400000, guid: f8f161c3634a91540bcd1e152ecfe0ae, type: 2}
+    dialogue: "Madre mia, que noche he pasado\u2026"
     listener1: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
@@ -41,13 +41,13 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: cdecdb91477a52a449d6ef1f87454e81, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: bef8c97b57e0c614e911ca547aa2b5be, type: 2}
-    dialogue2: "\u201CGatrie\u201D: Oye colega, en 10 minutos estoy en tu puerta,
-      espero que no te hayas olvidado de que hoy empiezan las clases y me vayas a
-      dejar tirado. No tardes mucho en prepararte que luego pasamos a buscar a Valerie."
+    listener1: {fileID: 11400000, guid: 8967d214f6bddbd40bea9d37dca9104c, type: 2}
+    dialogue2: Oye colega, en 10 minutos estoy en tu puerta, espero que no te hayas
+      olvidado de que hoy empiezan las clases y me vayas a dejar tirado. No tardes
+      mucho en prepararte que luego pasamos a buscar a Valerie.
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
-  - speaker: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+  - speaker: {fileID: 11400000, guid: 36a731df2a387fd4facb45e76a05da19, type: 2}
     dialogue: "Bueno, no creo que el d\xEDa de hoy vaya a ser tan malo."
     listener1: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue2: 

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: LivingRoom 3
   m_EditorClassIdentifier: 
   allLines:
-  - speaker: {fileID: 11400000, guid: d10ecfe38086a0b47820494ecb643916, type: 2}
+  - speaker: {fileID: 11400000, guid: 0e704c95b1b61244080121f5433b08fb, type: 2}
     dialogue: "\xBFQu\xE9 ha pasado?"
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 
@@ -21,14 +21,14 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
+    listener1: {fileID: 11400000, guid: 75c03c50f8ab9a34dbb834c67771af7b, type: 2}
     dialogue2: "Es mi padre Gatrie, ha desaparecido, su tel\xE9fono no da se\xF1al,
       y lo \xFAnico que he conseguido entrando a su cuarto es esta nota...Estaba
       en su escritorio...Justo frente a su ordenador, y parec\xEDa que llevaba bastante
       tiempo encendido.\r"
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
-  - speaker: {fileID: 11400000, guid: d10ecfe38086a0b47820494ecb643916, type: 2}
+  - speaker: {fileID: 11400000, guid: 0e704c95b1b61244080121f5433b08fb, type: 2}
     dialogue: "...Quiz\xE1s se haya quedado sin bater\xEDa\u2026\xBFno puedes llamar
       a su trabajo y pedir que te pasen con \xE9l?"
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
@@ -37,7 +37,7 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
+    listener1: {fileID: 11400000, guid: 75c03c50f8ab9a34dbb834c67771af7b, type: 2}
     dialogue2: "No creo que haya un n\xFAmero de tel\xE9fono al que pueda llamar
       para eso\u2026"
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
@@ -50,13 +50,13 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
+    listener1: {fileID: 11400000, guid: f8f161c3634a91540bcd1e152ecfe0ae, type: 2}
     dialogue2: "...No se que hay en esta direcci\xF3n, pero si mi padre me ha dejado
       una nota marcando ese lugar, tiene que significar algo, voy a ir all\xED a
       buscarlo.\r"
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
-  - speaker: {fileID: 11400000, guid: d10ecfe38086a0b47820494ecb643916, type: 2}
+  - speaker: {fileID: 11400000, guid: 5c526fed474a00343a01c02f35823fa9, type: 2}
     dialogue: "Bueno, pues con eso ya somos dos los que vamos a ir a por \xE9l.\r\n"
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 
@@ -64,7 +64,7 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
+    listener1: {fileID: 11400000, guid: 794cbd99c6162614b824021fdbc53d9c, type: 2}
     dialogue2: "Ni de broma Gatrie, te he llamado para que supieras que iba a ir,
       y para qu\xE9, si me pasaba algo, tu supieras donde empezar a buscarme, no
       para que vengas conmigo\u2026 no se que me encontrar\xE9, pero tu hermano te
@@ -80,11 +80,11 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
+    listener1: {fileID: 11400000, guid: 9e1bb261c677d3a40bc18b62bd0bd079, type: 2}
     dialogue2: "Eres imbecil\u2026 Gracias.\r"
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
-  - speaker: {fileID: 11400000, guid: d10ecfe38086a0b47820494ecb643916, type: 2}
+  - speaker: {fileID: 11400000, guid: 5c526fed474a00343a01c02f35823fa9, type: 2}
     dialogue: "\xBFNos vamos entonces?\r\n"
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 

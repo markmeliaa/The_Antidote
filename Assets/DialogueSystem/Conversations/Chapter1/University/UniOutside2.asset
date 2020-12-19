@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: UniOutside2
   m_EditorClassIdentifier: 
   allLines:
-  - speaker: {fileID: 11400000, guid: 1cf53bd0622200d4c94289a40df5af7f, type: 2}
+  - speaker: {fileID: 11400000, guid: ed3c3e87abb3c5b4bb1cb2b013b22794, type: 2}
     dialogue: "Hola chicos,  \xBFC\xF3mo os ha ido el d\xEDa"
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 
@@ -33,7 +33,7 @@ MonoBehaviour:
       normal. \xBF Y a ti Valerie?"
     listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue3: 
-  - speaker: {fileID: 11400000, guid: 1cf53bd0622200d4c94289a40df5af7f, type: 2}
+  - speaker: {fileID: 11400000, guid: 29f459e664aa5af428a79cc687295b26, type: 2}
     dialogue: "Bien, pero odio mi clase, la hipocres\xEDa y los fantasmas se huelen
       desde la puerta. Por todo lo dem\xE1s, se est\xE1 bastante bien."
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}

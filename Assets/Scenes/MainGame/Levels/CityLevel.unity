@@ -13515,6 +13515,7 @@ GameObject:
   - component: {fileID: 240592859}
   - component: {fileID: 240592861}
   - component: {fileID: 240592860}
+  - component: {fileID: 240592864}
   - component: {fileID: 240592862}
   - component: {fileID: 240592863}
   m_Layer: 0
@@ -13523,7 +13524,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &240592859
 Transform:
   m_ObjectHideFlags: 0
@@ -13684,6 +13685,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &240592864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 240592858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1394256eece24840b14698c8839276c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newBackground:
+  - {fileID: 21300000, guid: 7829c1ee9f156a44dbb6ba2ef96c4846, type: 3}
+  - {fileID: 21300000, guid: e54b7f2ab6a64df4db53f60a203c2a40, type: 3}
+  miniMap: {fileID: 1880567386}
+  changeConditions:
+  - {fileID: 1144247024}
+  changeTimes: 04000000
 --- !u!1001 &242709744
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49785,7 +49805,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1012638760
 Transform:
   m_ObjectHideFlags: 0
@@ -92507,6 +92527,7 @@ GameObject:
   - component: {fileID: 1917770521}
   - component: {fileID: 1917770520}
   - component: {fileID: 1917770519}
+  - component: {fileID: 1917770526}
   - component: {fileID: 1917770523}
   - component: {fileID: 1917770522}
   - component: {fileID: 1917770524}
@@ -92712,6 +92733,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1917770526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917770518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1394256eece24840b14698c8839276c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newBackground:
+  - {fileID: 21300000, guid: e1011abb3c2dc09469694472c178a15b, type: 3}
+  - {fileID: 21300000, guid: e0744b85153ab87449d728995af5847d, type: 3}
+  miniMap: {fileID: 1880567386}
+  changeConditions:
+  - {fileID: 1144247024}
+  changeTimes: 04000000
 --- !u!1 &1918658518
 GameObject:
   m_ObjectHideFlags: 0
@@ -94144,7 +94184,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1959324171
 Transform:
   m_ObjectHideFlags: 0
@@ -98739,7 +98779,7 @@ MonoBehaviour:
   CorridorBackground: {fileID: 990359019}
   NewCorridorBackground: {fileID: 21300000, guid: 156da18bb4bf8a54084d9dc36dd6d870,
     type: 3}
-  newDoor: {fileID: 94199061}
+  newDoor: {fileID: 1746522955}
 --- !u!114 &2053924105
 MonoBehaviour:
   m_ObjectHideFlags: 0

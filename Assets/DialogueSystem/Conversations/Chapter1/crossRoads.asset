@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: crossRoads
   m_EditorClassIdentifier: 
   allLines:
-  - speaker: {fileID: 11400000, guid: 1cf53bd0622200d4c94289a40df5af7f, type: 2}
+  - speaker: {fileID: 11400000, guid: ed3c3e87abb3c5b4bb1cb2b013b22794, type: 2}
     dialogue: "\xBFY qu\xE9 tal vuestros veranos chicos?"
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 
@@ -23,11 +23,11 @@ MonoBehaviour:
     dialogue: 
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 
-    listener2: {fileID: 11400000, guid: bef8c97b57e0c614e911ca547aa2b5be, type: 2}
+    listener2: {fileID: 11400000, guid: 8967d214f6bddbd40bea9d37dca9104c, type: 2}
     dialogue3: "El mio...pues como todos, he estado ayudando a mi madre en casa con
       mi hermano. Los ratos libres se los he dedicado a la consola y poco m\xE1s
       la verdad. "
-  - speaker: {fileID: 11400000, guid: 1cf53bd0622200d4c94289a40df5af7f, type: 2}
+  - speaker: {fileID: 11400000, guid: ed3c3e87abb3c5b4bb1cb2b013b22794, type: 2}
     dialogue: "Pues mi familia y yo nos fuimos de vacaciones a Francia, para celebrar
       el progreso de mi padre con la terapia para su adicci\xF3n. De hecho, nos las
       pag\xF3 \xE9l, con dinero que antes hubiera gastado en el juego."
@@ -39,10 +39,10 @@ MonoBehaviour:
     dialogue: 
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 
-    listener2: {fileID: 11400000, guid: bef8c97b57e0c614e911ca547aa2b5be, type: 2}
+    listener2: {fileID: 11400000, guid: 8967d214f6bddbd40bea9d37dca9104c, type: 2}
     dialogue3: "Joder, eso si que es un GRAN progreso, estareis todos muy contentos
       en casa \xBFverdad?\r"
-  - speaker: {fileID: 11400000, guid: 1cf53bd0622200d4c94289a40df5af7f, type: 2}
+  - speaker: {fileID: 11400000, guid: 501f976630a440e4da35c248f05654a2, type: 2}
     dialogue: "No te voy a decir que no, la verdad, estoy muy orgullosa de \xE9l.
       \xBFY tu que Kieran? \xBFNo tienes nada que contarnos sobre tu verano?\r\n\r\n"
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
@@ -51,7 +51,7 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
+    listener1: {fileID: 11400000, guid: 5781c5e7fd13a3a4b9a4b1c137954712, type: 2}
     dialogue2: "\u2026"
     listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue3: 
@@ -77,7 +77,7 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
+    listener1: {fileID: 11400000, guid: 5781c5e7fd13a3a4b9a4b1c137954712, type: 2}
     dialogue2: "No lo se chicos, la verdad es que llevo unas cuantas noches que casi
       no he pegado ojo...y no es solo eso...tengo el presentimiento de que algo no
       anda bien, pap\xE1 ha estado actuando muy extra\xF1o \xFAltimamente."
@@ -100,7 +100,7 @@ MonoBehaviour:
       algo grande entre manos."
   - speaker: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
+    listener1: {fileID: 11400000, guid: 5781c5e7fd13a3a4b9a4b1c137954712, type: 2}
     dialogue2: "Si, teneis raz\xF3n, seran los nervios por el nuevo curso jug\xE1ndome
       una mala pasada."
     listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
@@ -109,12 +109,12 @@ MonoBehaviour:
     dialogue: 
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 
-    listener2: {fileID: 11400000, guid: bef8c97b57e0c614e911ca547aa2b5be, type: 2}
+    listener2: {fileID: 11400000, guid: 8967d214f6bddbd40bea9d37dca9104c, type: 2}
     dialogue3: "No te estreses anda, que ya sabes que tienes tu carrera super controlada,
       despu\xE9s de todo eres el hijo de tu padre.\r"
   - speaker: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
+    listener1: {fileID: 11400000, guid: 9e1bb261c677d3a40bc18b62bd0bd079, type: 2}
     dialogue2: "Muchas gracias chicos...pero, \xBFhab\xE9is visto qu\xE9 hora es?\r"
     listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue3: 

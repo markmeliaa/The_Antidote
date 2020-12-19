@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ConvOutAfterClass
   m_EditorClassIdentifier: 
   allLines:
-  - speaker: {fileID: 11400000, guid: d10ecfe38086a0b47820494ecb643916, type: 2}
+  - speaker: {fileID: 11400000, guid: 5c526fed474a00343a01c02f35823fa9, type: 2}
     dialogue: "Bueno Kieran, ma\xF1ana pasar\xE9 por ti 10 minutos antes, a ver si
       as\xED contentamos a Valerie, \xBFte parece bien?\r\n"
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
@@ -22,11 +22,11 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
+    listener1: {fileID: 11400000, guid: 5781c5e7fd13a3a4b9a4b1c137954712, type: 2}
     dialogue2: "\u2026"
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
-  - speaker: {fileID: 11400000, guid: d10ecfe38086a0b47820494ecb643916, type: 2}
+  - speaker: {fileID: 11400000, guid: 0e704c95b1b61244080121f5433b08fb, type: 2}
     dialogue: "\xBFKieran?"
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 
