@@ -11,12 +11,13 @@ public class showHighlight : MonoBehaviour
     {
         highlight = GetComponent<SpriteRenderer>();
         manager = GameObject.Find("DialogueBox1").GetComponent<DialogueManager>();
+        highlight.sortingOrder = -10;
     }
 
     private void OnMouseEnter()
     {
         if (!manager.InConvo)
-            highlight.sortingOrder = 5;
+            highlight.sortingOrder = 10;
     }
 
     private void OnMouseExit()
