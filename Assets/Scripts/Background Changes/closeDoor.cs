@@ -8,17 +8,22 @@ public class closeDoor : MonoBehaviour
     [SerializeField] Sprite NewCorridorBackground;
     [SerializeField] GameObject newDoor;
     private AudioSource doorSound;
+    private DialogueManager manager;
 
     private void Start()
     {
         doorSound = GetComponent<AudioSource>();
+        manager = GameObject.Find("DialogueBox1").GetComponent<DialogueManager>();
     }
 
     private void OnMouseDown()
     {
-        CorridorBackground.sprite = NewCorridorBackground;
-        doorSound.Play();
-        this.gameObject.GetComponent<Collider2D>().enabled = false;
-        newDoor.SetActive(true);
+        if (!manager.InConvo)
+        {
+            CorridorBackground.sprite = NewCorridorBackground;
+            doorSound.Play();
+            this.gameObject.GetComponent<Collider2D>().enabled = false;
+            newDoor.SetActive(true);
+        }
     }
 }
