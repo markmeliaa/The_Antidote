@@ -21,7 +21,7 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: 3b82cffc8102b454086c91fc9af87910, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
+    listener1: {fileID: 11400000, guid: 75c03c50f8ab9a34dbb834c67771af7b, type: 2}
     dialogue2: Esto...esto...esto no puede ser real
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
@@ -34,7 +34,7 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: 3b82cffc8102b454086c91fc9af87910, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
+    listener1: {fileID: 11400000, guid: 5781c5e7fd13a3a4b9a4b1c137954712, type: 2}
     dialogue2: "\u2026"
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
@@ -66,7 +66,7 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: 3b82cffc8102b454086c91fc9af87910, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
+    listener1: {fileID: 11400000, guid: 5781c5e7fd13a3a4b9a4b1c137954712, type: 2}
     dialogue2: "\xBFY qu\xE9 pasa con usted?"
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 

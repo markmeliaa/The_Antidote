@@ -25,7 +25,7 @@ MonoBehaviour:
     dialogue2: "\xBFSon familiares suyos?"
     listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue3: 
-  - speaker: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+  - speaker: {fileID: 11400000, guid: f8f161c3634a91540bcd1e152ecfe0ae, type: 2}
     dialogue: 'Emmm, no...pero... '
     listener1: {fileID: 11400000, guid: e1dd72417c319f44b8bc643c9d69e8a1, type: 2}
     dialogue2: 
@@ -54,7 +54,7 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 8b585fabed81bde489aed1696e555c0d, type: 2}
     dialogue3: "Genial, iremos a dec\xEDrselo, muchas gracias."
-  - speaker: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+  - speaker: {fileID: 11400000, guid: f8f161c3634a91540bcd1e152ecfe0ae, type: 2}
     dialogue: " \u2026 "
     listener1: {fileID: 11400000, guid: e1dd72417c319f44b8bc643c9d69e8a1, type: 2}
     dialogue2: 

@@ -15,7 +15,7 @@ MonoBehaviour:
   allLines:
   - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: 0d6dd02f0c1502648a7f7114264a3720, type: 2}
+    listener1: {fileID: 11400000, guid: 87249921b601c4845ba646a980fcb33c, type: 2}
     dialogue2: "\xA1\xBFPERO QUE?!, \xBFQUE HACIA OTRO NI\xD1ATO AH\xCD DENTRO?,
       QUE NO ESCAPE."
     listener2: {fileID: 11400000, guid: fc407688f4b7a7541ab68eb8a9175407, type: 2}
@@ -24,5 +24,5 @@ MonoBehaviour:
     dialogue: 
     listener1: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
     dialogue2: 
-    listener2: {fileID: 11400000, guid: ed4d4e58331af1a45950af4f989f2ac8, type: 2}
+    listener2: {fileID: 11400000, guid: 5885656731487c6499d05f33ec83d659, type: 2}
     dialogue3: "\xBFY QUE TAL SI ME AYUDAS EH?"

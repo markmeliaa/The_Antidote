@@ -50,7 +50,7 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: 3b82cffc8102b454086c91fc9af87910, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
+    listener1: {fileID: 11400000, guid: 5781c5e7fd13a3a4b9a4b1c137954712, type: 2}
     dialogue2: "\xBFSe encuentra bien?, cuando preguntamos por usted en recepci\xF3n
       nos dijeron que se encontraba en estado cr\xEDtico."
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
@@ -80,7 +80,7 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: 3b82cffc8102b454086c91fc9af87910, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
+    listener1: {fileID: 11400000, guid: 5781c5e7fd13a3a4b9a4b1c137954712, type: 2}
     dialogue2: "Con lo que pens\xE9 que, si quer\xEDa conseguir informaci\xF3n sobre
       el paradero de mi padre, primero deber\xEDa preguntarle a usted.\r\n"
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
@@ -95,7 +95,7 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: 3b82cffc8102b454086c91fc9af87910, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
+    listener1: {fileID: 11400000, guid: 5781c5e7fd13a3a4b9a4b1c137954712, type: 2}
     dialogue2: "\xBFPor qu\xE9 lo pregunta?"
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
@@ -108,7 +108,7 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: 3b82cffc8102b454086c91fc9af87910, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
+    listener1: {fileID: 11400000, guid: 75c03c50f8ab9a34dbb834c67771af7b, type: 2}
     dialogue2: "Por favor, mi padre es lo poco que me queda en la vida, si sabe algo
       de \xE9l, tiene que cont\xE1rmelo."
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}

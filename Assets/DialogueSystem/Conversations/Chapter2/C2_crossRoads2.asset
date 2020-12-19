@@ -22,9 +22,9 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: bef8c97b57e0c614e911ca547aa2b5be, type: 2}
+    listener1: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue2: 
-    listener2: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+    listener2: {fileID: 11400000, guid: 5781c5e7fd13a3a4b9a4b1c137954712, type: 2}
     dialogue3: "\xBFSobre que Valerie?"
   - speaker: {fileID: 11400000, guid: 1cf53bd0622200d4c94289a40df5af7f, type: 2}
     dialogue: "Anoche me dio por investigar un poco sobre Kemtek en internet, me
@@ -36,7 +36,7 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: bef8c97b57e0c614e911ca547aa2b5be, type: 2}
+    listener1: {fileID: 11400000, guid: 0d5640ea1eed9424a989b09192b5928b, type: 2}
     dialogue2: "Ya, tienen muy buena fama, \xBFque con eso?"
     listener2: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue3: 
@@ -60,7 +60,7 @@ MonoBehaviour:
     dialogue: 
     listener1: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue2: 
-    listener2: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
+    listener2: {fileID: 11400000, guid: 794cbd99c6162614b824021fdbc53d9c, type: 2}
     dialogue3: "Yo ya lo sab\xEDa, fue uno de los motivos por los que mi padre quiso
       empezar a trabajar ah\xED, quer\xEDa saber que hac\xEDa de Kemtek una empresa
       tan \u201Cperfecta\u201D."
@@ -70,7 +70,7 @@ MonoBehaviour:
     dialogue2: "Eso s\xED que no lo sab\xEDa."
     listener2: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue3: 
-  - speaker: {fileID: 11400000, guid: 1cf53bd0622200d4c94289a40df5af7f, type: 2}
+  - speaker: {fileID: 11400000, guid: 501f976630a440e4da35c248f05654a2, type: 2}
     dialogue: "Como os dije anoche, aqu\xED hay algo que me da muy mala espina."
     listener1: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue2: 
@@ -80,5 +80,5 @@ MonoBehaviour:
     dialogue: 
     listener1: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue2: 
-    listener2: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
+    listener2: {fileID: 11400000, guid: 794cbd99c6162614b824021fdbc53d9c, type: 2}
     dialogue3: La verdad es que ahora mismo no quiero pensar en eso.
