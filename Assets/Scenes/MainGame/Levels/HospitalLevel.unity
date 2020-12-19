@@ -5380,6 +5380,7 @@ GameObject:
   - component: {fileID: 129424195}
   - component: {fileID: 129424197}
   - component: {fileID: 129424196}
+  - component: {fileID: 129424198}
   m_Layer: 0
   m_Name: HospitalReception
   m_TagString: Untagged
@@ -5436,6 +5437,25 @@ MonoBehaviour:
   locConditions:
   - {fileID: 1195832267}
   timesVisited: 01000000
+--- !u!114 &129424198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129424194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1394256eece24840b14698c8839276c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newBackground:
+  - {fileID: 21300000, guid: 2be68d0246d8a574887df554cbf28f51, type: 3}
+  - {fileID: 21300000, guid: 57c03141bc1462841ae97009d5149a46, type: 3}
+  miniMap: {fileID: 1514480582}
+  changeConditions:
+  - {fileID: 480300425}
+  changeTimes: 02000000
 --- !u!1001 &135116378
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9468,7 +9488,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 283007714}
-  - component: {fileID: 283007713}
   - component: {fileID: 283007712}
   m_Layer: 0
   m_Name: Stairs_2_3
@@ -9486,27 +9505,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 283007711}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9cf877592e63d44801d9270de6a1e8, type: 3}
+  m_Script: {fileID: 11500000, guid: d1394256eece24840b14698c8839276c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 0
-  convo: []
-  sceneWithInteraction: 0
---- !u!114 &283007713
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 283007711}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5c42e610dc01d043b83fc8f173e6637, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  finalTime: 1
-  locConditions: []
-  timesVisited: 
+  newBackground:
+  - {fileID: 21300000, guid: d61dfd6d4b8a75246a6625c0acc7c14a, type: 3}
+  - {fileID: 21300000, guid: 4192b4e78d282dc4aa72e098ea28897a, type: 3}
+  miniMap: {fileID: 1514480582}
+  changeConditions:
+  - {fileID: 480300425}
+  changeTimes: 02000000
 --- !u!4 &283007714
 Transform:
   m_ObjectHideFlags: 0
@@ -12140,17 +12148,17 @@ PrefabInstance:
     - target: {fileID: 1236565815173654365, guid: aeb862823ae2a904c80f164a5f960238,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.28165942
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 1236565815173654365, guid: aeb862823ae2a904c80f164a5f960238,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.28165942
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 1236565815173654365, guid: aeb862823ae2a904c80f164a5f960238,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.28165942
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 1236565815173654365, guid: aeb862823ae2a904c80f164a5f960238,
         type: 3}
@@ -12160,7 +12168,7 @@ PrefabInstance:
     - target: {fileID: 1236565815173654365, guid: aeb862823ae2a904c80f164a5f960238,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.98
+      value: -3.15
       objectReference: {fileID: 0}
     - target: {fileID: 1236565815173654365, guid: aeb862823ae2a904c80f164a5f960238,
         type: 3}
@@ -15380,6 +15388,7 @@ GameObject:
   - component: {fileID: 480300426}
   - component: {fileID: 480300428}
   - component: {fileID: 480300427}
+  - component: {fileID: 480300429}
   m_Layer: 0
   m_Name: HubertsRoom
   m_TagString: Untagged
@@ -15438,6 +15447,25 @@ MonoBehaviour:
   - {fileID: 1724028356}
   - {fileID: 480300425}
   timesVisited: 0100000001000000
+--- !u!114 &480300429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480300425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1394256eece24840b14698c8839276c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newBackground:
+  - {fileID: 21300000, guid: d84f92cf913fffe4f826913ac3de9724, type: 3}
+  - {fileID: 21300000, guid: 57c1bd08a11b5324ab97c5ecea7d09c1, type: 3}
+  miniMap: {fileID: 1514480582}
+  changeConditions:
+  - {fileID: 480300425}
+  changeTimes: 02000000
 --- !u!1 &484086563
 GameObject:
   m_ObjectHideFlags: 0
@@ -20911,6 +20939,9 @@ GameObject:
   - component: {fileID: 643165344}
   - component: {fileID: 643165346}
   - component: {fileID: 643165345}
+  - component: {fileID: 643165350}
+  - component: {fileID: 643165349}
+  - component: {fileID: 643165348}
   - component: {fileID: 643165347}
   m_Layer: 0
   m_Name: HospitalBackDoor
@@ -20986,6 +21017,62 @@ MonoBehaviour:
   - {fileID: 1987131996}
   manager: {fileID: 1923833730}
   warning: {fileID: 11400000, guid: 5a6073ca72d63f1418d02f6e64cebff3, type: 2}
+--- !u!114 &643165348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 643165343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb983b98b34546f4988975ca165b3f59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navigationItem:
+  - {fileID: 1942934457}
+  - {fileID: 195024351}
+  timesVisitedDesactivations: 0200000002000000
+--- !u!114 &643165349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 643165343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34aee618a51d14b44af5e26e561fe01f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navigationItem:
+  - {fileID: 653367515}
+  - {fileID: 472494931}
+  - {fileID: 1531812805}
+  - {fileID: 762193066}
+  - {fileID: 1654778165}
+  - {fileID: 1411762815}
+  - {fileID: 1477387874}
+  timesVisitedActivations: 02000000020000000200000002000000020000000200000002000000
+--- !u!114 &643165350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 643165343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1394256eece24840b14698c8839276c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newBackground:
+  - {fileID: 21300000, guid: 9e1fe26fefba0884c88ba32e8d31b3b1, type: 3}
+  - {fileID: 21300000, guid: 82b3b2ef6470c3d49b66a43de6209f0c, type: 3}
+  miniMap: {fileID: 1514480582}
+  changeConditions:
+  - {fileID: 480300425}
+  changeTimes: 02000000
 --- !u!224 &645462760 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6327954579539924716, guid: 2a14f4ecaa2b4c246bf1f2d065d165b8,
@@ -35239,7 +35326,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1055288288
 Transform:
   m_ObjectHideFlags: 0
@@ -40618,7 +40705,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7d591bb0a6770144793920b6388c2686, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7a6c74ae64f8b034eb4c3aaf376f4d90, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -40646,7 +40733,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5.12, y: 4.84}
+    oldSize: {x: 2.5, y: 2.5}
     newSize: {x: 5.12, y: 4.84}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -40885,6 +40972,9 @@ GameObject:
   - component: {fileID: 1195832268}
   - component: {fileID: 1195832270}
   - component: {fileID: 1195832269}
+  - component: {fileID: 1195832273}
+  - component: {fileID: 1195832272}
+  - component: {fileID: 1195832271}
   m_Layer: 0
   m_Name: HospitalEntrance
   m_TagString: Untagged
@@ -40943,6 +41033,56 @@ MonoBehaviour:
   - {fileID: 1195832267}
   - {fileID: 129424194}
   timesVisited: 0000000001000000
+--- !u!114 &1195832271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1195832267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb983b98b34546f4988975ca165b3f59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navigationItem:
+  - {fileID: 1185283825}
+  - {fileID: 1055288287}
+  timesVisitedDesactivations: 0100000001000000
+--- !u!114 &1195832272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1195832267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34aee618a51d14b44af5e26e561fe01f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navigationItem:
+  - {fileID: 1055288287}
+  timesVisitedActivations: 02000000
+--- !u!114 &1195832273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1195832267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1394256eece24840b14698c8839276c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newBackground:
+  - {fileID: 21300000, guid: ec73a0ea206424240b9b1445af476767, type: 3}
+  - {fileID: 21300000, guid: b7219b21c471e7045a0769fd244396bd, type: 3}
+  miniMap: {fileID: 1514480582}
+  changeConditions:
+  - {fileID: 480300425}
+  changeTimes: 02000000
 --- !u!1 &1197649931
 GameObject:
   m_ObjectHideFlags: 0
@@ -44332,7 +44472,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1306020730}
-  - component: {fileID: 1306020729}
   - component: {fileID: 1306020728}
   m_Layer: 0
   m_Name: Stairs_PB_1
@@ -44350,27 +44489,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1306020727}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9cf877592e63d44801d9270de6a1e8, type: 3}
+  m_Script: {fileID: 11500000, guid: d1394256eece24840b14698c8839276c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 0
-  convo: []
-  sceneWithInteraction: 0
---- !u!114 &1306020729
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1306020727}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5c42e610dc01d043b83fc8f173e6637, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  finalTime: 1
-  locConditions: []
-  timesVisited: 
+  newBackground:
+  - {fileID: 21300000, guid: d61dfd6d4b8a75246a6625c0acc7c14a, type: 3}
+  - {fileID: 21300000, guid: 4192b4e78d282dc4aa72e098ea28897a, type: 3}
+  miniMap: {fileID: 1514480582}
+  changeConditions:
+  - {fileID: 480300425}
+  changeTimes: 01000000
 --- !u!4 &1306020730
 Transform:
   m_ObjectHideFlags: 0
@@ -45375,6 +45503,7 @@ GameObject:
   - component: {fileID: 1363199742}
   - component: {fileID: 1363199741}
   - component: {fileID: 1363199740}
+  - component: {fileID: 1363199743}
   m_Layer: 0
   m_Name: HospitalFFloor
   m_TagString: Untagged
@@ -45431,6 +45560,25 @@ Transform:
   m_Father: {fileID: 816347354}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1363199743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363199739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1394256eece24840b14698c8839276c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newBackground:
+  - {fileID: 21300000, guid: 53eeeef55dc532741896d510161cd9c2, type: 3}
+  - {fileID: 21300000, guid: b2c2c8f7e522b3c42a622c1c44f9d99d, type: 3}
+  miniMap: {fileID: 1514480582}
+  changeConditions:
+  - {fileID: 480300425}
+  changeTimes: 02000000
 --- !u!1 &1364773681
 GameObject:
   m_ObjectHideFlags: 0
@@ -55199,6 +55347,9 @@ GameObject:
   - component: {fileID: 1657292320}
   - component: {fileID: 1657292319}
   - component: {fileID: 1657292318}
+  - component: {fileID: 1657292323}
+  - component: {fileID: 1657292322}
+  - component: {fileID: 1657292321}
   m_Layer: 0
   m_Name: HospitalPB
   m_TagString: Untagged
@@ -55255,6 +55406,55 @@ Transform:
   m_Father: {fileID: 816347354}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1657292321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657292317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb983b98b34546f4988975ca165b3f59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navigationItem:
+  - {fileID: 434353607}
+  timesVisitedDesactivations: 01000000
+--- !u!114 &1657292322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657292317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34aee618a51d14b44af5e26e561fe01f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navigationItem:
+  - {fileID: 1185283825}
+  timesVisitedActivations: 01000000
+--- !u!114 &1657292323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657292317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1394256eece24840b14698c8839276c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newBackground:
+  - {fileID: 21300000, guid: 9f951394a84624f4386ed5144a4e3524, type: 3}
+  - {fileID: 21300000, guid: 6b9670c032963f44bb7b44e37bdb6e30, type: 3}
+  miniMap: {fileID: 1514480582}
+  changeConditions:
+  - {fileID: 480300425}
+  changeTimes: 02000000
 --- !u!4 &1664419069 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2348164879031134972, guid: a7f6d66e8a484bc41979cd4bd76f5b29,
@@ -57527,6 +57727,9 @@ GameObject:
   - component: {fileID: 1724028357}
   - component: {fileID: 1724028359}
   - component: {fileID: 1724028358}
+  - component: {fileID: 1724028362}
+  - component: {fileID: 1724028361}
+  - component: {fileID: 1724028360}
   m_Layer: 0
   m_Name: HospitalTFloor
   m_TagString: Untagged
@@ -57585,6 +57788,63 @@ MonoBehaviour:
   - {fileID: 1797534119}
   - {fileID: 480300425}
   timesVisited: 0100000002000000
+--- !u!114 &1724028360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724028356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb983b98b34546f4988975ca165b3f59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navigationItem:
+  - {fileID: 2259633}
+  - {fileID: 1477387874}
+  - {fileID: 1411762815}
+  - {fileID: 1654778165}
+  - {fileID: 762193066}
+  - {fileID: 1531812805}
+  - {fileID: 472494931}
+  - {fileID: 653367515}
+  timesVisitedDesactivations: 0100000002000000020000000200000002000000020000000200000002000000
+--- !u!114 &1724028361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724028356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34aee618a51d14b44af5e26e561fe01f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navigationItem:
+  - {fileID: 434353607}
+  - {fileID: 2259633}
+  timesVisitedActivations: 0100000002000000
+--- !u!114 &1724028362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724028356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1394256eece24840b14698c8839276c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newBackground:
+  - {fileID: 21300000, guid: 9f951394a84624f4386ed5144a4e3524, type: 3}
+  - {fileID: 21300000, guid: 6b9670c032963f44bb7b44e37bdb6e30, type: 3}
+  miniMap: {fileID: 1514480582}
+  changeConditions:
+  - {fileID: 480300425}
+  changeTimes: 02000000
 --- !u!1 &1725771630
 GameObject:
   m_ObjectHideFlags: 0
@@ -60551,6 +60811,7 @@ GameObject:
   - component: {fileID: 1797534122}
   - component: {fileID: 1797534121}
   - component: {fileID: 1797534120}
+  - component: {fileID: 1797534123}
   m_Layer: 0
   m_Name: HospitalSFloor
   m_TagString: Untagged
@@ -60607,6 +60868,25 @@ Transform:
   m_Father: {fileID: 816347354}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1797534123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1797534119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1394256eece24840b14698c8839276c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newBackground:
+  - {fileID: 21300000, guid: 53eeeef55dc532741896d510161cd9c2, type: 3}
+  - {fileID: 21300000, guid: b2c2c8f7e522b3c42a622c1c44f9d99d, type: 3}
+  miniMap: {fileID: 1514480582}
+  changeConditions:
+  - {fileID: 480300425}
+  changeTimes: 02000000
 --- !u!4 &1798560395 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5203764199021108248, guid: 23e8c5296e16c5d42a3e07f5ba621137,
@@ -63186,7 +63466,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1860083559}
-  - component: {fileID: 1860083558}
   - component: {fileID: 1860083557}
   m_Layer: 0
   m_Name: Stairs_1_2
@@ -63204,27 +63483,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1860083556}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e9cf877592e63d44801d9270de6a1e8, type: 3}
+  m_Script: {fileID: 11500000, guid: d1394256eece24840b14698c8839276c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 0
-  convo: []
-  sceneWithInteraction: 0
---- !u!114 &1860083558
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1860083556}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5c42e610dc01d043b83fc8f173e6637, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  finalTime: 1
-  locConditions: []
-  timesVisited: 
+  newBackground:
+  - {fileID: 21300000, guid: d61dfd6d4b8a75246a6625c0acc7c14a, type: 3}
+  - {fileID: 21300000, guid: 4192b4e78d282dc4aa72e098ea28897a, type: 3}
+  miniMap: {fileID: 1514480582}
+  changeConditions:
+  - {fileID: 480300425}
+  changeTimes: 02000000
 --- !u!4 &1860083559
 Transform:
   m_ObjectHideFlags: 0
