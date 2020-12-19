@@ -464,6 +464,7 @@ GameObject:
   - component: {fileID: 10249341}
   - component: {fileID: 10249342}
   - component: {fileID: 10249343}
+  - component: {fileID: 10249346}
   - component: {fileID: 10249345}
   - component: {fileID: 10249344}
   m_Layer: 0
@@ -756,6 +757,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &10249346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10249338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb983b98b34546f4988975ca165b3f59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navigationItem:
+  - {fileID: 1918658518}
+  timesVisitedDesactivations: 04000000
 --- !u!4 &10984405 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2348164879031134972, guid: a7f6d66e8a484bc41979cd4bd76f5b29,
@@ -92204,7 +92220,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1917770519
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97604,7 +97620,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2031988502
 Transform:
   m_ObjectHideFlags: 0

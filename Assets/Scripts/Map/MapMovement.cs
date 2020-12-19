@@ -32,7 +32,7 @@ public class MapMovement : MonoBehaviour
         {
             if(GetComponent<SpriteRenderer>() != null)
             {
-                if (GetComponent<SpriteRenderer>().sprite.name == "Parada Bus")
+                if (GetComponent<SpriteRenderer>().sprite.name == "Highlight_BusStop_Almacen" || GetComponent<SpriteRenderer>().sprite.name == "Highlight_BusStop_Cruce")
                     GetComponent<BoxCollider2D>().enabled = false;
                 else
                     GetComponent<SpriteRenderer>().enabled = false;
@@ -44,7 +44,7 @@ public class MapMovement : MonoBehaviour
         {
             if (GetComponent<SpriteRenderer>() != null)
             {
-                if (GetComponent<SpriteRenderer>().sprite.name == "Parada Bus")
+                if (GetComponent<SpriteRenderer>().sprite.name == "Highlight_BusStop_Almacen" || GetComponent<SpriteRenderer>().sprite.name == "Highlight_BusStop_Cruce")
                     GetComponent<BoxCollider2D>().enabled = true;
                 else
                     GetComponent<SpriteRenderer>().enabled = true;
