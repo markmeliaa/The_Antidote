@@ -47,6 +47,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -71,12 +72,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5d42c947c0133334fa7071a655efff71, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 47aa94396b7fb2943a96d092a51edccf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.6, y: 1.6}
+  m_Size: {x: 0.8, y: 0.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -94,7 +95,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0d613ec142c2dd4da205247fc6031b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vecinos: 0000000000000000050000000000000000000000
+  sprite: {fileID: 0}
+  visitado: 0
+  vecinos: []
 --- !u!65 &175517405136733880
 BoxCollider:
   m_ObjectHideFlags: 0
