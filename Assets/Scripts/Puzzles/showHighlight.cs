@@ -14,6 +14,11 @@ public class showHighlight : MonoBehaviour
         highlight.sortingOrder = -10;
     }
 
+    private void OnBecameVisible()
+    {
+        highlight.sortingOrder = -10;
+    }
+
     private void OnMouseEnter()
     {
         if (!manager.InConvo)
