@@ -473,7 +473,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &10249339
 Transform:
   m_ObjectHideFlags: 0
@@ -509,7 +509,7 @@ MonoBehaviour:
   - {fileID: 2031988501}
   - {fileID: 614370882}
   - {fileID: 1144247024}
-  timesVisited: 00000000010000000200000004000000
+  timesVisited: 00000000010000000200000005000000
 --- !u!114 &10249341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -548,7 +548,7 @@ MonoBehaviour:
   changeConditions:
   - {fileID: 614370882}
   - {fileID: 1144247024}
-  changeTimes: 0200000004000000
+  changeTimes: 0200000005000000
 --- !u!114 &10249343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13564,7 +13564,7 @@ MonoBehaviour:
   miniMap: {fileID: 1880567386}
   changeConditions:
   - {fileID: 1144247024}
-  changeTimes: 04000000
+  changeTimes: 05000000
 --- !u!1001 &242709744
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55043,6 +55043,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2aa16304117782940875a97dc1f36c7a, type: 2}
   - {fileID: 11400000, guid: 3e5982ff3ea508c49baf053a6dc0e452, type: 2}
   - {fileID: 11400000, guid: 360dfb19a46491a49a5f394544a44aa9, type: 2}
+  - {fileID: 11400000, guid: 73f698264c9b1114989dc7a7d388bc22, type: 2}
   - {fileID: 11400000, guid: e12d6729a685c6f45a24b198bcd4ad75, type: 2}
   sceneWithInteraction: 0
 --- !u!114 &1144247027
@@ -55063,7 +55064,8 @@ MonoBehaviour:
   - {fileID: 1144247024}
   - {fileID: 1144247024}
   - {fileID: 1144247024}
-  timesVisited: 01000000010000000200000003000000
+  - {fileID: 1144247024}
+  timesVisited: 0100000001000000020000000300000004000000
 --- !u!114 &1144247028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55078,7 +55080,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   navigationItem:
   - {fileID: 1217672611}
-  timesVisitedActivations: 04000000
+  timesVisitedActivations: 05000000
 --- !u!82 &1144247029
 AudioSource:
   m_ObjectHideFlags: 0
@@ -92220,7 +92222,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1917770519
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -92254,7 +92256,7 @@ MonoBehaviour:
   locConditions:
   - {fileID: 10249338}
   - {fileID: 1144247024}
-  timesVisited: 0300000004000000
+  timesVisited: 0300000005000000
 --- !u!4 &1917770521
 Transform:
   m_ObjectHideFlags: 0
@@ -92433,7 +92435,7 @@ MonoBehaviour:
   miniMap: {fileID: 1880567386}
   changeConditions:
   - {fileID: 1144247024}
-  changeTimes: 04000000
+  changeTimes: 05000000
 --- !u!1 &1918658518
 GameObject:
   m_ObjectHideFlags: 0

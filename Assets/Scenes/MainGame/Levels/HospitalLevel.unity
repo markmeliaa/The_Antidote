@@ -5455,7 +5455,7 @@ MonoBehaviour:
   miniMap: {fileID: 1514480582}
   changeConditions:
   - {fileID: 480300425}
-  changeTimes: 02000000
+  changeTimes: 03000000
 --- !u!1001 &135116378
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9514,7 +9514,7 @@ MonoBehaviour:
   miniMap: {fileID: 1514480582}
   changeConditions:
   - {fileID: 480300425}
-  changeTimes: 02000000
+  changeTimes: 03000000
 --- !u!4 &283007714
 Transform:
   m_ObjectHideFlags: 0
@@ -15428,6 +15428,7 @@ MonoBehaviour:
   index: 0
   convo:
   - {fileID: 11400000, guid: 96f5c35ab4b0e3e43b67377f4244316a, type: 2}
+  - {fileID: 11400000, guid: 85716ed36310c46468ea7049c9910c04, type: 2}
   - {fileID: 11400000, guid: 9a82d1104e99a244f865f869371836d7, type: 2}
   sceneWithInteraction: 0
 --- !u!114 &480300428
@@ -15446,7 +15447,8 @@ MonoBehaviour:
   locConditions:
   - {fileID: 1724028356}
   - {fileID: 480300425}
-  timesVisited: 0100000001000000
+  - {fileID: 480300425}
+  timesVisited: 010000000100000002000000
 --- !u!114 &480300429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21000,7 +21002,7 @@ MonoBehaviour:
   locConditions:
   - {fileID: 129424194}
   - {fileID: 480300425}
-  timesVisited: 0100000002000000
+  timesVisited: 0100000003000000
 --- !u!114 &643165347
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21072,7 +21074,7 @@ MonoBehaviour:
   miniMap: {fileID: 1514480582}
   changeConditions:
   - {fileID: 480300425}
-  changeTimes: 02000000
+  changeTimes: 03000000
 --- !u!224 &645462760 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6327954579539924716, guid: 2a14f4ecaa2b4c246bf1f2d065d165b8,
@@ -41082,7 +41084,7 @@ MonoBehaviour:
   miniMap: {fileID: 1514480582}
   changeConditions:
   - {fileID: 480300425}
-  changeTimes: 02000000
+  changeTimes: 03000000
 --- !u!1 &1197649931
 GameObject:
   m_ObjectHideFlags: 0
@@ -44498,7 +44500,7 @@ MonoBehaviour:
   miniMap: {fileID: 1514480582}
   changeConditions:
   - {fileID: 480300425}
-  changeTimes: 01000000
+  changeTimes: 03000000
 --- !u!4 &1306020730
 Transform:
   m_ObjectHideFlags: 0
@@ -45578,7 +45580,7 @@ MonoBehaviour:
   miniMap: {fileID: 1514480582}
   changeConditions:
   - {fileID: 480300425}
-  changeTimes: 02000000
+  changeTimes: 03000000
 --- !u!1 &1364773681
 GameObject:
   m_ObjectHideFlags: 0
@@ -55454,7 +55456,7 @@ MonoBehaviour:
   miniMap: {fileID: 1514480582}
   changeConditions:
   - {fileID: 480300425}
-  changeTimes: 02000000
+  changeTimes: 03000000
 --- !u!4 &1664419069 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2348164879031134972, guid: a7f6d66e8a484bc41979cd4bd76f5b29,
@@ -57787,7 +57789,7 @@ MonoBehaviour:
   locConditions:
   - {fileID: 1797534119}
   - {fileID: 480300425}
-  timesVisited: 0100000002000000
+  timesVisited: 0100000003000000
 --- !u!114 &1724028360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57844,7 +57846,7 @@ MonoBehaviour:
   miniMap: {fileID: 1514480582}
   changeConditions:
   - {fileID: 480300425}
-  changeTimes: 02000000
+  changeTimes: 03000000
 --- !u!1 &1725771630
 GameObject:
   m_ObjectHideFlags: 0
@@ -60886,7 +60888,7 @@ MonoBehaviour:
   miniMap: {fileID: 1514480582}
   changeConditions:
   - {fileID: 480300425}
-  changeTimes: 02000000
+  changeTimes: 03000000
 --- !u!4 &1798560395 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5203764199021108248, guid: 23e8c5296e16c5d42a3e07f5ba621137,
@@ -63492,7 +63494,7 @@ MonoBehaviour:
   miniMap: {fileID: 1514480582}
   changeConditions:
   - {fileID: 480300425}
-  changeTimes: 02000000
+  changeTimes: 03000000
 --- !u!4 &1860083559
 Transform:
   m_ObjectHideFlags: 0

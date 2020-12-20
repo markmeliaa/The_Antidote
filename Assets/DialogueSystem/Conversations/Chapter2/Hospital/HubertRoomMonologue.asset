@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6e7c39a969bf014181dc345647a0e83, type: 3}
+  m_Name: HubertRoomMonologue
+  m_EditorClassIdentifier: 
+  allLines:
+  - speaker: {fileID: 11400000, guid: 202b0927d4902024fa0420dbc2c2451c, type: 2}
+    dialogue: "Para empezar, imagino que ya debes saber que Kemtek es una compa\xF1\xEDa
+      dedicada a procesos de fabricaci\xF3n de materiales cer\xE1micos, \xBFcierto?"
+    listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue3: 
+  - speaker: {fileID: 11400000, guid: 202b0927d4902024fa0420dbc2c2451c, type: 2}
+    dialogue: "Pues esto es realmente lo \xFAnico que la gente externa a ella puede
+      llegar a saber a ciencia cierta, ya que de puertas para dentro, est\xE1 corrupta
+      hasta la m\xE9dula.\r\n"
+    listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue3: 
+  - speaker: {fileID: 11400000, guid: 202b0927d4902024fa0420dbc2c2451c, type: 2}
+    dialogue: "Ver\xE1s, hace algunos meses se nos transmiti\xF3 a los trabajadores
+      que empezar\xEDamos a trabajar con unos materiales nuevos, a lo cual no le
+      dimos ninguna importancia."
+    listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue3: 
+  - speaker: {fileID: 11400000, guid: 202b0927d4902024fa0420dbc2c2451c, type: 2}
+    dialogue: "Al poco tiempo de empezar a manipular estos materiales muchos de nosotros
+      comenzamos a encontrarnos mal cada vez que \xEDbamos al trabajo, yo por mi
+      parte pens\xE9 que ser\xEDan cosas m\xEDas."
+    listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue3: 
+  - speaker: {fileID: 11400000, guid: 202b0927d4902024fa0420dbc2c2451c, type: 2}
+    dialogue: "Muchos compa\xF1eros comenzaron a \u201Cdesaparecer\u201D sin m\xE1s
+      de sus puestos de trabajo, y ante mi alarmante estado, tu padre decidi\xF3
+      ir a hablar con nuestros superiores."
+    listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue3: 
+  - speaker: {fileID: 11400000, guid: 202b0927d4902024fa0420dbc2c2451c, type: 2}
+    dialogue: "Ellos solo le dijeron que no hici\xE9ramos preguntas y que sigui\xE9ramos
+      con nuestro trabajo. \rTu padre por supuesto no qued\xF3 satisfecho, as\xED
+      que despu\xE9s de un par de d\xEDas decidi\xF3 traerme al hospital.\n"
+    listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue3: 
+  - speaker: {fileID: 11400000, guid: 202b0927d4902024fa0420dbc2c2451c, type: 2}
+    dialogue: "Siempre que me visitaba me contaba como avanzaba su investigaci\xF3n
+      para encontrar la deficiencia en estos nuevos materiales y contrarrestar los
+      efectos en las personas, como un ant\xEDdoto."
+    listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue3: 
+  - speaker: {fileID: 11400000, guid: 202b0927d4902024fa0420dbc2c2451c, type: 2}
+    dialogue: "Le ayud\xE9 en todo lo que pude desde aqu\xED, incluso llegue a darle
+      muestras de mi sangre y me ofrec\xED como conejillo de indias para sus pruebas,
+      despu\xE9s de todo, no pod\xEDa estar peor."
+    listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue3: 
+  - speaker: {fileID: 11400000, guid: 202b0927d4902024fa0420dbc2c2451c, type: 2}
+    dialogue: "Me contaba que cada vez le pon\xEDan m\xE1s presi\xF3n encima, que
+      le estaban amenazando con que sidesvelaba lo que estaba aconteciendo dentro
+      de Kemtek habr\xEDan consecuencias."
+    listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue3: 
+  - speaker: {fileID: 11400000, guid: 202b0927d4902024fa0420dbc2c2451c, type: 2}
+    dialogue: "Debe haber hecho algo que no fuera del gusto de nuestros jefes, seguro
+      que le han tomado cautivo tal y como seguramente hac\xEDan con todos los compa\xF1eros."
+    listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue3: 
+  - speaker: {fileID: 11400000, guid: 202b0927d4902024fa0420dbc2c2451c, type: 2}
+    dialogue: 'Al menos eso espero, no quiero pensar que sean tan miserables como
+      para llegar a hacerle algo peor a esas personas...
+
+'
+    listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue3: 
