@@ -5,7 +5,7 @@ using System.Collections;
 
 public class DialogueManager : MonoBehaviour
 {
-    public TextMeshProUGUI speakerName, speakerName2, dialogue, dialogue2;
+    public Text speakerName, speakerName2, dialogue, dialogue2;
     public Image speakerSprite, speakerSprite2, speakerSprite3, speakerBox, speakerBox2;
     public bool InConvo = false;
     public Animator anim2;
@@ -185,7 +185,7 @@ public class DialogueManager : MonoBehaviour
         currentIndex++;
     }
 
-    private IEnumerator TypeText(string text, TextMeshProUGUI dialogueBox)
+    private IEnumerator TypeText(string text, Text dialogueBox)
     {
         dialogueBox.text = "";
         bool complete = false;
