@@ -12,6 +12,12 @@ public class desactivatePuzzle : MonoBehaviour
     public Animator rectangleL;
     public Animator rectangleR;
     public Animator text;
+    private AudioSource mainGameAudio;
+
+    private void Start()
+    {
+        mainGameAudio = GameObject.Find("MainCamera").GetComponent<AudioSource>();
+    }
 
     private void OnMouseDown()
     {
@@ -33,10 +39,10 @@ public class desactivatePuzzle : MonoBehaviour
         currentPuzzle.SetActive(false);
         background.SetActive(true);
         inventory.SetActive(true);
-        Debug.Log(1);
         mapLoc.GetComponent<sceneManager>().changePuzleState();
         text.SetBool("endGame", false);
         rectangleL.SetBool("startPuzzle", false);
         rectangleR.SetBool("startPuzzle", false);
+        mainGameAudio.mute = false;
     }
 }
