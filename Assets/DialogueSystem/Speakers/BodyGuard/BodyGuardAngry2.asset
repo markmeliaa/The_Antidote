@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: BodyGuardAngry2
   m_EditorClassIdentifier: 
   speakerName: RECLUTA 2
-  speakerSprite: {fileID: 21300000, guid: 26ea66bf28fb53b4fa36b704c372c66b, type: 3}
+  speakerSprite: {fileID: 21300000, guid: 04b1d66b987e3704993e28ebf0e6ffe7, type: 3}
   speakerBox: {fileID: 21300000, guid: 7517b8ff53496d344adc3676ff94fce1, type: 3}
