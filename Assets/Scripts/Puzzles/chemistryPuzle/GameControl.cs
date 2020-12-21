@@ -48,7 +48,7 @@ public class GameControl : MonoBehaviour
         if (redIsRed && orangeIsOrange && yellowIsYellow && greenIsGreen && blueIsBlue && purpleIsPurple)
         {
             victory.SetActive(true);
-            endPuzle.desactivate();
+            endPuzle.desactivate(false);
         }
     }
 

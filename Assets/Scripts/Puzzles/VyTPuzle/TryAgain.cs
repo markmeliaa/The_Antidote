@@ -19,7 +19,7 @@ public class TryAgain : MonoBehaviour
                 vytcontroller.intento.transform.GetChild(i).transform.GetComponent<BoxCollider2D>().enabled = false;
             }
 
-            endPuzle.desactivate();
+            endPuzle.desactivate(false);
         }
     }
 }

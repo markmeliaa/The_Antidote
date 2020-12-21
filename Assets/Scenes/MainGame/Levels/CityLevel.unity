@@ -1579,6 +1579,7 @@ MonoBehaviour:
   currentPuzzle: {fileID: 502551540}
   background: {fileID: 2020781307}
   mapLoc: {fileID: 1479407754}
+  puzzleLocation: {fileID: 10249338}
   inventory: {fileID: 1579540527}
   rectangleL: {fileID: 1879507924}
   rectangleR: {fileID: 60091210}
@@ -9654,6 +9655,7 @@ MonoBehaviour:
   currentPuzzle: {fileID: 1318162456}
   background: {fileID: 1282254093}
   mapLoc: {fileID: 1479407754}
+  puzzleLocation: {fileID: 827117483}
   inventory: {fileID: 1579540527}
   rectangleL: {fileID: 1879507924}
   rectangleR: {fileID: 60091210}
@@ -16164,6 +16166,7 @@ MonoBehaviour:
   currentPuzzle: {fileID: 1611619441}
   background: {fileID: 1066985678}
   mapLoc: {fileID: 1479407754}
+  puzzleLocation: {fileID: 1144247024}
   inventory: {fileID: 1579540527}
   rectangleL: {fileID: 1879507924}
   rectangleR: {fileID: 60091210}
@@ -23629,7 +23632,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: -5
   m_Sprite: {fileID: 21300000, guid: 3cbab31f07106634bb38129df7c3c5c5, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -30531,7 +30534,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5c42e610dc01d043b83fc8f173e6637, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  finalTime: 1
+  finalTime: 3
   locConditions:
   - {fileID: 872371778}
   - {fileID: 614370882}
@@ -31653,7 +31656,6 @@ GameObject:
   - component: {fileID: 630955487}
   - component: {fileID: 630955488}
   - component: {fileID: 630955490}
-  - component: {fileID: 630955489}
   - component: {fileID: 630955492}
   - component: {fileID: 630955491}
   - component: {fileID: 630955493}
@@ -31704,19 +31706,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.16, y: 1.7}
   m_EdgeRadius: 0
---- !u!114 &630955489
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 630955486}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bebe64ce2d1b3b49b7dfb4ca54e0908, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  location: {fileID: 614370882}
 --- !u!114 &630955490
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32661,6 +32650,7 @@ MonoBehaviour:
   currentPuzzle: {fileID: 206621267}
   background: {fileID: 1066985678}
   mapLoc: {fileID: 1479407754}
+  puzzleLocation: {fileID: 1144247024}
   inventory: {fileID: 1579540527}
   rectangleL: {fileID: 1879507924}
   rectangleR: {fileID: 60091210}
@@ -34811,6 +34801,7 @@ MonoBehaviour:
   currentPuzzle: {fileID: 1689313570}
   background: {fileID: 924659489}
   mapLoc: {fileID: 1479407754}
+  puzzleLocation: {fileID: 219006581}
   inventory: {fileID: 1579540527}
   rectangleL: {fileID: 1879507924}
   rectangleR: {fileID: 60091210}
@@ -69415,6 +69406,7 @@ MonoBehaviour:
   currentPuzzle: {fileID: 1561889536}
   background: {fileID: 2020781307}
   mapLoc: {fileID: 1479407754}
+  puzzleLocation: {fileID: 10249338}
   inventory: {fileID: 1579540527}
   rectangleL: {fileID: 1879507924}
   rectangleR: {fileID: 60091210}
@@ -69565,6 +69557,7 @@ MonoBehaviour:
   currentPuzzle: {fileID: 1560553522}
   background: {fileID: 2112843573}
   mapLoc: {fileID: 1479407754}
+  puzzleLocation: {fileID: 872371778}
   inventory: {fileID: 1579540527}
   rectangleL: {fileID: 1879507924}
   rectangleR: {fileID: 60091210}
@@ -74069,6 +74062,7 @@ MonoBehaviour:
   currentPuzzle: {fileID: 1091363641}
   background: {fileID: 1720863715}
   mapLoc: {fileID: 1479407754}
+  puzzleLocation: {fileID: 1750754165}
   inventory: {fileID: 1579540527}
   rectangleL: {fileID: 1879507924}
   rectangleR: {fileID: 60091210}
@@ -81572,6 +81566,7 @@ MonoBehaviour:
   currentPuzzle: {fileID: 1559546799}
   background: {fileID: 1485949458}
   mapLoc: {fileID: 1479407754}
+  puzzleLocation: {fileID: 1917770518}
   inventory: {fileID: 1579540527}
   rectangleL: {fileID: 1879507924}
   rectangleR: {fileID: 60091210}
@@ -94356,6 +94351,7 @@ MonoBehaviour:
   currentPuzzle: {fileID: 440518073}
   background: {fileID: 2112843573}
   mapLoc: {fileID: 1479407754}
+  puzzleLocation: {fileID: 872371778}
   inventory: {fileID: 1579540527}
   rectangleL: {fileID: 1879507924}
   rectangleR: {fileID: 60091210}
@@ -94885,6 +94881,7 @@ MonoBehaviour:
   currentPuzzle: {fileID: 202510453}
   background: {fileID: 1265050042}
   mapLoc: {fileID: 1479407754}
+  puzzleLocation: {fileID: 1631023949}
   inventory: {fileID: 1579540527}
   rectangleL: {fileID: 1879507924}
   rectangleR: {fileID: 60091210}
@@ -96177,6 +96174,7 @@ MonoBehaviour:
   currentPuzzle: {fileID: 1604958715}
   background: {fileID: 990359017}
   mapLoc: {fileID: 1479407754}
+  puzzleLocation: {fileID: 2031988501}
   inventory: {fileID: 1579540527}
   rectangleL: {fileID: 1879507924}
   rectangleR: {fileID: 60091210}
@@ -96307,6 +96305,7 @@ MonoBehaviour:
   currentPuzzle: {fileID: 557147586}
   background: {fileID: 2094041321}
   mapLoc: {fileID: 1479407754}
+  puzzleLocation: {fileID: 614370882}
   inventory: {fileID: 1579540527}
   rectangleL: {fileID: 1879507924}
   rectangleR: {fileID: 60091210}
@@ -98890,6 +98889,7 @@ MonoBehaviour:
   currentPuzzle: {fileID: 495392537}
   background: {fileID: 1537880178}
   mapLoc: {fileID: 1479407754}
+  puzzleLocation: {fileID: 1959324170}
   inventory: {fileID: 1579540527}
   rectangleL: {fileID: 1879507924}
   rectangleR: {fileID: 60091210}
@@ -104894,6 +104894,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fichas: {fileID: 1735214746}
   winText: {fileID: 174433691}
+  desactivation: {fileID: 1950862979}
 --- !u!4 &2116530954 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2348164879031134972, guid: a7f6d66e8a484bc41979cd4bd76f5b29,

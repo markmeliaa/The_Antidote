@@ -20,7 +20,7 @@ public class CountPoints : MonoBehaviour
                 casillasBlancas.transform.GetChild(i).GetComponent<BoxCollider2D>().enabled = false;
             }
             winText.SetActive(true);
-            endPuzle.desactivate();
+            endPuzle.desactivate(false);
             return;
         }
 

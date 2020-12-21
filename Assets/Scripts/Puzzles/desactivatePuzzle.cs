@@ -8,12 +8,14 @@ public class desactivatePuzzle : MonoBehaviour
     [SerializeField] GameObject currentPuzzle;
     [SerializeField] GameObject background;
     public GameObject mapLoc;
+    public GameObject puzzleLocation;
     public GameObject inventory;
     public Animator rectangleL;
     public Animator rectangleR;
     public Animator text;
     private AudioSource mainGameAudio;
 
+    bool timesSet = false;
     private void Start()
     {
         mainGameAudio = GameObject.Find("MainCamera").GetComponent<AudioSource>();
@@ -21,11 +23,18 @@ public class desactivatePuzzle : MonoBehaviour
 
     private void OnMouseDown()
     {
-        desactivate();
+        desactivate(false);
     }
 
-    public void desactivate()
+    public void desactivate(bool compulsoryPuzzle)
     {
+        if (compulsoryPuzzle && !timesSet)
+        {
+            mapLoc.GetComponent<sceneManager>().setLocationTimes(puzzleLocation.name);
+            puzzleLocation.GetComponent<Tester>().sceneWithInteraction = false;
+            Debug.Log("Times en " + puzzleLocation.name + ": " + mapLoc.GetComponent<sceneManager>().getLocationTimes(puzzleLocation.name));
+            timesSet = true;
+        }
         StartCoroutine("desactivatethis");
     }
 

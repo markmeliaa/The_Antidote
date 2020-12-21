@@ -18,7 +18,7 @@ public class WinScript : MonoBehaviour
     {
         if (currentPoints >= pointsToWin)
         {
-            endPuzle.desactivate();
+            endPuzle.desactivate(false);
             // WIN
             transform.GetChild(0).gameObject.SetActive(true);
         }

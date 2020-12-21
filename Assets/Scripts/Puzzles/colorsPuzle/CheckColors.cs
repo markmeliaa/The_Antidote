@@ -8,6 +8,7 @@ public class CheckColors : MonoBehaviour
     private Queue<GameObject> fichasQueue = new Queue<GameObject>();
 
     public TextMesh winText;
+    public desactivatePuzzle desactivation;
 
     // Start is called before the first frame update
     void Start()
@@ -22,6 +23,7 @@ public class CheckColors : MonoBehaviour
         {
             winText.gameObject.SetActive(true);
             fichas.SetActive(false);
+            desactivation.desactivate(true);
         }
     }
 

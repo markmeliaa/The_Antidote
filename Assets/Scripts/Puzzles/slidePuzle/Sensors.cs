@@ -24,7 +24,7 @@ public class Sensors : MonoBehaviour
             && Physics2D.OverlapCircle(sensorRight.transform.position, radioSensor).tag == "Exit")
         {
             winText.SetActive(true);
-            puzzleEnding.desactivate();
+            puzzleEnding.desactivate(false);
             return;
         }
         blockedRight = Physics2D.OverlapCircle(sensorRight.transform.position, radioSensor);

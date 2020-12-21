@@ -102,6 +102,6 @@ public class PuzleManager : MonoBehaviour
     private void endPuzle()
     {
         endText.gameObject.SetActive(true);    
-        puzleEnding.desactivate();
+        puzleEnding.desactivate(false);
     }
 }
