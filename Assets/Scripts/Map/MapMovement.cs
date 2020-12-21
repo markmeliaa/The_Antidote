@@ -64,6 +64,7 @@ public class MapMovement : MonoBehaviour
             dialogueManager.SetActive(true);
 
             //Reset location
+            currentLocation.transform.GetChild(0).gameObject.SetActive(true);
             currentLocation.SetActive(false);
 
             //Change state of location
