@@ -47,6 +47,14 @@ public class GameControl : MonoBehaviour
     {
         if (redIsRed && orangeIsOrange && yellowIsYellow && greenIsGreen && blueIsBlue && purpleIsPurple)
         {
+            //Seting the colors to false
+            redIsRed = false;
+            orangeIsOrange = false;
+            yellowIsYellow = false;
+            greenIsGreen = false;
+            blueIsBlue = false;
+            purpleIsPurple = false;
+
             victory.SetActive(true);
             endPuzle.desactivate(false);
         }

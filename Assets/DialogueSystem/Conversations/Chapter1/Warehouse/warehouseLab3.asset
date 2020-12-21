@@ -22,7 +22,7 @@ MonoBehaviour:
   - speaker: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 5781c5e7fd13a3a4b9a4b1c137954712, type: 2}
-    dialogue2: "Una grabadora. \xBFDe qu\xE9 a\xF1o es esto?"
+    dialogue2: "Una cinta de grabadora. \xBFDe qu\xE9 a\xF1o es esto?"
     listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue3: 
   - speaker: {fileID: 11400000, guid: 1cf53bd0622200d4c94289a40df5af7f, type: 2}
