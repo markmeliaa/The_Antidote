@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allLines:
   - speaker: {fileID: 11400000, guid: 5c526fed474a00343a01c02f35823fa9, type: 2}
-    dialogue: "Bueno Kieran, ma\xF1ana pasar\xE9 por ti 10 minutos antes, a ver si
-      as\xED contentamos a Valerie, \xBFte parece bien?\r\n"
+    dialogue: "Bueno Kieran, ma\xF1ana pasar\xE9 por ti diez minutos antes, a ver
+      si as\xED contentamos a Valerie, \xBFte parece bien?\r\n"
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}

@@ -60,7 +60,7 @@ MonoBehaviour:
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: 0d5640ea1eed9424a989b09192b5928b, type: 2}
-    dialogue3: "\u2026\xBFTiene que ver con tu padre?"
+    dialogue3: "...\xBFTiene que ver con tu padre?"
   - speaker: {fileID: 11400000, guid: 9d19dfeeadebb0d4badb2fb1ab640415, type: 2}
     dialogue: "...Preferir\xEDa no hablar de ello, pero digamos que si, he discutido
       con \xE9l...ha tenido una reca\xEDda. Y como si eso no fuera suficiente para
@@ -87,7 +87,7 @@ MonoBehaviour:
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: 0d5640ea1eed9424a989b09192b5928b, type: 2}
-    dialogue3: "\u2026"
+    dialogue3: ...
   - speaker: {fileID: 11400000, guid: 501f976630a440e4da35c248f05654a2, type: 2}
     dialogue: "\xBFKieran?"
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}

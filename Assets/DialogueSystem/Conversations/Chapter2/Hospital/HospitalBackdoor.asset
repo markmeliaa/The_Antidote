@@ -41,8 +41,8 @@ MonoBehaviour:
   - speaker: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: ed4d4e58331af1a45950af4f989f2ac8, type: 2}
-    dialogue2: " \u2026no tendr\xEDamos que estar hablando de esto, ser\xE1 mejor
-      que volvamos a nuestro puesto."
+    dialogue2: "...no tendr\xEDamos que estar hablando de esto, ser\xE1 mejor que
+      volvamos a nuestro puesto."
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
   - speaker: {fileID: 11400000, guid: 912f80863de6eca48bfec096847c71c4, type: 2}

@@ -22,6 +22,6 @@ MonoBehaviour:
   - speaker: {fileID: 11400000, guid: f60ef90396ff4864893224b68bea0d5d, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
-    dialogue2: "\u2026"
+    dialogue2: ...
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 

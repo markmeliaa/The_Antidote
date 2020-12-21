@@ -56,8 +56,8 @@ MonoBehaviour:
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
   - speaker: {fileID: 11400000, guid: 202b0927d4902024fa0420dbc2c2451c, type: 2}
-    dialogue: " Ser\xE1 la \xFAnica verdad que hayas escuchado en todo el d\xEDa
-      de hoy. \xBFPor que est\xE1s aqu\xED?"
+    dialogue: "Ser\xE1 la \xFAnica verdad que hayas escuchado en todo el d\xEDa de
+      hoy. \xBFPor que est\xE1s aqu\xED?"
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
@@ -87,8 +87,8 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: 202b0927d4902024fa0420dbc2c2451c, type: 2}
     dialogue: "...No te equivocas, creo saber d\xF3nde puede estar tu padre, o al
-      menos d\xF3nde deber\xEDas empezar a buscar...pero\u2026\xBFest\xE1s seguro
-      de querer saberlo?"
+      menos d\xF3nde deber\xEDas empezar a buscar...pero...\xBFest\xE1s seguro de
+      querer saberlo?"
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}

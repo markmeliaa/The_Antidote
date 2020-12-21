@@ -55,7 +55,7 @@ MonoBehaviour:
     listener2: {fileID: 11400000, guid: 8b585fabed81bde489aed1696e555c0d, type: 2}
     dialogue3: "Genial, iremos a dec\xEDrselo, muchas gracias."
   - speaker: {fileID: 11400000, guid: f8f161c3634a91540bcd1e152ecfe0ae, type: 2}
-    dialogue: " \u2026 "
+    dialogue: ...
     listener1: {fileID: 11400000, guid: e1dd72417c319f44b8bc643c9d69e8a1, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}

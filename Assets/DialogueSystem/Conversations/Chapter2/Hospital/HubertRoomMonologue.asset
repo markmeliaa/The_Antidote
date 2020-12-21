@@ -78,7 +78,7 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: 202b0927d4902024fa0420dbc2c2451c, type: 2}
     dialogue: "Me contaba que cada vez le pon\xEDan m\xE1s presi\xF3n encima, que
-      le estaban amenazando con que sidesvelaba lo que estaba aconteciendo dentro
+      le estaban amenazando con que si desvelaba lo que estaba aconteciendo dentro
       de Kemtek habr\xEDan consecuencias."
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 

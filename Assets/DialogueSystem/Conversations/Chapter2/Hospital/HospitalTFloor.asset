@@ -29,7 +29,7 @@ MonoBehaviour:
   - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 5781c5e7fd13a3a4b9a4b1c137954712, type: 2}
-    dialogue2: " No lo se, \xBFpero por qu\xE9 querr\xEDan vigilar a alguien en estado
+    dialogue2: "No lo se, \xBFpero por qu\xE9 querr\xEDan vigilar a alguien en estado
       cr\xEDtico?, \xBFqu\xE9 es lo que sabe Hubert que no quieren que sepa nadie
       m\xE1s?"
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
@@ -67,7 +67,7 @@ MonoBehaviour:
     listener2: {fileID: 11400000, guid: 29f459e664aa5af428a79cc687295b26, type: 2}
     dialogue3: Mas te vale aprovechar esta oportunidad.
   - speaker: {fileID: 11400000, guid: f8f161c3634a91540bcd1e152ecfe0ae, type: 2}
-    dialogue: Valerie?
+    dialogue: "\xBFValerie?"
     listener1: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
