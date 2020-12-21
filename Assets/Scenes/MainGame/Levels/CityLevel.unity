@@ -43831,7 +43831,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 10
   m_TargetDisplay: 0
 --- !u!224 &877449513
 RectTransform:
@@ -77334,7 +77334,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 7
   m_Sprite: {fileID: 21300000, guid: 6a7fa956c7c934e4d9a3f861a699a2ed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -77378,6 +77378,7 @@ MonoBehaviour:
   dialogManager: {fileID: 147225104}
   mapLocations: {fileID: 1479407754}
   closeCross: {fileID: 1679528489}
+  normalPuzle: 0
 --- !u!1 &1579897319
 GameObject:
   m_ObjectHideFlags: 0
@@ -80175,7 +80176,6 @@ MonoBehaviour:
   convo:
   - {fileID: 11400000, guid: be0eeb66ae64dc74b9ad747c3f18c5f0, type: 2}
   - {fileID: 11400000, guid: eaf4843b04c25714a83f5411167682f3, type: 2}
-  - {fileID: 11400000, guid: 5e09dd4160e43044e931007e5256574a, type: 2}
   sceneWithInteraction: 0
 --- !u!114 &1631023951
 MonoBehaviour:
@@ -80193,8 +80193,7 @@ MonoBehaviour:
   locConditions:
   - {fileID: 1984939460}
   - {fileID: 1984939460}
-  - {fileID: 1631023949}
-  timesVisited: 040000000500000000000000
+  timesVisited: 0400000005000000
 --- !u!4 &1631023952
 Transform:
   m_ObjectHideFlags: 0
@@ -82561,6 +82560,7 @@ MonoBehaviour:
   dialogManager: {fileID: 147225104}
   mapLocations: {fileID: 1479407754}
   closeCross: {fileID: 1679528489}
+  normalPuzle: 0
 --- !u!61 &1679528492
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -98669,7 +98669,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2d7588b171579d340a59bca95cf23ad1, type: 2}
   - {fileID: 11400000, guid: 52fe10108951fcf47a8e90b6deb7751f, type: 2}
   - {fileID: 11400000, guid: 906fd403df4976143bea24a64d6b8a25, type: 2}
-  - {fileID: 11400000, guid: 72dee21bbd4b5da4b9f353684b18d335, type: 2}
   sceneWithInteraction: 0
 --- !u!114 &1984939463
 MonoBehaviour:
@@ -98690,8 +98689,7 @@ MonoBehaviour:
   - {fileID: 10249338}
   - {fileID: 1984939460}
   - {fileID: 219006581}
-  - {fileID: 1984939460}
-  timesVisited: 020000000200000003000000030000000400000000000000
+  timesVisited: 0200000002000000030000000300000004000000
 --- !u!114 &1984939464
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98728,7 +98726,8 @@ MonoBehaviour:
   - {fileID: 1613091284}
   - {fileID: 1012638759}
   - {fileID: 1177838133}
-  timesVisitedDesactivations: 010000000200000003000000
+  - {fileID: 1177838133}
+  timesVisitedDesactivations: 01000000020000000300000005000000
 --- !u!114 &1984939466
 MonoBehaviour:
   m_ObjectHideFlags: 0

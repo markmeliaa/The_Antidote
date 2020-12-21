@@ -74,7 +74,7 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: 912f80863de6eca48bfec096847c71c4, type: 2}
+    listener1: {fileID: 11400000, guid: fc407688f4b7a7541ab68eb8a9175407, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: d5587942aa72f6343a35315aa669ac46, type: 2}
     dialogue3: "\xA1OYE TU, POR AQUI!"

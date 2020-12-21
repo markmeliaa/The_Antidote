@@ -41774,6 +41774,7 @@ MonoBehaviour:
   convo:
   - {fileID: 11400000, guid: 7bc2ac7a1f8137b49a6a788748238b33, type: 2}
   - {fileID: 11400000, guid: d22bd01c8d47f3a4d9347aef2ffd4f26, type: 2}
+  - {fileID: 11400000, guid: 29a953ae5599e694faf000beeba46809, type: 2}
   sceneWithInteraction: 0
 --- !u!114 &1195832270
 MonoBehaviour:
@@ -41791,7 +41792,8 @@ MonoBehaviour:
   locConditions:
   - {fileID: 1195832267}
   - {fileID: 129424194}
-  timesVisited: 0000000001000000
+  - {fileID: 643165343}
+  timesVisited: 000000000100000002000000
 --- !u!114 &1195832271
 MonoBehaviour:
   m_ObjectHideFlags: 0

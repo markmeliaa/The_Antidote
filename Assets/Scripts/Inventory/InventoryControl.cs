@@ -10,6 +10,7 @@ public class InventoryControl : MonoBehaviour
     public GameObject dialogManager;
     public GameObject mapLocations;
     public GameObject closeCross;
+    public bool normalPuzle = false;
 
     InventoryUI inventory;
     Transform currentLoc;
@@ -21,6 +22,7 @@ public class InventoryControl : MonoBehaviour
 
     private void Update()
     {
+        closeCross.GetComponent<InventoryControl>().normalPuzle = normalPuzle;
         if (!dialogManager.GetComponent<DialogueManager>().InConvo && !mapLocations.GetComponent<sceneManager>().getPuzleState())
         {
             miniMapIcon.SetActive(true);
@@ -55,6 +57,7 @@ public class InventoryControl : MonoBehaviour
                     currentLoc = mapLocations.transform.GetChild(i).transform;
                     currentLoc.Find("InteractiveBackground").gameObject.SetActive(false);
                     closeCross.GetComponent<InventoryControl>().currentLoc = currentLoc;
+                    closeCross.GetComponent<InventoryControl>().normalPuzle = normalPuzle;
                 }
             }
         }
@@ -62,7 +65,10 @@ public class InventoryControl : MonoBehaviour
         else
         {
             inventoryIcon.SetActive(true);
-            currentLoc.Find("InteractiveBackground").gameObject.SetActive(true);
+            if (normalPuzle)
+                currentLoc.Find("BackgroundMapGrey").gameObject.SetActive(true);
+            else
+                currentLoc.Find("InteractiveBackground").gameObject.SetActive(true);
         }
     }
 }

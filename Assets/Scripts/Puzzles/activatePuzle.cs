@@ -57,6 +57,7 @@ public class activatePuzle : MonoBehaviour
         mapLoc.GetComponent<sceneManager>().changePuzleState();
         background.SetActive(false);
         puzle.SetActive(true);
+        inventory.GetComponent<InventoryControl>().normalPuzle = true;
         inventory.SetActive(false);
         yield return new WaitForSeconds(2);
     }
@@ -68,5 +69,6 @@ public class activatePuzle : MonoBehaviour
         puzle.SetActive(false);
         this.gameObject.SetActive(false);
         inventory.SetActive(true);
+        inventory.GetComponent<InventoryControl>().normalPuzle = false;
     }
 }
