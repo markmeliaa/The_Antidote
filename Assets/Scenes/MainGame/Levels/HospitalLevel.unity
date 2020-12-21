@@ -1479,6 +1479,7 @@ MonoBehaviour:
   dialogManager: {fileID: 835434860}
   mapLocations: {fileID: 816347353}
   closeCross: {fileID: 1197649931}
+  normalPuzle: 0
 --- !u!114 &32858497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4043,6 +4044,7 @@ MonoBehaviour:
   currentPuzzle: {fileID: 814121464}
   background: {fileID: 942693262}
   mapLoc: {fileID: 816347353}
+  puzzleLocation: {fileID: 0}
   inventory: {fileID: 32858495}
   rectangleL: {fileID: 1096783244}
   rectangleR: {fileID: 1553640105}
@@ -13798,6 +13800,7 @@ MonoBehaviour:
   currentPuzzle: {fileID: 967516358}
   background: {fileID: 692527300}
   mapLoc: {fileID: 816347353}
+  puzzleLocation: {fileID: 0}
   inventory: {fileID: 32858495}
   rectangleL: {fileID: 1096783244}
   rectangleR: {fileID: 1553640105}
@@ -15656,6 +15659,7 @@ GameObject:
   - component: {fileID: 480300426}
   - component: {fileID: 480300428}
   - component: {fileID: 480300427}
+  - component: {fileID: 480300431}
   - component: {fileID: 480300429}
   - component: {fileID: 480300430}
   m_Layer: 0
@@ -15833,6 +15837,23 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &480300431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480300425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f099eaf69076814d8b7a5de243e5597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  converTimes: 0100000002000000
+  interactiveObject:
+  - {fileID: 1685739730}
+  - {fileID: 1685739730}
+  timer: 15
 --- !u!1 &484086563
 GameObject:
   m_ObjectHideFlags: 0
@@ -20730,6 +20751,7 @@ MonoBehaviour:
   currentPuzzle: {fileID: 1086611954}
   background: {fileID: 692527300}
   mapLoc: {fileID: 816347353}
+  puzzleLocation: {fileID: 0}
   inventory: {fileID: 32858495}
   rectangleL: {fileID: 1096783244}
   rectangleR: {fileID: 1553640105}
@@ -20990,6 +21012,7 @@ MonoBehaviour:
   currentPuzzle: {fileID: 1401536958}
   background: {fileID: 933113129}
   mapLoc: {fileID: 816347353}
+  puzzleLocation: {fileID: 0}
   inventory: {fileID: 32858495}
   rectangleL: {fileID: 1096783244}
   rectangleR: {fileID: 1553640105}
@@ -25047,6 +25070,7 @@ MonoBehaviour:
   currentPuzzle: {fileID: 1857987543}
   background: {fileID: 2058456259}
   mapLoc: {fileID: 816347353}
+  puzzleLocation: {fileID: 0}
   inventory: {fileID: 32858495}
   rectangleL: {fileID: 1096783244}
   rectangleR: {fileID: 1553640105}
@@ -34155,6 +34179,7 @@ MonoBehaviour:
   currentPuzzle: {fileID: 1249242622}
   background: {fileID: 942693262}
   mapLoc: {fileID: 816347353}
+  puzzleLocation: {fileID: 0}
   inventory: {fileID: 32858495}
   rectangleL: {fileID: 1096783244}
   rectangleR: {fileID: 1553640105}
@@ -35385,6 +35410,7 @@ MonoBehaviour:
   currentPuzzle: {fileID: 899152596}
   background: {fileID: 710334842}
   mapLoc: {fileID: 816347353}
+  puzzleLocation: {fileID: 0}
   inventory: {fileID: 32858495}
   rectangleL: {fileID: 1096783244}
   rectangleR: {fileID: 1553640105}
@@ -36299,6 +36325,7 @@ MonoBehaviour:
   currentPuzzle: {fileID: 1420941240}
   background: {fileID: 1940485092}
   mapLoc: {fileID: 816347353}
+  puzzleLocation: {fileID: 0}
   inventory: {fileID: 32858495}
   rectangleL: {fileID: 1096783244}
   rectangleR: {fileID: 1553640105}
@@ -38120,6 +38147,7 @@ MonoBehaviour:
   currentPuzzle: {fileID: 2085150280}
   background: {fileID: 1124599912}
   mapLoc: {fileID: 816347353}
+  puzzleLocation: {fileID: 0}
   inventory: {fileID: 32858495}
   rectangleL: {fileID: 1096783244}
   rectangleR: {fileID: 1553640105}
@@ -41991,6 +42019,7 @@ MonoBehaviour:
   dialogManager: {fileID: 835434860}
   mapLocations: {fileID: 816347353}
   closeCross: {fileID: 1197649931}
+  normalPuzle: 0
 --- !u!61 &1197649934
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -55219,6 +55248,7 @@ MonoBehaviour:
   currentPuzzle: {fileID: 1433684298}
   background: {fileID: 1437491180}
   mapLoc: {fileID: 816347353}
+  puzzleLocation: {fileID: 0}
   inventory: {fileID: 32858495}
   rectangleL: {fileID: 1096783244}
   rectangleR: {fileID: 1553640105}
@@ -58260,18 +58290,17 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1685739731}
+  - component: {fileID: 1685739735}
   - component: {fileID: 1685739734}
   - component: {fileID: 1685739732}
   - component: {fileID: 1685739733}
-  - component: {fileID: 1685739736}
-  - component: {fileID: 1685739735}
   m_Layer: 0
-  m_Name: Computer - StartNextConvo
+  m_Name: Hubert - StartNextConvo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1685739731
 Transform:
   m_ObjectHideFlags: 0
@@ -58280,8 +58309,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1685739730}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.31, y: 0.21, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -4.04, y: -2.67, z: 0}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 1}
   m_Children: []
   m_Father: {fileID: 692527302}
   m_RootOrder: 1
@@ -58299,6 +58328,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   location: {fileID: 480300425}
+  dialogueManager: {fileID: 835434861}
+  notDestroy: 1
 --- !u!114 &1685739733
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58326,32 +58357,20 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -1.2244282, y: 1.3827753}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.18}
-    newSize: {x: 1.84, y: 1.18}
+    oldSize: {x: 17.31, y: 26.999907}
+    newSize: {x: 17.31, y: 26.999907}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.18}
+  m_Size: {x: 11.556435, y: 16.430132}
   m_EdgeRadius: 0
---- !u!114 &1685739735
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1685739730}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0276f3d713cae154c98b87058cd7a447, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!212 &1685739736
+--- !u!212 &1685739735
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -58389,13 +58408,13 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -10
-  m_Sprite: {fileID: 21300000, guid: 0ec69d05bee2288499ca244fa95234b5, type: 3}
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: b68d4e8036e59f2439a642edb7141683, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.84, y: 1.18}
+  m_Size: {x: 17.31, y: 26.999907}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
