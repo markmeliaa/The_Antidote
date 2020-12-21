@@ -473,7 +473,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &10249339
 Transform:
   m_ObjectHideFlags: 0
@@ -29696,8 +29696,8 @@ GameObject:
   - component: {fileID: 596874467}
   - component: {fileID: 596874468}
   - component: {fileID: 596874470}
-  - component: {fileID: 596874469}
   - component: {fileID: 596874472}
+  - component: {fileID: 596874469}
   - component: {fileID: 596874471}
   - component: {fileID: 596874473}
   m_Layer: 0
@@ -29837,8 +29837,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   location: {fileID: 1959324170}
-  dialogueManager: {fileID: 0}
-  notDestroy: 0
+  dialogueManager: {fileID: 147225106}
+  notDestroy: 1
 --- !u!114 &596874473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40848,7 +40848,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 814890093}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.27, y: -2.14, z: 0}
+  m_LocalPosition: {x: 1.62, y: -2.14, z: 0}
   m_LocalScale: {x: 0.9242182, y: 0.8936495, z: 0.8936495}
   m_Children:
   - {fileID: 240187653}
@@ -56885,7 +56885,7 @@ MonoBehaviour:
   - {fileID: 1483338385}
   - {fileID: 1483338385}
   - {fileID: 814890093}
-  timer: 2
+  timer: 15
 --- !u!1001 &1147343828
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -99342,10 +99342,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f099eaf69076814d8b7a5de243e5597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  converTimes: 02000000
+  converTimes: 03000000
   interactiveObject:
   - {fileID: 919293600}
-  timer: 10
+  timer: 20
 --- !u!1 &1985565028
 GameObject:
   m_ObjectHideFlags: 0

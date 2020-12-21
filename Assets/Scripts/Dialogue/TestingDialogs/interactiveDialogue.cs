@@ -9,7 +9,7 @@ public class interactiveDialogue : MonoBehaviour
     public bool notDestroy = false;
     private void OnMouseDown()
     {
-        if(!location.GetComponent<sceneManager>().getPuzleState() && !dialogueManager.InConvo)
+        if(!location.GetComponentInParent<sceneManager>().getPuzleState() && !dialogueManager.InConvo)
         {
             location.GetComponentInParent<sceneManager>().setLocationTimes(location.name);
             location.GetComponent<Tester>().sceneWithInteraction = false;
