@@ -22,6 +22,9 @@ public class ScenePuzle : MonoBehaviour
                     arrows[i].GetComponent<CursorObject>().active = true;
                     arrows[i].GetComponent<MapMovement>().active = true;
                 }
+
+                if (arrows[i].GetComponent<BoxCollider2D>() != null)
+                   arrows[i].GetComponent<BoxCollider2D>().enabled = true;
             }
         }
     }
