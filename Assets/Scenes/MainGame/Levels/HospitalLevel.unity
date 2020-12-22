@@ -16431,11 +16431,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f099eaf69076814d8b7a5de243e5597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  converTimes: 0100000002000000
+  converTimes: 01000000010000000200000002000000
   interactiveObject:
   - {fileID: 1685739730}
+  - {fileID: 846227985}
   - {fileID: 1685739730}
-  timer: 15
+  - {fileID: 846227985}
+  timer: 4
 --- !u!1 &484086563
 GameObject:
   m_ObjectHideFlags: 0
