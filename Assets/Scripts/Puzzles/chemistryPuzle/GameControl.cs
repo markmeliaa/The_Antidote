@@ -11,7 +11,7 @@ public class GameControl : MonoBehaviour
 
     public static Color fingerColor;
     public static Color[] properColors;
-    public desactivatePuzzle endPuzle;
+    public GameObject endPuzzle;
 
     public static bool redIsRed, orangeIsOrange, yellowIsYellow, greenIsGreen, blueIsBlue, purpleIsPurple;
     public static bool resetSelection = false;
@@ -56,7 +56,8 @@ public class GameControl : MonoBehaviour
             purpleIsPurple = false;
 
             victory.SetActive(true);
-            endPuzle.desactivate(false);
+            Destroy(this.gameObject.GetComponent<GameControl>());
+            endPuzzle.transform.GetComponentInChildren<desactivatePuzzle>().desactivate(false);
         }
     }
 
