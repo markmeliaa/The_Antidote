@@ -20,7 +20,11 @@ public class interactiveDialogue : MonoBehaviour
                 Destroy(gameObject);
             }
             else
+            {
                 notDestroy = false;
+                interactiveItem.SetActive(false);
+                gameObject.SetActive(false);
+            }
         }
     }
 }
