@@ -39,11 +39,11 @@ MonoBehaviour:
     dialogue: 
     listener1: {fileID: 11400000, guid: 75c03c50f8ab9a34dbb834c67771af7b, type: 2}
     dialogue2: "No creo que haya un n\xFAmero de tel\xE9fono al que pueda llamar
-      para eso\u2026"
+      para eso..."
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
   - speaker: {fileID: 11400000, guid: d10ecfe38086a0b47820494ecb643916, type: 2}
-    dialogue: "Y\u2026\xBFqu\xE9 quieres hacer?"
+    dialogue: "Y... \xBFqu\xE9 quieres hacer?"
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
@@ -67,8 +67,7 @@ MonoBehaviour:
     listener1: {fileID: 11400000, guid: 794cbd99c6162614b824021fdbc53d9c, type: 2}
     dialogue2: "Ni de broma Gatrie, te he llamado para que supieras que iba a ir,
       y para qu\xE9, si me pasaba algo, tu supieras donde empezar a buscarme, no
-      para que vengas conmigo\u2026 no se que me encontrar\xE9, pero tu hermano te
-      necesita.\r"
+      para que vengas conmigo... no se que me encontrar\xE9, pero tu hermano te necesita.\r"
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
   - speaker: {fileID: 11400000, guid: d10ecfe38086a0b47820494ecb643916, type: 2}

@@ -28,7 +28,7 @@ MonoBehaviour:
     dialogue2: "Bueno...el jefe quiere asegurarse, as\xED que tendremos que seguir
       aqu\xED hasta que eso pase. Con los a\xF1os uno ha aprendido a callar y obedecer,
       y a ti te convendr\xEDa aprenderlo r\xE1pido, el jefe ha estado especialmente
-      \u201Cinquieto\u201D desde hace unas semanas."
+      \xA8inquieto\xA8 desde hace unas semanas."
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
   - speaker: {fileID: 11400000, guid: 912f80863de6eca48bfec096847c71c4, type: 2}

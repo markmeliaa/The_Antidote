@@ -38,7 +38,7 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: 814eaf36bd1f5584ab1a18eb4eb6d6f4, type: 2}
     dialogue: "A causa de esto algunos compa\xF1eros han empezando a encontrarse
-      realmente mal. De hecho, uno de ellos ha terminado en el hospital...y estoy
+      realmente mal. De hecho, uno de ellos ha terminado en el hospital... y estoy
       tratando de ayudarle."
     listener1: {fileID: 11400000, guid: 215c247961e9ecf44affdf8619644b05, type: 2}
     dialogue2: 
@@ -46,7 +46,7 @@ MonoBehaviour:
     dialogue3: 
   - speaker: {fileID: 11400000, guid: 814eaf36bd1f5584ab1a18eb4eb6d6f4, type: 2}
     dialogue: "Pero bueno, no te preocupes por pap\xE1, \xBFde acuerdo?, no pens\xE9
-      que fuera a tardar tanto en encontrar un remedio para esta\u2026\u201Denfermedad\u201D.
+      que fuera a tardar tanto en encontrar un remedio para esta... \xA8enfermedad\xA8.
       Por eso me present\xE9 voluntario para tratarla y por eso no he pasado por
       casa."
     listener1: {fileID: 11400000, guid: 215c247961e9ecf44affdf8619644b05, type: 2}

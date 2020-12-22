@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c97cc7ded6cf4b48a165560fba43229, type: 3}
   m_Name: srBarclay
   m_EditorClassIdentifier: 
-  speakerName: SR. BARCLAY
+  speakerName: BARCLAY
   speakerSprite: {fileID: 21300000, guid: c317efdd61dc5f74bb89b3f6776df240, type: 3}
   speakerBox: {fileID: 21300000, guid: a8625b1cf35ce1e428dc1d49c4822850, type: 3}

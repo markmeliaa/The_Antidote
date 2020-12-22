@@ -75,8 +75,9 @@ MonoBehaviour:
     dialogue: 
     listener1: {fileID: 11400000, guid: 8b585fabed81bde489aed1696e555c0d, type: 2}
     dialogue2: "Definitivamente ser\xE1 menos peligroso que venir a estos almacenes
-      que estaban supuestamente abandonados...Pero creo que ya no son horas, si Gatrie
-      y yo no volvemos a nuestras casa nuestras familias podr\xEDan empezar a preocuparse."
+      que estaban supuestamente abandonados... Pero creo que ya no son horas, si
+      Gatrie y yo no volvemos a nuestras casa nuestras familias podr\xEDan empezar
+      a preocuparse."
     listener2: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue3: 
   - speaker: {fileID: 11400000, guid: d10ecfe38086a0b47820494ecb643916, type: 2}
