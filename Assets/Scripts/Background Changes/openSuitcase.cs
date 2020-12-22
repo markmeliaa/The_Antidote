@@ -14,6 +14,7 @@ public class openSuitcase : MonoBehaviour
         background.SetActive(false);
         maletinabierto.SetActive(true);
         maletinabierto.GetComponent<SpriteRenderer>().sortingOrder= 2;
+        maletinabierto.transform.GetChild(0).gameObject.SetActive(true);
         maletinabierto.transform.GetChild(0).GetComponent<SpriteRenderer>().sortingOrder = 3;
         miniMapIcon.SetActive(false);
         inventoryIcon.SetActive(false);

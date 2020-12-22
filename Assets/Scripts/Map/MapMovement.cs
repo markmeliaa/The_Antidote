@@ -28,13 +28,13 @@ public class MapMovement : MonoBehaviour
 
     private void Update()
     {
-        if (manager.InConvo || mapLocations.GetComponent<sceneManager>().getPuzleState())
+        if (manager.InConvo || (sceneManager.getPuzleState() && !sceneManager.getObjectPuzleState()) )
         {
             if(GetComponent<SpriteRenderer>() != null)
             {
-                if (GetComponent<SpriteRenderer>().sprite.name == "Highlight_BusStop_Almacen" || GetComponent<SpriteRenderer>().sprite.name == "Highlight_BusStop_Cruce")
+                if (GetComponent<BoxCollider2D>() != null)
                     GetComponent<BoxCollider2D>().enabled = false;
-                else
+                if(GetComponent<SpriteRenderer>() != null)
                     GetComponent<SpriteRenderer>().enabled = false;
             }
             GetComponent<CursorObject>().active= false;
@@ -44,9 +44,9 @@ public class MapMovement : MonoBehaviour
         {
             if (GetComponent<SpriteRenderer>() != null)
             {
-                if (GetComponent<SpriteRenderer>().sprite.name == "Highlight_BusStop_Almacen" || GetComponent<SpriteRenderer>().sprite.name == "Highlight_BusStop_Cruce")
+                if (GetComponent<BoxCollider2D>() != null)
                     GetComponent<BoxCollider2D>().enabled = true;
-                else
+                if(GetComponent<SpriteRenderer>() != null)
                     GetComponent<SpriteRenderer>().enabled = true;
             }
                 
@@ -84,10 +84,12 @@ public class MapMovement : MonoBehaviour
             if (nextLocation.GetComponent<ScenePuzle>() != null && !nextLocation.GetComponent<ScenePuzle>().doorState())
             {
                 sceneManager.changePuzleState();
+                sceneManager.changeObjectPuzleState();
             }
             else if (sceneManager.getPuzleState())
             {
                 sceneManager.changePuzleState();
+                sceneManager.changeObjectPuzleState();
             }
 
             nextLocation.SetActive(true);

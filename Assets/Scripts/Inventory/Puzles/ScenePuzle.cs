@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class ScenePuzle : MonoBehaviour
 {
-    public GameObject[] arrows;
+    public GameObject[] activeArrows;
+    public GameObject[] inactiveArrows;
     public DialogueManager manager;
     public Conversation warning;
 
@@ -12,19 +13,25 @@ public class ScenePuzle : MonoBehaviour
 
     private void Update()
     {
-        if (!manager.InConvo)
+        if (!opened)
         {
-            for (int i = 0; i < arrows.Length; i++)
+            for (int i = 0; i < activeArrows.Length; i++)
             {
-                arrows[i].GetComponent<SpriteRenderer>().enabled = true;
-                if(arrows[i].GetComponent<MapMovement>() != null)
-                {
-                    arrows[i].GetComponent<CursorObject>().active = true;
-                    arrows[i].GetComponent<MapMovement>().active = true;
-                }
+                activeArrows[i].GetComponent<MapMovement>().active = true;
+                if (activeArrows[i].GetComponent<SpriteRenderer>() != null)
+                    activeArrows[i].GetComponent<SpriteRenderer>().enabled = true;
+                if (activeArrows[i].GetComponent<BoxCollider2D>() != null)
+                    activeArrows[i].GetComponent<BoxCollider2D>().enabled = true;
+            }
 
-                if (arrows[i].GetComponent<BoxCollider2D>() != null)
-                   arrows[i].GetComponent<BoxCollider2D>().enabled = true;
+            for (int i = 0; i < inactiveArrows.Length; i++)
+            {
+                inactiveArrows[i].GetComponent<MapMovement>().active = false;
+                inactiveArrows[i].GetComponent<CursorObject>().active = false;
+                if (inactiveArrows[i].GetComponent<SpriteRenderer>() != null)
+                    inactiveArrows[i].GetComponent<SpriteRenderer>().enabled = false;
+                if (inactiveArrows[i].GetComponent<BoxCollider2D>() != null)
+                    inactiveArrows[i].GetComponent<BoxCollider2D>().enabled = false;
             }
         }
     }
@@ -33,6 +40,8 @@ public class ScenePuzle : MonoBehaviour
     {
         opened = true;
         GetComponentInParent<sceneManager>().changePuzleState();
+        GetComponentInParent<sceneManager>().changeObjectPuzleState();
+
     }
 
     public bool doorState()

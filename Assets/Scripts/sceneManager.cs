@@ -28,6 +28,8 @@ public class sceneManager : MonoBehaviour
     [SerializeField]
     private bool inAPuzle = false;
 
+    private bool objectPuzle = false;
+
     Dictionary<string, Pair> locations;
 
     // Start is called before the first frame update
@@ -77,5 +79,15 @@ public class sceneManager : MonoBehaviour
     public bool getPuzleState()
     {
         return inAPuzle;
+    }
+
+    public void changeObjectPuzleState()
+    {
+        objectPuzle = !objectPuzle;
+    }
+
+    public bool getObjectPuzleState()
+    {
+        return objectPuzle;
     }
 }

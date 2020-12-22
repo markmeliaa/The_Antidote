@@ -30140,7 +30140,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &596874467
 Transform:
   m_ObjectHideFlags: 0
@@ -30273,7 +30273,7 @@ MonoBehaviour:
   interactiveItem: {fileID: 0}
   location: {fileID: 1959324170}
   dialogueManager: {fileID: 147225106}
-  notDestroy: 1
+  notDestroy: 0
 --- !u!114 &596874473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -89563,7 +89563,7 @@ MonoBehaviour:
   interactiveObject:
   - {fileID: 1901296461}
   - {fileID: 1773882843}
-  timer: 4
+  timer: 2
 --- !u!1001 &1750982495
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -97747,9 +97747,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdfbad5a1231000429ab5c6399429d48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrows:
+  activeArrows:
   - {fileID: 1207080729}
-  - {fileID: 576522519}
+  inactiveArrows:
+  - {fileID: 199512960}
   manager: {fileID: 147225106}
   warning: {fileID: 11400000, guid: 5a6073ca72d63f1418d02f6e64cebff3, type: 2}
 --- !u!82 &1917770525
@@ -101528,8 +101529,7 @@ MonoBehaviour:
   - {fileID: 1613091284}
   - {fileID: 1012638759}
   - {fileID: 1177838133}
-  - {fileID: 1177838133}
-  timesVisitedDesactivations: 01000000020000000300000005000000
+  timesVisitedDesactivations: 010000000200000005000000
 --- !u!114 &1984939466
 MonoBehaviour:
   m_ObjectHideFlags: 0

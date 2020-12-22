@@ -22335,8 +22335,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdfbad5a1231000429ab5c6399429d48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrows:
+  activeArrows:
   - {fileID: 1987131996}
+  inactiveArrows:
+  - {fileID: 1942934457}
   manager: {fileID: 835434861}
   warning: {fileID: 11400000, guid: 5a6073ca72d63f1418d02f6e64cebff3, type: 2}
 --- !u!114 &643165348
