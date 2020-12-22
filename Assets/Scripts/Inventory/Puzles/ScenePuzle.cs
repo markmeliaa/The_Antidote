@@ -17,8 +17,11 @@ public class ScenePuzle : MonoBehaviour
             for (int i = 0; i < arrows.Length; i++)
             {
                 arrows[i].GetComponent<SpriteRenderer>().enabled = true;
-                arrows[i].GetComponent<CursorObject>().active = true;
-                arrows[i].GetComponent<MapMovement>().active = true;
+                if(arrows[i].GetComponent<MapMovement>() != null)
+                {
+                    arrows[i].GetComponent<CursorObject>().active = true;
+                    arrows[i].GetComponent<MapMovement>().active = true;
+                }
             }
         }
     }

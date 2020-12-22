@@ -564,7 +564,8 @@ MonoBehaviour:
   navigationItem:
   - {fileID: 1775375699}
   - {fileID: 612154768}
-  timesVisitedActivations: 0100000002000000
+  - {fileID: 1857047879}
+  timesVisitedActivations: 010000000200000004000000
 --- !u!82 &10249344
 AudioSource:
   m_ObjectHideFlags: 0
@@ -97333,7 +97334,6 @@ GameObject:
   - component: {fileID: 1917770519}
   - component: {fileID: 1917770526}
   - component: {fileID: 1917770523}
-  - component: {fileID: 1917770522}
   - component: {fileID: 1917770524}
   - component: {fileID: 1917770525}
   m_Layer: 0
@@ -97394,21 +97394,6 @@ Transform:
   m_Father: {fileID: 1479407755}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1917770522
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1917770518}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb983b98b34546f4988975ca165b3f59, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  navigationItem:
-  - {fileID: 576522519}
-  timesVisitedDesactivations: 01000000
 --- !u!114 &1917770523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97439,6 +97424,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   arrows:
   - {fileID: 1207080729}
+  - {fileID: 576522519}
   manager: {fileID: 147225106}
   warning: {fileID: 11400000, guid: 5a6073ca72d63f1418d02f6e64cebff3, type: 2}
 --- !u!82 &1917770525
