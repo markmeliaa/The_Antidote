@@ -7,7 +7,7 @@ public class showHighlight : MonoBehaviour
     private SpriteRenderer highlight;
     private DialogueManager manager;
 
-    private void Start()
+    private void Awake()
     {
         highlight = GetComponent<SpriteRenderer>();
         manager = GameObject.Find("DialogueBox1").GetComponent<DialogueManager>();

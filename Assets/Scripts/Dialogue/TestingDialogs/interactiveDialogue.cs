@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class interactiveDialogue : MonoBehaviour
 {
+    public GameObject interactiveItem;
     public GameObject location;
     public DialogueManager dialogueManager;
     public bool notDestroy = false;
@@ -14,7 +15,10 @@ public class interactiveDialogue : MonoBehaviour
             location.GetComponentInParent<sceneManager>().setLocationTimes(location.name);
             location.GetComponent<Tester>().sceneWithInteraction = false;
             if (!notDestroy)
+            {
+                Destroy(interactiveItem);
                 Destroy(gameObject);
+            }
             else
                 notDestroy = false;
         }
