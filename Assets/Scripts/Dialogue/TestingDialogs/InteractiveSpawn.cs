@@ -12,11 +12,15 @@ public class InteractiveSpawn : MonoBehaviour
     Tester tester;
     int indexActivation;
     float time;
+    sceneManager manager;
+    DialogueManager dialogueManager;
 
     private void Start()
     {
         tester = GetComponent<Tester>();
         indexActivation = 0;
+        manager = GameObject.Find("Map Locations").GetComponent<sceneManager>();
+        dialogueManager = GameObject.Find("DialogueBox1").GetComponent<DialogueManager>();
     }
 
     // Update is called once per frame
@@ -27,7 +31,8 @@ public class InteractiveSpawn : MonoBehaviour
 
     private void checkActivation()
     {
-        if(indexActivation < converTimes.Length && tester.index == converTimes[indexActivation])
+        if(indexActivation < converTimes.Length && tester.index == converTimes[indexActivation]
+            && !manager.getPuzleState() && !dialogueManager.InConvo)
         {
             time += Time.deltaTime;
             if (time > timer)

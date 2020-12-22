@@ -58042,7 +58042,7 @@ MonoBehaviour:
   - {fileID: 1483338385}
   - {fileID: 1483338385}
   - {fileID: 814890093}
-  timer: 5
+  timer: 0
 --- !u!1001 &1147343828
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -89561,9 +89561,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   converTimes: 0200000002000000
   interactiveObject:
-  - {fileID: 1773882843}
   - {fileID: 1901296461}
-  timer: 2
+  - {fileID: 1773882843}
+  timer: 4
 --- !u!1001 &1750982495
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -101659,7 +101659,7 @@ MonoBehaviour:
   interactiveObject:
   - {fileID: 919293600}
   - {fileID: 1039830627}
-  timer: 2
+  timer: 0.5
 --- !u!1 &1985565028
 GameObject:
   m_ObjectHideFlags: 0
