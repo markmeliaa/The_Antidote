@@ -473,7 +473,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &10249339
 Transform:
   m_ObjectHideFlags: 0
@@ -45748,7 +45748,7 @@ GameObject:
   - component: {fileID: 898914307}
   - component: {fileID: 898914306}
   m_Layer: 0
-  m_Name: WinText
+  m_Name: WinText2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -90637,7 +90637,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 9d4cd86f8e5a52c4b911edabc773d7f1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -95387,7 +95387,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   selection: {fileID: 1764329484}
   victory: {fileID: 898914305}
-  endPuzle: {fileID: 1891447549}
+  endPuzzle: {fileID: 440518073}
 --- !u!1 &1854235837
 GameObject:
   m_ObjectHideFlags: 0
@@ -98418,7 +98418,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   selection: {fileID: 2125246993}
   victory: {fileID: 2138737124}
-  endPuzle: {fileID: 27601909}
+  endPuzzle: {fileID: 502551540}
 --- !u!1 &1939009846
 GameObject:
   m_ObjectHideFlags: 0
@@ -108434,7 +108434,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 9d4cd86f8e5a52c4b911edabc773d7f1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
