@@ -26,6 +26,7 @@ public class ScenePuzle : MonoBehaviour
 
             for (int i = 0; i < inactiveArrows.Length; i++)
             {
+                inactiveArrows[i].GetComponent<MapMovement>().objectPuzleInactivate = true;
                 inactiveArrows[i].GetComponent<MapMovement>().active = false;
                 inactiveArrows[i].GetComponent<CursorObject>().active = false;
                 if (inactiveArrows[i].GetComponent<SpriteRenderer>() != null)
@@ -41,7 +42,8 @@ public class ScenePuzle : MonoBehaviour
         opened = true;
         GetComponentInParent<sceneManager>().changePuzleState();
         GetComponentInParent<sceneManager>().changeObjectPuzleState();
-
+        for (int i = 0; i < inactiveArrows.Length; i++)
+            inactiveArrows[i].GetComponent<MapMovement>().objectPuzleInactivate = false;
     }
 
     public bool doorState()

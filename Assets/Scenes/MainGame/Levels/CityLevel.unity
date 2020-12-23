@@ -5524,6 +5524,7 @@ MonoBehaviour:
   currentLocation: {fileID: 1959324170}
   miniMap: {fileID: 1880567386}
   active: 0
+  objectPuzleInactivate: 0
   dialogueManager: {fileID: 1171928259}
 --- !u!114 &93580584
 MonoBehaviour:
@@ -5665,6 +5666,7 @@ MonoBehaviour:
   currentLocation: {fileID: 2031988501}
   miniMap: {fileID: 1880567386}
   active: 0
+  objectPuzleInactivate: 0
   dialogueManager: {fileID: 1171928259}
 --- !u!61 &94199065
 BoxCollider2D:
@@ -8023,6 +8025,7 @@ MonoBehaviour:
   currentLocation: {fileID: 872371778}
   miniMap: {fileID: 1880567386}
   active: 0
+  objectPuzleInactivate: 0
   dialogueManager: {fileID: 1171928259}
 --- !u!212 &145989657
 SpriteRenderer:
@@ -10892,6 +10895,7 @@ MonoBehaviour:
   currentLocation: {fileID: 1917770518}
   miniMap: {fileID: 1880567386}
   active: 0
+  objectPuzleInactivate: 0
   dialogueManager: {fileID: 1171928259}
 --- !u!61 &199512965
 BoxCollider2D:
@@ -13804,6 +13808,7 @@ MonoBehaviour:
   currentLocation: {fileID: 1750754165}
   miniMap: {fileID: 1880567386}
   active: 0
+  objectPuzleInactivate: 0
   dialogueManager: {fileID: 1171928259}
 --- !u!212 &228877625
 SpriteRenderer:
@@ -13920,6 +13925,7 @@ MonoBehaviour:
   currentLocation: {fileID: 1984939460}
   miniMap: {fileID: 1880567386}
   active: 0
+  objectPuzleInactivate: 0
   dialogueManager: {fileID: 1171928259}
 --- !u!212 &230661378
 SpriteRenderer:
@@ -27566,6 +27572,7 @@ MonoBehaviour:
   currentLocation: {fileID: 240592858}
   miniMap: {fileID: 1880567386}
   active: 0
+  objectPuzleInactivate: 0
   dialogueManager: {fileID: 1171928259}
 --- !u!212 &551246728
 SpriteRenderer:
@@ -28462,6 +28469,7 @@ MonoBehaviour:
   currentLocation: {fileID: 1750754165}
   miniMap: {fileID: 1880567386}
   active: 0
+  objectPuzleInactivate: 0
   dialogueManager: {fileID: 1171928259}
 --- !u!212 &565541535
 SpriteRenderer:
@@ -30933,6 +30941,7 @@ MonoBehaviour:
   currentLocation: {fileID: 2031988501}
   miniMap: {fileID: 1880567386}
   active: 0
+  objectPuzleInactivate: 0
   dialogueManager: {fileID: 1171928259}
 --- !u!212 &612154773
 SpriteRenderer:
@@ -41009,6 +41018,7 @@ MonoBehaviour:
   currentLocation: {fileID: 872371778}
   miniMap: {fileID: 1880567386}
   active: 0
+  objectPuzleInactivate: 0
   dialogueManager: {fileID: 1171928259}
 --- !u!61 &811818286
 BoxCollider2D:
@@ -41269,7 +41279,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5.3, y: 9.22}
+    oldSize: {x: 5.54, y: 9.24}
     newSize: {x: 5.3, y: 9.22}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -47073,6 +47083,7 @@ MonoBehaviour:
   currentLocation: {fileID: 1144247024}
   miniMap: {fileID: 1880567386}
   active: 0
+  objectPuzleInactivate: 0
   dialogueManager: {fileID: 1171928259}
 --- !u!212 &930186737
 SpriteRenderer:
@@ -50896,6 +50907,7 @@ MonoBehaviour:
   currentLocation: {fileID: 1631023949}
   miniMap: {fileID: 1880567386}
   active: 0
+  objectPuzleInactivate: 0
   dialogueManager: {fileID: 1171928259}
 --- !u!212 &1000518883
 SpriteRenderer:
@@ -51065,6 +51077,7 @@ MonoBehaviour:
   currentLocation: {fileID: 219006581}
   miniMap: {fileID: 1880567386}
   active: 0
+  objectPuzleInactivate: 0
   dialogueManager: {fileID: 1171928259}
 --- !u!114 &1001406049
 MonoBehaviour:
@@ -51759,6 +51772,7 @@ MonoBehaviour:
   currentLocation: {fileID: 827117483}
   miniMap: {fileID: 1880567386}
   active: 0
+  objectPuzleInactivate: 0
   dialogueManager: {fileID: 1171928259}
 --- !u!212 &1012638763
 SpriteRenderer:
@@ -59051,6 +59065,7 @@ MonoBehaviour:
   currentLocation: {fileID: 1984939460}
   miniMap: {fileID: 1880567386}
   active: 0
+  objectPuzleInactivate: 0
   dialogueManager: {fileID: 1171928259}
 --- !u!212 &1177838137
 SpriteRenderer:
@@ -60851,6 +60866,7 @@ MonoBehaviour:
   currentLocation: {fileID: 1917770518}
   miniMap: {fileID: 1880567386}
   active: 0
+  objectPuzleInactivate: 0
   dialogueManager: {fileID: 1171928259}
 --- !u!61 &1207080735
 BoxCollider2D:
@@ -61632,6 +61648,7 @@ MonoBehaviour:
   currentLocation: {fileID: 240592858}
   miniMap: {fileID: 1880567386}
   active: 0
+  objectPuzleInactivate: 0
   dialogueManager: {fileID: 1171928259}
 --- !u!212 &1217672616
 SpriteRenderer:
@@ -77565,6 +77582,7 @@ MonoBehaviour:
   currentLocation: {fileID: 219006581}
   miniMap: {fileID: 1880567386}
   active: 0
+  objectPuzleInactivate: 0
   dialogueManager: {fileID: 1171928259}
 --- !u!212 &1559186194
 SpriteRenderer:
@@ -81073,6 +81091,7 @@ MonoBehaviour:
   currentLocation: {fileID: 827117483}
   miniMap: {fileID: 1880567386}
   active: 0
+  objectPuzleInactivate: 0
   dialogueManager: {fileID: 1171928259}
 --- !u!212 &1613091288
 SpriteRenderer:
@@ -87482,6 +87501,7 @@ MonoBehaviour:
   currentLocation: {fileID: 614370882}
   miniMap: {fileID: 1880567386}
   active: 0
+  objectPuzleInactivate: 0
   dialogueManager: {fileID: 1171928259}
 --- !u!61 &1726002416
 BoxCollider2D:
@@ -89046,6 +89066,7 @@ MonoBehaviour:
   currentLocation: {fileID: 2031988501}
   miniMap: {fileID: 1880567386}
   active: 0
+  objectPuzleInactivate: 0
   dialogueManager: {fileID: 1171928259}
 --- !u!114 &1746522958
 MonoBehaviour:
@@ -91698,6 +91719,7 @@ MonoBehaviour:
   currentLocation: {fileID: 10249338}
   miniMap: {fileID: 1880567386}
   active: 0
+  objectPuzleInactivate: 0
   dialogueManager: {fileID: 1171928259}
 --- !u!212 &1775375703
 SpriteRenderer:
@@ -97996,6 +98018,7 @@ MonoBehaviour:
   currentLocation: {fileID: 1631023949}
   miniMap: {fileID: 1880567386}
   active: 0
+  objectPuzleInactivate: 0
   dialogueManager: {fileID: 1171928259}
 --- !u!61 &1918658524
 BoxCollider2D:
@@ -108529,6 +108552,7 @@ MonoBehaviour:
   currentLocation: {fileID: 827117483}
   miniMap: {fileID: 1880567386}
   active: 0
+  objectPuzleInactivate: 0
   dialogueManager: {fileID: 1171928259}
 --- !u!212 &2129980375
 SpriteRenderer:

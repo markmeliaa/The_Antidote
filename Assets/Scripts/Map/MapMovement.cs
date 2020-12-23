@@ -11,6 +11,7 @@ public class MapMovement : MonoBehaviour
     public GameObject currentLocation;
     public GameObject miniMap;
     public bool active;
+    public bool objectPuzleInactivate = false;
 
     [SerializeField] private GameObject dialogueManager;
 
@@ -40,7 +41,7 @@ public class MapMovement : MonoBehaviour
             GetComponent<CursorObject>().active= false;
             active = false;
         }
-        else
+        else if(!objectPuzleInactivate)
         {
             if (GetComponent<SpriteRenderer>() != null)
             {
