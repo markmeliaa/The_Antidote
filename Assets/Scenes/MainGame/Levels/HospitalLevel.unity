@@ -16984,7 +16984,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 490398464}
-  m_Text: "\xBFCon que se examinan\nlos sonidos\nrespirat\xF3rios o\ncard\xEDacos?"
+  m_Text: "\xBFCon qu\xE9 se \nexaminan los sonidos\nrespirat\xF3rios o\ncard\xEDacos?"
   m_OffsetZ: 0
   m_CharacterSize: 0.045
   m_LineSpacing: 1
@@ -16994,7 +16994,7 @@ TextMesh:
   m_FontSize: 149
   m_FontStyle: 0
   m_RichText: 1
-  m_Font: {fileID: 12800000, guid: 883075cd4d3256347bbda24abe4c517b, type: 3}
+  m_Font: {fileID: 12800000, guid: d8e29f5251dcfca429ba8f1c11207356, type: 3}
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
@@ -17016,7 +17016,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 883075cd4d3256347bbda24abe4c517b, type: 3}
+  - {fileID: 2100000, guid: d8e29f5251dcfca429ba8f1c11207356, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -20607,7 +20607,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 574062507}
-  m_Text: "\xBFCon qu\xE9 se suelen\nadministrar las\nvacunas?"
+  m_Text: "\xBFCon qu\xE9 se \nsuelen administrar \nlas vacunas?"
   m_OffsetZ: 0
   m_CharacterSize: 0.05
   m_LineSpacing: 1
@@ -20617,7 +20617,7 @@ TextMesh:
   m_FontSize: 149
   m_FontStyle: 0
   m_RichText: 1
-  m_Font: {fileID: 12800000, guid: 883075cd4d3256347bbda24abe4c517b, type: 3}
+  m_Font: {fileID: 12800000, guid: d8e29f5251dcfca429ba8f1c11207356, type: 3}
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
@@ -20639,7 +20639,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 883075cd4d3256347bbda24abe4c517b, type: 3}
+  - {fileID: 2100000, guid: d8e29f5251dcfca429ba8f1c11207356, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -20744,7 +20744,7 @@ TextMesh:
   m_FontSize: 149
   m_FontStyle: 0
   m_RichText: 1
-  m_Font: {fileID: 12800000, guid: 883075cd4d3256347bbda24abe4c517b, type: 3}
+  m_Font: {fileID: 12800000, guid: d8e29f5251dcfca429ba8f1c11207356, type: 3}
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
@@ -20766,7 +20766,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 883075cd4d3256347bbda24abe4c517b, type: 3}
+  - {fileID: 2100000, guid: d8e29f5251dcfca429ba8f1c11207356, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -48101,7 +48101,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1312699678}
-  m_Text: "\xBFQu\xE9 sueles usar\ncuando te haces un\npeque\xF1o corte o\nherida?"
+  m_Text: "\xBFQu\xE9 sueles usar\ncuando te haces \nun peque\xF1o corte \no herida?"
   m_OffsetZ: 0
   m_CharacterSize: 0.05
   m_LineSpacing: 1
@@ -48111,7 +48111,7 @@ TextMesh:
   m_FontSize: 149
   m_FontStyle: 0
   m_RichText: 1
-  m_Font: {fileID: 12800000, guid: 883075cd4d3256347bbda24abe4c517b, type: 3}
+  m_Font: {fileID: 12800000, guid: d8e29f5251dcfca429ba8f1c11207356, type: 3}
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
@@ -48133,7 +48133,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 883075cd4d3256347bbda24abe4c517b, type: 3}
+  - {fileID: 2100000, guid: d8e29f5251dcfca429ba8f1c11207356, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -68194,7 +68194,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1825011550}
-  m_Text: "\xBFQu\xE9 medicamento\nes s\xF3lido y se toma\nde forma oral?"
+  m_Text: "\xBFQu\xE9 medicamento\nes s\xF3lido y se \ntoma de forma \noral?"
   m_OffsetZ: 0
   m_CharacterSize: 0.05
   m_LineSpacing: 1
@@ -68204,7 +68204,7 @@ TextMesh:
   m_FontSize: 149
   m_FontStyle: 0
   m_RichText: 1
-  m_Font: {fileID: 12800000, guid: 883075cd4d3256347bbda24abe4c517b, type: 3}
+  m_Font: {fileID: 12800000, guid: d8e29f5251dcfca429ba8f1c11207356, type: 3}
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
@@ -68226,7 +68226,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 883075cd4d3256347bbda24abe4c517b, type: 3}
+  - {fileID: 2100000, guid: d8e29f5251dcfca429ba8f1c11207356, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
