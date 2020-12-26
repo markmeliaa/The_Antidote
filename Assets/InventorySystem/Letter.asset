@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Carta
   icon: {fileID: 21300000, guid: 78feaa7279bf28546b90cddb6e3f2d33, type: 3}
-  description: Av. Madki Entertainment, num 4, Poligono Industrial
+  description: Av. Madki Entertainment, numero cuatro, Poligono Industrial
   spawnObject: {fileID: 0}
   puzleAim: 

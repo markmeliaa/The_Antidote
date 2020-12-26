@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6e7c39a969bf014181dc345647a0e83, type: 3}
+  m_Name: EnterpriseTF3
+  m_EditorClassIdentifier: 
+  allLines:
+  - speaker: {fileID: 11400000, guid: 8e4e811589ae3d34cb1cd8018006c773, type: 2}
+    dialogue: "No, no, no... \xA1Gatrie!, \xA1Valerie!"
+    listener1: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue3: 
+  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: 0d5640ea1eed9424a989b09192b5928b, type: 2}
+    dialogue2: "\xBFEh?, \xBFKieran?, \xBFqu\xE9 pasa coleguita?"
+    listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue3: 
+  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: 92d4d8071bd8a7b468302e797acfa386, type: 2}
+    dialogue3: "Me encuentro fataaal\u2026"
+  - speaker: {fileID: 11400000, guid: f8f161c3634a91540bcd1e152ecfe0ae, type: 2}
+    dialogue: "No puede ser, no pens\xE9 que esto fuera a escalar tan r\xE1pido\u2026\xBFQue
+      puedo hacer?... el laboratorio del s\xF3tano, tengo que conseguir el ant\xEDdoto
+      para d\xE1rselo a Gatrie y Valerie."
+    listener1: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue3: 
+  - speaker: {fileID: 11400000, guid: f8f161c3634a91540bcd1e152ecfe0ae, type: 2}
+    dialogue: Espero que las clases de la carrera me sirvan de algo ahora que es
+      importante, por lo menos a mi padre si que le sirvieron.
+    listener1: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue3: 
+  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: ccf31a4b588b1bf4e90d6dc6e12b689a, type: 2}
+    dialogue3: "Anti\u2026\xBFqu\xE9?...lo siento Kieran pero no te entiendo bien
+      y estoy muy cansada."
+  - speaker: {fileID: 11400000, guid: f8f161c3634a91540bcd1e152ecfe0ae, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: 0d5640ea1eed9424a989b09192b5928b, type: 2}
+    dialogue2: "Yo creo que de hecho estoy escuchando demasiadas cosas, me est\xE1
+      matando la cabeza."
+    listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue3: 
+  - speaker: {fileID: 11400000, guid: f8f161c3634a91540bcd1e152ecfe0ae, type: 2}
+    dialogue: "Chicos, escuchadme, se que os va a costar horrores, pero teneis que
+      bajar conmigo al s\xF3tano del edificio, all\xED hay un laboratorio donde podr\xE9
+      fabricar un ant\xEDdoto, o, al menos, un remedio temporal para vosotros."
+    listener1: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue3: 
+  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: bef8c97b57e0c614e911ca547aa2b5be, type: 2}
+    dialogue2: "Creo que... podremos llegar all\xED aunque sea haciendo eses."
+    listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue3: 
+  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: ccf31a4b588b1bf4e90d6dc6e12b689a, type: 2}
+    dialogue3: Yo solo espero que estas jaquecas no empeoren de repente o no voy
+      a poder ni moverme.
+  - speaker: {fileID: 11400000, guid: 8e4e811589ae3d34cb1cd8018006c773, type: 2}
+    dialogue: "Yo me adelantare, asi podre empezar a fabricarlo en lo que lleg\xE1is.
+      Llegad lo m\xE1s abajo que pod\xE1is, all\xED os afectar\xE1 menos esto."
+    listener1: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue3: 
+  - speaker: {fileID: 11400000, guid: 8e4e811589ae3d34cb1cd8018006c773, type: 2}
+    dialogue: "Incluso si no lleg\xE1is al s\xF3tano eso os ayudar\xE1, yo volver\xE9
+      a por vosotros no os preocupeis."
+    listener1: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue3: 
+  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: 29f459e664aa5af428a79cc687295b26, type: 2}
+    dialogue3: "Claro... corre tigre, vamos detr\xE1s de ti."
+  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: 8967d214f6bddbd40bea9d37dca9104c, type: 2}
+    dialogue2: Si alguien puede eres tu, dale colega...
+    listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue3: 
+  - speaker: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: bef8c97b57e0c614e911ca547aa2b5be, type: 2}
+    dialogue2: Parece que tendremos que hacer esto juntos Valerie.
+    listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue3: 
+  - speaker: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: 8b585fabed81bde489aed1696e555c0d, type: 2}
+    dialogue3: "No me preocupa, conf\xEDo vosotros, somos un equipo incre\xEDble...
+      Ahora vamos, recuerda lo que dijo nuestro cerebrito."
+  - speaker: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: 8967d214f6bddbd40bea9d37dca9104c, type: 2}
+    dialogue2: "Vamos all\xE1, a disfrutar de nuestro primer pedo juntos."
+    listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue3: 
