@@ -32,9 +32,9 @@ MonoBehaviour:
     listener2: {fileID: 11400000, guid: 92d4d8071bd8a7b468302e797acfa386, type: 2}
     dialogue3: "Me encuentro fataaal\u2026"
   - speaker: {fileID: 11400000, guid: f8f161c3634a91540bcd1e152ecfe0ae, type: 2}
-    dialogue: "No puede ser, no pens\xE9 que esto fuera a escalar tan r\xE1pido\u2026\xBFQue
-      puedo hacer?... el laboratorio del s\xF3tano, tengo que conseguir el ant\xEDdoto
-      para d\xE1rselo a Gatrie y Valerie."
+    dialogue: "No puede ser, no pens\xE9 que esto fuera a escalar tan r\xE1pido\u2026
+      \xBFQue puedo hacer?... el laboratorio del s\xF3tano, tengo que conseguir el
+      ant\xEDdoto para d\xE1rselo a Gatrie y Valerie."
     listener1: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}

@@ -23,8 +23,8 @@ MonoBehaviour:
     dialogue: 
     listener1: {fileID: 11400000, guid: 5781c5e7fd13a3a4b9a4b1c137954712, type: 2}
     dialogue2: "Creo que primero deber\xEDamos intentar encontrar el despacho de
-      mi padre, aunque... Nunca llegu\xE9 a preguntarle nada sobre su trabajo, as\xED
-      que tendremos que ir mirando planta por planta... Tendremos que ir con cuidado."
+      mi padre, aunque... nunca llegu\xE9 a preguntarle nada sobre su trabajo, as\xED
+      que tendremos que ir mirando planta por planta... tendremos que ir con cuidado."
     listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue3: 
   - speaker: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}

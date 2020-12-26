@@ -15,7 +15,7 @@ MonoBehaviour:
   allLines:
   - speaker: {fileID: 11400000, guid: f8f161c3634a91540bcd1e152ecfe0ae, type: 2}
     dialogue: "Qu\xE9 extra\xF1o, parece que aqu\xED dentro el aire no es tan pesado.
-      Pero bueno...veamos que hay por aqu\xED."
+      Pero bueno... veamos que hay por aqu\xED."
     listener1: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}

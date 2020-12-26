@@ -38,7 +38,7 @@ MonoBehaviour:
     listener2: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue3: 
   - speaker: {fileID: 11400000, guid: 912f80863de6eca48bfec096847c71c4, type: 2}
-    dialogue: "Pff... El jefe nos tiene trabajando como esclavos despu\xE9s de lo
+    dialogue: "Pff... el jefe nos tiene trabajando como esclavos despu\xE9s de lo
       de ayer...\n"
     listener1: {fileID: 11400000, guid: fc407688f4b7a7541ab68eb8a9175407, type: 2}
     dialogue2: 

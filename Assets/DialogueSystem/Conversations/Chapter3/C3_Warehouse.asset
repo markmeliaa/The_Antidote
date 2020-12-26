@@ -26,3 +26,9 @@ MonoBehaviour:
     dialogue2: Perfecto, entremos.
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
+  - speaker: {fileID: 11400000, guid: d10ecfe38086a0b47820494ecb643916, type: 2}
+    dialogue: "Entra t\xFA, nosotros te esperamos aqu\xED."
+    listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue3: 
