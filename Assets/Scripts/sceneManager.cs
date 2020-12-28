@@ -48,6 +48,8 @@ public class sceneManager : MonoBehaviour
                 setLocationBool("crossRoads2");
             else if (transform.GetChild(i).name == "HospitalEntrance")
                 setLocationBool("HospitalEntrance");
+            else if (transform.GetChild(i).name == "EnterpriseEntrance")
+                setLocationBool("EnterpriseEntrance");
         }
     }
 
