@@ -21,17 +21,10 @@ public class backgoundChange : MonoBehaviour
         if (index < changeConditions.Length && manager.getLocationBool(changeConditions[index].name)
             && manager.getLocationTimes(changeConditions[index].name) == changeTimes[index])
         {
-
-            for (int i = 0; i < transform.childCount; i++)
-            {
-                transform.GetChild(i).gameObject.SetActive(true);
-            }
-
             miniMap.SetActive(true);
             transform.Find("InteractiveBackground").GetComponent<SpriteRenderer>().sprite = newBackground[index];
             transform.Find("BackgroundMapGrey").GetComponent<SpriteRenderer>().sprite = newBackground[index];
             index++;
-
         }
     }
 }

@@ -16,14 +16,17 @@ public class interactiveDialogue : MonoBehaviour
             location.GetComponent<Tester>().sceneWithInteraction = false;
             if (!notDestroy)
             {
-                Destroy(interactiveItem);
+                if (interactiveItem != null)
+                    Destroy(interactiveItem);
                 Destroy(gameObject);
             }
             else
             {
                 notDestroy = false;
-                interactiveItem.SetActive(false);
                 gameObject.SetActive(false);
+
+                if(interactiveItem != null)
+                    interactiveItem.SetActive(false);
             }
         }
     }

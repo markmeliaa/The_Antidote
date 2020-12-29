@@ -509,8 +509,7 @@ MonoBehaviour:
   - {fileID: 2031988501}
   - {fileID: 614370882}
   - {fileID: 1144247024}
-  - {fileID: 10249338}
-  timesVisited: 0000000001000000020000000500000000000000
+  timesVisited: 00000000010000000200000005000000
 --- !u!114 &10249341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7397,6 +7396,7 @@ MonoBehaviour:
   - Colarme en el almacen
   - Investigar el almacen
   - Volver a mi casa
+  - Ir al Hospital
   locations:
   - {fileID: 10249338}
   - {fileID: 219006581}
@@ -7411,7 +7411,8 @@ MonoBehaviour:
   - {fileID: 1917770518}
   - {fileID: 240592858}
   - {fileID: 1144247024}
-  timesVisited: 00000000010000000100000001000000020000000200000002000000030000000200000003000000010000000100000004000000
+  - {fileID: 10249338}
+  timesVisited: 0000000001000000010000000100000002000000020000000200000003000000020000000300000001000000010000000400000004000000
   manager: {fileID: 1479407756}
 --- !u!1001 &135591696
 PrefabInstance:
@@ -57934,7 +57935,7 @@ MonoBehaviour:
   - {fileID: 1144247024}
   - {fileID: 1144247024}
   - {fileID: 1917770518}
-  timesVisited: 010000000100000002000000030000000400000001000000
+  timesVisited: 010000000100000002000000030000000400000003000000
 --- !u!114 &1144247028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -89446,7 +89447,7 @@ MonoBehaviour:
   - {fileID: 10249338}
   - {fileID: 1750754165}
   - {fileID: 10249338}
-  timesVisited: 02000000030000000200000001000000
+  timesVisited: 02000000030000000200000006000000
 --- !u!114 &1750754169
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97737,7 +97738,7 @@ MonoBehaviour:
   - {fileID: 1144247024}
   - {fileID: 219006581}
   - {fileID: 1144247024}
-  timesVisited: 03000000050000000200000001000000
+  timesVisited: 03000000050000000600000006000000
 --- !u!4 &1917770521
 Transform:
   m_ObjectHideFlags: 0
@@ -103538,7 +103539,7 @@ MonoBehaviour:
   - {fileID: 10249338}
   - {fileID: 10249338}
   - {fileID: 1750754165}
-  timesVisited: 010000000300000001000000
+  timesVisited: 010000000300000004000000
 --- !u!114 &2031988505
 MonoBehaviour:
   m_ObjectHideFlags: 0

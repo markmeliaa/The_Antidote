@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allLines:
   - speaker: {fileID: 11400000, guid: f0b0912442ae7f94491edc4972be45ad, type: 2}
-    dialogue: "Av\xEDsame cuando est\xE9s frente a mi casa. Quiz\xE1s deber\xEDa
-      llevar algunas cosas, como el USB de pap\xE1, por si acaso."
+    dialogue: "Av\xEDsame cuando est\xE9s frente a mi casa. No quiero perder mucho
+      tiempo por si no es tan f\xE1cil como pensamos."
     listener1: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
