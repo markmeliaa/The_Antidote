@@ -17096,7 +17096,7 @@ GameObject:
   - component: {fileID: 500553310}
   - component: {fileID: 500553311}
   m_Layer: 0
-  m_Name: ChemistryPuzzle3 (19)
+  m_Name: ChemistryPuzzle2 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -52406,7 +52406,7 @@ GameObject:
   - component: {fileID: 1433684300}
   - component: {fileID: 1433684301}
   m_Layer: 0
-  m_Name: ChemistryPuzzle3
+  m_Name: ChemistryPuzzle2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
