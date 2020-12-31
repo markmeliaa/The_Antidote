@@ -12,4 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6e7c39a969bf014181dc345647a0e83, type: 3}
   m_Name: cellsCorridor
   m_EditorClassIdentifier: 
-  allLines: []
+  allLines:
+  - speaker: {fileID: 11400000, guid: 8e4e811589ae3d34cb1cd8018006c773, type: 2}
+    dialogue: "\xBFPero qu\xE9 es todo esto?... \xA1\xBFTienen gente atrapada aqu\xED
+      abajo?!...Dios m\xEDo, parece que tienen los mismos s\xEDntomas que Valerie
+      y Gatrie...Esto es m\xE1s peligroso de lo que pensaba, tengo que preparar el
+      ant\xEDdoto y sacarlos de aqu\xED ya."
+    listener1: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue3: 

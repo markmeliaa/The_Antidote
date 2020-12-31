@@ -12,4 +12,57 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6e7c39a969bf014181dc345647a0e83, type: 3}
   m_Name: basementLab3
   m_EditorClassIdentifier: 
-  allLines: []
+  allLines:
+  - speaker: {fileID: 11400000, guid: f8f161c3634a91540bcd1e152ecfe0ae, type: 2}
+    dialogue: "\xBFC\xF3mo os encontr\xE1is?"
+    listener1: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue3: 
+  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: 29f459e664aa5af428a79cc687295b26, type: 2}
+    dialogue2: "Mucho mejor, solo necesito unos segunditos de tumbarme y dormir hasta
+      morir y volver\xE9 a estar entera."
+    listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue3: 
+  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: 8967d214f6bddbd40bea9d37dca9104c, type: 2}
+    dialogue3: "Lo mismo digo... te has fijado Kieran, Valerie es m\xE1s simp\xE1tica
+      intoxicada que normal."
+  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: 8b585fabed81bde489aed1696e555c0d, type: 2}
+    dialogue2: "\xA1Callate, Gatrie! Es sorprendente Kieran, has conseguido fabricar
+      el ant\xEDdoto."
+    listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue3: 
+  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: bef8c97b57e0c614e911ca547aa2b5be, type: 2}
+    dialogue3: "Si tio, eres un genio, ni siquiera tu padre lo hab\xEDa logrado."
+  - speaker: {fileID: 11400000, guid: 36a731df2a387fd4facb45e76a05da19, type: 2}
+    dialogue: "Ha sido todo gracias a los avances que \xE9l ya hab\xEDa hecho en
+      la investigaci\xF3n, de no ser por eso no creo que os lo hubiera podido suministrar
+      a tiempo."
+    listener1: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue3: 
+  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: 8b585fabed81bde489aed1696e555c0d, type: 2}
+    dialogue2: "No te das suficiente cr\xE9dito..."
+    listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue3: 
+  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: 8967d214f6bddbd40bea9d37dca9104c, type: 2}
+    dialogue3: Nunca lo hace, tampoco es para sorprenderse JAJAJAJA.
