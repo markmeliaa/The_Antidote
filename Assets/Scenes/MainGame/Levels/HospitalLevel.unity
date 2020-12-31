@@ -13655,7 +13655,7 @@ GameObject:
   - component: {fileID: 405207208}
   - component: {fileID: 405207209}
   m_Layer: 0
-  m_Name: PipePuzzle (17)
+  m_Name: PipePuzzle3 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38697,7 +38697,7 @@ GameObject:
   - component: {fileID: 1077592873}
   - component: {fileID: 1077592874}
   m_Layer: 0
-  m_Name: HangmanPuzzle 2 (15)
+  m_Name: HangmanPuzzle2 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
