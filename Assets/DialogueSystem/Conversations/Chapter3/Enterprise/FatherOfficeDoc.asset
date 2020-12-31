@@ -20,37 +20,60 @@ MonoBehaviour:
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
   - speaker: {fileID: 11400000, guid: 814eaf36bd1f5584ab1a18eb4eb6d6f4, type: 2}
-    dialogue: 
+    dialogue: "Han pasado varios d\xEDas desde que tuve que llevar a Hubert al hospital,
+      aun sabiendo la situaci\xF3n en la que se encuentra, est\xE1 tratando de ayudarme
+      como puede para encontrar un remedio a la contaminaci\xF3n del s\xEDlice."
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
   - speaker: {fileID: 11400000, guid: 814eaf36bd1f5584ab1a18eb4eb6d6f4, type: 2}
-    dialogue: 
+    dialogue: "Hubert se ofreci\xF3 para probar los distintos ant\xEDdotos que hemos
+      ido desarrollando, al principio me parec\xEDa bien, ya que pensaba que dar\xEDamos
+      con un remedio r\xE1pido y que no le supondr\xEDa ning\xFAn problema de salud
+      mayor, pero me equivocaba."
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
   - speaker: {fileID: 11400000, guid: 814eaf36bd1f5584ab1a18eb4eb6d6f4, type: 2}
-    dialogue: 
+    dialogue: "Trata de ocultarlo, pero cuando le pregunto a los doctores por el
+      me dicen que cada dia que pasa est\xE1 peor, podr\xEDa ser solo el s\xEDlice
+      abri\xE9ndose camino por todo su cuerpo...o podr\xEDan ser nuestros \"remedios\"."
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
   - speaker: {fileID: 11400000, guid: 814eaf36bd1f5584ab1a18eb4eb6d6f4, type: 2}
-    dialogue: 
+    dialogue: "De cualquier manera, no pienso tomar m\xE1s riesgos, esto no volver\xE1
+      a pasar, dejar\xE9 que me siga ayudando con la investigaci\xF3n, pero aunque
+      sea voluntario, se acab\xF3 utilizarlo como a una rata de laboratorio."
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
   - speaker: {fileID: 11400000, guid: 814eaf36bd1f5584ab1a18eb4eb6d6f4, type: 2}
-    dialogue: 
+    dialogue: "No estamos avanzando y Luther aumenta cada vez m\xE1s el uso de los
+      materiales con componentes da\xF1inos nos est\xE1 empezando a desesperar, cada
+      dia veo a m\xE1s compa\xF1eros cayendo enfermos uno tras otro, algunos incluso
+      han empezado a perder la cordura."
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
   - speaker: {fileID: 11400000, guid: 814eaf36bd1f5584ab1a18eb4eb6d6f4, type: 2}
-    dialogue: 
+    dialogue: "He intentado montar un peque\xF1o laboratorio en las afueras de la
+      ciudad, en unos viejos almacenes abandonados, pero mi falta de material hace
+      que sea muy complicado trabajar all\xED y hacer alg\xFAn avance significativo."
+    listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue3: 
+  - speaker: {fileID: 11400000, guid: 814eaf36bd1f5584ab1a18eb4eb6d6f4, type: 2}
+    dialogue: "Me desgarra bajar al s\xF3tano de la empresa para utilizar su tecnolog\xEDa
+      sabiendo lo que esconden abajo, m\xE1s aun siendo culpa suya... pero no puedo
+      evitarlo, cada vez que voy hago avances. Solo espero que al final todo salga
+      bien y pueda seguir mi vida con mi hijo."
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
