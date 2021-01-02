@@ -30,16 +30,15 @@ public class InventoryControl : MonoBehaviour
         else
         {
             miniMapIcon.SetActive(false);
-
         }
 
-        if (!dialogManager.GetComponent<DialogueManager>().InConvo)
+        if (dialogManager.GetComponent<DialogueManager>().InConvo || mapLocations.GetComponent<sceneManager>().getPuzleState() && !mapLocations.GetComponent<sceneManager>().getObjectPuzleState())
         {
-            inventoryIcon.SetActive(true);
+            inventoryIcon.SetActive(false);
         }
         else
         {
-            inventoryIcon.SetActive(false);
+            inventoryIcon.SetActive(true);
         }
     }
 
