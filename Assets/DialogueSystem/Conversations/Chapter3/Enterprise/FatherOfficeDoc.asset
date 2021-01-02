@@ -72,8 +72,8 @@ MonoBehaviour:
   - speaker: {fileID: 11400000, guid: 814eaf36bd1f5584ab1a18eb4eb6d6f4, type: 2}
     dialogue: "Me desgarra bajar al s\xF3tano de la empresa para utilizar su tecnolog\xEDa
       sabiendo lo que esconden abajo, m\xE1s aun siendo culpa suya... pero no puedo
-      evitarlo, cada vez que voy hago avances. Solo espero que al final todo salga
-      bien y pueda seguir mi vida con mi hijo."
+      evitarlo, cuando voy hago avances. Solo espero que al final todo salga bien
+      y pueda seguir mi vida con mi hijo."
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
