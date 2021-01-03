@@ -22,12 +22,17 @@ public class MapActivation : MonoBehaviour
         {
             checkActivation();
         }
+
+        if (index + 1 < timesVisited.Length && manager.getLocationTimes(conditions[index].name) > timesVisited[index])
+            index++;
     }
 
     private void checkActivation()
     {
         ubications[index].GetComponent<CircleCollider2D>().enabled = true;
         ubications[index].GetComponent<CursorObject>().active = true;
+        Debug.Log("Soy: "+ gameObject.name + " y activo: " + ubications[index]);
+        Debug.Log("Vamos por " + index + " y es" + conditions[index]);
         index++;
     }
 }

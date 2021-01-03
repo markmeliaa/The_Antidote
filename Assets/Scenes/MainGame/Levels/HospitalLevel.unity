@@ -5395,7 +5395,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &110175241
 Transform:
   m_ObjectHideFlags: 0
@@ -16617,6 +16617,7 @@ GameObject:
   - component: {fileID: 480300431}
   - component: {fileID: 480300429}
   - component: {fileID: 480300432}
+  - component: {fileID: 480300434}
   - component: {fileID: 480300430}
   m_Layer: 0
   m_Name: HubertsRoom
@@ -16847,6 +16848,21 @@ MonoBehaviour:
   - {fileID: 1195832267}
   - {fileID: 1195832267}
   timesVisited: 03000000030000000300000003000000030000000300000003000000030000000300000003000000
+--- !u!114 &480300434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480300425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34aee618a51d14b44af5e26e561fe01f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navigationItem:
+  - {fileID: 110175240}
+  timesVisitedActivations: 03000000
 --- !u!1 &484086563
 GameObject:
   m_ObjectHideFlags: 0
@@ -25719,6 +25735,11 @@ PrefabInstance:
       propertyPath: dialogueManager
       value: 
       objectReference: {fileID: 679695818}
+    - target: {fileID: 606720793671423067, guid: 23e8c5296e16c5d42a3e07f5ba621137,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 636356216751733890, guid: 23e8c5296e16c5d42a3e07f5ba621137,
         type: 3}
       propertyPath: miniMap
@@ -44684,7 +44705,9 @@ MonoBehaviour:
   navigationItem:
   - {fileID: 1055288287}
   - {fileID: 1185283825}
-  timesVisitedActivations: 0200000003000000
+  - {fileID: 1942934457}
+  - {fileID: 195024351}
+  timesVisitedActivations: 02000000030000000300000003000000
 --- !u!114 &1195832273
 MonoBehaviour:
   m_ObjectHideFlags: 0
