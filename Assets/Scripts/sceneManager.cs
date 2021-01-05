@@ -44,12 +44,12 @@ public class sceneManager : MonoBehaviour
 
             if (transform.GetChild(i).name == "KieransRoom")
                 setLocationBool("KieransRoom");
-            else if (transform.GetChild(i).name == "crossRoads2")
-                setLocationBool("crossRoads2");
             else if (transform.GetChild(i).name == "HospitalEntrance")
                 setLocationBool("HospitalEntrance");
             else if (transform.GetChild(i).name == "EnterpriseEntrance")
                 setLocationBool("EnterpriseEntrance");
+            else if (transform.GetChild(i).name == "C3_KieransRoom")
+                setLocationBool("C3_KieransRoom");
         }
     }
 

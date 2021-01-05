@@ -19,6 +19,7 @@ public class interactiveDialogue : MonoBehaviour
                 if (interactiveItem != null)
                     Destroy(interactiveItem);
                 Destroy(gameObject);
+                CursorManager.Instance.SetActiveCursorType(CursorManager.CursorType.Arrow);
             }
             else
             {

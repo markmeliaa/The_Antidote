@@ -13,7 +13,10 @@ public class ItemPickUp : MonoBehaviour
     void PickUp()
     {
         bool wasPickUp = Inventory.instance.Add(item);
-        if(wasPickUp)
+        if (wasPickUp)
+        {
             Destroy(gameObject);
-    }
+            CursorManager.Instance.SetActiveCursorType(CursorManager.CursorType.Arrow);
+        }
+    }      
 }
