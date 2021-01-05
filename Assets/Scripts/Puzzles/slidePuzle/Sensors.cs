@@ -4,32 +4,43 @@ using UnityEngine;
 
 public class Sensors : MonoBehaviour
 {
-    public GameObject winText;
-    public desactivatePuzzle puzzleEnding;
-    public GameObject sensorRight, sensorUp, sensorLeft, sensorDown;
-    public float radioSensor = 0.1f;
+    public int type;
+    public ObjectMovement car;
 
-    //[HideInInspector] 
-    public bool blockedRight, blockedUp, blockedLeft, blockedDown;
-
-    // Update is called once per frame
-    void FixedUpdate()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        Comprobar();
-    }
-
-    void Comprobar()
-    {
-        if(Physics2D.OverlapCircle(sensorRight.transform.position, radioSensor) != null 
-            && Physics2D.OverlapCircle(sensorRight.transform.position, radioSensor).tag == "Exit")
+        Debug.Log("Colisiona");
+        if (collision.gameObject.tag == "Exit")
         {
-            winText.SetActive(true);
-            puzzleEnding.desactivate(false);
+            car.EndPuzle();
             return;
         }
-        blockedRight = Physics2D.OverlapCircle(sensorRight.transform.position, radioSensor);
-        blockedUp = Physics2D.OverlapCircle(sensorUp.transform.position, radioSensor);
-        blockedLeft = Physics2D.OverlapCircle(sensorLeft.transform.position, radioSensor);
-        blockedDown = Physics2D.OverlapCircle(sensorDown.transform.position, radioSensor);
+
+        switch (type)
+        {
+            case 0:
+                car.blockedRight = true; break;
+            case 1:
+                car.blockedLeft = true; break;
+            case 2:
+                car.blockedUp = true; break;
+            case 3:
+                car.blockedDown = true; break;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        switch (type)
+        {
+            case 0:
+                car.blockedRight = false; break;
+            case 1:
+                car.blockedLeft = false; break;
+            case 2:
+                car.blockedUp = false; break;
+            case 3:
+                car.blockedDown = false; break;
+        }
     }
 }
