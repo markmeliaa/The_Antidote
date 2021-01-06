@@ -12,4 +12,7 @@ public class DialogueLine
     public Speaker listener2;
     [TextArea]
     public string dialogue3;
+    public Speaker listener3;
+    [TextArea]
+    public string dialogue4;
 }
