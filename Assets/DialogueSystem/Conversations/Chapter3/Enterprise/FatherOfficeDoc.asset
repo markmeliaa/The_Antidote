@@ -19,6 +19,8 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 814eaf36bd1f5584ab1a18eb4eb6d6f4, type: 2}
     dialogue: "Han pasado varios d\xEDas desde que tuve que llevar a Hubert al hospital,
       aun sabiendo la situaci\xF3n en la que se encuentra, est\xE1 tratando de ayudarme
@@ -27,6 +29,8 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 814eaf36bd1f5584ab1a18eb4eb6d6f4, type: 2}
     dialogue: "Hubert se ofreci\xF3 para probar los distintos ant\xEDdotos que hemos
       ido desarrollando, al principio me parec\xEDa bien, ya que pensaba que dar\xEDamos
@@ -36,6 +40,8 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 814eaf36bd1f5584ab1a18eb4eb6d6f4, type: 2}
     dialogue: "Trata de ocultarlo, pero cuando le pregunto a los doctores por el
       me dicen que cada dia que pasa est\xE1 peor, podr\xEDa ser solo el s\xEDlice
@@ -44,6 +50,8 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 814eaf36bd1f5584ab1a18eb4eb6d6f4, type: 2}
     dialogue: "De cualquier manera, no pienso tomar m\xE1s riesgos, esto no volver\xE1
       a pasar, dejar\xE9 que me siga ayudando con la investigaci\xF3n, pero aunque
@@ -52,6 +60,8 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 814eaf36bd1f5584ab1a18eb4eb6d6f4, type: 2}
     dialogue: "No estamos avanzando y Luther aumenta cada vez m\xE1s el uso de los
       materiales con componentes da\xF1inos nos est\xE1 empezando a desesperar, cada
@@ -61,6 +71,8 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 814eaf36bd1f5584ab1a18eb4eb6d6f4, type: 2}
     dialogue: "He intentado montar un peque\xF1o laboratorio en las afueras de la
       ciudad, en unos viejos almacenes abandonados, pero mi falta de material hace
@@ -69,6 +81,8 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 814eaf36bd1f5584ab1a18eb4eb6d6f4, type: 2}
     dialogue: "Me desgarra bajar al s\xF3tano de la empresa para utilizar su tecnolog\xEDa
       sabiendo lo que esconden abajo, m\xE1s aun siendo culpa suya... pero no puedo
@@ -78,6 +92,8 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
     dialogue: "Definitivamente he encontrado algo muy interesante. Ahora tengo que
       sacar a Valerie y Gatrie de aqu\xED cuanto antes, seguro que podemos volver
@@ -86,3 +102,5 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 

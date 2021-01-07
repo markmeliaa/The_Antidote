@@ -19,12 +19,16 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 3b0a04f0d85388c40b05e35cc5ced273, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 46959d4a6478bdf49ae6d73f52aae7a6, type: 2}
     dialogue2: Mierda, nos han encontrado.
     listener2: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: e6aed134251add24cabb9e2da09ae3b0, type: 2}
     dialogue: "\xBFQu\xE9 haces fuera de tu celda Hilda?, \xBFPensabas que te iba
       a dejar marchar sin m\xE1s?"
@@ -32,12 +36,16 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 3b0a04f0d85388c40b05e35cc5ced273, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: a2391858798298148afed9c169c62f69, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: 5781c5e7fd13a3a4b9a4b1c137954712, type: 2}
     dialogue3: "\xBFQui\xE9n es este tipo?"
+    listener3: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 3b0a04f0d85388c40b05e35cc5ced273, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: ec14c20459565f84e8f5187859ba6b26, type: 2}
@@ -45,6 +53,8 @@ MonoBehaviour:
       se mueran los trabajadores."
     listener2: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: e6aed134251add24cabb9e2da09ae3b0, type: 2}
     dialogue: "Un placer conoceros mocosos. Decidme, \xBFqu\xE9 hacen unos muchachitos
       como vosotros en este lugar y por que os est\xE1is entrometiendo en mis asuntos?"
@@ -52,6 +62,8 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 3b0a04f0d85388c40b05e35cc5ced273, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: a2391858798298148afed9c169c62f69, type: 2}
@@ -59,6 +71,8 @@ MonoBehaviour:
     listener2: {fileID: 11400000, guid: 794cbd99c6162614b824021fdbc53d9c, type: 2}
     dialogue3: "Estamos buscando a mi padre. Y las pistas me indican que tu sabes
       algo, cabr\xF3n."
+    listener3: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: e6aed134251add24cabb9e2da09ae3b0, type: 2}
     dialogue: "Oh, tu debes de ser el hijo malhablado de Barclay. Veras, Kieran,
       tu padre est\xE1 realizando un trabajito para mi y para mi compa\xF1\xEDa,
@@ -67,6 +81,8 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: e6aed134251add24cabb9e2da09ae3b0, type: 2}
     dialogue: "Sin embargo, ahora tenemos otro problema entre manos, me temo que
       vosotros hab\xE9is visto demasiado."
@@ -74,12 +90,16 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 3b0a04f0d85388c40b05e35cc5ced273, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 46959d4a6478bdf49ae6d73f52aae7a6, type: 2}
     dialogue2: "\xA1Son solo unos ni\xF1os!, \xA1\xBFqu\xE9 piensas hacer con ellos?!\r"
     listener2: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: e6aed134251add24cabb9e2da09ae3b0, type: 2}
     dialogue: "No te preocupes, no har\xE9 nada que no me obliguen a hacer, de momento
       solo tengo pensado lanzarlos a alguna de las celdas que a\xFAn est\xE1n vac\xEDas.
@@ -89,6 +109,8 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 3b0a04f0d85388c40b05e35cc5ced273, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 46959d4a6478bdf49ae6d73f52aae7a6, type: 2}
@@ -96,6 +118,8 @@ MonoBehaviour:
       quer\xEDa encontrar a su padre."
     listener2: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue3: 
+    listener3: {fileID: 0}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: e6aed134251add24cabb9e2da09ae3b0, type: 2}
     dialogue: "\xA1\xBFMe tomas por estupido?!, \xA1\xBFTe crees que no se lo que
       est\xE1 pasando aqu\xED?!"
@@ -103,12 +127,16 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 3b0a04f0d85388c40b05e35cc5ced273, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 46959d4a6478bdf49ae6d73f52aae7a6, type: 2}
     dialogue2: "\xBFQu\xE9?"
     listener2: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: e6aed134251add24cabb9e2da09ae3b0, type: 2}
     dialogue: "La \xFAltima vez que te vi estabas sucumbiendo a la enfermedad provocada
       por el s\xEDlice, al borde del delirio me atrever\xEDa a decir. Ahora, apenas
@@ -118,6 +146,8 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 3b0a04f0d85388c40b05e35cc5ced273, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 46959d4a6478bdf49ae6d73f52aae7a6, type: 2}
@@ -125,6 +155,8 @@ MonoBehaviour:
       a esa mierda de veneno.
     listener2: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: e6aed134251add24cabb9e2da09ae3b0, type: 2}
     dialogue: "Je... podr\xEDas haber pensado en una excusa mejor al menos. Estoy
       seguro de que uno de estos tres ha conseguido completar la investigaci\xF3n
@@ -133,12 +165,16 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 3b0a04f0d85388c40b05e35cc5ced273, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: a2391858798298148afed9c169c62f69, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: 5781c5e7fd13a3a4b9a4b1c137954712, type: 2}
     dialogue3: "\xBFY que con eso?...\r"
+    listener3: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: e6aed134251add24cabb9e2da09ae3b0, type: 2}
     dialogue: "Pues que, como comprender\xE1s, no puedo dejaros salir de aqu\xED.
       Si ese ant\xEDdoto llegara a darse a conocer a la prensa y al mundo, tendr\xEDa
@@ -147,6 +183,8 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: e6aed134251add24cabb9e2da09ae3b0, type: 2}
     dialogue: "Y no puedo permitir que eso pase. \xBFPor qu\xE9 deber\xEDa gastar
       mi fortuna en curar a unos empleados in\xFAtiles cuando simplemente puedo seguir
@@ -155,12 +193,16 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 3b0a04f0d85388c40b05e35cc5ced273, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: a2391858798298148afed9c169c62f69, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: 794cbd99c6162614b824021fdbc53d9c, type: 2}
     dialogue3: "\xA1Mi padre no es un inutil!"
+    listener3: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: e6aed134251add24cabb9e2da09ae3b0, type: 2}
     dialogue: "Coincido, por eso es que \xE9l no est\xE1 en este lugar, de hecho,
       no est\xE1 en el edificio. Su potencial es muy grande como para que se est\xE9
@@ -169,27 +211,37 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 3b0a04f0d85388c40b05e35cc5ced273, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 46959d4a6478bdf49ae6d73f52aae7a6, type: 2}
     dialogue2: "\xA1Y UNA MIERDA!"
     listener2: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: e6aed134251add24cabb9e2da09ae3b0, type: 2}
     dialogue: "\xA1\xBFPero qu\xE9 haces?!, \xA1Guardas, atrapadla!"
     listener1: {fileID: 11400000, guid: a2391858798298148afed9c169c62f69, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 3b0a04f0d85388c40b05e35cc5ced273, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 46959d4a6478bdf49ae6d73f52aae7a6, type: 2}
     dialogue2: "\xA1Ahora ni\xF1os, salid de aqu\xED!"
     listener2: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: e6aed134251add24cabb9e2da09ae3b0, type: 2}
     dialogue: "\xA1NO DEJ\xC9IS QUE ESOS CR\xCDOS SE ESCAPEN!"
     listener1: {fileID: 11400000, guid: a2391858798298148afed9c169c62f69, type: 2}
     dialogue2: 
-    listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    listener2: {fileID: 11400000, guid: fc407688f4b7a7541ab68eb8a9175407, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
+    dialogue4: 
