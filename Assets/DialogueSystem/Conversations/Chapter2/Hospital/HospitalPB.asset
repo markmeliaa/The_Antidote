@@ -19,12 +19,16 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
     dialogue3: No tengo ni idea, pero tampoco es asunto nuestro.
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 8967d214f6bddbd40bea9d37dca9104c, type: 2}
@@ -32,6 +36,8 @@ MonoBehaviour:
       de entrar."
     listener2: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 1cf53bd0622200d4c94289a40df5af7f, type: 2}
     dialogue: "Si claro, colarnos por la escalera de incendios parece un plan genial.
       \xBFY luego que?, \xBFvamos mirando en cada piso hasta encontrar a Hubert?"
@@ -39,21 +45,29 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 8967d214f6bddbd40bea9d37dca9104c, type: 2}
     dialogue2: Suena a un plan para mi.
     listener2: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
     dialogue3: "Es mejor que quedarnos aqu\xED y no hacer nada."
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: ed3c3e87abb3c5b4bb1cb2b013b22794, type: 2}
     dialogue: ...Sois de lo que no hay...vamos anda.
     listener1: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 

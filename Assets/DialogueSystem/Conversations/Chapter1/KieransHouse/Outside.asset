@@ -19,6 +19,8 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 8967d214f6bddbd40bea9d37dca9104c, type: 2}
@@ -26,12 +28,16 @@ MonoBehaviour:
       Espero que los profesores no sean muy duros este a\xF1o."
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 36a731df2a387fd4facb45e76a05da19, type: 2}
     dialogue: Para el primer dia si que estoy listo pero no para que me asfixies.
     listener1: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 8967d214f6bddbd40bea9d37dca9104c, type: 2}
@@ -39,3 +45,5 @@ MonoBehaviour:
       a paso ligero antes de que Valerie se ponga nerviosa por la hora que es."
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 

@@ -20,9 +20,13 @@ MonoBehaviour:
       QUE NO ESCAPE."
     listener2: {fileID: 11400000, guid: fc407688f4b7a7541ab68eb8a9175407, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: 5885656731487c6499d05f33ec83d659, type: 2}
     dialogue3: "\xBFY QUE TAL SI ME AYUDAS EH?"
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 

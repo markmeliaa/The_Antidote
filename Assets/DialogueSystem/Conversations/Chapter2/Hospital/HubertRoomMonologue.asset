@@ -20,6 +20,8 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 202b0927d4902024fa0420dbc2c2451c, type: 2}
     dialogue: "Pues esto es realmente lo \xFAnico que la gente externa a ella puede
       llegar a saber a ciencia cierta, ya que de puertas para dentro, est\xE1 corrupta
@@ -28,6 +30,8 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 202b0927d4902024fa0420dbc2c2451c, type: 2}
     dialogue: "Ver\xE1s, hace algunos meses se nos transmiti\xF3 a los trabajadores
       que empezar\xEDamos a trabajar con unos materiales nuevos, a lo cual no le
@@ -36,6 +40,8 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 202b0927d4902024fa0420dbc2c2451c, type: 2}
     dialogue: "Al poco tiempo de empezar a manipular estos materiales muchos de nosotros
       comenzamos a encontrarnos mal cada vez que \xEDbamos al trabajo, yo por mi
@@ -44,6 +50,8 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 202b0927d4902024fa0420dbc2c2451c, type: 2}
     dialogue: "Muchos compa\xF1eros comenzaron a \u201Cdesaparecer\u201D sin m\xE1s
       de sus puestos de trabajo, y ante mi alarmante estado, tu padre decidi\xF3
@@ -52,6 +60,8 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 202b0927d4902024fa0420dbc2c2451c, type: 2}
     dialogue: "Ellos solo le dijeron que no hici\xE9ramos preguntas y que sigui\xE9ramos
       con nuestro trabajo. \rTu padre por supuesto no qued\xF3 satisfecho, as\xED
@@ -60,6 +70,8 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 202b0927d4902024fa0420dbc2c2451c, type: 2}
     dialogue: "Siempre que me visitaba me contaba como avanzaba su investigaci\xF3n
       para encontrar la deficiencia en estos nuevos materiales y contrarrestar los
@@ -68,6 +80,8 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 202b0927d4902024fa0420dbc2c2451c, type: 2}
     dialogue: "Le ayud\xE9 en todo lo que pude desde aqu\xED, incluso llegue a darle
       muestras de mi sangre y me ofrec\xED como conejillo de indias para sus pruebas,
@@ -76,6 +90,8 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 202b0927d4902024fa0420dbc2c2451c, type: 2}
     dialogue: "Me contaba que cada vez le pon\xEDan m\xE1s presi\xF3n encima, que
       le estaban amenazando con que si desvelaba lo que estaba aconteciendo dentro
@@ -84,6 +100,8 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 202b0927d4902024fa0420dbc2c2451c, type: 2}
     dialogue: "Debe haber hecho algo que no fuera del gusto de nuestros jefes, seguro
       que le han tomado cautivo tal y como seguramente hac\xEDan con todos los compa\xF1eros."
@@ -91,6 +109,8 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 202b0927d4902024fa0420dbc2c2451c, type: 2}
     dialogue: 'Al menos eso espero, no quiero pensar que sean tan miserables como
       para llegar a hacerle algo peor a esas personas...
@@ -100,3 +120,5 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 

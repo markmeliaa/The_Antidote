@@ -19,24 +19,32 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: 8b585fabed81bde489aed1696e555c0d, type: 2}
     dialogue3: "Ya te digo...madre m\xEDa."
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 0e704c95b1b61244080121f5433b08fb, type: 2}
     dialogue: "\xBFY bien colega? \xBFQu\xE9 te ha contado Hubert?"
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 5781c5e7fd13a3a4b9a4b1c137954712, type: 2}
     dialogue2: "No se si deber\xEDa cont\xE1roslo..."
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
@@ -44,36 +52,48 @@ MonoBehaviour:
     listener2: {fileID: 11400000, guid: d5587942aa72f6343a35315aa669ac46, type: 2}
     dialogue3: "Ah no, hemos hecho todo esto juntos, as\xED que ni se te ocurra dejarnos
       fuera ahora."
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
     dialogue2: "Esta bi\xE9n, os lo cuento."
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 5781c5e7fd13a3a4b9a4b1c137954712, type: 2}
     dialogue2: ...
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: ccf31a4b588b1bf4e90d6dc6e12b689a, type: 2}
     dialogue3: Kieran...
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 0e704c95b1b61244080121f5433b08fb, type: 2}
     dialogue: "\xBFEst\xE1s bien?"
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 75c03c50f8ab9a34dbb834c67771af7b, type: 2}
     dialogue2: ' No...no lo se...tengo mucho que procesar...'
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
@@ -81,6 +101,8 @@ MonoBehaviour:
     listener2: {fileID: 11400000, guid: d5587942aa72f6343a35315aa669ac46, type: 2}
     dialogue3: "Tenemos que llevar esto a la polic\xEDa y denunciar, seguro que as\xED
       podremos encontrar a tu padre."
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 2468e258ac53cf043843590b284ff9b4, type: 2}
     dialogue: "No lo tengas tan claro Valerie. Seg\xFAn lo que ha dicho Hubert, la
       compa\xF1\xEDa puede pagar lo necesario para que una denuncia cualquiera no
@@ -89,12 +111,16 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: ccf31a4b588b1bf4e90d6dc6e12b689a, type: 2}
     dialogue3: "\xBFY qu\xE9 hacemos entonces?"
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 794cbd99c6162614b824021fdbc53d9c, type: 2}
@@ -102,6 +128,8 @@ MonoBehaviour:
       Incluso si no lo tienen retenido all\xED quiz\xE1 descubra algo sobre su paradero.\r\n"
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
@@ -110,6 +138,8 @@ MonoBehaviour:
     dialogue3: "\xBFEstas loco Kieran? No puedes infiltrarte t\xFA solo en una empresa
       multimillonaria corrupta. Sea lo que sea lo que hayan hecho con tu padre, podr\xEDan
       hacerlo tambi\xE9n contigo."
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: d10ecfe38086a0b47820494ecb643916, type: 2}
     dialogue: "Valerie tiene raz\xF3n, Kieran, piensa con cabeza, no puedes hacer
       esto solo. Y por eso, yo voy a ir contigo."
@@ -117,6 +147,8 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 794cbd99c6162614b824021fdbc53d9c, type: 2}
@@ -125,12 +157,16 @@ MonoBehaviour:
       por faltar muchos d\xEDas seguidos."
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: 8b585fabed81bde489aed1696e555c0d, type: 2}
     dialogue3: Entonces te ayudaremos nosotros.
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 794cbd99c6162614b824021fdbc53d9c, type: 2}
@@ -138,6 +174,8 @@ MonoBehaviour:
       con un loco como amigo."
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
@@ -146,6 +184,8 @@ MonoBehaviour:
     dialogue3: "He dicho que es una locura, pero si a pesar de todo vas a lanzarte
       de cabeza, no te voy a dejar solo, no sobrevivir\xEDas ni cinco minutos sin
       nuestra ayuda."
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: d10ecfe38086a0b47820494ecb643916, type: 2}
     dialogue: "\xBFVes? Valerie piensa lo mismo, asi que ya te puedes ir haciendo
       a la idea de que no te vamos a dejar, te guste o no."
@@ -153,12 +193,16 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 794cbd99c6162614b824021fdbc53d9c, type: 2}
     dialogue2: "Chicos, es muy peligr\u2026"
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 764125f4205c2a2488fea8402786cd38, type: 2}
     dialogue: "Ya, pero si es peligroso para nosotros entonces tambi\xE9n lo es para
       ti. Y si es peligroso para ti, no voy a dejar que mi mejor amigo se enfrente
@@ -167,36 +211,48 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: d5587942aa72f6343a35315aa669ac46, type: 2}
     dialogue3: "Podr\xEDas empezar a hablar en plural."
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 5c526fed474a00343a01c02f35823fa9, type: 2}
     dialogue: JAJAJAJA. Si bueno, creo que se ha entendido el mensaje.
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 9e1bb261c677d3a40bc18b62bd0bd079, type: 2}
     dialogue2: Sois idiotas...
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 5c526fed474a00343a01c02f35823fa9, type: 2}
     dialogue: "Bueno, entonces, \xBFcual es el plan capitan?"
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 794cbd99c6162614b824021fdbc53d9c, type: 2}
     dialogue2: "Si por mi fuera ir\xEDa ya mismo a la empresa."
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
@@ -205,6 +261,8 @@ MonoBehaviour:
     dialogue3: "Pero no ser\xEDa muy prudente, a estas horas ya debe estar cerrada
       al p\xFAblico y con guardias en todas las esquinas, creo que deber\xEDamos
       ir por la ma\xF1ana."
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
@@ -213,3 +271,5 @@ MonoBehaviour:
       chicos."
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 

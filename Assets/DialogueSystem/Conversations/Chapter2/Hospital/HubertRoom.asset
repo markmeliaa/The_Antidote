@@ -19,6 +19,8 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 3b82cffc8102b454086c91fc9af87910, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
@@ -26,6 +28,8 @@ MonoBehaviour:
       es el Sr. Barclay, \xE9l me dijo que viniera a verte."
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 202b0927d4902024fa0420dbc2c2451c, type: 2}
     dialogue: "Ah, el hijo de Jeff, la verdad es que no esperaba una visita...realmente
       no he recibido ninguna visita desde la \xFAltima vez que tu padre pas\xF3 por
@@ -34,6 +38,8 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 3b82cffc8102b454086c91fc9af87910, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
@@ -41,6 +47,8 @@ MonoBehaviour:
       su puerta afuera, dec\xEDan que hab\xEDan cerrado toda la planta.\r\n"
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 202b0927d4902024fa0420dbc2c2451c, type: 2}
     dialogue: "Ese Luther...no pens\xE9 que pudiera ser tan mezquino. Es una posibilidad
       muchacho *cogh* *cogh*"
@@ -48,6 +56,8 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 3b82cffc8102b454086c91fc9af87910, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 5781c5e7fd13a3a4b9a4b1c137954712, type: 2}
@@ -55,6 +65,8 @@ MonoBehaviour:
       nos dijeron que se encontraba en estado cr\xEDtico."
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 202b0927d4902024fa0420dbc2c2451c, type: 2}
     dialogue: "Ser\xE1 la \xFAnica verdad que hayas escuchado en todo el d\xEDa de
       hoy. \xBFPor que est\xE1s aqu\xED?"
@@ -62,6 +74,8 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 3b82cffc8102b454086c91fc9af87910, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
@@ -70,6 +84,8 @@ MonoBehaviour:
       una nota que indicaba unos viejos almacenes."
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 3b82cffc8102b454086c91fc9af87910, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: f0785ee02a26b064dac5fa6e29075821, type: 2}
@@ -78,6 +94,8 @@ MonoBehaviour:
       hab\xEDa una grabadora en la que se le mencionaba a usted..."
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 3b82cffc8102b454086c91fc9af87910, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 5781c5e7fd13a3a4b9a4b1c137954712, type: 2}
@@ -85,6 +103,8 @@ MonoBehaviour:
       el paradero de mi padre, primero deber\xEDa preguntarle a usted.\r\n"
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 202b0927d4902024fa0420dbc2c2451c, type: 2}
     dialogue: "...No te equivocas, creo saber d\xF3nde puede estar tu padre, o al
       menos d\xF3nde deber\xEDas empezar a buscar...pero...\xBFest\xE1s seguro de
@@ -93,12 +113,16 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 3b82cffc8102b454086c91fc9af87910, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 5781c5e7fd13a3a4b9a4b1c137954712, type: 2}
     dialogue2: "\xBFPor qu\xE9 lo pregunta?"
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 202b0927d4902024fa0420dbc2c2451c, type: 2}
     dialogue: "Porque si vas a buscar a tu padre, te estar\xE1s metiendo en la boca
       del lobo, y quiz\xE1s no puedas salir."
@@ -106,6 +130,8 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 3b82cffc8102b454086c91fc9af87910, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 75c03c50f8ab9a34dbb834c67771af7b, type: 2}
@@ -113,6 +139,8 @@ MonoBehaviour:
       de \xE9l, tiene que cont\xE1rmelo."
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 202b0927d4902024fa0420dbc2c2451c, type: 2}
     dialogue: "...Eres muy joven para hablar con tanto peso en tu voz hijo...pero
       de acuerdo, te dir\xE9 lo que necesitas saber, al menos podr\xE9 irme con la
@@ -121,3 +149,5 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 

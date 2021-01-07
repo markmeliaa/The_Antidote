@@ -22,6 +22,8 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: ed4d4e58331af1a45950af4f989f2ac8, type: 2}
@@ -31,6 +33,8 @@ MonoBehaviour:
       \xA8inquieto\xA8 desde hace unas semanas."
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 912f80863de6eca48bfec096847c71c4, type: 2}
     dialogue: "Y que lo digas, se me ponen los pelos de punta de pensar en lo que
       le pas\xF3 al novato del otro d\xEDa, no est\xE1 dejando pasar ni una."
@@ -38,6 +42,8 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: ed4d4e58331af1a45950af4f989f2ac8, type: 2}
@@ -45,15 +51,21 @@ MonoBehaviour:
       volvamos a nuestro puesto."
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 912f80863de6eca48bfec096847c71c4, type: 2}
     dialogue: "Ya...supongo que te har\xE9 caso con eso de callar y obedecer."
     listener1: {fileID: 11400000, guid: fc407688f4b7a7541ab68eb8a9175407, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: ed4d4e58331af1a45950af4f989f2ac8, type: 2}
     dialogue2: Haces bien, y ahora vamos.
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 

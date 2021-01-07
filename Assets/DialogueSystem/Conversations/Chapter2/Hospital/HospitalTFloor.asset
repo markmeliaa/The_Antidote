@@ -19,6 +19,8 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
@@ -26,6 +28,8 @@ MonoBehaviour:
     listener2: {fileID: 11400000, guid: 8b585fabed81bde489aed1696e555c0d, type: 2}
     dialogue3: "Mirad, son los guardas que vimos abajo. \xBFCre\xE9is que antes estaban
       hablando sobre Hubert?"
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 5781c5e7fd13a3a4b9a4b1c137954712, type: 2}
@@ -34,6 +38,8 @@ MonoBehaviour:
       m\xE1s?"
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 5c526fed474a00343a01c02f35823fa9, type: 2}
     dialogue: "Pues tendr\xE1s que descubrirlo cuando entres a hablar con \xE9l,
       ya nos lo contar\xE1s luego."
@@ -41,12 +47,16 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 794cbd99c6162614b824021fdbc53d9c, type: 2}
     dialogue2: "\xA1Gatrie, espera!"
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 0d6dd02f0c1502648a7f7114264a3720, type: 2}
@@ -54,40 +64,54 @@ MonoBehaviour:
       toda la planta cerrada, sacalo de aqui."
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: fc407688f4b7a7541ab68eb8a9175407, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 87249921b601c4845ba646a980fcb33c, type: 2}
     dialogue2: "\xA1NO DEJES QUE SE ESCAPE!"
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: fc407688f4b7a7541ab68eb8a9175407, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: 29f459e664aa5af428a79cc687295b26, type: 2}
     dialogue3: Mas te vale aprovechar esta oportunidad.
+    listener3: {fileID: 11400000, guid: fc407688f4b7a7541ab68eb8a9175407, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: f8f161c3634a91540bcd1e152ecfe0ae, type: 2}
     dialogue: "\xBFValerie?"
     listener1: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: fc407688f4b7a7541ab68eb8a9175407, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: fc407688f4b7a7541ab68eb8a9175407, type: 2}
+    listener1: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: d5587942aa72f6343a35315aa669ac46, type: 2}
     dialogue3: "\xA1OYE TU, POR AQUI!"
+    listener3: {fileID: 11400000, guid: fc407688f4b7a7541ab68eb8a9175407, type: 2}
+    dialogue4: 
   - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: 5885656731487c6499d05f33ec83d659, type: 2}
-    dialogue2: "\xBFUNA MOCOSA TAMBI\xC9N?, AL JEFE NO LE VA A HACER NINGUNA GRACIA
-      ESTO, \xA1NO CORRAS NI\xD1ATA!"
+    listener1: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue2: 
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 5885656731487c6499d05f33ec83d659, type: 2}
+    dialogue4: "\xBFUNA MOCOSA TAMBI\xC9N?, AL JEFE NO LE VA A HACER NINGUNA GRACIA
+      ESTO, \xA1NO CORRAS NI\xD1ATA!"
   - speaker: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
     dialogue: Es mi oportunidad.
     listener1: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
