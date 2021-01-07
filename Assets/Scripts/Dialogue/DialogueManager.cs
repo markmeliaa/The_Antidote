@@ -16,6 +16,8 @@ public class DialogueManager : MonoBehaviour
     private Animator anim;
     private Coroutine typing;
     private Animator speakeranim, speakeranim2, speakeranim3, speakeranim4;
+    private bool reading = false;
+    private float textSpeed = 0.03f;
 
     private void Awake()
     {
@@ -29,6 +31,16 @@ public class DialogueManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    public void NextButton()
+    {
+        if (reading)
+            textSpeed = 0.00f;
+
+        else
+            ReadNext();
+
     }
 
     public static void StartConversation(Conversation convo)
@@ -48,6 +60,7 @@ public class DialogueManager : MonoBehaviour
 
     public void ReadNext()
     {
+        reading = true;
         speakeranim = speakerSprite.GetComponent<Animator>();
         speakeranim2 = speakerSprite2.GetComponent<Animator>();
         speakeranim3 = speakerSprite3.GetComponent<Animator>();
@@ -235,11 +248,13 @@ public class DialogueManager : MonoBehaviour
         {
             dialogueBox.text += text[index];
             index++;
-            yield return new WaitForSeconds(0.02f);
+            yield return new WaitForSeconds(textSpeed);
 
             if(index == text.Length)
             {
                 complete = true;
+                reading = false;
+                textSpeed = 0.03f;
             }
         }
 
