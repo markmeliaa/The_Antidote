@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c97cc7ded6cf4b48a165560fba43229, type: 3}
   m_Name: GatrieMalHappy
   m_EditorClassIdentifier: 
-  speakerName: 
-  speakerSprite: {fileID: 0}
-  speakerBox: {fileID: 0}
+  speakerName: GATRIE
+  speakerSprite: {fileID: 21300000, guid: c0b2f7d67f944824abdb186fd527f1c6, type: 3}
+  speakerBox: {fileID: 21300000, guid: a2729f8de52ef88409e4ae8a1d797067, type: 3}

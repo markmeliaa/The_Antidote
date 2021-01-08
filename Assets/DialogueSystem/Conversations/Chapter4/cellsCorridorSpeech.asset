@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allLines:
   - speaker: {fileID: 11400000, guid: ec14c20459565f84e8f5187859ba6b26, type: 2}
-    dialogue: 
+    dialogue: "A ver, \xBFpor d\xF3nde empiezo? C\xFAando destaqu\xE9 entre los investigadores
+      del campo de producci\xF3n cer\xE1mica, muchas empresas me ofrecieron trabajo,
+      pero ninguna como Kemtek, ten\xEDa tan buena publicidad que parec\xEDa la opci\xF3n
+      l\xF3gica."
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
@@ -22,7 +25,9 @@ MonoBehaviour:
     listener3: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue4: 
   - speaker: {fileID: 11400000, guid: ec14c20459565f84e8f5187859ba6b26, type: 2}
-    dialogue: 
+    dialogue: "En un principio todo marchaba de maravilla, o al menos eso me parec\xEDa.
+      Se podr\xEDa decir que entre por la puerta grande, dado que incluso mi nuevo
+      jefe me recibi\xF3 en mi primer d\xEDa."
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
@@ -30,7 +35,10 @@ MonoBehaviour:
     listener3: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue4: 
   - speaker: {fileID: 11400000, guid: ec14c20459565f84e8f5187859ba6b26, type: 2}
-    dialogue: 
+    dialogue: "Gracias a la tecnolog\xEDa de Kemtek pude generar grandes avances
+      en diversos proyectos de investigaci\xF3n y un considerable aumento en los
+      beneficios. Lo m\xE1s probable es que fuera por esto \xFAltimo que se me ascendi\xF3
+      tan r\xE1pido a directora de I+D."
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
@@ -38,7 +46,10 @@ MonoBehaviour:
     listener3: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue4: 
   - speaker: {fileID: 11400000, guid: ec14c20459565f84e8f5187859ba6b26, type: 2}
-    dialogue: 
+    dialogue: "Sin embargo, ya en ese puesto, comenc\xE9 a darme cuenta de que si
+      Kemtek ten\xEDa tan buen renombre, no era por lo que se nos hac\xEDa pensar
+      a todos. Pude ver los distintos tratos ileg\xEDtimos y las amenazas que llevaba
+      a cabo Luther."
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
@@ -46,7 +57,51 @@ MonoBehaviour:
     listener3: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue4: 
   - speaker: {fileID: 11400000, guid: ec14c20459565f84e8f5187859ba6b26, type: 2}
-    dialogue: 
+    dialogue: "De hecho, incluso llegue a descubrir, m\xE1s recientemente, que dentro
+      de la propia empresa algunos empleados trabajan constantemente con materiales
+      nocivos, y cuando vio que ya sab\xEDa demasiado, no dud\xF3 en amenazarme."
+    listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: ec14c20459565f84e8f5187859ba6b26, type: 2}
+    dialogue: "A las pocas semanas de aquello vi como mis compa\xF1eros de trabajo
+      empezaban a desaparecer, pero tem\xEDa por mi vida y por la de mi familia,
+      as\xED que no dije nada. Hace tan solo unos d\xEDas, comenc\xE9 a sentir los
+      s\xEDntomas de la intoxicaci\xF3n por s\xEDlice."
+    listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: ec14c20459565f84e8f5187859ba6b26, type: 2}
+    dialogue: "Trat\xE9 de escapar inventando algunas excusas, pero Luther no es
+      para nada un tonto, me pill\xF3, se di\xF3 cuenta de que yo tambi\xE9n estaba
+      intoxicada. Al verme como un peligro tan grande para la empresa me encerr\xF3
+      aqu\xED."
+    listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: ec14c20459565f84e8f5187859ba6b26, type: 2}
+    dialogue: "Mientras comenzaba a caer presa del dolor y de mis delirios a causa
+      de los efectos de estos materiales en mi cuerpo, pod\xEDa ver como en varias
+      ocasiones una figura entraba y sal\xEDa del laboratorio de este s\xF3tano."
+    listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: ec14c20459565f84e8f5187859ba6b26, type: 2}
+    dialogue: "Un d\xEDa consegu\xED reconocerle, y aunque en un principio pensaba
+      que era Luther, termin\xF3 siendo un compa\xF1ero m\xEDo de trabajo con el
+      que rara vez intercambie palabra, ni siquiera recuerdo su nombre.\r"
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
@@ -56,7 +111,7 @@ MonoBehaviour:
   - speaker: {fileID: 11400000, guid: a2391858798298148afed9c169c62f69, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: 794cbd99c6162614b824021fdbc53d9c, type: 2}
-    dialogue2: "Entonces mi padre sab\xEDa todo lo que estaba pasando... intent\xF3
+    dialogue2: "Mi padre...entonces \xE9l sab\xEDa todo lo que estaba pasando...intent\xF3
       curar a esta gente y le raparon por ello."
     listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue3: 

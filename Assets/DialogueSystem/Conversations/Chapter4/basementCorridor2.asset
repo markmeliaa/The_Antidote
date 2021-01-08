@@ -48,7 +48,7 @@ MonoBehaviour:
     dialogue4: 
   - speaker: {fileID: 11400000, guid: 3b0a04f0d85388c40b05e35cc5ced273, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: ec14c20459565f84e8f5187859ba6b26, type: 2}
+    listener1: {fileID: 11400000, guid: 46959d4a6478bdf49ae6d73f52aae7a6, type: 2}
     dialogue2: "Es Luther, el cabr\xF3n que se dedica a comprar gente y a dejar que
       se mueran los trabajadores."
     listener2: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
@@ -118,7 +118,7 @@ MonoBehaviour:
       quer\xEDa encontrar a su padre."
     listener2: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue3: 
-    listener3: {fileID: 0}
+    listener3: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
     dialogue4: 
   - speaker: {fileID: 11400000, guid: e6aed134251add24cabb9e2da09ae3b0, type: 2}
     dialogue: "\xA1\xBFMe tomas por estupido?!, \xA1\xBFTe crees que no se lo que
