@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6e7c39a969bf014181dc345647a0e83, type: 3}
+  m_Name: caveLab
+  m_EditorClassIdentifier: 
+  allLines:
+  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: 3a7a70ff4f915d94d8f05825ff58f280, type: 2}
+    dialogue2: "Oh, hola renacuajos, si que hab\xE9is llegado r\xE1pido, casi no
+      me hab\xE9is dado tiempo de suministrarme el ant\xEDdoto."
+    listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: 8e4e811589ae3d34cb1cd8018006c773, type: 2}
+    dialogue: "\xA1Luther!  \xA1\xBFD\xF3nde est\xE1 mi padre?!"
+    listener1: {fileID: 11400000, guid: 3b0a04f0d85388c40b05e35cc5ced273, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: 3b0a04f0d85388c40b05e35cc5ced273, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: ccf31a4b588b1bf4e90d6dc6e12b689a, type: 2}
+    dialogue3: "Oh dios Kieran, \xA1Mira!"
+    listener3: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: 3a7a70ff4f915d94d8f05825ff58f280, type: 2}
+    dialogue2: "Ah\xED lo tienes, debe estar tom\xE1ndose una siesta, ha estado trabajando
+      muy duro para poder fabricar esta cura."
+    listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: 6022072373fa4af418c2c2b4caf8af24, type: 2}
+    dialogue: "\xA1PAPA! \xA1\xBFQu\xE9 le has hecho?!"
+    listener1: {fileID: 11400000, guid: 3b0a04f0d85388c40b05e35cc5ced273, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: 3a7a70ff4f915d94d8f05825ff58f280, type: 2}
+    dialogue2: "Yo no he hecho nada, ha sido culpa suya, yo le ofrec\xED unos perfectos
+      conejillos de indias, despu\xE9s de todo, tengo unas celdas llenas de ellos,
+      pero \xE9l se negaba a experimentar en otras personas."
+    listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: 3b0a04f0d85388c40b05e35cc5ced273, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: 0d5640ea1eed9424a989b09192b5928b, type: 2}
+    dialogue4: Eso quiere decir que...
+  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: 3a7a70ff4f915d94d8f05825ff58f280, type: 2}
+    dialogue2: "S\xED, ha estado probando las pruebas del ant\xEDdoto en s\xED mismo,
+      no s\xE9 en qu\xE9 estar\xEDa pensando, pero supongo que ya nunca lo sabremos."
+    listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: 6022072373fa4af418c2c2b4caf8af24, type: 2}
+    dialogue: "\xC9l... no es como t\xFA... no quer\xEDa arriesgar la vida de nadie
+      m\xE1s."
+    listener1: {fileID: 11400000, guid: 3b0a04f0d85388c40b05e35cc5ced273, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: 3a7a70ff4f915d94d8f05825ff58f280, type: 2}
+    dialogue2: "Y ya ves c\xF3mo ha terminado. Despu\xE9s de todo preocuparse por
+      los dem\xE1s no le ha servido de nada. "
+    listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: 3a7a70ff4f915d94d8f05825ff58f280, type: 2}
+    dialogue2: "Y confiar tampoco, despu\xE9s de todo ha sido gracias a los datos
+      que me hab\xE9is dado anteriormente, junto con el ant\xEDdoto incompleto en
+      la sangre de Hilda, que he logrado completarlo y salvarme."
+    listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: 3b0a04f0d85388c40b05e35cc5ced273, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: d5587942aa72f6343a35315aa669ac46, type: 2}
+    dialogue3: "Por eso los guardas solo nos dejaban pasar al completar sus desafios,
+      le enviaban los datos aqui para que mientras los otros nos reten\xEDan \xE9l
+      pudiera perfeccionar el compuesto."
+    listener3: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: 3b0a04f0d85388c40b05e35cc5ced273, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: 0d5640ea1eed9424a989b09192b5928b, type: 2}
+    dialogue4: "Pero eso significa que \xE9l tambi\xE9n hab\xEDa sido afectado por
+      el s\xEDlice."
+  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: 3a7a70ff4f915d94d8f05825ff58f280, type: 2}
+    dialogue2: "Obviamente, despu\xE9s de todo yo dirijo la empresa, soy aquel que
+      pasa m\xE1s tiempo cerca de los materiales. Imagina mi sorpresa cuando descubro
+      que uno de mis empleados estaba trabajando en una cura."
+    listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: 8e4e811589ae3d34cb1cd8018006c773, type: 2}
+    dialogue: "\xA1\xBFPOR QU\xC9 HAS HECHO TODO ESTO?! \xA1\xBFC\xF3mo puedes tratar
+      as\xED a la gente?! Como si no fueran nada."
+    listener1: {fileID: 11400000, guid: 3b0a04f0d85388c40b05e35cc5ced273, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: 3a7a70ff4f915d94d8f05825ff58f280, type: 2}
+    dialogue2: "Pens\xE9 que ya hab\xEDa mencionado eso cuando nos encontramos en
+      mi s\xF3tano. No voy a permitir que nadie me arrebate la vida que me he construido
+      de cero."
+    listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue4: 
