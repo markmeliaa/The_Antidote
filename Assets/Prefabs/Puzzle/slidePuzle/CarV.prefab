@@ -197,5 +197,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CarV
       objectReference: {fileID: 0}
+    - target: {fileID: 4858160913337330878, guid: 21d06c0e9291050429ed9137df0aef54,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f96d8a0f1363f184c877a098b3cea3d0,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21d06c0e9291050429ed9137df0aef54, type: 3}

@@ -9,12 +9,14 @@ public class Sensors : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Colisiona");
         if (collision.gameObject.tag == "Exit")
         {
             car.EndPuzle();
             return;
         }
+
+        if (collision.gameObject.tag == "Wall")
+            car.wallCrash();
 
         switch (type)
         {

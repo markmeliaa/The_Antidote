@@ -12,6 +12,8 @@ public class ballsMovement : MonoBehaviour
     Sensores sensores;
     [SerializeField]
     bool moviendoRight, moviendoLeft, moviendoUp, moviendoDown;
+
+    bool casiMoviendoRight, casiMoviendoLeft, casiMoviendoUp, casiMoviendoDown;
     
 
     private void Awake()
@@ -36,28 +38,39 @@ public class ballsMovement : MonoBehaviour
             curPosition.z = 0;
 
 
-            if ((!sensores.ocupadoLeft || !sensores.ocupadoRight) && (!moviendoDown && !moviendoUp))
+            if(!sensores.ocupadoRight && !moviendoUp && !moviendoDown && !moviendoLeft)
             {
-                if ((curPosition.x + 0.5) < posInicial.x && !moviendoRight)
-                    moviendoLeft = true;
-                if ((curPosition.x - 0.5) > posInicial.x && !moviendoLeft)
+                if ((curPosition.x - 0.2) > posInicial.x)
                     moviendoRight = true;
 
-                if (moviendoRight || moviendoLeft)
+                if(moviendoRight)
                     curPosition = new Vector3(curPosition.x, transform.position.y, 0);
             }
 
-            if ((!sensores.ocupadoUp || !sensores.ocupadoDown) && (!moviendoLeft && !moviendoRight))
+            if (!sensores.ocupadoLeft && !moviendoDown && !moviendoUp && !moviendoRight)
             {
+                if ((curPosition.x + 0.2) < posInicial.x)
+                    moviendoLeft = true;
 
+                if (moviendoLeft)
+                    curPosition = new Vector3(curPosition.x, transform.position.y, 0);
+            }
 
-                if ((curPosition.y - 0.5) > posInicial.y && !moviendoDown)
+            if(!sensores.ocupadoUp && !moviendoLeft && !moviendoRight && !moviendoDown)
+            {
+                if ((curPosition.y - 0.2) > posInicial.y)
                     moviendoUp = true;
 
-                if ((curPosition.y + 0.5) < posInicial.y && !moviendoUp)
+                if (moviendoUp)
+                    curPosition = new Vector3(transform.position.x, curPosition.y, 0);
+            }
+
+            if (!sensores.ocupadoDown && !moviendoLeft && !moviendoRight && !moviendoUp)
+            {
+                if ((curPosition.y + 0.2) < posInicial.y)
                     moviendoDown = true;
 
-                if (moviendoUp || moviendoDown)
+                if (moviendoDown)
                     curPosition = new Vector3(transform.position.x, curPosition.y, 0);
             }
 
@@ -66,24 +79,33 @@ public class ballsMovement : MonoBehaviour
                 if (sensores.ocupadoRight || curPosition.x < posInicial.x)
                     return;
             }
+            else if (curPosition.x > posInicial.x)
+                return;
 
             if (moviendoLeft)
             {
                 if (sensores.ocupadoLeft || curPosition.x > posInicial.x)
                     return;
             }
+            else if (curPosition.x < posInicial.x)
+                return;
 
             if (moviendoUp)
             {
                 if (sensores.ocupadoUp || curPosition.y < posInicial.y)
                     return;
             }
+            else if (curPosition.y > posInicial.y)
+                return;
 
             if (moviendoDown)
             {
                 if (sensores.ocupadoDown || curPosition.y > posInicial.y)
                     return;
             }
+            else if (curPosition.y < posInicial.y)
+                return;
+
             transform.position = curPosition;
         }
     }

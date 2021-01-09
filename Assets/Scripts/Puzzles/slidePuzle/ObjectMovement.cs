@@ -15,6 +15,7 @@ public class ObjectMovement : MonoBehaviour
     Vector3 initialPosition, offset, startPosition;
     [SerializeField]
     bool movingRight, movingLeft, movingUp, movingDown;
+    Vector3 currentPos;
 
     private void Awake()
     {
@@ -32,13 +33,13 @@ public class ObjectMovement : MonoBehaviour
         if (activated)
         {
             Vector3 posicion = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0);
-            Vector3 currentPos = Camera.main.ScreenToWorldPoint(posicion) + offset;
+            currentPos = Camera.main.ScreenToWorldPoint(posicion) + offset;
             currentPos.x = Mathf.Clamp(currentPos.x, -6.5f, 7f);
             currentPos.y = Mathf.Clamp(currentPos.y, -5.0f, 5.0f);
 
             if (horizontal)
             {
-                currentPos = new Vector3(currentPos.x, transform.position.y, 0);
+                
                 if (!blockedRight && currentPos.x > initialPosition.x)
                 {
                     movingRight = true;
@@ -49,14 +50,16 @@ public class ObjectMovement : MonoBehaviour
                     movingLeft = true;
                     movingRight = false;
                 }
-
                 else
                     return;
+
+                if(movingLeft || movingRight)
+                    currentPos = new Vector3(currentPos.x, transform.position.y, 0);
 
             }
             else if (!horizontal)
             {
-                currentPos = new Vector3(transform.position.x, currentPos.y, 0);
+                
                 if (!blockedUp && currentPos.y > initialPosition.y)
                 {
                     movingUp = true;
@@ -70,17 +73,34 @@ public class ObjectMovement : MonoBehaviour
                 }
                 else
                     return;
-
+                
+                if(movingDown || movingUp)
+                    currentPos = new Vector3(transform.position.x, currentPos.y, 0);
             }
 
-            if (movingRight && blockedRight)
-                return;
-            else if (movingLeft && blockedLeft)
-                return;
-            else if (movingUp && blockedUp)
-                return;
-            else if (movingDown && blockedDown)
-                return;
+            if (movingRight)
+            {
+                if(blockedRight || currentPos.x < initialPosition.x)
+                    return;
+            }
+
+            if (movingLeft)
+            {
+                if(blockedLeft || currentPos.x > initialPosition.x)
+                    return;
+            }
+                
+            if (movingUp)
+            {
+                if(blockedUp || currentPos.y < initialPosition.y)
+                    return;
+            }
+                
+            if (movingDown)
+            {
+                if(blockedDown ||currentPos.y > initialPosition.y)
+                    return;
+            }
 
             transform.position = currentPos;
         }
@@ -109,6 +129,27 @@ public class ObjectMovement : MonoBehaviour
         blockedLeft = false;
         blockedRight = false;
         blockedUp = false;
+    }
+
+    public void wallCrash()
+    {
+        if (horizontal)
+        {
+            if (currentPos.x > 0)
+                currentPos.x -= 0.2f;
+            else
+                currentPos.x += 0.2f;
+
+            transform.position = currentPos;
+        }
+        else {
+            if (currentPos.y > 0)
+                currentPos.y -= 0.2f;
+            else
+                currentPos.y += 0.2f;
+
+            transform.position = currentPos;
+        }
     }
 
     public void EndPuzle()
