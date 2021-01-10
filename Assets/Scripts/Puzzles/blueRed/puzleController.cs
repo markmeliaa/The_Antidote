@@ -52,6 +52,7 @@ public class puzleController : MonoBehaviour
 
     private void endPuzle()
     {
+        Debug.Log("Ending Puzle");
         winText.SetActive(true);
 
         for (int i = 0; i < balls.childCount; i++)
