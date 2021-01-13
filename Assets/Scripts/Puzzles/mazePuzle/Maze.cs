@@ -263,10 +263,4 @@ public class Maze : MonoBehaviour
         wallToBreak = 0;
         CreateWalls();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

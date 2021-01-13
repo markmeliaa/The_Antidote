@@ -92300,6 +92300,7 @@ MonoBehaviour:
   choquesText: {fileID: 845801420}
   collectiblesText: {fileID: 1053783700}
   winnerText: {fileID: 580731309}
+  retrymaze: {fileID: 677278544}
 --- !u!54 &2004504428
 Rigidbody:
   m_ObjectHideFlags: 0

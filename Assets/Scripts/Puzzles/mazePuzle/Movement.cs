@@ -16,6 +16,7 @@ public class Movement : MonoBehaviour
     private int collectibles = 5;
     public TextMeshProUGUI collectiblesText;
     public TextMesh winnerText;
+    [SerializeField] retryMaze retrymaze;
 
     // Start is called before the first frame update
     void Start()
@@ -34,6 +35,11 @@ public class Movement : MonoBehaviour
             winnerText.gameObject.SetActive(true);
             collectiblesText.text = "Faltan " + collectibles + " objetos por recoger";
             return;
+        }
+
+        if (choques >= 10)
+        {
+            retrymaze.RepeatMaze();
         }
 
         dirX = Input.GetAxis("Horizontal") * moveSpeed;

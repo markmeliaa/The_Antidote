@@ -8,6 +8,11 @@ public class retryMaze : MonoBehaviour
 
     private void OnMouseDown()
     {
+        RepeatMaze();
+    }
+
+    public void RepeatMaze()
+    {
         Transform gameArea = currentPuzzle.transform.Find("Game Area").transform;
 
         if (!gameArea.Find("YouWin").gameObject.activeSelf)
