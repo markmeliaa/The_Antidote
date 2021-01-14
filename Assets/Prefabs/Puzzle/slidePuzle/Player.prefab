@@ -10,8 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8876625258909500562}
   - component: {fileID: 8876625258909500563}
-  - component: {fileID: 2282831683119726574}
-  - component: {fileID: 8965101064851021077}
   m_Layer: 0
   m_Name: Down
   m_TagString: Untagged
@@ -83,36 +81,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!58 &2282831683119726574
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8876625258909500565}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.1
---- !u!114 &8965101064851021077
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8876625258909500565}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb6abe29e02352541a4dd7f11711153b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  type: 3
-  car: {fileID: 8876625260527116986}
 --- !u!1 &8876625259711101163
 GameObject:
   m_ObjectHideFlags: 0
@@ -123,8 +91,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8876625259711101160}
   - component: {fileID: 8876625259711101161}
-  - component: {fileID: 6737580789537748916}
-  - component: {fileID: 7767059326729493442}
   m_Layer: 0
   m_Name: Right
   m_TagString: Untagged
@@ -196,36 +162,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!58 &6737580789537748916
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8876625259711101163}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.1
---- !u!114 &7767059326729493442
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8876625259711101163}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb6abe29e02352541a4dd7f11711153b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  type: 0
-  car: {fileID: 8876625260527116986}
 --- !u!1 &8876625259875796912
 GameObject:
   m_ObjectHideFlags: 0
@@ -236,8 +172,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8876625259875796913}
   - component: {fileID: 8876625259875796926}
-  - component: {fileID: 882620284345203321}
-  - component: {fileID: 3237520375321968346}
   m_Layer: 0
   m_Name: Up
   m_TagString: Untagged
@@ -309,36 +243,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!58 &882620284345203321
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8876625259875796912}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.1
---- !u!114 &3237520375321968346
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8876625259875796912}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb6abe29e02352541a4dd7f11711153b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  type: 2
-  car: {fileID: 8876625260527116986}
 --- !u!1 &8876625260159146827
 GameObject:
   m_ObjectHideFlags: 0
@@ -348,6 +252,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8876625260159146824}
+  - component: {fileID: 2982195703173958071}
   m_Layer: 0
   m_Name: Sensors
   m_TagString: Untagged
@@ -373,6 +278,27 @@ Transform:
   m_Father: {fileID: 8876625260527116991}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2982195703173958071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8876625260159146827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19b2c7e804239c44889e90b1f30f546f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sensorRight: {fileID: 8876625259711101163}
+  sensorUp: {fileID: 8876625259875796912}
+  sensorLeft: {fileID: 8876625260713249751}
+  sensorDown: {fileID: 8876625258909500565}
+  radioSensor: 0.1
+  ocupadoRight: 0
+  ocupadoUp: 0
+  ocupadoLeft: 0
+  ocupadoDown: 0
 --- !u!1 &8876625260527116990
 GameObject:
   m_ObjectHideFlags: 0
@@ -384,7 +310,6 @@ GameObject:
   - component: {fileID: 8876625260527116991}
   - component: {fileID: 8876625260527116989}
   - component: {fileID: 8876625260527116988}
-  - component: {fileID: -4990453338084060708}
   - component: {fileID: 8876625260527116986}
   m_Layer: 0
   m_Name: Player
@@ -484,27 +409,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.9664507, y: 1.5217407}
   m_EdgeRadius: 0
---- !u!50 &-4990453338084060708
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8876625260527116990}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 0.0001
-  m_LinearDrag: 0
-  m_AngularDrag: 0
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 1
-  m_Constraints: 6
 --- !u!114 &8876625260527116986
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -521,10 +425,6 @@ MonoBehaviour:
   winText: {fileID: 0}
   puzzleEnding: {fileID: 0}
   activated: 1
-  blockedRight: 0
-  blockedLeft: 0
-  blockedUp: 0
-  blockedDown: 0
   horizontal: 1
   movingRight: 0
   movingLeft: 0
@@ -540,8 +440,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8876625260713249748}
   - component: {fileID: 8876625260713249749}
-  - component: {fileID: 8188039811055371677}
-  - component: {fileID: 5620250966286229740}
   m_Layer: 0
   m_Name: Left
   m_TagString: Untagged
@@ -613,33 +511,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!58 &8188039811055371677
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8876625260713249751}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.1
---- !u!114 &5620250966286229740
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8876625260713249751}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb6abe29e02352541a4dd7f11711153b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  type: 1
-  car: {fileID: 8876625260527116986}

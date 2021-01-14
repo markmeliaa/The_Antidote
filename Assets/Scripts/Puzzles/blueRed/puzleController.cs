@@ -28,7 +28,7 @@ public class puzleController : MonoBehaviour
         for(int i = 0; i < balls.childCount; i++)
         {
             GameObject curBall = balls.GetChild(i).gameObject;
-            if (i < balls.childCount / 2 && curBall.transform.position.x > (curBall.GetComponent<ballsMovement>().objetivo.x - 0.5)
+            if (curBall.transform.position.x > (curBall.GetComponent<ballsMovement>().objetivo.x - 0.5)
                 && curBall.transform.position.x < (curBall.GetComponent<ballsMovement>().objetivo.x + 0.5)
                 && curBall.transform.position.y > (curBall.GetComponent<ballsMovement>().objetivo.y - 0.5)
                 && curBall.transform.position.y < (curBall.GetComponent<ballsMovement>().objetivo.y + 0.5))

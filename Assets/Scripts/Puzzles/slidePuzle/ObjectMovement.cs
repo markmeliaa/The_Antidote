@@ -9,21 +9,22 @@ public class ObjectMovement : MonoBehaviour
     public desactivatePuzzle puzzleEnding;
 
     public bool activated = true;
-    public bool blockedRight, blockedLeft, blockedUp, blockedDown;
     public bool horizontal;
 
-    Vector3 initialPosition, offset, startPosition;
+    Vector3 initialPosition, offset, startPosition, screenSpace;
+    slideSensors sensores;
     [SerializeField]
     bool movingRight, movingLeft, movingUp, movingDown;
-    Vector3 currentPos;
 
     private void Awake()
     {
         startPosition = transform.position;
+        sensores = GetComponentInChildren<slideSensors>();
     }
 
     private void OnMouseDown()
     {
+        screenSpace = Camera.main.WorldToScreenPoint(transform.position);
         offset = transform.position - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0));
         initialPosition = transform.position;
     }
@@ -33,74 +34,85 @@ public class ObjectMovement : MonoBehaviour
         if (activated)
         {
             Vector3 posicion = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0);
-            currentPos = Camera.main.ScreenToWorldPoint(posicion) + offset;
+            Vector3 currentPos = Camera.main.ScreenToWorldPoint(posicion) + offset;
             currentPos.x = Mathf.Clamp(currentPos.x, -6.5f, 7f);
             currentPos.y = Mathf.Clamp(currentPos.y, -5.0f, 5.0f);
+            currentPos.z = 0;
 
             if (horizontal)
             {
                 
-                if (!blockedRight && currentPos.x > initialPosition.x)
+                if (!sensores.ocupadoRight && !movingLeft)
                 {
-                    movingRight = true;
-                    movingLeft = false;
+                    if(currentPos.x > initialPosition.x)
+                        movingRight = true;
+
+                    if(movingRight)
+                        currentPos = new Vector3(currentPos.x, transform.position.y, 0);
                 }
-                else if (!blockedLeft && currentPos.x < initialPosition.x)
+                
+                if (!sensores.ocupadoLeft && !movingRight)
                 {
-                    movingLeft = true;
-                    movingRight = false;
+                    if(currentPos.x < initialPosition.x)
+                        movingLeft = true;
+                    
+                    if(movingLeft)
+                        currentPos = new Vector3(currentPos.x, transform.position.y, 0);
                 }
-                else
-                    return;
-
-                if(movingLeft || movingRight)
-                    currentPos = new Vector3(currentPos.x, transform.position.y, 0);
-
             }
             else if (!horizontal)
             {
                 
-                if (!blockedUp && currentPos.y > initialPosition.y)
+                if (!sensores.ocupadoUp && !movingDown)
                 {
-                    movingUp = true;
-                    movingDown = false;
+                    if(currentPos.y > initialPosition.y)
+                        movingUp = true;
+
+                    if(movingUp)
+                        currentPos = new Vector3(transform.position.x, currentPos.y, 0);
                 }
 
-                else if (!blockedDown && currentPos.y < initialPosition.y)
+                if (!sensores.ocupadoDown && !movingUp)
                 {
-                    movingDown = true;
-                    movingUp = false;
-                }
-                else
-                    return;
-                
-                if(movingDown || movingUp)
-                    currentPos = new Vector3(transform.position.x, currentPos.y, 0);
+                    if(currentPos.y < initialPosition.y)
+                        movingDown = true;
+
+                    if(movingDown)
+                        currentPos = new Vector3(transform.position.x, currentPos.y, 0);
+                }  
             }
 
             if (movingRight)
             {
-                if(blockedRight || currentPos.x < initialPosition.x)
+                if (sensores.ocupadoRight || currentPos.x < initialPosition.x)
                     return;
             }
+            else if (currentPos.x > initialPosition.x)
+                return;
 
             if (movingLeft)
             {
-                if(blockedLeft || currentPos.x > initialPosition.x)
+                if (sensores.ocupadoLeft || currentPos.x > initialPosition.x)
                     return;
             }
-                
+            else if (currentPos.x < initialPosition.x)
+                return;
+
             if (movingUp)
             {
-                if(blockedUp || currentPos.y < initialPosition.y)
+                if (sensores.ocupadoUp || currentPos.y < initialPosition.y)
                     return;
             }
-                
+            else if (currentPos.y > initialPosition.y)
+                return;
+
             if (movingDown)
             {
-                if(blockedDown ||currentPos.y > initialPosition.y)
+                if (sensores.ocupadoDown || currentPos.y > initialPosition.y)
                     return;
             }
+            else if (currentPos.y < initialPosition.y)
+                return;
 
             transform.position = currentPos;
         }
@@ -108,7 +120,28 @@ public class ObjectMovement : MonoBehaviour
 
     private void OnMouseUp()
     {
-        transform.position = new Vector3(transform.position.x, transform.position.y, 0);
+        /*if( Physics2D.OverlapArea(new Vector2(transform.position.x - 2, transform.position.y - 0.75f), new Vector2(transform.position.x + 2, transform.position.y + 0.75f)))
+        {
+            Vector3 correction = transform.position;
+
+            if (horizontal)
+            {
+                if (!sensores.ocupadoLeft)
+                    correction.x -= 0.3f;
+                else if (!sensores.ocupadoRight)
+                    correction.x += 0.3f;
+            }
+            else
+            {
+                if (!sensores.ocupadoUp)
+                    correction.y += 0.3f;
+                else if (!sensores.ocupadoDown)
+                    correction.y -= 0.3f;
+            }
+
+            transform.position = correction;
+        }*/
+
         movingRight = false;
         movingLeft = false;
         movingUp = false;
@@ -124,42 +157,5 @@ public class ObjectMovement : MonoBehaviour
         movingDown = false;
         offset = Vector3.zero;
         initialPosition = Vector3.zero;
-
-        blockedDown = false;
-        blockedLeft = false;
-        blockedRight = false;
-        blockedUp = false;
-    }
-
-    public void wallCrash()
-    {
-        if (horizontal)
-        {
-            if (currentPos.x > 0)
-                currentPos.x -= 0.2f;
-            else
-                currentPos.x += 0.2f;
-
-            transform.position = currentPos;
-        }
-        else {
-            if (currentPos.y > 0)
-                currentPos.y -= 0.2f;
-            else
-                currentPos.y += 0.2f;
-
-            transform.position = currentPos;
-        }
-    }
-
-    public void EndPuzle()
-    {
-        for (int i = 0; i < objects.childCount; i++)
-        {
-            objects.GetChild(i).gameObject.GetComponent<ObjectMovement>().activated = false;
-        }
-
-        winText.SetActive(true);
-        //puzzleEnding.desactivate(false);
     }
 }

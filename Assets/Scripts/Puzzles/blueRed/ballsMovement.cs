@@ -12,8 +12,6 @@ public class ballsMovement : MonoBehaviour
     Sensores sensores;
     [SerializeField]
     bool moviendoRight, moviendoLeft, moviendoUp, moviendoDown;
-
-    bool casiMoviendoRight, casiMoviendoLeft, casiMoviendoUp, casiMoviendoDown;
     
 
     private void Awake()
@@ -35,8 +33,9 @@ public class ballsMovement : MonoBehaviour
         {
             Vector3 curScreenSpace = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0);
             Vector3 curPosition = Camera.main.ScreenToWorldPoint(curScreenSpace) + offset;
+            curPosition.x = Mathf.Clamp(curPosition.x, -3.75f, 4.5f);
+            curPosition.y = Mathf.Clamp(curPosition.y, -2.75f, 1.75f);
             curPosition.z = 0;
-
 
             if(!sensores.ocupadoRight && !moviendoUp && !moviendoDown && !moviendoLeft)
             {
@@ -112,9 +111,26 @@ public class ballsMovement : MonoBehaviour
 
     private void OnMouseUp()
     {
+        if (Physics2D.OverlapCircle(transform.position, 0.5f))
+        {
+            Vector3 correction = transform.position;
+
+            if (!sensores.ocupadoRight)
+                correction.x += 0.5f;
+            else if (!sensores.ocupadoLeft)
+                correction.x -= 0.5f;
+            else if (!sensores.ocupadoUp)
+                correction.y += 0.5f;
+            else if (!sensores.ocupadoDown)
+                correction.y -= 0.5f;
+
+            transform.position = correction;
+        }
+
         moviendoDown   = false;
         moviendoLeft   = false;
         moviendoRight  = false;
         moviendoUp     = false;
     }
+
 }

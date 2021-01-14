@@ -1249,6 +1249,33 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1445106646}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1510988525 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8876625260527116990, guid: bffdfa086af334443952ee7b482b380f,
+    type: 3}
+  m_PrefabInstance: {fileID: 8876625259916359798}
+  m_PrefabAsset: {fileID: 0}
+--- !u!50 &1510988527
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510988525}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 0
 --- !u!1001 &1527015777
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1339,6 +1366,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1691310495}
   - component: {fileID: 1691310496}
+  - component: {fileID: 1691310497}
   m_Layer: 0
   m_Name: Exit
   m_TagString: Exit
@@ -1386,6 +1414,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1691310497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1691310494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c63f93e5e46ef4fa3d8f1bcbb9ffb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects: {fileID: 1792773124}
+  winText: {fileID: 833686609}
 --- !u!1001 &1748877570
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1974,6 +2016,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1792773124}
     m_Modifications:
+    - target: {fileID: 8876625259711101163, guid: bffdfa086af334443952ee7b482b380f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 8876625260159146825, guid: bffdfa086af334443952ee7b482b380f,
         type: 3}
       propertyPath: objects
@@ -2007,6 +2054,11 @@ PrefabInstance:
     - target: {fileID: 8876625260527116990, guid: bffdfa086af334443952ee7b482b380f,
         type: 3}
       propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876625260527116990, guid: bffdfa086af334443952ee7b482b380f,
+        type: 3}
+      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 8876625260527116991, guid: bffdfa086af334443952ee7b482b380f,
