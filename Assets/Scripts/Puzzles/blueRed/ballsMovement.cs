@@ -111,26 +111,26 @@ public class ballsMovement : MonoBehaviour
 
     private void OnMouseUp()
     {
-        if (Physics2D.OverlapCircle(transform.position, 0.5f))
-        {
-            Vector3 correction = transform.position;
-
-            if (!sensores.ocupadoRight)
-                correction.x += 0.5f;
-            else if (!sensores.ocupadoLeft)
-                correction.x -= 0.5f;
-            else if (!sensores.ocupadoUp)
-                correction.y += 0.5f;
-            else if (!sensores.ocupadoDown)
-                correction.y -= 0.5f;
-
-            transform.position = correction;
-        }
-
         moviendoDown   = false;
         moviendoLeft   = false;
         moviendoRight  = false;
         moviendoUp     = false;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Vector3 correction = transform.position;
+
+        if (collision.transform.position.x >= correction.x)
+            correction.x -= 0.1f;
+        if (collision.transform.position.x < correction.x)
+            correction.x += 0.1f;
+        if (collision.transform.position.y <= correction.x)
+            correction.y += 0.1f;
+        if (collision.transform.position.y > correction.x)
+            correction.y -= 0.1f;
+
+        transform.position = correction;
     }
 
 }

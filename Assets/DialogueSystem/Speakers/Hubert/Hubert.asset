@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Hubert
   m_EditorClassIdentifier: 
   speakerName: HUBERT
-  speakerSprite: {fileID: 21300000, guid: b68d4e8036e59f2439a642edb7141683, type: 3}
+  speakerSprite: {fileID: 21300000, guid: fb5290a12063c3b4bb21ba213032146c, type: 3}
   speakerBox: {fileID: 21300000, guid: 829adee2cce44784fb48365672d2240e, type: 3}
