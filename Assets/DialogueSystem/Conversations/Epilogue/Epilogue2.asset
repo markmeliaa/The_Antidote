@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6e7c39a969bf014181dc345647a0e83, type: 3}
+  m_Name: Epilogue2
+  m_EditorClassIdentifier: 
+  allLines:
+  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: e4ef01cd3693f4d4080d48fc883ebf29, type: 2}
+    dialogue2: Buenas tardes Sr. Barclay.
+    listener2: {fileID: 11400000, guid: 52f5b53017821734cbdcc26e8ec98447, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+    dialogue: Buenas tardes, pero el Sr. Barclay es mi padre, pueden llamarme Kieran.
+    listener1: {fileID: 11400000, guid: e4ef01cd3693f4d4080d48fc883ebf29, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: 52f5b53017821734cbdcc26e8ec98447, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: e4ef01cd3693f4d4080d48fc883ebf29, type: 2}
+    dialogue2: "Oh, comprendo, perdona Kieran. Veamos, tenemos unas cuantas preguntas
+      para ti. Para empezar, \xBFqu\xE9 te llev\xF3 a aceptar el dirigir Kemtek cuando
+      esta se encontraba en su peor momento?"
+    listener2: {fileID: 11400000, guid: 52f5b53017821734cbdcc26e8ec98447, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: e4ef01cd3693f4d4080d48fc883ebf29, type: 2}
+    dialogue2: "A\xFAn sabiendo que, gracias a tu reputaci\xF3n, habr\xEDas podido
+      fundar tu propia compa\xF1\xEDa desde cero de forma exitosa."
+    listener2: {fileID: 11400000, guid: 52f5b53017821734cbdcc26e8ec98447, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+    dialogue: "Bueno, simplemente no pod\xEDa quedarme sentado viendo como tanta
+      gente quedaba desempleada y como se les arrebataban sus vidas ante sus ojos."
+    listener1: {fileID: 11400000, guid: e4ef01cd3693f4d4080d48fc883ebf29, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: 52f5b53017821734cbdcc26e8ec98447, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+    dialogue: "Adem\xE1s, Kemtek ten\xEDa una buena cantidad de relaciones p\xFAblicas
+      favorables antes y despu\xE9s de la llegada de Luther, con lo que solo ten\xEDa
+      que afianzar dichas relaciones con mis ideas y mi nueva visi\xF3n para el sector
+      de la cer\xE1mica."
+    listener1: {fileID: 11400000, guid: e4ef01cd3693f4d4080d48fc883ebf29, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: 52f5b53017821734cbdcc26e8ec98447, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+    dialogue: "Aunque supongo que tambi\xE9n debi\xF3 influenciar en algo mi participaci\xF3n
+      en el incidente del s\xEDlice. "
+    listener1: {fileID: 11400000, guid: e4ef01cd3693f4d4080d48fc883ebf29, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: 52f5b53017821734cbdcc26e8ec98447, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+    dialogue: "Pero no es algo de lo que me vaya a quejar, ya que ahora, gracias
+      a eso, Barclay Industries tiene contratadas a m\xE1s del triple de personas
+      de las que ten\xEDa Kemtek en su mejor d\xEDa."
+    listener1: {fileID: 11400000, guid: e4ef01cd3693f4d4080d48fc883ebf29, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: 52f5b53017821734cbdcc26e8ec98447, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: e4ef01cd3693f4d4080d48fc883ebf29, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: 52f5b53017821734cbdcc26e8ec98447, type: 2}
+    dialogue3: "Eso \xFAltimo es algo de lo que ya \xE9ramos conocedores Sr. Kieran.
+      Sin embargo, no creo que todo haya sido \xFAnicamente gracias a su participaci\xF3n
+      en el desarrollo y distribuci\xF3n del ant\xEDdoto a nivel global."
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: e4ef01cd3693f4d4080d48fc883ebf29, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: 52f5b53017821734cbdcc26e8ec98447, type: 2}
+    dialogue3: "Despu\xE9s de todo, hemos recibido much\xEDsimas cartas de empleados
+      suyos desde distintas partes del mundo cont\xE1ndonos las maravillas que ha
+      hecho con la compa\xF1\xEDa desde su llegada. "
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: e4ef01cd3693f4d4080d48fc883ebf29, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: 52f5b53017821734cbdcc26e8ec98447, type: 2}
+    dialogue3: Lo que quiero decir, es que usted se ha ganado su lugar y la confianza
+      de sus empleados por su propia mano.
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: 36a731df2a387fd4facb45e76a05da19, type: 2}
+    dialogue: "No creo que merezca tantos halagos, solo he hecho lo que cre\xEDa
+      mejor, pongo en pr\xE1ctica los valores que me transmiti\xF3 mi padre.\r Aunque
+      supongo que despu\xE9s de tener a un monstruo a la cabeza de la empresa, cualquiera
+      les hubiera parecido un angelito."
+    listener1: {fileID: 11400000, guid: e4ef01cd3693f4d4080d48fc883ebf29, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: 52f5b53017821734cbdcc26e8ec98447, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: e4ef01cd3693f4d4080d48fc883ebf29, type: 2}
+    dialogue2: "Hablando sobre su padre, el Sr. Barclay, sabemos que fue uno de los
+      afectados por los actos de Pottery, \xBFtuvo esto algo que ver con el cambio
+      de nombre de la empresa una vez que usted asumi\xF3 el mando?"
+    listener2: {fileID: 11400000, guid: 52f5b53017821734cbdcc26e8ec98447, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+    dialogue: "S\xED... es un tributo a la memoria de mi padre y de todas aquellas
+      buenas personas que sufrieron los abusos de Luther."
+    listener1: {fileID: 11400000, guid: e4ef01cd3693f4d4080d48fc883ebf29, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: 52f5b53017821734cbdcc26e8ec98447, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+    dialogue: "Adem\xE1s, la empresa necesitaba un nuevo nombre y que mejor que uno
+      que demuestre que est\xE9 donde est\xE9 mi padre, sus ense\xF1anzas y sus valores
+      siguen conmigo y que jam\xE1s le olvidar\xE9. Espero no decepcionarle."
+    listener1: {fileID: 11400000, guid: e4ef01cd3693f4d4080d48fc883ebf29, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: 52f5b53017821734cbdcc26e8ec98447, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 

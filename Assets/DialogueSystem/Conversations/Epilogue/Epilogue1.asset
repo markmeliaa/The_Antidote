@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6e7c39a969bf014181dc345647a0e83, type: 3}
+  m_Name: Epilogue1
+  m_EditorClassIdentifier: 
+  allLines:
+  - speaker: {fileID: 11400000, guid: 109d1b7325e9c8940ae4a5ca2a54265c, type: 2}
+    dialogue: "Han pasado cinco a\xF1os desde la ca\xEDda de Kemtek, compa\xF1\xEDa
+      que un d\xEDa fue conocida como la mejor en su sector gracias a la direcci\xF3n
+      del, antiguamente afamado, empresario Luther Pottery."
+    listener1: {fileID: 11400000, guid: e4ef01cd3693f4d4080d48fc883ebf29, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: 109d1b7325e9c8940ae4a5ca2a54265c, type: 2}
+    dialogue: "Sin embargo, hoy en d\xEDa todos sabemos que este hombre no era lo
+      que aparentaba, ya que decir que este se\xF1or extorsionaba a quien fuera necesario
+      y que ten\xEDa bajo su yugo a todos sus trabajadores ser\xEDa quedarse corto."
+    listener1: {fileID: 11400000, guid: e4ef01cd3693f4d4080d48fc883ebf29, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: 109d1b7325e9c8940ae4a5ca2a54265c, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: e4ef01cd3693f4d4080d48fc883ebf29, type: 2}
+    dialogue2: "As\xED es Timothy. Ese psic\xF3pata casi se lleva por delante a las
+      m\xE1s de dos mil personas que trabajaban para su compa\xF1\xEDa. Pero seg\xFAn
+      parece, el Karma termin\xF3 actuando. "
+    listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: 109d1b7325e9c8940ae4a5ca2a54265c, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: e4ef01cd3693f4d4080d48fc883ebf29, type: 2}
+    dialogue2: "Luther Pottery contin\xFAa tirado en una camilla de hospital, seguramente
+      debido a su continua y elevada exposici\xF3n a los diversos materiales nocivos
+      con los que se trabajaba en sus distintas sucursales."
+    listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: 109d1b7325e9c8940ae4a5ca2a54265c, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: e4ef01cd3693f4d4080d48fc883ebf29, type: 2}
+    dialogue2: "Despu\xE9s de todo, es el \xFAnico de los afectados que a\xFAn no
+      ha conseguido recuperarse, aunque tampoco le espera nada bueno cuando se recupere,
+      ya que tendr\xE1 que cumplir una buena cantidad de a\xF1os en prisi\xF3n por
+      sus cr\xEDmenes."
+    listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: 109d1b7325e9c8940ae4a5ca2a54265c, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: e4ef01cd3693f4d4080d48fc883ebf29, type: 2}
+    dialogue2: "Al menos estar\xE1 acompa\xF1ado por sus leales seguidores. Que tambi\xE9n
+      han sido inculpados por diversos cargos de agresi\xF3n, extorsi\xF3n y corrupci\xF3n."
+    listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: 109d1b7325e9c8940ae4a5ca2a54265c, type: 2}
+    dialogue: "Pero no estamos aqu\xED para hablar de eso. Hoy, por primera vez desde
+      el incidente que les acabamos de comentar, se nos ha concedido una entrevista
+      con el nuevo director de la reformada Kemtek, ahora conocida como Barclay Industries."
+    listener1: {fileID: 11400000, guid: e4ef01cd3693f4d4080d48fc883ebf29, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: 109d1b7325e9c8940ae4a5ca2a54265c, type: 2}
+    dialogue: "Tenemos hoy a aquel ex-estudiante que desarroll\xF3 el ant\xEDdoto
+      que cur\xF3 a una gran mayor\xEDa de los antiguos empleados de Pottery, Kieran
+      Barclay."
+    listener1: {fileID: 11400000, guid: e4ef01cd3693f4d4080d48fc883ebf29, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue4: 

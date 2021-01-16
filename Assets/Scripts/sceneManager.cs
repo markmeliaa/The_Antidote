@@ -50,6 +50,12 @@ public class sceneManager : MonoBehaviour
                 setLocationBool("EnterpriseEntrance");
             else if (transform.GetChild(i).name == "C3_KieransRoom")
                 setLocationBool("C3_KieransRoom");
+            else if (transform.GetChild(i).name == "CaveEntrance")
+                setLocationBool("CaveEntrance");
+            else if (transform.GetChild(i).name == "LabEntrance")
+                setLocationBool("LabEntrance");
+            else if (transform.GetChild(i).name == "EpilogueScene")
+                setLocationBool("EpilogueScene");
         }
     }
 

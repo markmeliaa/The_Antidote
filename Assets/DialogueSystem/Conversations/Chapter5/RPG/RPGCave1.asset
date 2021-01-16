@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6e7c39a969bf014181dc345647a0e83, type: 3}
+  m_Name: RPGCave1
+  m_EditorClassIdentifier: 
+  allLines:
+  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: bef8c97b57e0c614e911ca547aa2b5be, type: 2}
+    dialogue4: "Ya est\xE1, podemos seguir, el camino est\xE1 despejado."
+  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: ccf31a4b588b1bf4e90d6dc6e12b689a, type: 2}
+    dialogue3: "Yo no estar\xEDa tan segura, fijate, hay un guarda al final del pasillo,
+      ahora que lo han alertado no creo que nos sea tan f\xE1cil continuar."
+    listener3: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: 8e4e811589ae3d34cb1cd8018006c773, type: 2}
+    dialogue: Pero tenemos que hacerlo...
+    listener1: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: bef8c97b57e0c614e911ca547aa2b5be, type: 2}
+    dialogue4: "Ya se nos ocurrir\xE1 algo."
+  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: 0d6dd02f0c1502648a7f7114264a3720, type: 2}
+    dialogue2: "No os preocupeis mocosos, sorprendentemente, no me han mandado aqu\xED
+      para detener vuestro avance, al menos no de forma permanente... aunque eso
+      realmente depende de vosotros."
+    listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: f8f161c3634a91540bcd1e152ecfe0ae, type: 2}
+    dialogue: "\xBFA que te refieres?"
+    listener1: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: 0d6dd02f0c1502648a7f7114264a3720, type: 2}
+    dialogue2: "Mi jefe me ha dicho que solo os debo dejar pasar si resolv\xE9is
+      el puzle que os tengo preparado."
+    listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: f8f161c3634a91540bcd1e152ecfe0ae, type: 2}
+    dialogue: " Esto es... \xBFY para qu\xE9 querr\xEDa \xE9l que hici\xE9ramos esto?
+      Si conseguimos formar el ant\xEDdoto perfecto podr\xEDamos curar a todos los
+      enfermos y llevarlo ante la justicia."
+    listener1: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    dialogue: 
+    listener1: {fileID: 11400000, guid: 87249921b601c4845ba646a980fcb33c, type: 2}
+    dialogue2: "Mira ni\xF1o, no tengo ni idea, en este trabajo yo solo acato \xF3rdenes,
+      como todos por aqu\xED, y aunque yo no lo entiendo t\xFA lo que deber\xEDas
+      hacer es alegrarte de que no se nos ha ordenado que os machaquemos."
+    listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue4: 
+  - speaker: {fileID: 11400000, guid: 8e4e811589ae3d34cb1cd8018006c773, type: 2}
+    dialogue: "Est\xE1 bien... acepto el reto."
+    listener1: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
+    dialogue2: 
+    listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
+    dialogue3: 
+    listener3: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    dialogue4: 
