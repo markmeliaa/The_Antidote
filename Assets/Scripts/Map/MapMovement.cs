@@ -29,29 +29,26 @@ public class MapMovement : MonoBehaviour
 
     private void Update()
     {
-        if (manager.InConvo || (sceneManager.getPuzleState() && !sceneManager.getObjectPuzleState()) )
+        if (manager.InConvo || (sceneManager.getPuzleState() && !sceneManager.getObjectPuzleState()))
         {
-            if(GetComponent<SpriteRenderer>() != null)
-            {
-                if (GetComponent<BoxCollider2D>() != null)
-                    GetComponent<BoxCollider2D>().enabled = false;
-                if(GetComponent<SpriteRenderer>() != null)
-                    GetComponent<SpriteRenderer>().enabled = false;
-            }
-            GetComponent<CursorObject>().active= false;
+            if (GetComponent<BoxCollider2D>() != null)
+                GetComponent<BoxCollider2D>().enabled = false;
+
+            if (GetComponent<SpriteRenderer>() != null)
+                GetComponent<SpriteRenderer>().enabled = false;
+
+            GetComponent<CursorObject>().active = false;
             active = false;
         }
-        else if(!objectPuzleInactivate)
+        else if (!objectPuzleInactivate)
         {
+            if (GetComponent<BoxCollider2D>() != null)
+                GetComponent<BoxCollider2D>().enabled = true;
+
             if (GetComponent<SpriteRenderer>() != null)
-            {
-                if (GetComponent<BoxCollider2D>() != null)
-                    GetComponent<BoxCollider2D>().enabled = true;
-                if(GetComponent<SpriteRenderer>() != null)
-                    GetComponent<SpriteRenderer>().enabled = true;
-            }
-                
-            GetComponent<CursorObject>().active= true;
+                GetComponent<SpriteRenderer>().enabled = true;
+
+            GetComponent<CursorObject>().active = true;
             active = true;
         }
     }

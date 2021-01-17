@@ -22838,6 +22838,7 @@ MonoBehaviour:
   - {fileID: 1942934457}
   manager: {fileID: 835434861}
   warning: {fileID: 11400000, guid: 5a6073ca72d63f1418d02f6e64cebff3, type: 2}
+  thereIsConver: 0
 --- !u!114 &643165348
 MonoBehaviour:
   m_ObjectHideFlags: 0

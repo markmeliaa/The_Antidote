@@ -24,6 +24,18 @@ public class Inventory : MonoBehaviour
 
     public int space =  16;
     public List<Item> items = new List<Item>();
+    public Item[] startItems;
+
+    private void Start()
+    {
+        if(startItems.Length > 0)
+        {
+            for (int i = 0; i < startItems.Length; i++)
+            {
+                Add(startItems[i]);
+            }
+        }
+    }
 
     public bool Add(Item item)
     {
