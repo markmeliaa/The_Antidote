@@ -8,6 +8,7 @@ public class ScenePuzle : MonoBehaviour
     public GameObject[] inactiveArrows;
     public DialogueManager manager;
     public Conversation warning;
+    public bool thereIsConver = false;
 
     bool opened = false;
 
@@ -44,6 +45,13 @@ public class ScenePuzle : MonoBehaviour
         GetComponentInParent<sceneManager>().changeObjectPuzleState();
         for (int i = 0; i < inactiveArrows.Length; i++)
             inactiveArrows[i].GetComponent<MapMovement>().objectPuzleInactivate = false;
+
+        if (thereIsConver)
+        {
+            GetComponentInParent<sceneManager>().setLocationTimes(gameObject.name);
+            GetComponent<Tester>().sceneWithInteraction = false;
+            Debug.Log("Times en " + gameObject.name + ": " + GetComponentInParent<sceneManager>().getLocationTimes(gameObject.name));
+        }
     }
 
     public bool doorState()

@@ -475,7 +475,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &10249339
 Transform:
   m_ObjectHideFlags: 0
@@ -99580,6 +99580,7 @@ MonoBehaviour:
   - {fileID: 199512960}
   manager: {fileID: 147225106}
   warning: {fileID: 11400000, guid: 5a6073ca72d63f1418d02f6e64cebff3, type: 2}
+  thereIsConver: 0
 --- !u!82 &1917770525
 AudioSource:
   m_ObjectHideFlags: 0
@@ -101303,7 +101304,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1959324171
 Transform:
   m_ObjectHideFlags: 0

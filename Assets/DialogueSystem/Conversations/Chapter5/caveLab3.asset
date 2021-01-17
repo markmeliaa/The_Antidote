@@ -27,7 +27,7 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
-    listener3: {fileID: 11400000, guid: 9ff74c1713c057b4e8c14ea137e94dd3, type: 2}
+    listener3: {fileID: 11400000, guid: 2468e258ac53cf043843590b284ff9b4, type: 2}
     dialogue4: "No tiene m\xE1s opci\xF3n que intentarlo."
   - speaker: {fileID: 11400000, guid: 6022072373fa4af418c2c2b4caf8af24, type: 2}
     dialogue: "Al menos ganaremos tiempo. Aqu\xED tienes pap\xE1."
@@ -100,7 +100,7 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
-    listener3: {fileID: 11400000, guid: 0d5640ea1eed9424a989b09192b5928b, type: 2}
+    listener3: {fileID: 11400000, guid: 0e704c95b1b61244080121f5433b08fb, type: 2}
     dialogue4: Luther ha tenido suerte, no has llegado a vaciar la jeringa.
   - speaker: {fileID: 11400000, guid: f8f161c3634a91540bcd1e152ecfe0ae, type: 2}
     dialogue: "Quiz\xE1s deber\xEDa hacerlo..."

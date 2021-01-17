@@ -60,7 +60,7 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue3: 
-    listener3: {fileID: 11400000, guid: ed4d4e58331af1a45950af4f989f2ac8, type: 2}
+    listener3: {fileID: 11400000, guid: 4bd94bad2ebefbe4192fc700aa5069f9, type: 2}
     dialogue4: "Siendo realistas, deb\xEDa sentirse generoso con nosotros o algo
       por el estilo. De todas formas, esto no habr\xEDa pasado si hubieras pillado
       a esos renacuajos del hospital."
@@ -78,7 +78,7 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue3: 
-    listener3: {fileID: 11400000, guid: 5885656731487c6499d05f33ec83d659, type: 2}
+    listener3: {fileID: 11400000, guid: b5c5cde2ca1bd96418f8efd6a7bc9415, type: 2}
     dialogue4: Cierra el pico y abre la puerta, quiero terminar cuanto antes para
       poder irme a casa.
   - speaker: {fileID: 11400000, guid: 777aed9e0ee07fb479f514c67ca03b3c, type: 2}

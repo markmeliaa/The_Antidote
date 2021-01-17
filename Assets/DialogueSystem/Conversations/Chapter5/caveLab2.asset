@@ -27,7 +27,7 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 12a66feca0857734ba3fa00e65d2b1e0, type: 2}
     dialogue3: 
-    listener3: {fileID: 11400000, guid: ccf31a4b588b1bf4e90d6dc6e12b689a, type: 2}
+    listener3: {fileID: 11400000, guid: 501f976630a440e4da35c248f05654a2, type: 2}
     dialogue4: "\xA1Kieran, ac\xE9rcate un momento, tu padre aun tiene pulso!"
   - speaker: {fileID: 11400000, guid: 8e4e811589ae3d34cb1cd8018006c773, type: 2}
     dialogue: "\xA1\xBFDe verdad?!"
@@ -43,7 +43,7 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: 12a66feca0857734ba3fa00e65d2b1e0, type: 2}
     dialogue3: 
-    listener3: {fileID: 11400000, guid: 8b585fabed81bde489aed1696e555c0d, type: 2}
+    listener3: {fileID: 11400000, guid: 1cf53bd0622200d4c94289a40df5af7f, type: 2}
     dialogue4: "S\xED, mira toma, esta es la jeringa que uso en s\xED mismo, no habr\xE1
       podido inyect\xE1rsela entera debido a sus efectos y a lo d\xE9bil que ya estaba
       anteriormente."

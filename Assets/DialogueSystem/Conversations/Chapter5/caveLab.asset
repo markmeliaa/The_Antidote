@@ -71,7 +71,7 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
-    listener3: {fileID: 11400000, guid: 0d5640ea1eed9424a989b09192b5928b, type: 2}
+    listener3: {fileID: 11400000, guid: 0e704c95b1b61244080121f5433b08fb, type: 2}
     dialogue4: Eso quiere decir que...
   - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue: 
@@ -126,7 +126,7 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
-    listener3: {fileID: 11400000, guid: 0d5640ea1eed9424a989b09192b5928b, type: 2}
+    listener3: {fileID: 11400000, guid: 0e704c95b1b61244080121f5433b08fb, type: 2}
     dialogue4: "Pero eso significa que \xE9l tambi\xE9n hab\xEDa sido afectado por
       el s\xEDlice."
   - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}

@@ -17,9 +17,9 @@ MonoBehaviour:
     dialogue: 
     listener1: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue2: 
-    listener2: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
+    listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
-    listener3: {fileID: 11400000, guid: bef8c97b57e0c614e911ca547aa2b5be, type: 2}
+    listener3: {fileID: 11400000, guid: d10ecfe38086a0b47820494ecb643916, type: 2}
     dialogue4: "Ya est\xE1, podemos seguir, el camino est\xE1 despejado."
   - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue: 
@@ -44,7 +44,7 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
-    listener3: {fileID: 11400000, guid: bef8c97b57e0c614e911ca547aa2b5be, type: 2}
+    listener3: {fileID: 11400000, guid: d10ecfe38086a0b47820494ecb643916, type: 2}
     dialogue4: "Ya se nos ocurrir\xE1 algo."
   - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue: 

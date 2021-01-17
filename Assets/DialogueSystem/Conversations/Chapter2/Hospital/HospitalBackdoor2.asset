@@ -51,5 +51,5 @@ MonoBehaviour:
     dialogue2: 
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
-    listener3: {fileID: 11400000, guid: 0d6dd02f0c1502648a7f7114264a3720, type: 2}
+    listener3: {fileID: 11400000, guid: 777aed9e0ee07fb479f514c67ca03b3c, type: 2}
     dialogue4: "\xA1DETENGAN A ESOS MOCOSOS!"
