@@ -12,7 +12,6 @@ public class ballsMovement : MonoBehaviour
     Sensores sensores;
     [SerializeField]
     bool moviendoRight, moviendoLeft, moviendoUp, moviendoDown;
-    
 
     private void Awake()
     {
