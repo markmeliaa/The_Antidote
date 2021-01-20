@@ -5,6 +5,7 @@ using UnityEngine;
 public class ItemPickUp : MonoBehaviour
 {
     public Item item;
+    public bool sceneWithPuzle = false;
    public void Interact()
     {
         PickUp();

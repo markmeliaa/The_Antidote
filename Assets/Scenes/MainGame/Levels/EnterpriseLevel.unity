@@ -5304,7 +5304,6 @@ GameObject:
   - component: {fileID: 80178988}
   - component: {fileID: 80178994}
   - component: {fileID: 80178993}
-  - component: {fileID: 80178992}
   - component: {fileID: 80178991}
   - component: {fileID: 80178990}
   - component: {fileID: 80178996}
@@ -5461,22 +5460,6 @@ MonoBehaviour:
   navigationItem:
   - {fileID: 906723565}
   timesVisitedActivations: 02000000
---- !u!114 &80178992
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 80178987}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1394256eece24840b14698c8839276c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  newBackground: []
-  miniMap: {fileID: 1514480582}
-  changeConditions: []
-  changeTimes: 
 --- !u!114 &80178993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5565,6 +5548,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   manager: {fileID: 816347355}
+  minimap: {fileID: 1514480583}
   location: {fileID: 80178987}
   timesVisited: 2
 --- !u!1001 &83007913
@@ -8862,6 +8846,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   manager: {fileID: 816347355}
+  minimap: {fileID: 1514480583}
   location: {fileID: 80178987}
   timesVisited: 2
 --- !u!114 &176149454
@@ -10943,7 +10928,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &233540425
 Transform:
   m_ObjectHideFlags: 0
@@ -28286,6 +28271,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: 8a3996f894780ce4db02999dfa5ac675, type: 2}
+  sceneWithPuzle: 0
 --- !u!114 &576382833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34660,7 +34646,7 @@ PrefabInstance:
     - target: {fileID: 5203764199021108248, guid: 1c97eba83a8c5a24cbbb57924ff7a15f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5203764199021108248, guid: 1c97eba83a8c5a24cbbb57924ff7a15f,
         type: 3}
@@ -34670,7 +34656,7 @@ PrefabInstance:
     - target: {fileID: 5203764199021108248, guid: 1c97eba83a8c5a24cbbb57924ff7a15f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10.5
+      value: 11.81
       objectReference: {fileID: 0}
     - target: {fileID: 5203764199021108248, guid: 1c97eba83a8c5a24cbbb57924ff7a15f,
         type: 3}
@@ -43179,7 +43165,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &906723566
 Transform:
   m_ObjectHideFlags: 0
@@ -49613,6 +49599,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   manager: {fileID: 816347355}
+  minimap: {fileID: 1514480583}
   location: {fileID: 80178987}
   timesVisited: 2
 --- !u!114 &1042536994
@@ -51159,8 +51146,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navigationItem:
-  - {fileID: 0}
-  timesVisitedActivations: 01000000
+  - {fileID: 1127352438}
+  timesVisitedActivations: 02000000
 --- !u!114 &1078255370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52721,6 +52708,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   manager: {fileID: 816347355}
+  minimap: {fileID: 1514480583}
   location: {fileID: 80178987}
   timesVisited: 2
 --- !u!4 &1101075886 stripped
@@ -54076,7 +54064,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1127352439
 Transform:
   m_ObjectHideFlags: 0
@@ -56984,6 +56972,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   manager: {fileID: 816347355}
+  minimap: {fileID: 1514480583}
   location: {fileID: 80178987}
   timesVisited: 2
 --- !u!114 &1195832273
@@ -56999,8 +56988,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navigationItem:
+  - {fileID: 233540424}
   - {fileID: 1327677905}
-  timesVisitedActivations: 02000000
+  timesVisitedActivations: 0100000002000000
 --- !u!82 &1195832274
 AudioSource:
   m_ObjectHideFlags: 0
@@ -64670,6 +64660,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   manager: {fileID: 816347355}
+  minimap: {fileID: 1514480583}
   location: {fileID: 80178987}
   timesVisited: 2
 --- !u!114 &1336370991
@@ -71270,6 +71261,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   manager: {fileID: 816347355}
+  minimap: {fileID: 1514480583}
   location: {fileID: 80178987}
   timesVisited: 2
 --- !u!114 &1470071449
@@ -79636,6 +79628,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   manager: {fileID: 816347355}
+  minimap: {fileID: 1514480583}
   location: {fileID: 80178987}
   timesVisited: 2
 --- !u!114 &1671790221
@@ -94041,6 +94034,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   manager: {fileID: 816347355}
+  minimap: {fileID: 1514480583}
   location: {fileID: 80178987}
   timesVisited: 2
 --- !u!114 &2034053036
@@ -98578,6 +98572,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   manager: {fileID: 816347355}
+  minimap: {fileID: 1514480583}
   location: {fileID: 80178987}
   timesVisited: 2
 --- !u!114 &2137873407

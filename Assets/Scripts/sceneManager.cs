@@ -27,7 +27,7 @@ public class sceneManager : MonoBehaviour
 
     [SerializeField]
     private bool inAPuzle = false;
-
+    [SerializeField]
     private bool objectPuzle = false;
 
     Dictionary<string, Pair> locations;
@@ -51,7 +51,11 @@ public class sceneManager : MonoBehaviour
             else if (transform.GetChild(i).name == "C3_KieransRoom")
                 setLocationBool("C3_KieransRoom");
             else if (transform.GetChild(i).name == "CaveEntrance")
+            {
                 setLocationBool("CaveEntrance");
+                changePuzleState();
+                changeObjectPuzleState();
+            }  
             else if (transform.GetChild(i).name == "LabEntrance")
                 setLocationBool("LabEntrance");
             else if (transform.GetChild(i).name == "EpilogueScene")

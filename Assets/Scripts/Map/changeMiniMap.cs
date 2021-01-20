@@ -9,6 +9,7 @@ public class changeMiniMap : MonoBehaviour
     bool changed = false;
 
     public sceneManager manager;
+    public miniMap minimap;
     public GameObject location;
     public int timesVisited;
 
@@ -16,7 +17,7 @@ public class changeMiniMap : MonoBehaviour
     void Start()
     {
         currentMap = transform.Find("EnterpriseMap").gameObject;
-        nextMap = transform.Find("EnterpriseMap").gameObject;
+        nextMap = transform.Find("EnterpriseMap2").gameObject;
     }
 
     // Update is called once per frame
@@ -24,6 +25,7 @@ public class changeMiniMap : MonoBehaviour
     {
         if(!changed && manager.getLocationTimes(location.name) == timesVisited)
         {
+            minimap.chargeMap();
             currentMap.SetActive(false);
             nextMap.SetActive(true);
             changed = true;

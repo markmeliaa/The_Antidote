@@ -23,8 +23,11 @@ public class miniMap : MonoBehaviour
             if (mapLocations.transform.GetChild(i).gameObject.activeSelf)
             {
                 GameObject activeLoc = mapLocations.transform.GetChild(i).gameObject;
-                map = activeLoc.transform.GetChild(activeLoc.transform.childCount - 1).GetComponent<Map>();
-            }
+                if(activeLoc.transform.GetChild(activeLoc.transform.childCount - 1).gameObject.activeSelf)
+                    map = activeLoc.transform.GetChild(activeLoc.transform.childCount - 1).GetComponent<Map>();
+                else if(activeLoc.transform.GetChild(activeLoc.transform.childCount - 2).gameObject.activeSelf)
+                    map = activeLoc.transform.GetChild(activeLoc.transform.childCount - 2).GetComponent<Map>();
+    }
         }
     }
 

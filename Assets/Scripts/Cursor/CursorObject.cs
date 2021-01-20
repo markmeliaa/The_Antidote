@@ -31,9 +31,19 @@ public class CursorObject : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if( !manager.InConvo && !sceneManager.getPuzleState() && pickUpItems != null)
+        if (pickUpItems != null && pickUpItems.sceneWithPuzle)
         {
-            pickUpItems.Interact();
-        } 
+            if (!manager.InConvo)
+            {
+                pickUpItems.Interact();
+            }
+        }
+        else
+        {
+            if (!manager.InConvo && !sceneManager.getPuzleState() && pickUpItems != null)
+            {
+                pickUpItems.Interact();
+            }
+        }
     }
 }
