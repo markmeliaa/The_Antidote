@@ -46712,7 +46712,7 @@ PrefabInstance:
     - target: {fileID: 3891894308179953377, guid: 3bdcb3edd6401fb43914e04c33d5bb6d,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5353732747680395249, guid: 3bdcb3edd6401fb43914e04c33d5bb6d,
         type: 3}
@@ -49009,6 +49009,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1493921456}
+  canEnemyMove: 1
 --- !u!1001 &1321653943945631746
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49094,7 +49095,7 @@ PrefabInstance:
     - target: {fileID: 3891894308179953377, guid: d510a18b9942d704a9b3abe8d8713c6d,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5353732747680395249, guid: d510a18b9942d704a9b3abe8d8713c6d,
         type: 3}
@@ -49105,6 +49106,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5353732747680395249, guid: d510a18b9942d704a9b3abe8d8713c6d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 7333359289340225690, guid: d510a18b9942d704a9b3abe8d8713c6d,
         type: 3}

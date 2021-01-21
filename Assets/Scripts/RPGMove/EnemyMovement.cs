@@ -7,6 +7,7 @@ public class EnemyMovement : MonoBehaviour
     [SerializeField] GameObject player;
     private Transform playerTransform;
     private PlayerController playerScript;
+    public bool canEnemyMove = true;
 
     // Start is called before the first frame update
     void Start()
@@ -18,19 +19,26 @@ public class EnemyMovement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        if (!canEnemyMove)
+            return;
+
         if (this.transform.position.y <= playerTransform.position.y)
         {
+            this.GetComponent<Collider2D>().isTrigger = true;
             playerScript.canMove = false;
 
             if (transform.position.x <= playerTransform.position.x - 0.75)
-            transform.position = Vector2.MoveTowards(transform.position, playerTransform.position, Time.deltaTime);
-            
+                transform.position = Vector2.MoveTowards(transform.position, playerTransform.position, Time.deltaTime);
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
-            Debug.Log("ahora");
+        {
+            canEnemyMove = false;
+            playerScript.canMove = true;
+            this.GetComponent<Collider2D>().isTrigger = false;
+        }
     }
 }
