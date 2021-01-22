@@ -461,7 +461,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 32858495}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.22, y: 2.83, z: 2}
+  m_LocalPosition: {x: 8.22, y: 4.15, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -9498,7 +9498,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1514480583
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10635,9 +10635,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 001b80c0335d65a46b12f9dbe94ba78a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectives: []
-  locations: []
-  timesVisited: 
+  objectives:
+  - Colarnos en la cueva
+  - Investigar la cueva
+  locations:
+  - {fileID: 1195832267}
+  - {fileID: 1494261184}
+  timesVisited: 0000000001000000
   manager: {fileID: 816347355}
 --- !u!114 &1733367836
 MonoBehaviour:

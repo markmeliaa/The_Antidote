@@ -461,7 +461,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 32858495}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.22, y: 2.83, z: 2}
+  m_LocalPosition: {x: 8.22, y: 4.04, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5135,6 +5135,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inAPuzle: 0
+  objectPuzle: 0
 --- !u!1 &833442406
 GameObject:
   m_ObjectHideFlags: 0
@@ -9830,7 +9831,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1514480583
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11368,20 +11369,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectives:
-  - Entrar en el Hospital
-  - Encontrar una forma de colarse en el Hospital
-  - Buscar a Hubert
-  - Hablar con Hubert
-  - Abandonar el Hospital antes de que me pillen
-  - Volver a mi casa
+  - Entrar al Laboratorio
+  - Salvar a papa
   locations:
   - {fileID: 1195832267}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  timesVisited: 000000000100000001000000010000000200000002000000
+  - {fileID: 1494261184}
+  timesVisited: 0000000001000000
   manager: {fileID: 816347355}
 --- !u!114 &1733367836
 MonoBehaviour:
@@ -15337,6 +15330,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: 2cdc859afb419f84f879d11bcc746d56, type: 2}
+  sceneWithPuzle: 0
 --- !u!114 &2133839802
 MonoBehaviour:
   m_ObjectHideFlags: 0
