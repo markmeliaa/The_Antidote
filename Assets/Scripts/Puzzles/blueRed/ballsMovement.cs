@@ -104,7 +104,29 @@ public class ballsMovement : MonoBehaviour
             else if (curPosition.y < posInicial.y)
                 return;
 
-            transform.position = curPosition;
+            Vector3 movimientoPos = curPosition - transform.position;
+            if(moviendoRight || moviendoLeft)
+            {
+                if (movimientoPos.y != 0)
+                    movimientoPos.y = 0;
+
+                if (movimientoPos.x == 0)
+                    movimientoPos.x = 0.000001f;
+
+                transform.position = new Vector3(transform.position.x + (movimientoPos.x / Mathf.Abs(movimientoPos.x * 10)), transform.position.y, 0);
+                movimientoPos.x -= Mathf.Abs(movimientoPos.x) / movimientoPos.x * 10;
+            }
+            else if(moviendoUp || moviendoDown)
+            {
+                if (movimientoPos.x != 0)
+                    movimientoPos.x = 0;
+
+                if (movimientoPos.y == 0)
+                    movimientoPos.y = 0.000001f;
+
+                transform.position = new Vector3(transform.position.x, transform.position.y + (movimientoPos.y / Mathf.Abs(movimientoPos.y * 10)), 0);
+                movimientoPos.y -= Mathf.Abs(movimientoPos.y) / movimientoPos.y * 10;
+            }
         }
     }
 

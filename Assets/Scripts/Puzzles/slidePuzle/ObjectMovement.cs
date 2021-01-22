@@ -114,34 +114,34 @@ public class ObjectMovement : MonoBehaviour
             else if (currentPos.y < initialPosition.y)
                 return;
 
-            transform.position = currentPos;
+            Vector3 movementPos = currentPos - transform.position;
+            if (horizontal)
+            {
+                if (movementPos.y != 0)
+                    movementPos.y = 0;
+
+                if (movementPos.x == 0)
+                    movementPos.x = 0.000001f;
+
+                transform.position = new Vector3(transform.position.x + (movementPos.x / Mathf.Abs(movementPos.x * 10)), transform.position.y, 0);
+                movementPos.x -= Mathf.Abs(movementPos.x) / movementPos.x * 10;
+            }
+            else
+            {
+                if (movementPos.x != 0)
+                    movementPos.x = 0;
+
+                if (movementPos.y == 0)
+                    movementPos.y = 0.000001f;
+
+                transform.position = new Vector3(transform.position.x, transform.position.y + (movementPos.y / Mathf.Abs(movementPos.y * 10)), 0);
+                movementPos.y -= Mathf.Abs(movementPos.y) / movementPos.y * 10;
+            }   
         }
     }
 
     private void OnMouseUp()
     {
-        /*if( Physics2D.OverlapArea(new Vector2(transform.position.x - 2, transform.position.y - 0.75f), new Vector2(transform.position.x + 2, transform.position.y + 0.75f)))
-        {
-            Vector3 correction = transform.position;
-
-            if (horizontal)
-            {
-                if (!sensores.ocupadoLeft)
-                    correction.x -= 0.3f;
-                else if (!sensores.ocupadoRight)
-                    correction.x += 0.3f;
-            }
-            else
-            {
-                if (!sensores.ocupadoUp)
-                    correction.y += 0.3f;
-                else if (!sensores.ocupadoDown)
-                    correction.y -= 0.3f;
-            }
-
-            transform.position = correction;
-        }*/
-
         movingRight = false;
         movingLeft = false;
         movingUp = false;

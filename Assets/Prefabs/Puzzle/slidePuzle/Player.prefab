@@ -294,7 +294,7 @@ MonoBehaviour:
   sensorUp: {fileID: 8876625259875796912}
   sensorLeft: {fileID: 8876625260713249751}
   sensorDown: {fileID: 8876625258909500565}
-  radioSensor: 0.1
+  radioSensor: 0.2
   ocupadoRight: 0
   ocupadoUp: 0
   ocupadoLeft: 0
