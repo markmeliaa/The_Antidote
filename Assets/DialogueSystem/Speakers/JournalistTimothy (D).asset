@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: JournalistTimothy (D)
   m_EditorClassIdentifier: 
   speakerName: TIMOTHY
-  speakerSprite: {fileID: 21300000, guid: de9bb15374e07954ba713eab39363be7, type: 3}
+  speakerSprite: {fileID: 21300000, guid: d677b91c4160ce84da845b355669d7c8, type: 3}
   speakerBox: {fileID: 21300000, guid: ebaa9b313885463408a52606b9818034, type: 3}
