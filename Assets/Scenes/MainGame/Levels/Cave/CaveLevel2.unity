@@ -5915,7 +5915,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 835434861}
-        m_MethodName: ReadNext
+        m_MethodName: NextButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7838,7 +7838,8 @@ AudioSource:
   m_GameObject: {fileID: 1224748090}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: b27cd53bf5053ac448d21763db5af5ce,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 76fb26240ef23c842b364a980e834461, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.25
@@ -9945,7 +9946,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1514480582}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.26, y: 4.35, z: 22.706812}
+  m_LocalPosition: {x: 8.26, y: 1.98, z: 22.706812}
   m_LocalScale: {x: 0.29372498, y: 0.275912, z: 0.379}
   m_Children: []
   m_Father: {fileID: 0}
@@ -13556,7 +13557,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 835434861}
-        m_MethodName: ReadNext
+        m_MethodName: NextButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

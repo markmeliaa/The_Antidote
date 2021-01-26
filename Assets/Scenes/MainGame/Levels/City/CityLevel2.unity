@@ -6631,6 +6631,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: 3f0f44f797031a14f92ce9b57592a4f7, type: 2}
+  sceneWithPuzle: 0
 --- !u!114 &119490499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17091,6 +17092,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   space: 16
   items: []
+  startItems: []
 --- !u!4 &303221867
 Transform:
   m_ObjectHideFlags: 0
@@ -17674,6 +17676,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: d9783901d73595044a1bb6f3607c2483, type: 2}
+  sceneWithPuzle: 0
 --- !u!114 &314371519
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30570,6 +30573,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: b49780212e7d91247a990af4bed85854, type: 2}
+  sceneWithPuzle: 0
 --- !u!61 &596874470
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -63207,7 +63211,8 @@ AudioSource:
   m_GameObject: {fileID: 1246047184}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: b27cd53bf5053ac448d21763db5af5ce,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 9d4c056c5d645ad4b94432b6abe40e5c, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.125
@@ -74458,6 +74463,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inAPuzle: 0
+  objectPuzle: 0
 --- !u!4 &1480046753 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2348164879031134972, guid: a7f6d66e8a484bc41979cd4bd76f5b29,
@@ -88609,7 +88615,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 147225106}
-        m_MethodName: ReadNext
+        m_MethodName: NextButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -109839,7 +109845,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 147225106}
-        m_MethodName: ReadNext
+        m_MethodName: NextButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

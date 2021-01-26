@@ -32,7 +32,7 @@ public class MapActivation : MonoBehaviour
         ubications[index].GetComponent<CircleCollider2D>().enabled = true;
         ubications[index].GetComponent<CursorObject>().active = true;
         Debug.Log("Soy: "+ gameObject.name + " y activo: " + ubications[index]);
-        Debug.Log("Vamos por " + index + " y es" + conditions[index]);
+        Debug.Log("Vamos por " + index + " y es " + conditions[index]);
         index++;
     }
 }
