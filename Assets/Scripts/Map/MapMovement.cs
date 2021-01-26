@@ -93,7 +93,8 @@ public class MapMovement : MonoBehaviour
             nextLocation.SetActive(true);
 
             //Charge new Map
-            miniMap.GetComponent<miniMap>().chargeMap();
+            if(miniMap != null)
+                miniMap.GetComponent<miniMap>().chargeMap();
 
             CursorManager.Instance.SetActiveCursorType(CursorManager.CursorType.Arrow);
         }

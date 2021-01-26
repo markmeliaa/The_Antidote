@@ -25,11 +25,13 @@ public class InventoryControl : MonoBehaviour
         closeCross.GetComponent<InventoryControl>().normalPuzle = normalPuzle;
         if (!dialogManager.GetComponent<DialogueManager>().InConvo && !mapLocations.GetComponent<sceneManager>().getPuzleState())
         {
-            miniMapIcon.SetActive(true);
+            if(miniMapIcon != null)
+                miniMapIcon.SetActive(true);
         }
         else
         {
-            miniMapIcon.SetActive(false);
+            if(miniMapIcon != null)
+                miniMapIcon.SetActive(false);
         }
 
         if (dialogManager.GetComponent<DialogueManager>().InConvo || mapLocations.GetComponent<sceneManager>().getPuzleState() && !mapLocations.GetComponent<sceneManager>().getObjectPuzleState())

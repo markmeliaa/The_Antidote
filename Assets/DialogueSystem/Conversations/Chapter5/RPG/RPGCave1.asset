@@ -15,39 +15,6 @@ MonoBehaviour:
   allLines:
   - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
-    dialogue2: 
-    listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
-    dialogue3: 
-    listener3: {fileID: 11400000, guid: d10ecfe38086a0b47820494ecb643916, type: 2}
-    dialogue4: "Ya est\xE1, podemos seguir, el camino est\xE1 despejado."
-  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
-    dialogue: 
-    listener1: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
-    dialogue2: 
-    listener2: {fileID: 11400000, guid: ccf31a4b588b1bf4e90d6dc6e12b689a, type: 2}
-    dialogue3: "Yo no estar\xEDa tan segura, fijate, hay un guarda al final del pasillo,
-      ahora que lo han alertado no creo que nos sea tan f\xE1cil continuar."
-    listener3: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
-    dialogue4: 
-  - speaker: {fileID: 11400000, guid: 8e4e811589ae3d34cb1cd8018006c773, type: 2}
-    dialogue: Pero tenemos que hacerlo...
-    listener1: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
-    dialogue2: 
-    listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
-    dialogue3: 
-    listener3: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
-    dialogue4: 
-  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
-    dialogue: 
-    listener1: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
-    dialogue2: 
-    listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
-    dialogue3: 
-    listener3: {fileID: 11400000, guid: d10ecfe38086a0b47820494ecb643916, type: 2}
-    dialogue4: "Ya se nos ocurrir\xE1 algo."
-  - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
-    dialogue: 
     listener1: {fileID: 11400000, guid: 0d6dd02f0c1502648a7f7114264a3720, type: 2}
     dialogue2: "No os preocupeis mocosos, sorprendentemente, no me han mandado aqu\xED
       para detener vuestro avance, al menos no de forma permanente... aunque eso
@@ -85,7 +52,7 @@ MonoBehaviour:
     dialogue4: 
   - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue: 
-    listener1: {fileID: 11400000, guid: 87249921b601c4845ba646a980fcb33c, type: 2}
+    listener1: {fileID: 11400000, guid: 0d6dd02f0c1502648a7f7114264a3720, type: 2}
     dialogue2: "Mira ni\xF1o, no tengo ni idea, en este trabajo yo solo acato \xF3rdenes,
       como todos por aqu\xED, y aunque yo no lo entiendo t\xFA lo que deber\xEDas
       hacer es alegrarte de que no se nos ha ordenado que os machaquemos."
@@ -93,8 +60,8 @@ MonoBehaviour:
     dialogue3: 
     listener3: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue4: 
-  - speaker: {fileID: 11400000, guid: 8e4e811589ae3d34cb1cd8018006c773, type: 2}
-    dialogue: "Est\xE1 bien... acepto el reto."
+  - speaker: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
+    dialogue: "Est\xE1 bien... aceptamos el reto."
     listener1: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}

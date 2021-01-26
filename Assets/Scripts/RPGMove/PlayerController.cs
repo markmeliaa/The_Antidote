@@ -7,18 +7,26 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rigidbody2d;
     float horizontal;
     float vertical;
-    public bool canMove;
+    bool canMove;
+    public DialogueManager dialogueManager;
+    public bool caught;
 
     // Start is called before the first frame update
     void Start()
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
         canMove = true;
+        caught = false;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (dialogueManager.InConvo || caught)
+            canMove = false;
+        else
+            canMove = true;
+
         if (!canMove)
             return;
 

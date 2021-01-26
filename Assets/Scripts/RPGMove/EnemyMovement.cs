@@ -25,7 +25,7 @@ public class EnemyMovement : MonoBehaviour
         if (this.transform.position.y <= playerTransform.position.y)
         {
             this.GetComponent<Collider2D>().isTrigger = true;
-            playerScript.canMove = false;
+            playerScript.caught = true;
 
             if (transform.position.x <= playerTransform.position.x - 0.75)
                 transform.position = Vector2.MoveTowards(transform.position, playerTransform.position, Time.deltaTime);
@@ -37,7 +37,7 @@ public class EnemyMovement : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             canEnemyMove = false;
-            playerScript.canMove = true;
+            playerScript.caught = false;
             this.GetComponent<Collider2D>().isTrigger = false;
         }
     }
