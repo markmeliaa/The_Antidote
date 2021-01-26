@@ -5,7 +5,6 @@ using UnityEngine;
 public class openInstructions : MonoBehaviour
 {
     private Animator instructAnimator;
-    [SerializeField] GameObject text;
 
     // Start is called before the first frame update
     void Start()
@@ -15,22 +14,14 @@ public class openInstructions : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (instructAnimator.GetBool("Show"))
+        if (instructAnimator.GetBool("ShowQuestions"))
         {
-            instructAnimator.SetBool("Show", false);
-            text.SetActive(false);
+            instructAnimator.SetBool("ShowQuestions", false);
         }
 
-        else if (!instructAnimator.GetBool("Show"))
+        else if (!instructAnimator.GetBool("ShowQuestions"))
         {
-            instructAnimator.SetBool("Show", true);
-            StartCoroutine("showText");
+            instructAnimator.SetBool("ShowQuestions", true);
         }
-    }
-
-    IEnumerator showText()
-    {
-        yield return new WaitForSeconds(0.45f);
-        text.SetActive(true);
     }
 }

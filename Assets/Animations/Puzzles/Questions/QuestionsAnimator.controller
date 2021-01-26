@@ -7,7 +7,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Instructions_Show
+  m_Name: Questions_Show
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -58,7 +58,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: Show
+    m_ConditionEvent: ShowQuestions
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -1414988955610722909}
@@ -112,7 +112,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Instructions_Hide
+  m_Name: Questions_Hide
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -139,7 +139,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Instructions_Idle
+  m_Name: Questions_Idle
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -165,10 +165,10 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: OpenInstructions
+  m_Name: QuestionsAnimator
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: Show
+  - m_Name: ShowQuestions
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -218,7 +218,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Show
+    m_ConditionEvent: ShowQuestions
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3233312699125928381}
@@ -241,7 +241,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Instructions_Idle2
+  m_Name: Questions_Idle2
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
