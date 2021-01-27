@@ -14,14 +14,14 @@ public class openInstructions : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (instructAnimator.GetBool("ShowQuestions"))
+        if (instructAnimator.GetBool("Show"))
         {
-            instructAnimator.SetBool("ShowQuestions", false);
+            instructAnimator.SetBool("Show", false);
         }
 
-        else if (!instructAnimator.GetBool("ShowQuestions"))
+        else if (!instructAnimator.GetBool("Show"))
         {
-            instructAnimator.SetBool("ShowQuestions", true);
+            instructAnimator.SetBool("Show", true);
         }
     }
 }
