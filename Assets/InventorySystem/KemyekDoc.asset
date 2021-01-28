@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ede30e951b3dc674cb38fb021ef7956d, type: 3}
-  m_Name: KeysEnterprise
+  m_Name: KemyekDoc
   m_EditorClassIdentifier: 
-  name: Llaves
-  icon: {fileID: 21300000, guid: 5672cab9a78c25b47939de7816952907, type: 3}
-  description: Llaves misteriosas
-  spawnObject: {fileID: 4955594557179698220, guid: e4ca68039d17d7742b4439fdadfebde5,
-    type: 3}
-  puzleAim: EnterpriseThirdFloor
+  name: Documentos Kemtek
+  icon: {fileID: 21300000, guid: 1960046b3b27cb24e9e91a51ae56f3ed, type: 3}
+  description: "Documentos de pap\xE1 que demuestran las actividades fraudulentas
+    de Kemtek"
+  spawnObject: {fileID: 0}
+  puzleAim: 
