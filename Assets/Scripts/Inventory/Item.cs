@@ -11,6 +11,7 @@ public class Item : ScriptableObject
     public string description = "New description";
     public GameObject spawnObject;
     public string puzleAim;
+    public bool eliminate;
 
     GameObject descriptionText;
 

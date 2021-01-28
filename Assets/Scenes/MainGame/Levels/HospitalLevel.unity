@@ -75189,7 +75189,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   space: 16
   items: []
-  startItems: []
+  startItems:
+  - {fileID: 11400000, guid: effd902873580f44298e611dc2ef890b, type: 2}
+  - {fileID: 11400000, guid: 65e3dc47be6a0724b84fcafdd2e3025a, type: 2}
+  - {fileID: 11400000, guid: b49780212e7d91247a990af4bed85854, type: 2}
 --- !u!4 &1936725898
 Transform:
   m_ObjectHideFlags: 0

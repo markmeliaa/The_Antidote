@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Documents
   m_EditorClassIdentifier: 
   name: Documentos
-  icon: {fileID: 21300000, guid: d76e565bb8d6e0f43a75f7fbad3007b9, type: 3}
+  icon: {fileID: 21300000, guid: 1960046b3b27cb24e9e91a51ae56f3ed, type: 3}
   description: "Documentos de la investigaci\xF3n de pap\xE1."
   spawnObject: {fileID: 0}
   puzleAim: 
+  eliminate: 0

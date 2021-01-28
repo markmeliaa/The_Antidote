@@ -12851,7 +12851,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   space: 16
   items: []
-  startItems: []
+  startItems:
+  - {fileID: 11400000, guid: 1a7937d6b00d49a4d9bb4e87832c8c2a, type: 2}
+  - {fileID: 11400000, guid: 65e3dc47be6a0724b84fcafdd2e3025a, type: 2}
+  - {fileID: 11400000, guid: b49780212e7d91247a990af4bed85854, type: 2}
+  - {fileID: 11400000, guid: 3f0f44f797031a14f92ce9b57592a4f7, type: 2}
+  - {fileID: 11400000, guid: d9783901d73595044a1bb6f3607c2483, type: 2}
+  - {fileID: 11400000, guid: a68a5fe20807b434d94e649f9606bc10, type: 2}
+  - {fileID: 11400000, guid: 8a3996f894780ce4db02999dfa5ac675, type: 2}
 --- !u!4 &1936725898
 Transform:
   m_ObjectHideFlags: 0

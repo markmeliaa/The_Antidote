@@ -17,3 +17,4 @@ MonoBehaviour:
   description: "Jeringuilla con el Ant\xEDdoto"
   spawnObject: {fileID: 0}
   puzleAim: 
+  eliminate: 1

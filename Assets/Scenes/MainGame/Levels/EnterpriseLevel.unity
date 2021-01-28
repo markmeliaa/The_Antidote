@@ -27879,7 +27879,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &527295431
 AudioSource:
   m_ObjectHideFlags: 0
@@ -63678,7 +63678,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1195832268
 Transform:
   m_ObjectHideFlags: 0
@@ -99377,6 +99377,9 @@ MonoBehaviour:
   startItems:
   - {fileID: 11400000, guid: 1a7937d6b00d49a4d9bb4e87832c8c2a, type: 2}
   - {fileID: 11400000, guid: 65e3dc47be6a0724b84fcafdd2e3025a, type: 2}
+  - {fileID: 11400000, guid: b49780212e7d91247a990af4bed85854, type: 2}
+  - {fileID: 11400000, guid: 3f0f44f797031a14f92ce9b57592a4f7, type: 2}
+  - {fileID: 11400000, guid: d9783901d73595044a1bb6f3607c2483, type: 2}
 --- !u!4 &1936725898
 Transform:
   m_ObjectHideFlags: 0
@@ -103897,9 +103900,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   navigationItem:
   - {fileID: 38489964}
-  - {fileID: 303759335}
   - {fileID: 824139913}
-  timesVisitedActivations: 020000000300000003000000
+  timesVisitedActivations: 0200000003000000
 --- !u!114 &2034053030
 MonoBehaviour:
   m_ObjectHideFlags: 0

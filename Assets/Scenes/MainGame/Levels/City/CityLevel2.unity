@@ -17221,7 +17221,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   space: 16
-  items: []
+  items:
+  - {fileID: 11400000, guid: 77d5ccfa2a69e67418c62c62a7b14e39, type: 2}
+  - {fileID: 11400000, guid: effd902873580f44298e611dc2ef890b, type: 2}
+  - {fileID: 11400000, guid: b49780212e7d91247a990af4bed85854, type: 2}
   startItems: []
 --- !u!4 &303221867
 Transform:
@@ -41992,7 +41995,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &815580730
 Transform:
   m_ObjectHideFlags: 0

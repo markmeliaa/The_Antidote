@@ -40,7 +40,7 @@ public class InventorySlot : MonoBehaviour
             {
                 for (int i = 0; i < mapLoc.transform.childCount; i++)
                 {
-                    if (mapLoc.transform.GetChild(i).gameObject.activeSelf && mapLoc.transform.GetChild(i).name == item.puzleAim)
+                    if (item.eliminate && mapLoc.transform.GetChild(i).gameObject.activeSelf && mapLoc.transform.GetChild(i).name == item.puzleAim)
                     {
                         item.Use(mapLoc.transform.GetChild(i).gameObject);
                         RemoveItem();

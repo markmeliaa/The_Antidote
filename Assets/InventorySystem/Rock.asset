@@ -18,3 +18,4 @@ MonoBehaviour:
   spawnObject: {fileID: 6520531231852152900, guid: 379f345482296b948aec6e3f8f50df5a,
     type: 3}
   puzleAim: CaveEntrance
+  eliminate: 1
