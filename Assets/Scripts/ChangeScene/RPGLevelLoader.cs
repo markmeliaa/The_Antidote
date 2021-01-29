@@ -32,7 +32,7 @@ public class RPGLevelLoader : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == "player" && active && SceneManager.GetActiveScene().buildIndex != nextScene)
+        if(collision.gameObject.tag == "Player" && active && SceneManager.GetActiveScene().buildIndex != nextScene)
         {
             LoadNextLevel();
         }

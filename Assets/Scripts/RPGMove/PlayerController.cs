@@ -40,8 +40,8 @@ public class PlayerController : MonoBehaviour
             return;
 
         Vector2 position = rigidbody2d.position;
-        position.x = position.x + 3.5f * horizontal * Time.deltaTime;
-        position.y = position.y + 3.5f * vertical * Time.deltaTime;
+        position.x = position.x + 4.5f * horizontal * Time.deltaTime;
+        position.y = position.y + 4.5f * vertical * Time.deltaTime;
 
         rigidbody2d.MovePosition(position);
     }
