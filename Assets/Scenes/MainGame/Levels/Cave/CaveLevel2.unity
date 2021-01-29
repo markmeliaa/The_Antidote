@@ -9856,10 +9856,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f099eaf69076814d8b7a5de243e5597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  converTimes: 010000000200000003000000
+  converTimes: 01000000010000000200000003000000
   interactiveObject:
   - {fileID: 1375358204}
-  timer: 0
+  - {fileID: 1110890598}
+  - {fileID: 2133839799}
+  - {fileID: 1727397469}
+  timer: 0.2
 --- !u!114 &1494261188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9874,8 +9877,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   navigationItem:
   - {fileID: 571689100}
-  - {fileID: 2133839799}
-  - {fileID: 1727397469}
   timesVisitedActivations: 04000000
 --- !u!114 &1494261192
 MonoBehaviour:
@@ -14475,7 +14476,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2068208645
 MonoBehaviour:
   m_ObjectHideFlags: 0
