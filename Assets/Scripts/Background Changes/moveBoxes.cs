@@ -18,7 +18,7 @@ public class moveBoxes : MonoBehaviour
     private void OnMouseDown()
     {
         BoxesBackground.sprite = NewBoxesBackground;
-        //boxesSound.Play();
+        boxesSound.Play();
         this.gameObject.GetComponent<Collider2D>().enabled = false;
         arrow.SetActive(true);
         newBoxes.SetActive(true);
