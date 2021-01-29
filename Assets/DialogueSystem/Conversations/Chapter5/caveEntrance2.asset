@@ -17,7 +17,7 @@ MonoBehaviour:
     dialogue: "\xBFQu\xE9 ha sido eso?"
     listener1: {fileID: 11400000, guid: fc407688f4b7a7541ab68eb8a9175407, type: 2}
     dialogue2: 
-    listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
     listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue4: 
@@ -25,7 +25,7 @@ MonoBehaviour:
     dialogue: 
     listener1: {fileID: 11400000, guid: 5885656731487c6499d05f33ec83d659, type: 2}
     dialogue2: "Ni idea, deber\xEDas ir a mirar."
-    listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
     listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue4: 
@@ -33,7 +33,7 @@ MonoBehaviour:
     dialogue: "Si claro, \xBFy por qu\xE9 no vas t\xFA?"
     listener1: {fileID: 11400000, guid: fc407688f4b7a7541ab68eb8a9175407, type: 2}
     dialogue2: 
-    listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
     listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue4: 
@@ -42,7 +42,7 @@ MonoBehaviour:
     listener1: {fileID: 11400000, guid: 5885656731487c6499d05f33ec83d659, type: 2}
     dialogue2: "\xBFYo? Suficiente tengo con tener que hacerle siempre la pelota
       al jefe cada vez que aparece."
-    listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
     listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue4: 
@@ -50,7 +50,7 @@ MonoBehaviour:
     dialogue: "Yo de ti rezar\xEDa para que no te escuche decir eso."
     listener1: {fileID: 11400000, guid: fc407688f4b7a7541ab68eb8a9175407, type: 2}
     dialogue2: 
-    listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
     listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue4: 
@@ -58,7 +58,7 @@ MonoBehaviour:
     dialogue: 
     listener1: {fileID: 11400000, guid: 5885656731487c6499d05f33ec83d659, type: 2}
     dialogue2: "Suficiente, vayamos los dos, \xBFQuien anda ah\xED?"
-    listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
     listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue4: 
@@ -66,7 +66,7 @@ MonoBehaviour:
     dialogue: "Qu\xE9 remedio."
     listener1: {fileID: 11400000, guid: fc407688f4b7a7541ab68eb8a9175407, type: 2}
     dialogue2: 
-    listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
+    listener2: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue3: 
     listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue4: 
