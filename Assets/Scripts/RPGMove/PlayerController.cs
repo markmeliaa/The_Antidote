@@ -10,11 +10,13 @@ public class PlayerController : MonoBehaviour
     bool canMove;
     public DialogueManager dialogueManager;
     public bool caught;
+    public Animator playerAnimator;
 
     // Start is called before the first frame update
     void Start()
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
+        playerAnimator = GetComponent<Animator>();
         canMove = true;
         caught = false;
     }
@@ -32,6 +34,9 @@ public class PlayerController : MonoBehaviour
 
         horizontal = Input.GetAxis("Horizontal");
         vertical = Input.GetAxis("Vertical");
+
+        playerAnimator.SetFloat("MoveX", horizontal);
+        playerAnimator.SetFloat("MoveY", vertical);
     }
 
     void FixedUpdate()

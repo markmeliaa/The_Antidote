@@ -25,10 +25,12 @@ public class EnemyMovement : MonoBehaviour
         if (this.transform.position.y <= playerTransform.position.y)
         {
             this.GetComponent<Collider2D>().isTrigger = true;
+            playerScript.playerAnimator.SetFloat("MoveY", 0);
+            playerScript.playerAnimator.SetFloat("MoveX", 0);
             playerScript.caught = true;
 
             if (transform.position.x <= playerTransform.position.x - 0.75)
-                transform.position = Vector2.MoveTowards(transform.position, playerTransform.position, Time.deltaTime);
+                transform.position = Vector2.MoveTowards(transform.position, playerTransform.position, Time.deltaTime * 0.75f);
         }
     }
 
