@@ -5859,7 +5859,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   navigationItem:
   - {fileID: 906723565}
-  timesVisitedDesactivations: 01000000
+  - {fileID: 1107598737}
+  timesVisitedDesactivations: 0100000002000000
 --- !u!114 &80178991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6926,7 +6927,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &112935185
 Transform:
   m_ObjectHideFlags: 0
@@ -20338,7 +20339,7 @@ MonoBehaviour:
   finalTime: 1
   locConditions:
   - {fileID: 527295430}
-  timesVisited: 02000000
+  timesVisited: 03000000
 --- !u!1001 &383961784
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31421,9 +31422,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navigationItem:
+  - {fileID: 112935184}
   - {fileID: 1966637871}
   - {fileID: 1169956257}
-  timesVisitedActivations: 0300000005000000
+  timesVisitedActivations: 020000000300000005000000
 --- !u!114 &527295433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -100963,6 +100965,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7203883224445591553, guid: 9052db8d738421247bb1c260a42d9bd0,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1.497373
+      objectReference: {fileID: 0}
+    - target: {fileID: 7203883224445591553, guid: 9052db8d738421247bb1c260a42d9bd0,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 3.322795
+      objectReference: {fileID: 0}
+    - target: {fileID: 7203883224445591553, guid: 9052db8d738421247bb1c260a42d9bd0,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.08780402
+      objectReference: {fileID: 0}
+    - target: {fileID: 7203883224445591553, guid: 9052db8d738421247bb1c260a42d9bd0,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.38804483
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9052db8d738421247bb1c260a42d9bd0, type: 3}
 --- !u!4 &1744982268 stripped
@@ -116495,7 +116517,7 @@ MonoBehaviour:
   locConditions:
   - {fileID: 975673323}
   - {fileID: 527295430}
-  timesVisited: 0100000004000000
+  timesVisited: 0100000005000000
 --- !u!4 &2041295460
 Transform:
   m_ObjectHideFlags: 0
