@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class showHighlight : MonoBehaviour
 {
+    public GameObject sourceSprite;
+
     private SpriteRenderer highlight;
     private DialogueManager manager;
 
@@ -14,6 +16,16 @@ public class showHighlight : MonoBehaviour
         highlight.sortingOrder = -10;
     }
 
+    private void Update()
+    {
+        if (sourceSprite != null && !sourceSprite.activeSelf)
+        {
+            gameObject.SetActive(false);
+            CursorManager.Instance.SetActiveCursorType(CursorManager.CursorType.Arrow);
+        }
+
+    }
+
     private void OnBecameVisible()
     {
         highlight.sortingOrder = -10;
@@ -21,6 +33,7 @@ public class showHighlight : MonoBehaviour
 
     private void OnMouseEnter()
     {
+        Debug.Log("Entra en las rocas");
         if (!manager.InConvo)
             highlight.sortingOrder = 10;
     }

@@ -31,9 +31,6 @@ public class MapMovement : MonoBehaviour
     {
         if (manager.InConvo || (sceneManager.getPuzleState() && !sceneManager.getObjectPuzleState()))
         {
-            if (GetComponent<BoxCollider2D>() != null)
-                GetComponent<BoxCollider2D>().enabled = false;
-
             if (GetComponent<SpriteRenderer>() != null)
                 GetComponent<SpriteRenderer>().enabled = false;
 
@@ -42,9 +39,6 @@ public class MapMovement : MonoBehaviour
         }
         else if (!objectPuzleInactivate)
         {
-            if (GetComponent<BoxCollider2D>() != null)
-                GetComponent<BoxCollider2D>().enabled = true;
-
             if (GetComponent<SpriteRenderer>() != null)
                 GetComponent<SpriteRenderer>().enabled = true;
 

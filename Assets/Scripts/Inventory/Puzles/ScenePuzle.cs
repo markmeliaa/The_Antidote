@@ -21,8 +21,6 @@ public class ScenePuzle : MonoBehaviour
                 activeArrows[i].GetComponent<MapMovement>().active = true;
                 if (activeArrows[i].GetComponent<SpriteRenderer>() != null)
                     activeArrows[i].GetComponent<SpriteRenderer>().enabled = true;
-                if (activeArrows[i].GetComponent<BoxCollider2D>() != null)
-                    activeArrows[i].GetComponent<BoxCollider2D>().enabled = true;
             }
 
             for (int i = 0; i < inactiveArrows.Length; i++)
@@ -32,8 +30,6 @@ public class ScenePuzle : MonoBehaviour
                 inactiveArrows[i].GetComponent<CursorObject>().active = false;
                 if (inactiveArrows[i].GetComponent<SpriteRenderer>() != null)
                     inactiveArrows[i].GetComponent<SpriteRenderer>().enabled = false;
-                if (inactiveArrows[i].GetComponent<BoxCollider2D>() != null)
-                    inactiveArrows[i].GetComponent<BoxCollider2D>().enabled = false;
             }
         }
     }
