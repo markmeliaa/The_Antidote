@@ -5,6 +5,7 @@ using UnityEngine;
 public class CountPoints : MonoBehaviour
 {
     public desactivatePuzzle endPuzle;
+    public bool compulsory = false;
     [SerializeField] GameObject casillasBlancas;
     [SerializeField] GameObject casillasNegras;
     private int totalPoints = 0;
@@ -26,7 +27,13 @@ public class CountPoints : MonoBehaviour
                 casillasBlancas.transform.GetChild(i).GetComponent<BoxCollider2D>().enabled = false;
             }
             winText.SetActive(true);
-            endPuzle.desactivate(false);
+
+            //Si es puzle obligatorio, activa la conversación siguiente, si no funciona como todos los otros
+            if (compulsory)
+                endPuzle.desactivate(true);
+            else
+                endPuzle.desactivate(false);
+
             return;
         }
 

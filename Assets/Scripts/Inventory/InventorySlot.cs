@@ -5,6 +5,7 @@ public class InventorySlot : MonoBehaviour
 {
     public Image icon;
     public GameObject mapLoc;
+    public InventoryControl inventoryControl;
 
     Item item;
     
@@ -44,8 +45,10 @@ public class InventorySlot : MonoBehaviour
                     {
                         item.Use(mapLoc.transform.GetChild(i).gameObject);
 
-                        if(item.eliminate)
+                        if (item.eliminate)
                             RemoveItem();
+                        else
+                            inventoryControl.activateInventoryChanging();
                     }
                 }
             }

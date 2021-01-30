@@ -1611,6 +1611,16 @@ PrefabInstance:
       propertyPath: mapLoc
       value: 
       objectReference: {fileID: 816347353}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryUI
+      value: 
+      objectReference: {fileID: 1330634645}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryControl
+      value: 
+      objectReference: {fileID: 32858496}
     - target: {fileID: 8966364443439847268, guid: 82cf98118a9054e45a06244897ca1e9d,
         type: 3}
       propertyPath: m_Name
@@ -3613,6 +3623,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0276f3d713cae154c98b87058cd7a447, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sourceSprite: {fileID: 0}
 --- !u!212 &38489970
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4164,6 +4175,16 @@ PrefabInstance:
       propertyPath: mapLoc
       value: 
       objectReference: {fileID: 816347353}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryUI
+      value: 
+      objectReference: {fileID: 1330634645}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryControl
+      value: 
+      objectReference: {fileID: 32858496}
     - target: {fileID: 8966364443439847268, guid: 82cf98118a9054e45a06244897ca1e9d,
         type: 3}
       propertyPath: m_Name
@@ -6632,6 +6653,16 @@ PrefabInstance:
       propertyPath: mapLoc
       value: 
       objectReference: {fileID: 816347353}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryUI
+      value: 
+      objectReference: {fileID: 1330634645}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryControl
+      value: 
+      objectReference: {fileID: 32858496}
     - target: {fileID: 8966364443439847268, guid: 82cf98118a9054e45a06244897ca1e9d,
         type: 3}
       propertyPath: m_Name
@@ -6889,7 +6920,6 @@ GameObject:
   - component: {fileID: 112935186}
   - component: {fileID: 112935191}
   - component: {fileID: 112935190}
-  - component: {fileID: 112935189}
   m_Layer: 0
   m_Name: CellDoor2.0 - PicrossPuzzle
   m_TagString: Untagged
@@ -6973,18 +7003,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.76, y: 4.24}
   m_EdgeRadius: 0
---- !u!114 &112935189
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 112935184}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0276f3d713cae154c98b87058cd7a447, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &112935190
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7047,6 +7065,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0276f3d713cae154c98b87058cd7a447, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sourceSprite: {fileID: 0}
 --- !u!1001 &113498597
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9787,6 +9806,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0276f3d713cae154c98b87058cd7a447, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sourceSprite: {fileID: 0}
 --- !u!1001 &164943794
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11326,6 +11346,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0276f3d713cae154c98b87058cd7a447, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sourceSprite: {fileID: 0}
 --- !u!4 &190027491 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8969568640765741558, guid: 2643e1a1392d8124baf5eefd9d3415fd,
@@ -12570,6 +12591,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0276f3d713cae154c98b87058cd7a447, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sourceSprite: {fileID: 0}
 --- !u!1001 &209054148
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13460,6 +13482,16 @@ PrefabInstance:
       propertyPath: mapLoc
       value: 
       objectReference: {fileID: 816347353}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryUI
+      value: 
+      objectReference: {fileID: 1330634645}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryControl
+      value: 
+      objectReference: {fileID: 32858496}
     - target: {fileID: 8966364443439847268, guid: 82cf98118a9054e45a06244897ca1e9d,
         type: 3}
       propertyPath: m_Name
@@ -14931,6 +14963,16 @@ PrefabInstance:
       propertyPath: mapLoc
       value: 
       objectReference: {fileID: 816347353}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryUI
+      value: 
+      objectReference: {fileID: 1330634645}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryControl
+      value: 
+      objectReference: {fileID: 32858496}
     - target: {fileID: 8966364443439847268, guid: 82cf98118a9054e45a06244897ca1e9d,
         type: 3}
       propertyPath: m_Name
@@ -16312,6 +16354,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0276f3d713cae154c98b87058cd7a447, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sourceSprite: {fileID: 0}
 --- !u!1 &305537996
 GameObject:
   m_ObjectHideFlags: 0
@@ -18164,6 +18207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0276f3d713cae154c98b87058cd7a447, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sourceSprite: {fileID: 0}
 --- !u!4 &334113861 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4007186989862042848, guid: ecd75c278229e924e887fe882ca70cb8,
@@ -24091,6 +24135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0276f3d713cae154c98b87058cd7a447, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sourceSprite: {fileID: 0}
 --- !u!212 &424753912
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25084,6 +25129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0276f3d713cae154c98b87058cd7a447, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sourceSprite: {fileID: 0}
 --- !u!1 &442773746
 GameObject:
   m_ObjectHideFlags: 0
@@ -26371,6 +26417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0276f3d713cae154c98b87058cd7a447, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sourceSprite: {fileID: 0}
 --- !u!114 &451247381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31376,7 +31423,7 @@ MonoBehaviour:
   navigationItem:
   - {fileID: 1966637871}
   - {fileID: 1169956257}
-  timesVisitedActivations: 0200000004000000
+  timesVisitedActivations: 0300000005000000
 --- !u!114 &527295433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31410,6 +31457,7 @@ MonoBehaviour:
   convo:
   - {fileID: 11400000, guid: 85b7e31a60f25f84b83b3d41d53bea0a, type: 2}
   - {fileID: 11400000, guid: 9e2950e37d1af6443b044be38425e95e, type: 2}
+  - {fileID: 11400000, guid: 2383991579496e242aca017253c3d8b4, type: 2}
   - {fileID: 11400000, guid: 596e12e445206f04ab823a7394b55a42, type: 2}
   - {fileID: 11400000, guid: a55a7df40ff44014188646aed59c3a51, type: 2}
   sceneWithInteraction: 0
@@ -31429,9 +31477,10 @@ MonoBehaviour:
   locConditions:
   - {fileID: 2041295454}
   - {fileID: 1078255366}
+  - {fileID: 527295430}
   - {fileID: 381430464}
   - {fileID: 527295430}
-  timesVisited: 01000000030000000100000003000000
+  timesVisited: 0100000003000000020000000100000004000000
 --- !u!4 &527295436
 Transform:
   m_ObjectHideFlags: 0
@@ -31504,7 +31553,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f099eaf69076814d8b7a5de243e5597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  converTimes: 03000000
+  converTimes: 04000000
   interactiveObject:
   - {fileID: 1984451440}
   timer: 0.5
@@ -34649,6 +34698,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0276f3d713cae154c98b87058cd7a447, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sourceSprite: {fileID: 0}
 --- !u!212 &576382837
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -36527,6 +36577,16 @@ PrefabInstance:
       propertyPath: mapLoc
       value: 
       objectReference: {fileID: 816347353}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryUI
+      value: 
+      objectReference: {fileID: 1330634645}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryControl
+      value: 
+      objectReference: {fileID: 32858496}
     - target: {fileID: 8966364443439847268, guid: 82cf98118a9054e45a06244897ca1e9d,
         type: 3}
       propertyPath: m_Name
@@ -38552,6 +38612,16 @@ PrefabInstance:
       propertyPath: mapLoc
       value: 
       objectReference: {fileID: 816347353}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryUI
+      value: 
+      objectReference: {fileID: 1330634645}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryControl
+      value: 
+      objectReference: {fileID: 32858496}
     - target: {fileID: 8966364443439847268, guid: 82cf98118a9054e45a06244897ca1e9d,
         type: 3}
       propertyPath: m_Name
@@ -39393,6 +39463,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0276f3d713cae154c98b87058cd7a447, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sourceSprite: {fileID: 0}
 --- !u!1001 &678929949
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40052,6 +40123,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   endPuzle: {fileID: 653409764}
+  compulsory: 0
   casillasBlancas: {fileID: 1906464326}
   casillasNegras: {fileID: 240848585}
   winText: {fileID: 1641346870}
@@ -46412,6 +46484,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0276f3d713cae154c98b87058cd7a447, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sourceSprite: {fileID: 0}
 --- !u!224 &816254005 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6327954579539924716, guid: 2a14f4ecaa2b4c246bf1f2d065d165b8,
@@ -54122,6 +54195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0276f3d713cae154c98b87058cd7a447, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sourceSprite: {fileID: 0}
 --- !u!212 &915749198
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -56154,6 +56228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0276f3d713cae154c98b87058cd7a447, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sourceSprite: {fileID: 0}
 --- !u!1 &964580131
 GameObject:
   m_ObjectHideFlags: 0
@@ -62925,6 +63000,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0276f3d713cae154c98b87058cd7a447, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sourceSprite: {fileID: 0}
 --- !u!1001 &1058383761
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -63822,6 +63898,16 @@ PrefabInstance:
       propertyPath: mapLoc
       value: 
       objectReference: {fileID: 816347353}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryUI
+      value: 
+      objectReference: {fileID: 1330634645}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryControl
+      value: 
+      objectReference: {fileID: 32858496}
     - target: {fileID: 8966364443439847268, guid: 82cf98118a9054e45a06244897ca1e9d,
         type: 3}
       propertyPath: m_Name
@@ -66065,6 +66151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0276f3d713cae154c98b87058cd7a447, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sourceSprite: {fileID: 0}
 --- !u!1 &1108998394
 GameObject:
   m_ObjectHideFlags: 0
@@ -69737,6 +69824,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0276f3d713cae154c98b87058cd7a447, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sourceSprite: {fileID: 0}
 --- !u!4 &1181856125 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8969568640765741558, guid: 2643e1a1392d8124baf5eefd9d3415fd,
@@ -71318,6 +71406,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0276f3d713cae154c98b87058cd7a447, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sourceSprite: {fileID: 0}
 --- !u!212 &1206768526
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -72653,6 +72742,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0276f3d713cae154c98b87058cd7a447, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sourceSprite: {fileID: 0}
 --- !u!1 &1236435970
 GameObject:
   m_ObjectHideFlags: 0
@@ -75609,6 +75699,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0276f3d713cae154c98b87058cd7a447, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sourceSprite: {fileID: 0}
 --- !u!1 &1292483641
 GameObject:
   m_ObjectHideFlags: 0
@@ -77482,6 +77573,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0276f3d713cae154c98b87058cd7a447, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sourceSprite: {fileID: 0}
 --- !u!212 &1319313062
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -82444,6 +82536,16 @@ PrefabInstance:
       propertyPath: mapLoc
       value: 
       objectReference: {fileID: 816347353}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryUI
+      value: 
+      objectReference: {fileID: 1330634645}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryControl
+      value: 
+      objectReference: {fileID: 32858496}
     - target: {fileID: 8966364443439847268, guid: 82cf98118a9054e45a06244897ca1e9d,
         type: 3}
       propertyPath: m_Name
@@ -83722,6 +83824,16 @@ PrefabInstance:
       propertyPath: mapLoc
       value: 
       objectReference: {fileID: 816347353}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryUI
+      value: 
+      objectReference: {fileID: 1330634645}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryControl
+      value: 
+      objectReference: {fileID: 32858496}
     - target: {fileID: 8966364443439847268, guid: 82cf98118a9054e45a06244897ca1e9d,
         type: 3}
       propertyPath: m_Name
@@ -84548,6 +84660,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   endPuzle: {fileID: 2121336729}
+  compulsory: 1
   casillasBlancas: {fileID: 1747463547}
   casillasNegras: {fileID: 202321329}
   winText: {fileID: 1288157116}
@@ -95304,6 +95417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0276f3d713cae154c98b87058cd7a447, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sourceSprite: {fileID: 0}
 --- !u!224 &1628825927 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6327954579539924716, guid: 2a14f4ecaa2b4c246bf1f2d065d165b8,
@@ -99211,6 +99325,16 @@ PrefabInstance:
       propertyPath: mapLoc
       value: 
       objectReference: {fileID: 816347353}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryUI
+      value: 
+      objectReference: {fileID: 1330634645}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryControl
+      value: 
+      objectReference: {fileID: 32858496}
     - target: {fileID: 8966364443439847268, guid: 82cf98118a9054e45a06244897ca1e9d,
         type: 3}
       propertyPath: m_Name
@@ -100495,6 +100619,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0276f3d713cae154c98b87058cd7a447, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sourceSprite: {fileID: 0}
 --- !u!212 &1739690487
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -102445,6 +102570,16 @@ PrefabInstance:
       propertyPath: mapLoc
       value: 
       objectReference: {fileID: 816347353}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryUI
+      value: 
+      objectReference: {fileID: 1330634645}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryControl
+      value: 
+      objectReference: {fileID: 32858496}
     - target: {fileID: 8966364443439847268, guid: 82cf98118a9054e45a06244897ca1e9d,
         type: 3}
       propertyPath: m_Name
@@ -107758,6 +107893,16 @@ PrefabInstance:
       propertyPath: mapLoc
       value: 
       objectReference: {fileID: 816347353}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryUI
+      value: 
+      objectReference: {fileID: 1330634645}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryControl
+      value: 
+      objectReference: {fileID: 32858496}
     - target: {fileID: 8966364443439847268, guid: 82cf98118a9054e45a06244897ca1e9d,
         type: 3}
       propertyPath: m_Name
@@ -108265,6 +108410,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0276f3d713cae154c98b87058cd7a447, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sourceSprite: {fileID: 0}
 --- !u!212 &1910354611
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -110297,6 +110443,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0276f3d713cae154c98b87058cd7a447, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sourceSprite: {fileID: 0}
 --- !u!4 &1944323213 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4007186989862042848, guid: ecd75c278229e924e887fe882ca70cb8,
@@ -111431,6 +111578,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0276f3d713cae154c98b87058cd7a447, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sourceSprite: {fileID: 0}
 --- !u!212 &1966637877
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -113184,6 +113332,16 @@ PrefabInstance:
       propertyPath: mapLoc
       value: 
       objectReference: {fileID: 816347353}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryUI
+      value: 
+      objectReference: {fileID: 1330634645}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryControl
+      value: 
+      objectReference: {fileID: 32858496}
     - target: {fileID: 8966364443439847268, guid: 82cf98118a9054e45a06244897ca1e9d,
         type: 3}
       propertyPath: m_Name
@@ -114259,6 +114417,16 @@ PrefabInstance:
       propertyPath: mapLoc
       value: 
       objectReference: {fileID: 816347353}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryUI
+      value: 
+      objectReference: {fileID: 1330634645}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryControl
+      value: 
+      objectReference: {fileID: 32858496}
     - target: {fileID: 8966364443439847268, guid: 82cf98118a9054e45a06244897ca1e9d,
         type: 3}
       propertyPath: m_Name
@@ -114765,6 +114933,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0276f3d713cae154c98b87058cd7a447, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sourceSprite: {fileID: 0}
 --- !u!212 &2022116854
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -118772,6 +118941,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0276f3d713cae154c98b87058cd7a447, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sourceSprite: {fileID: 0}
 --- !u!212 &2120292722
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -118969,7 +119139,7 @@ MonoBehaviour:
   currentPuzzle: {fileID: 876361772}
   background: {fileID: 1247302147}
   mapLoc: {fileID: 816347353}
-  puzzleLocation: {fileID: 1336370986}
+  puzzleLocation: {fileID: 527295430}
   inventory: {fileID: 32858495}
   rectangleL: {fileID: 1096783244}
   rectangleR: {fileID: 1553640105}
@@ -120139,6 +120309,16 @@ PrefabInstance:
       propertyPath: mapLoc
       value: 
       objectReference: {fileID: 816347353}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryUI
+      value: 
+      objectReference: {fileID: 1330634645}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryControl
+      value: 
+      objectReference: {fileID: 32858496}
     - target: {fileID: 8966364443439847268, guid: 82cf98118a9054e45a06244897ca1e9d,
         type: 3}
       propertyPath: m_Name

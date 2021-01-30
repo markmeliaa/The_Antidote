@@ -18,6 +18,7 @@ public class showHighlight : MonoBehaviour
 
     private void Update()
     {
+        //Desaparece cuando desaparece el interactuable en los puzles de objetos
         if (sourceSprite != null && !sourceSprite.activeSelf)
         {
             gameObject.SetActive(false);
@@ -33,7 +34,6 @@ public class showHighlight : MonoBehaviour
 
     private void OnMouseEnter()
     {
-        Debug.Log("Entra en las rocas");
         if (!manager.InConvo)
             highlight.sortingOrder = 10;
     }

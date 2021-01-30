@@ -46,6 +46,11 @@ public class InventoryControl : MonoBehaviour
 
     private void OnMouseDown()
     {
+        activateInventoryChanging();
+    }
+
+    public void activateInventoryChanging()
+    {
         inventory.changeInventoryState();
 
         if (inventory.animationActivated)
