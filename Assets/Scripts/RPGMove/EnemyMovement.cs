@@ -8,12 +8,14 @@ public class EnemyMovement : MonoBehaviour
     private Transform playerTransform;
     private PlayerController playerScript;
     public bool canEnemyMove = true;
+    public Animator reclutaAnimator;
 
     // Start is called before the first frame update
     void Start()
     {
         playerTransform = player.GetComponent<Transform>();
         playerScript = player.GetComponent<PlayerController>();
+        reclutaAnimator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -24,6 +26,7 @@ public class EnemyMovement : MonoBehaviour
 
         if (this.transform.position.y <= playerTransform.position.y)
         {
+            reclutaAnimator.SetBool("Moving", true);
             this.GetComponent<Collider2D>().isTrigger = true;
             playerScript.playerAnimator.SetFloat("MoveY", 0);
             playerScript.playerAnimator.SetFloat("MoveX", 0);
@@ -41,6 +44,7 @@ public class EnemyMovement : MonoBehaviour
             canEnemyMove = false;
             playerScript.caught = false;
             this.GetComponent<Collider2D>().isTrigger = false;
+            reclutaAnimator.SetBool("Moving", false);
         }
     }
 }

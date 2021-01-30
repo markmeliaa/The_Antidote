@@ -2355,7 +2355,7 @@ PrefabInstance:
     - target: {fileID: 7333359289340225690, guid: 3bdcb3edd6401fb43914e04c33d5bb6d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.3323152
+      value: -1.36
       objectReference: {fileID: 0}
     - target: {fileID: 7333359289340225690, guid: 3bdcb3edd6401fb43914e04c33d5bb6d,
         type: 3}
@@ -2768,12 +2768,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1100831366}
   canEnemyMove: 1
+  reclutaAnimator: {fileID: 0}
 --- !u!4 &358803564 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7333359289340225690, guid: 3bdcb3edd6401fb43914e04c33d5bb6d,
     type: 3}
   m_PrefabInstance: {fileID: 286848223}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &358803565
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358803559}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cda762667455cc8459d02cfaab9451aa, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &370590252
 PrefabInstance:
   m_ObjectHideFlags: 0
