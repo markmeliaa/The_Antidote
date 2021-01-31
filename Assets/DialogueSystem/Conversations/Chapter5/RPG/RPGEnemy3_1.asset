@@ -27,9 +27,8 @@ MonoBehaviour:
     listener1: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: d5587942aa72f6343a35315aa669ac46, type: 2}
-    dialogue3: "Cuatro guardas, lo que quiere decir que aqu\xED tendremos cuatro
-      desaf\xEDos, supongo que una vez que superemos esto ya habremos llegado al
-      final."
+    dialogue3: "Dos guardas, lo que quiere decir que aqu\xED tendremos dos desaf\xEDos,
+      supongo que una vez que superemos esto ya habremos llegado al final."
     listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue4: 
   - speaker: {fileID: 11400000, guid: 8e4e811589ae3d34cb1cd8018006c773, type: 2}

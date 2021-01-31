@@ -4,11 +4,16 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
+    public bool canEnemyMove = true;
+    public Conversation warning;
+    public Conversation conver;
+    public DialogueManager dialogueManager;
+
     [SerializeField] GameObject player;
     private Transform playerTransform;
     private PlayerController playerScript;
-    public bool canEnemyMove = true;
     private Animator reclutaAnimator;
+    private bool warn = false;
 
     // Start is called before the first frame update
     void Start()
@@ -31,8 +36,14 @@ public class EnemyMovement : MonoBehaviour
             playerScript.playerAnimator.SetFloat("MoveY", 0);
             playerScript.playerAnimator.SetFloat("MoveX", 0);
             playerScript.caught = true;
+            
+            if(!warn)
+            {
+                DialogueManager.StartConversation(warning);
+                warn = true;
+            }
 
-            if (transform.position.x <= playerTransform.position.x - 0.75)
+            if (!dialogueManager.InConvo  && transform.position.x <= playerTransform.position.x - 0.75)
                 transform.position = Vector2.MoveTowards(transform.position, playerTransform.position, Time.deltaTime * 0.5f);
         }
     }
@@ -45,6 +56,8 @@ public class EnemyMovement : MonoBehaviour
             playerScript.caught = false;
             this.GetComponent<Collider2D>().isTrigger = false;
             reclutaAnimator.SetBool("Moving", false);
+            if(conver != null)
+                DialogueManager.StartConversation(conver);
         }
     }
 }

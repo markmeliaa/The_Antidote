@@ -5,7 +5,6 @@ using UnityEngine;
 public class RPGDialogue : MonoBehaviour
 {
     public Conversation conver;
-    public PlayerController player;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
