@@ -11237,7 +11237,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   puzle: {fileID: 904942876}
   background: {fileID: 1594005060}
-  winText: {fileID: 1641346872}
+  winText: {fileID: 345249917}
   mapLoc: {fileID: 816347353}
   inventory: {fileID: 32858495}
   manager: {fileID: 835434861}
