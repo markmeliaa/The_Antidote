@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyMovement : MonoBehaviour
+public class EnemyMovement2 : MonoBehaviour
 {
     [SerializeField] GameObject player;
     private Transform playerTransform;
@@ -32,8 +32,8 @@ public class EnemyMovement : MonoBehaviour
             playerScript.playerAnimator.SetFloat("MoveX", 0);
             playerScript.caught = true;
 
-            if (transform.position.x <= playerTransform.position.x - 0.75)
-                transform.position = Vector2.MoveTowards(transform.position, playerTransform.position, Time.deltaTime * 0.5f);
+            if (transform.position.x >= playerTransform.position.x - 0.75)
+                transform.position = Vector2.MoveTowards(transform.position, playerTransform.position, Time.deltaTime * 0.75f);
         }
     }
 

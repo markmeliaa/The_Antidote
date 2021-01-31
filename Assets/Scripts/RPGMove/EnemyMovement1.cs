@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyMovement : MonoBehaviour
+public class EnemyMovement1 : MonoBehaviour
 {
     [SerializeField] GameObject player;
     private Transform playerTransform;
@@ -33,7 +33,7 @@ public class EnemyMovement : MonoBehaviour
             playerScript.caught = true;
 
             if (transform.position.x <= playerTransform.position.x - 0.75)
-                transform.position = Vector2.MoveTowards(transform.position, playerTransform.position, Time.deltaTime * 0.5f);
+                transform.position = Vector2.MoveTowards(transform.position, playerTransform.position, Time.deltaTime * 0.75f);
         }
     }
 
