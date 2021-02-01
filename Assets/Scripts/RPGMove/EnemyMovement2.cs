@@ -14,6 +14,7 @@ public class EnemyMovement2 : MonoBehaviour
     private PlayerController playerScript;
     private Animator reclutaAnimator;
     private bool warn = false;
+    private AudioSource soundSteps;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +22,7 @@ public class EnemyMovement2 : MonoBehaviour
         playerTransform = player.GetComponent<Transform>();
         playerScript = player.GetComponent<PlayerController>();
         reclutaAnimator = GetComponent<Animator>();
+        soundSteps = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -29,7 +31,7 @@ public class EnemyMovement2 : MonoBehaviour
         if (!canEnemyMove)
             return;
 
-        if (this.transform.position.y <= playerTransform.position.y)
+        if ((this.transform.position.y <= playerTransform.position.y) && (this.transform.position.x + 5 >= playerTransform.position.x))
         {
             reclutaAnimator.SetBool("Moving", true);
             this.GetComponent<Collider2D>().isTrigger = true;
@@ -46,6 +48,9 @@ public class EnemyMovement2 : MonoBehaviour
             if (!dialogueManager.InConvo && transform.position.x >= playerTransform.position.x - 0.75)
                 transform.position = Vector2.MoveTowards(transform.position, playerTransform.position, Time.deltaTime * 0.75f);
         }
+
+        if (warn && !soundSteps.isPlaying)
+            soundSteps.Play();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -56,6 +61,7 @@ public class EnemyMovement2 : MonoBehaviour
             playerScript.caught = false;
             this.GetComponent<Collider2D>().isTrigger = false;
             reclutaAnimator.SetBool("Moving", false);
+            soundSteps.Stop();
 
             if(conver != null)
                 DialogueManager.StartConversation(conver);

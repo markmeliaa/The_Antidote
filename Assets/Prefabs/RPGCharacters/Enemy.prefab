@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: 21300000, guid: 37fc27eb8edfd7a48a0756abb21fb581, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8502a66b32d921b47b803dc80794f50a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -83,7 +83,7 @@ SpriteRenderer:
   m_Size: {x: 3.5, y: 3.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
 --- !u!50 &1593393016618277575
@@ -120,10 +120,10 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.1410892, y: 0.50389254}
+  m_Offset: {x: 0.1410892, y: 0.0018398762}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 3.5, y: 3.5}
     newSize: {x: 3.5, y: 3.5}
     adaptiveTilingThreshold: 0.5
@@ -131,7 +131,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.405942, y: 0.99375963}
+  m_Size: {x: 3.405942, y: 3.6283588}
   m_EdgeRadius: 0
 --- !u!114 &976039698646273575
 MonoBehaviour:
@@ -145,8 +145,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d3dfecc23f5ae740b547d2aa5ef8ec3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
   canEnemyMove: 1
+  warning: {fileID: 0}
+  conver: {fileID: 0}
+  dialogueManager: {fileID: 0}
+  player: {fileID: 0}
 --- !u!114 &2040259021551867166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -159,8 +162,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73180d2d61e9f1e4e903c98f2fda4164, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
   canEnemyMove: 1
+  warning: {fileID: 0}
+  conver: {fileID: 0}
+  dialogueManager: {fileID: 0}
+  player: {fileID: 0}
 --- !u!114 &8585887366153801060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -173,5 +179,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db47d1352c1cac64d808bb2d850de62e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
   canEnemyMove: 1
+  warning: {fileID: 0}
+  conver: {fileID: 0}
+  dialogueManager: {fileID: 0}
+  player: {fileID: 0}
