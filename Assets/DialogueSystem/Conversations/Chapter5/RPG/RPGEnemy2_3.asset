@@ -48,7 +48,7 @@ MonoBehaviour:
     dialogue3: 
     listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue4: 
-  - speaker: {fileID: 11400000, guid: 8b585fabed81bde489aed1696e555c0d, type: 2}
+  - speaker: {fileID: 11400000, guid: 1cf53bd0622200d4c94289a40df5af7f, type: 2}
     dialogue: "Esperemos que el antidoto nos haya inmunizado un poco despu\xE9s de
       habernoslo inyectado."
     listener1: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
