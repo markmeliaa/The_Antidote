@@ -2596,7 +2596,7 @@ PrefabInstance:
         type: 3}
       propertyPath: manager
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 835434861}
     - target: {fileID: 4552839910652427080, guid: aeb862823ae2a904c80f164a5f960238,
         type: 3}
       propertyPath: nextScene
