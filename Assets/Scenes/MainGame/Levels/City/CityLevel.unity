@@ -17469,7 +17469,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   space: 16
   items: []
-  startItems: []
 --- !u!4 &303221867
 Transform:
   m_ObjectHideFlags: 0
@@ -59244,7 +59243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42cc37414c45d0145a5772b8fee37138, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: 77d5ccfa2a69e67418c62c62a7b14e39, type: 2}
+  item: {fileID: 11400000, guid: 65e3dc47be6a0724b84fcafdd2e3025a, type: 2}
   sceneWithPuzle: 0
 --- !u!61 &1139080680
 BoxCollider2D:

@@ -8,6 +8,8 @@ public class WinScript : MonoBehaviour
     public int currentPoints;
     public GameObject myPlanets;
     public desactivatePuzzle endPuzle;
+    public bool compulsory = false;
+
     void Start()
     {
         pointsToWin = myPlanets.transform.childCount;
@@ -18,7 +20,11 @@ public class WinScript : MonoBehaviour
     {
         if (currentPoints >= pointsToWin)
         {
-            endPuzle.desactivate(false);
+            if (compulsory)
+                endPuzle.desactivate(true);
+            else
+                endPuzle.desactivate(false);
+
             // WIN
             transform.GetChild(0).gameObject.SetActive(true);
         }
