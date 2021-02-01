@@ -24,16 +24,14 @@ public class Inventory : MonoBehaviour
 
     public int space =  16;
     public List<Item> items = new List<Item>();
-    public Item[] startItems;
 
     private void Start()
     {
-        if(startItems.Length > 0)
+        List<Item> savedItems = inventorySaver.itemLoader();
+
+        for (int i = 0; i < savedItems.Count; i++)
         {
-            for (int i = 0; i < startItems.Length; i++)
-            {
-                Add(startItems[i]);
-            }
+            Add(savedItems[i]);
         }
     }
 

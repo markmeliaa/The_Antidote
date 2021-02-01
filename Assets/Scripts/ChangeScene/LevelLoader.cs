@@ -14,6 +14,8 @@ public class LevelLoader : MonoBehaviour
 
     public DialogueManager manager;
 
+    public Inventory inventory;
+
     private bool active;
 
 
@@ -40,6 +42,8 @@ public class LevelLoader : MonoBehaviour
 
     private void OnMouseDown()
     {
+        inventorySaver.itemSaver(inventory.items);
+
         if (active && SceneManager.GetActiveScene().buildIndex != nextScene)
         {
             LoadNextLevel();

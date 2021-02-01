@@ -46917,6 +46917,11 @@ PrefabInstance:
       objectReference: {fileID: 147225106}
     - target: {fileID: 4552839910652427080, guid: aeb862823ae2a904c80f164a5f960238,
         type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 303221866}
+    - target: {fileID: 4552839910652427080, guid: aeb862823ae2a904c80f164a5f960238,
+        type: 3}
       propertyPath: nextScene
       value: 2
       objectReference: {fileID: 0}
@@ -56662,6 +56667,11 @@ PrefabInstance:
       propertyPath: manager
       value: 
       objectReference: {fileID: 147225106}
+    - target: {fileID: 4552839910652427080, guid: aeb862823ae2a904c80f164a5f960238,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 303221866}
     - target: {fileID: 4552839910652427080, guid: aeb862823ae2a904c80f164a5f960238,
         type: 3}
       propertyPath: nextScene
