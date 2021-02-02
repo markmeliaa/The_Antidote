@@ -21,6 +21,7 @@ public class Inventory : MonoBehaviour
 
     public delegate void OnItemChange();
     public OnItemChange onItemChangedCallBack;
+    public Item alternativeItem;
 
     public int space =  16;
     public List<Item> items = new List<Item>();
@@ -31,7 +32,12 @@ public class Inventory : MonoBehaviour
 
         for (int i = 0; i < savedItems.Count; i++)
         {
-            Add(savedItems[i]);
+            Debug.Log("alternative Item: " + alternativeItem);
+            Debug.Log("item name: " + savedItems[i].name);
+            if(alternativeItem != null && savedItems[i].name == "Llaves")
+                Add(alternativeItem);
+            else 
+                Add(savedItems[i]);
         }
     }
 
@@ -43,7 +49,8 @@ public class Inventory : MonoBehaviour
             return false;
         }
         items.Add(item);
-        
+
+        Debug.Log("CallBack: "+ onItemChangedCallBack);
         if(onItemChangedCallBack != null)
             onItemChangedCallBack.Invoke();
 
