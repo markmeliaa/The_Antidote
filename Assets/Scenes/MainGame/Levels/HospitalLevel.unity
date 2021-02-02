@@ -695,6 +695,11 @@ PrefabInstance:
       propertyPath: mapLoc
       value: 
       objectReference: {fileID: 816347353}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryControl
+      value: 
+      objectReference: {fileID: 32858496}
     - target: {fileID: 8966364443439847268, guid: 82cf98118a9054e45a06244897ca1e9d,
         type: 3}
       propertyPath: m_Name
@@ -1966,6 +1971,11 @@ PrefabInstance:
       propertyPath: mapLoc
       value: 
       objectReference: {fileID: 816347353}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryControl
+      value: 
+      objectReference: {fileID: 32858496}
     - target: {fileID: 8966364443439847268, guid: 82cf98118a9054e45a06244897ca1e9d,
         type: 3}
       propertyPath: m_Name
@@ -4785,6 +4795,11 @@ PrefabInstance:
       propertyPath: mapLoc
       value: 
       objectReference: {fileID: 816347353}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryControl
+      value: 
+      objectReference: {fileID: 32858496}
     - target: {fileID: 8966364443439847268, guid: 82cf98118a9054e45a06244897ca1e9d,
         type: 3}
       propertyPath: m_Name
@@ -8753,6 +8768,11 @@ PrefabInstance:
       propertyPath: mapLoc
       value: 
       objectReference: {fileID: 816347353}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryControl
+      value: 
+      objectReference: {fileID: 32858496}
     - target: {fileID: 8966364443439847268, guid: 82cf98118a9054e45a06244897ca1e9d,
         type: 3}
       propertyPath: m_Name
@@ -10311,6 +10331,11 @@ PrefabInstance:
       propertyPath: mapLoc
       value: 
       objectReference: {fileID: 816347353}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryControl
+      value: 
+      objectReference: {fileID: 32858496}
     - target: {fileID: 8966364443439847268, guid: 82cf98118a9054e45a06244897ca1e9d,
         type: 3}
       propertyPath: m_Name
@@ -22599,6 +22624,11 @@ PrefabInstance:
       propertyPath: mapLoc
       value: 
       objectReference: {fileID: 816347353}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryControl
+      value: 
+      objectReference: {fileID: 32858496}
     - target: {fileID: 8966364443439847268, guid: 82cf98118a9054e45a06244897ca1e9d,
         type: 3}
       propertyPath: m_Name
@@ -24042,6 +24072,11 @@ PrefabInstance:
       propertyPath: mapLoc
       value: 
       objectReference: {fileID: 816347353}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryControl
+      value: 
+      objectReference: {fileID: 32858496}
     - target: {fileID: 8966364443439847268, guid: 82cf98118a9054e45a06244897ca1e9d,
         type: 3}
       propertyPath: m_Name
@@ -40099,6 +40134,11 @@ PrefabInstance:
       propertyPath: mapLoc
       value: 
       objectReference: {fileID: 816347353}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryControl
+      value: 
+      objectReference: {fileID: 32858496}
     - target: {fileID: 8966364443439847268, guid: 82cf98118a9054e45a06244897ca1e9d,
         type: 3}
       propertyPath: m_Name
@@ -52096,6 +52136,11 @@ PrefabInstance:
       propertyPath: mapLoc
       value: 
       objectReference: {fileID: 816347353}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryControl
+      value: 
+      objectReference: {fileID: 32858496}
     - target: {fileID: 8966364443439847268, guid: 82cf98118a9054e45a06244897ca1e9d,
         type: 3}
       propertyPath: m_Name
@@ -53255,6 +53300,11 @@ PrefabInstance:
       propertyPath: mapLoc
       value: 
       objectReference: {fileID: 816347353}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryControl
+      value: 
+      objectReference: {fileID: 32858496}
     - target: {fileID: 8966364443439847268, guid: 82cf98118a9054e45a06244897ca1e9d,
         type: 3}
       propertyPath: m_Name
@@ -65186,6 +65236,11 @@ PrefabInstance:
       propertyPath: mapLoc
       value: 
       objectReference: {fileID: 816347353}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryControl
+      value: 
+      objectReference: {fileID: 32858496}
     - target: {fileID: 8966364443439847268, guid: 82cf98118a9054e45a06244897ca1e9d,
         type: 3}
       propertyPath: m_Name
@@ -68543,6 +68598,11 @@ PrefabInstance:
       propertyPath: mapLoc
       value: 
       objectReference: {fileID: 816347353}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryControl
+      value: 
+      objectReference: {fileID: 32858496}
     - target: {fileID: 8966364443439847268, guid: 82cf98118a9054e45a06244897ca1e9d,
         type: 3}
       propertyPath: m_Name
@@ -73475,6 +73535,11 @@ PrefabInstance:
       propertyPath: mapLoc
       value: 
       objectReference: {fileID: 816347353}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryControl
+      value: 
+      objectReference: {fileID: 32858496}
     - target: {fileID: 8966364443439847268, guid: 82cf98118a9054e45a06244897ca1e9d,
         type: 3}
       propertyPath: m_Name
@@ -77846,6 +77911,11 @@ PrefabInstance:
       propertyPath: mapLoc
       value: 
       objectReference: {fileID: 816347353}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryControl
+      value: 
+      objectReference: {fileID: 32858496}
     - target: {fileID: 8966364443439847268, guid: 82cf98118a9054e45a06244897ca1e9d,
         type: 3}
       propertyPath: m_Name
@@ -79180,6 +79250,11 @@ PrefabInstance:
       propertyPath: mapLoc
       value: 
       objectReference: {fileID: 816347353}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryControl
+      value: 
+      objectReference: {fileID: 32858496}
     - target: {fileID: 8966364443439847268, guid: 82cf98118a9054e45a06244897ca1e9d,
         type: 3}
       propertyPath: m_Name
@@ -84232,6 +84307,11 @@ PrefabInstance:
       propertyPath: mapLoc
       value: 
       objectReference: {fileID: 816347353}
+    - target: {fileID: 3053672469951197833, guid: 82cf98118a9054e45a06244897ca1e9d,
+        type: 3}
+      propertyPath: inventoryControl
+      value: 
+      objectReference: {fileID: 32858496}
     - target: {fileID: 8966364443439847268, guid: 82cf98118a9054e45a06244897ca1e9d,
         type: 3}
       propertyPath: m_Name
