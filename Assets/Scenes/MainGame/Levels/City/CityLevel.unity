@@ -14765,13 +14765,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1394256eece24840b14698c8839276c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newBackground:
-  - {fileID: 21300000, guid: 7829c1ee9f156a44dbb6ba2ef96c4846, type: 3}
-  - {fileID: 21300000, guid: e54b7f2ab6a64df4db53f60a203c2a40, type: 3}
+  newBackground: []
   miniMap: {fileID: 1880567386}
-  changeConditions:
-  - {fileID: 1144247024}
-  changeTimes: 05000000
+  changeConditions: []
+  changeTimes: 
 --- !u!114 &240592865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27571,7 +27568,7 @@ PrefabInstance:
     - target: {fileID: 731183147812257810, guid: e01a40a9a0e30c94b9ea0c04d694d969,
         type: 3}
       propertyPath: active
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1148866317156246639, guid: e01a40a9a0e30c94b9ea0c04d694d969,
         type: 3}
@@ -27663,6 +27660,11 @@ PrefabInstance:
       propertyPath: dialogueManager
       value: 
       objectReference: {fileID: 1171928259}
+    - target: {fileID: 2476603630989164952, guid: e01a40a9a0e30c94b9ea0c04d694d969,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2645622372742860999, guid: e01a40a9a0e30c94b9ea0c04d694d969,
         type: 3}
       propertyPath: m_Sprite
@@ -27749,7 +27751,17 @@ PrefabInstance:
       propertyPath: nextScene
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4541972323727909947, guid: e01a40a9a0e30c94b9ea0c04d694d969,
+        type: 3}
+      propertyPath: active
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4705572668707170881, guid: e01a40a9a0e30c94b9ea0c04d694d969,
+        type: 3}
+      propertyPath: active
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4760865958287394236, guid: e01a40a9a0e30c94b9ea0c04d694d969,
         type: 3}
       propertyPath: active
       value: 0
@@ -27789,6 +27801,11 @@ PrefabInstance:
       propertyPath: dialogueManager
       value: 
       objectReference: {fileID: 1171928259}
+    - target: {fileID: 4899266997744435595, guid: e01a40a9a0e30c94b9ea0c04d694d969,
+        type: 3}
+      propertyPath: active
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4900607082687534221, guid: e01a40a9a0e30c94b9ea0c04d694d969,
         type: 3}
       propertyPath: miniMap
@@ -27887,10 +27904,16 @@ PrefabInstance:
     - target: {fileID: 8482998257861204540, guid: e01a40a9a0e30c94b9ea0c04d694d969,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e01a40a9a0e30c94b9ea0c04d694d969, type: 3}
+--- !u!1 &542054318 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5101731703609911124, guid: e01a40a9a0e30c94b9ea0c04d694d969,
+    type: 3}
+  m_PrefabInstance: {fileID: 542054317}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &544158221
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31928,6 +31951,7 @@ GameObject:
   - component: {fileID: 614370889}
   - component: {fileID: 614370887}
   - component: {fileID: 614370886}
+  - component: {fileID: 614370890}
   - component: {fileID: 614370888}
   m_Layer: 0
   m_Name: UniClassRoom
@@ -32134,6 +32158,23 @@ MonoBehaviour:
   - {fileID: 10249338}
   - {fileID: 10249338}
   changeTimes: 0300000004000000
+--- !u!114 &614370890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 614370882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc14bb8d1c16d8447a3e5cf9526eb3bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ubications:
+  - {fileID: 1453289643}
+  conditions:
+  - {fileID: 614370882}
+  timesVisited: 02000000
 --- !u!4 &615121523 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2348164879031134972, guid: a7f6d66e8a484bc41979cd4bd76f5b29,
@@ -42985,9 +43026,9 @@ MonoBehaviour:
   - {fileID: 193042889}
   - {fileID: 193042890}
   - {fileID: 193042891}
-  - {fileID: 1095080384}
-  - {fileID: 250029982}
   - {fileID: 1321848883}
+  - {fileID: 250029982}
+  - {fileID: 1095080384}
   - {fileID: 193042888}
   - {fileID: 193042888}
   conditions:
@@ -42995,11 +43036,11 @@ MonoBehaviour:
   - {fileID: 827117483}
   - {fileID: 872371778}
   - {fileID: 1984939460}
-  - {fileID: 1984939460}
+  - {fileID: 219006581}
+  - {fileID: 1750754165}
   - {fileID: 1984939460}
   - {fileID: 219006581}
-  - {fileID: 219006581}
-  timesVisited: 0100000001000000010000000200000002000000020000000300000004000000
+  timesVisited: 0100000001000000010000000200000002000000010000000300000004000000
 --- !u!1 &827826588
 GameObject:
   m_ObjectHideFlags: 0
@@ -45239,6 +45280,7 @@ GameObject:
   - component: {fileID: 872371785}
   - component: {fileID: 872371783}
   - component: {fileID: 872371782}
+  - component: {fileID: 872371786}
   - component: {fileID: 872371784}
   m_Layer: 0
   m_Name: UniOutside
@@ -45445,6 +45487,23 @@ MonoBehaviour:
   - {fileID: 10249338}
   - {fileID: 10249338}
   changeTimes: 0300000004000000
+--- !u!114 &872371786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872371778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 606c3ccee6d8e4747b78c25ec89dd4d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ubications:
+  - {fileID: 542054318}
+  conditions:
+  - {fileID: 614370882}
+  timesVisited: 02000000
 --- !u!1001 &875439195
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -76359,6 +76418,11 @@ PrefabInstance:
       propertyPath: nextScene
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4541972323727909947, guid: e01a40a9a0e30c94b9ea0c04d694d969,
+        type: 3}
+      propertyPath: active
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4586106261129896107, guid: e01a40a9a0e30c94b9ea0c04d694d969,
         type: 3}
       propertyPath: m_Enabled
@@ -76499,6 +76563,11 @@ PrefabInstance:
       propertyPath: dialogueManager
       value: 
       objectReference: {fileID: 1171928259}
+    - target: {fileID: 8332016765247703927, guid: e01a40a9a0e30c94b9ea0c04d694d969,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8482998257861204540, guid: e01a40a9a0e30c94b9ea0c04d694d969,
         type: 3}
       propertyPath: m_Enabled
@@ -76506,6 +76575,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e01a40a9a0e30c94b9ea0c04d694d969, type: 3}
+--- !u!1 &1453289643 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9094357728879308721, guid: e01a40a9a0e30c94b9ea0c04d694d969,
+    type: 3}
+  m_PrefabInstance: {fileID: 1453289642}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &1462261654 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6327954579539924716, guid: 2a14f4ecaa2b4c246bf1f2d065d165b8,
@@ -94752,6 +94827,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1766807708}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1766807712 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5451407459822055617, guid: e01a40a9a0e30c94b9ea0c04d694d969,
+    type: 3}
+  m_PrefabInstance: {fileID: 1766807708}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1767106955 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4007186989862042848, guid: ecd75c278229e924e887fe882ca70cb8,
@@ -101736,13 +101817,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1394256eece24840b14698c8839276c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newBackground:
-  - {fileID: 21300000, guid: e1011abb3c2dc09469694472c178a15b, type: 3}
-  - {fileID: 21300000, guid: e0744b85153ab87449d728995af5847d, type: 3}
+  newBackground: []
   miniMap: {fileID: 1880567386}
-  changeConditions:
-  - {fileID: 1144247024}
-  changeTimes: 05000000
+  changeConditions: []
+  changeTimes: 
 --- !u!114 &1917770527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -103596,8 +103674,8 @@ MonoBehaviour:
   - {fileID: 1832327250}
   - {fileID: 1832327246}
   conditions:
-  - {fileID: 1959324170}
-  - {fileID: 1959324170}
+  - {fileID: 1750754165}
+  - {fileID: 1750754165}
   - {fileID: 1750754165}
   - {fileID: 219006581}
   - {fileID: 1984939460}
@@ -103605,7 +103683,7 @@ MonoBehaviour:
   - {fileID: 219006581}
   - {fileID: 1984939460}
   - {fileID: 1984939460}
-  timesVisited: 010000000100000003000000030000000300000003000000040000000500000005000000
+  timesVisited: 020000000200000003000000030000000300000003000000040000000500000005000000
 --- !u!1 &1959492175
 GameObject:
   m_ObjectHideFlags: 0
@@ -105779,6 +105857,10 @@ MonoBehaviour:
   - {fileID: 539756357}
   - {fileID: 1766807711}
   - {fileID: 1766807710}
+  - {fileID: 1766807712}
+  - {fileID: 539756357}
+  - {fileID: 17211059}
+  - {fileID: 414556285}
   - {fileID: 1766807709}
   conditions:
   - {fileID: 1984939460}
@@ -105787,7 +105869,11 @@ MonoBehaviour:
   - {fileID: 1984939460}
   - {fileID: 1984939460}
   - {fileID: 10249338}
-  timesVisited: 010000000100000001000000020000000200000004000000
+  - {fileID: 10249338}
+  - {fileID: 10249338}
+  - {fileID: 10249338}
+  - {fileID: 10249338}
+  timesVisited: 01000000010000000100000002000000020000000300000003000000030000000300000004000000
 --- !u!114 &1984939470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105803,20 +105889,20 @@ MonoBehaviour:
   ubications:
   - {fileID: 1766807711}
   - {fileID: 1766807710}
-  - {fileID: 414556285}
-  - {fileID: 17211059}
   - {fileID: 539756357}
+  - {fileID: 17211059}
+  - {fileID: 414556285}
   - {fileID: 1766807709}
   - {fileID: 1766807709}
   conditions:
   - {fileID: 1984939460}
   - {fileID: 872371778}
   - {fileID: 1984939460}
-  - {fileID: 1984939460}
-  - {fileID: 1984939460}
+  - {fileID: 219006581}
+  - {fileID: 1750754165}
   - {fileID: 219006581}
   - {fileID: 219006581}
-  timesVisited: 01000000010000000200000002000000020000000300000004000000
+  timesVisited: 01000000010000000200000002000000010000000300000004000000
 --- !u!1 &1985565028
 GameObject:
   m_ObjectHideFlags: 0
@@ -108593,6 +108679,11 @@ PrefabInstance:
       propertyPath: active
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4586106261129896107, guid: e01a40a9a0e30c94b9ea0c04d694d969,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4705572668707170881, guid: e01a40a9a0e30c94b9ea0c04d694d969,
         type: 3}
       propertyPath: active
@@ -108748,6 +108839,11 @@ PrefabInstance:
       propertyPath: dialogueManager
       value: 
       objectReference: {fileID: 1171928259}
+    - target: {fileID: 8332016765247703927, guid: e01a40a9a0e30c94b9ea0c04d694d969,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8482998257861204540, guid: e01a40a9a0e30c94b9ea0c04d694d969,
         type: 3}
       propertyPath: m_Enabled
