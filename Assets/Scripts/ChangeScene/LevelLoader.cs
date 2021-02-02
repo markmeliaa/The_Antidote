@@ -18,6 +18,7 @@ public class LevelLoader : MonoBehaviour
 
     private bool active;
 
+    [SerializeField] Animator tvAnimator;
 
     private void Update()
     {
@@ -52,11 +53,32 @@ public class LevelLoader : MonoBehaviour
 
     public void LoadNextLevel()
     {
-       StartCoroutine(LoadLevel(nextScene));
+        if (tvAnimator == null)
+            StartCoroutine(LoadLevel(nextScene));
+
+        else
+        {
+            tvAnimator.SetBool("tvOn", false);
+            StartCoroutine(LoadLevel2(nextScene));
+        }
     }
 
     IEnumerator LoadLevel(int nextScene)
     {
+        //Play animation
+        transition.SetTrigger("Start");
+
+        //Wait
+        yield return new WaitForSeconds(transitionTime);
+
+        //Load scene
+        SceneManager.LoadScene(nextScene);
+    }
+
+    IEnumerator LoadLevel2(int nextScene)
+    {
+        yield return new WaitForSeconds(0.5f);
+
         //Play animation
         transition.SetTrigger("Start");
 

@@ -863,8 +863,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 10.021851, y: -56.93506}
-  m_SizeDelta: {x: 3051.5989, y: 416.38568}
+  m_AnchoredPosition: {x: 14.4, y: -56.93506}
+  m_SizeDelta: {x: 3519.5515, y: 416.38568}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &963847482
 MonoBehaviour:
@@ -898,7 +898,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "CONTINUAR\xC1..."
+  m_Text: "\xA1Y HASTA AQU\xCD!"
 --- !u!222 &963847483
 CanvasRenderer:
   m_ObjectHideFlags: 0
