@@ -47,8 +47,8 @@ public class InventorySlot : MonoBehaviour
 
                         if (item.eliminate)
                             RemoveItem();
-                        else
-                            inventoryControl.activateInventoryChanging();
+
+                        inventoryControl.activateInventoryChanging();
                     }
                 }
             }
