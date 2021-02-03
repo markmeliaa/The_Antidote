@@ -17,7 +17,7 @@ MonoBehaviour:
     dialogue: "Hola pap\xE1..."
     listener1: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue2: 
-    listener2: {fileID: 11400000, guid: 12a66feca0857734ba3fa00e65d2b1e0, type: 2}
+    listener2: {fileID: 11400000, guid: 55e684e822ed62d46a5d95edca9136de, type: 2}
     dialogue3: 
     listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue4: 
@@ -25,7 +25,7 @@ MonoBehaviour:
     dialogue: 
     listener1: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue2: 
-    listener2: {fileID: 11400000, guid: 9507cfb7be0a68d4795093a933c7dce6, type: 2}
+    listener2: {fileID: 11400000, guid: 53867cf6c4b515e4c826a892b10e00d1, type: 2}
     dialogue3: "Hola hijo, parece que te he dado bastantes problemas, \xBFverdad?"
     listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue4: 
@@ -34,7 +34,7 @@ MonoBehaviour:
       cre\xEDas correcto."
     listener1: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue2: 
-    listener2: {fileID: 11400000, guid: 12a66feca0857734ba3fa00e65d2b1e0, type: 2}
+    listener2: {fileID: 11400000, guid: 55e684e822ed62d46a5d95edca9136de, type: 2}
     dialogue3: 
     listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue4: 
@@ -42,7 +42,7 @@ MonoBehaviour:
     dialogue: 
     listener1: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue2: 
-    listener2: {fileID: 11400000, guid: 9507cfb7be0a68d4795093a933c7dce6, type: 2}
+    listener2: {fileID: 11400000, guid: 53867cf6c4b515e4c826a892b10e00d1, type: 2}
     dialogue3: "No es cierto, si no me hubiera intentado hacer el h\xE9roe encontrando
       un ant\xEDdoto nada de esto hubiera pasado, podr\xEDa haberme marchado  y continuar
       con nuestra vida normal. Ahora... no parece que eso vaya a ser posible."
@@ -52,7 +52,7 @@ MonoBehaviour:
     dialogue: "\xBFPor qu\xE9 lo dices?"
     listener1: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue2: 
-    listener2: {fileID: 11400000, guid: 12a66feca0857734ba3fa00e65d2b1e0, type: 2}
+    listener2: {fileID: 11400000, guid: 55e684e822ed62d46a5d95edca9136de, type: 2}
     dialogue3: 
     listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue4: 
@@ -60,7 +60,7 @@ MonoBehaviour:
     dialogue: 
     listener1: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue2: 
-    listener2: {fileID: 11400000, guid: 9507cfb7be0a68d4795093a933c7dce6, type: 2}
+    listener2: {fileID: 11400000, guid: 53867cf6c4b515e4c826a892b10e00d1, type: 2}
     dialogue3: Yo... noto como se me escapa la vida hijo, no creo que vaya a conseguirlo,
       pero me has ganado algo de tiempo para poder disculparme y despedirme.
     listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
@@ -69,7 +69,7 @@ MonoBehaviour:
     dialogue: "Pap\xE1... No digas eso pap\xE1..."
     listener1: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue2: 
-    listener2: {fileID: 11400000, guid: 12a66feca0857734ba3fa00e65d2b1e0, type: 2}
+    listener2: {fileID: 11400000, guid: 55e684e822ed62d46a5d95edca9136de, type: 2}
     dialogue3: 
     listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue4: 
@@ -77,7 +77,7 @@ MonoBehaviour:
     dialogue: 
     listener1: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
     dialogue2: 
-    listener2: {fileID: 11400000, guid: 9507cfb7be0a68d4795093a933c7dce6, type: 2}
+    listener2: {fileID: 11400000, guid: 53867cf6c4b515e4c826a892b10e00d1, type: 2}
     dialogue3: "Vas a tener que ser muy fuerte de ahora en adelante, pero s\xE9 que
       podr\xE1s con ello, despu\xE9s de todo, eres mi hijo... Te quiero Kieran..."
     listener3: {fileID: 11400000, guid: 7eb4f0eccc74acd4bbf7d64e73dc475f, type: 2}
