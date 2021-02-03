@@ -31500,7 +31500,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!82 &527295431
 AudioSource:
   m_ObjectHideFlags: 0
@@ -31744,10 +31744,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f099eaf69076814d8b7a5de243e5597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  converTimes: 04000000
+  converTimes: 0400000004000000
   interactiveObject:
   - {fileID: 1984451440}
-  timer: 0.5
+  - {fileID: 621492213}
+  timer: 0.1
 --- !u!1 &528095287
 GameObject:
   m_ObjectHideFlags: 0
@@ -71096,7 +71097,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1195832268
 Transform:
   m_ObjectHideFlags: 0
@@ -112793,6 +112794,7 @@ GameObject:
   - component: {fileID: 1984451443}
   - component: {fileID: 1984451442}
   - component: {fileID: 1984451445}
+  - component: {fileID: 1984451446}
   m_Layer: 0
   m_Name: Hilda - NextConvoItem
   m_TagString: Untagged
@@ -112841,7 +112843,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.39648628, y: -0.0991478}
+  m_Offset: {x: 0.12579781, y: 0.026624918}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -112852,7 +112854,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 7.0527687, y: 26.027714}
+  m_Size: {x: 1.4797143, y: 5.4917703}
   m_EdgeRadius: 0
 --- !u!212 &1984451444
 SpriteRenderer:
@@ -112916,10 +112918,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bebe64ce2d1b3b49b7dfb4ca54e0908, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactiveItem: {fileID: 0}
+  interactiveItem: {fileID: 621492213}
   location: {fileID: 527295430}
   dialogueManager: {fileID: 835434861}
   notDestroy: 0
+--- !u!114 &1984451446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984451440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0276f3d713cae154c98b87058cd7a447, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sourceSprite: {fileID: 0}
 --- !u!1001 &1986796134
 PrefabInstance:
   m_ObjectHideFlags: 0
