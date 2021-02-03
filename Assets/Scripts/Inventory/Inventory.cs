@@ -26,17 +26,15 @@ public class Inventory : MonoBehaviour
     public int space =  16;
     public List<Item> items = new List<Item>();
 
-    private void Start()
+    public void setUpInventory()
     {
         List<Item> savedItems = inventorySaver.itemLoader();
 
         for (int i = 0; i < savedItems.Count; i++)
         {
-            Debug.Log("alternative Item: " + alternativeItem);
-            Debug.Log("item name: " + savedItems[i].name);
-            if(alternativeItem != null && savedItems[i].name == "Llaves")
+            if (alternativeItem != null && savedItems[i].name == "Llaves")
                 Add(alternativeItem);
-            else 
+            else
                 Add(savedItems[i]);
         }
     }
