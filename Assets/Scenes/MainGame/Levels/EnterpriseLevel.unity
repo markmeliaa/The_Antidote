@@ -31601,7 +31601,7 @@ MonoBehaviour:
   - {fileID: 112935184}
   - {fileID: 1966637871}
   - {fileID: 1169956257}
-  timesVisitedActivations: 020000000300000005000000
+  timesVisitedActivations: 010000000200000005000000
 --- !u!114 &527295433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63966,9 +63966,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f099eaf69076814d8b7a5de243e5597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  converTimes: 0100000002000000
+  converTimes: 02000000
   interactiveObject:
-  - {fileID: 0}
   - {fileID: 678333808}
   timer: 1
 --- !u!114 &1078255371
