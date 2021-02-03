@@ -6586,6 +6586,7 @@ GameObject:
   - component: {fileID: 119490499}
   - component: {fileID: 119490498}
   - component: {fileID: 119490497}
+  - component: {fileID: 119490502}
   m_Layer: 0
   m_Name: documents - Item
   m_TagString: Untagged
@@ -6601,8 +6602,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 119490495}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.32, y: 0.29, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -2.3777, y: 0.308, z: 0}
+  m_LocalScale: {x: 0.8898507, y: 0.69459844, z: 1}
   m_Children: []
   m_Father: {fileID: 1066985680}
   m_RootOrder: 1
@@ -6664,18 +6665,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.19716483, y: 0.049946055}
+  m_Offset: {x: -0.08784804, y: 0.0032522678}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.5, y: 2.5}
-    newSize: {x: 19.2, y: 10.8}
+    oldSize: {x: 1.57, y: 0.59}
+    newSize: {x: 1.57, y: 0.59}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.101767, y: 0.3685765}
+  m_Size: {x: 1.3204005, y: 0.5657296}
   m_EdgeRadius: 0
 --- !u!212 &119490501
 SpriteRenderer:
@@ -6715,18 +6716,31 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 0}
+  m_SortingOrder: -10
+  m_Sprite: {fileID: 21300000, guid: 3bf01ce4ea7465149a84b38741ef8891, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 19.2, y: 10.8}
+  m_Size: {x: 1.57, y: 0.59}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &119490502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 119490495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0276f3d713cae154c98b87058cd7a447, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sourceSprite: {fileID: 0}
 --- !u!1001 &122530537
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17779,6 +17793,7 @@ GameObject:
   - component: {fileID: 314371519}
   - component: {fileID: 314371518}
   - component: {fileID: 314371517}
+  - component: {fileID: 314371522}
   m_Layer: 0
   m_Name: testTube - Item
   m_TagString: Untagged
@@ -17794,8 +17809,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 314371515}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.39, y: 0.027, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.2543, y: 0.0244, z: 0}
+  m_LocalScale: {x: 0.9115206, y: 0.81113225, z: 1}
   m_Children: []
   m_Father: {fileID: 1066985680}
   m_RootOrder: 0
@@ -17861,8 +17876,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.5, y: 2.5}
-    newSize: {x: 19.2, y: 10.8}
+    oldSize: {x: 1.18, y: 0.47}
+    newSize: {x: 1.18, y: 0.47}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -17908,18 +17923,31 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 0}
+  m_SortingOrder: -10
+  m_Sprite: {fileID: 21300000, guid: 612fca12b67485d4799b2aaba7dc1e59, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 19.2, y: 10.8}
+  m_Size: {x: 1.18, y: 0.47}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &314371522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314371515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0276f3d713cae154c98b87058cd7a447, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sourceSprite: {fileID: 0}
 --- !u!1 &315516636
 GameObject:
   m_ObjectHideFlags: 0
