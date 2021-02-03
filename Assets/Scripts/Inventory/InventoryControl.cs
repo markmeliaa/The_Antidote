@@ -46,7 +46,8 @@ public class InventoryControl : MonoBehaviour
 
     private void OnMouseDown()
     {
-        activateInventoryChanging();
+        if(!dialogManager.GetComponent<DialogueManager>().InConvo)
+            activateInventoryChanging();
     }
 
     public void activateInventoryChanging()

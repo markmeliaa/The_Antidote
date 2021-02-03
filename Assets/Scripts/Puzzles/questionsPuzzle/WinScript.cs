@@ -21,7 +21,9 @@ public class WinScript : MonoBehaviour
         if (currentPoints >= pointsToWin)
         {
             if (compulsory)
+            {
                 endPuzle.desactivate(true);
+            }
             else
                 endPuzle.desactivate(false);
 

@@ -101666,7 +101666,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5c42e610dc01d043b83fc8f173e6637, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  finalTime: 1
+  finalTime: 0.5
   locConditions:
   - {fileID: 10249338}
   - {fileID: 1144247024}
