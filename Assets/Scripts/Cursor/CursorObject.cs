@@ -35,14 +35,14 @@ public class CursorObject : MonoBehaviour
         {
             if (!manager.InConvo)
             {
-                pickUpItems.Interact();
+                pickUpItems.Interact(false);
             }
         }
         else
         {
             if (!manager.InConvo && !sceneManager.getPuzleState() && pickUpItems != null)
             {
-                pickUpItems.Interact();
+                pickUpItems.Interact(false);
             }
         }
     }

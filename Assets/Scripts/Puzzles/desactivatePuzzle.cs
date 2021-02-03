@@ -14,6 +14,7 @@ public class desactivatePuzzle : MonoBehaviour
     public Animator rectangleR;
     public Animator text;
     private AudioSource mainGameAudio;
+    private bool compulsory = false;
 
     bool timesSet = false;
     private void Start()
@@ -30,6 +31,7 @@ public class desactivatePuzzle : MonoBehaviour
     {
         if (compulsoryPuzzle && !timesSet)
         {
+            compulsory = compulsoryPuzzle;
             mapLoc.GetComponent<sceneManager>().setLocationTimes(puzzleLocation.name);
             puzzleLocation.GetComponent<Tester>().sceneWithInteraction = false;
             Debug.Log("Times en " + puzzleLocation.name + ": " + mapLoc.GetComponent<sceneManager>().getLocationTimes(puzzleLocation.name));
@@ -53,5 +55,10 @@ public class desactivatePuzzle : MonoBehaviour
         rectangleL.SetBool("startPuzzle", false);
         rectangleR.SetBool("startPuzzle", false);
         mainGameAudio.mute = false;
+
+        if(compulsory && currentPuzzle.name == "QuestionsPuzzle5")
+        {
+            currentPuzzle.GetComponent<ItemPickUp>().Interact(true);
+        }
     }
 }

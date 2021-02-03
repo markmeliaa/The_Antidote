@@ -6,8 +6,10 @@ public class ItemPickUp : MonoBehaviour
 {
     public Item item;
     public bool sceneWithPuzle = false;
-   public void Interact()
+    private bool optional;
+   public void Interact(bool compulsoryPuzle)
     {
+        optional = compulsoryPuzle;
         PickUp();
     }
 
@@ -16,7 +18,9 @@ public class ItemPickUp : MonoBehaviour
         bool wasPickUp = Inventory.instance.Add(item);
         if (wasPickUp)
         {
-            Destroy(gameObject);
+            if(!optional)
+                Destroy(gameObject);
+
             CursorManager.Instance.SetActiveCursorType(CursorManager.CursorType.Arrow);
         }
     }      
