@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allLines:
   - speaker: {fileID: 11400000, guid: 8e4e811589ae3d34cb1cd8018006c773, type: 2}
-    dialogue: "Ya est\xE1is acabados, deber\xEDas dejarnos pasar, sin m\xE1s."
+    dialogue: Vemos la puerta al otro lado, espero que tu tampoco nos pongas ninguna
+      pega.
     listener1: {fileID: 11400000, guid: fc407688f4b7a7541ab68eb8a9175407, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
@@ -24,8 +25,10 @@ MonoBehaviour:
   - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: ed4d4e58331af1a45950af4f989f2ac8, type: 2}
-    dialogue2: "No puedo hacer eso ni\xF1o, hab\xE9is causado demasiados problemas
-      por aqu\xED."
+    dialogue2: "Aqu\xED todos hemos tenido que mantener las formas porque Luther
+      tiene c\xE1maras por toda la cueva, por eso os tenemos que llamar la atenci\xF3n,
+      pero no os voy a impedir de ninguna forma que atraveseis esta puerta y llegueis
+      hasta el jefe."
     listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue3: 
     listener3: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
@@ -37,12 +40,13 @@ MonoBehaviour:
     listener2: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue3: 
     listener3: {fileID: 11400000, guid: 9d19dfeeadebb0d4badb2fb1ab640415, type: 2}
-    dialogue4: "Pues te vamos a causar uno m\xE1s a t\xED, tranquilo."
+    dialogue4: "\xA1Ahora todo tiene sentido! Vamos Kieran, vamos a por \xE9l."
   - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}
     dialogue: 
     listener1: {fileID: 11400000, guid: fc407688f4b7a7541ab68eb8a9175407, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: 392329ed7cc82914e8e729c85f6019d7, type: 2}
-    dialogue3: "Eso, ves buscando un buen abogado, porque est\xE1is perdidos."
+    dialogue3: "Eso, id buscando un buen abogado porque a pesar de haber cambiado
+      de idea ahora al final, est\xE1is acabados y no os vais a escapar."
     listener3: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue4: 

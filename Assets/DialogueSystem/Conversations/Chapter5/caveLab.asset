@@ -115,9 +115,9 @@ MonoBehaviour:
     listener1: {fileID: 11400000, guid: 3b0a04f0d85388c40b05e35cc5ced273, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: d5587942aa72f6343a35315aa669ac46, type: 2}
-    dialogue3: "Por eso los guardas solo nos dejaban pasar al completar sus desafios,
-      le enviaban los datos aqui para que mientras los otros nos reten\xEDan \xE9l
-      pudiera perfeccionar el compuesto."
+    dialogue3: "Por eso los guardas ten\xEDan que plantearnos desaf\xEDos, estaba
+      esperando a que le enviaran los datos aqu\xED mientras los otros nos reten\xEDan
+      para perfeccionar el compuesto, \xA1pero no ha tenido tiempo!"
     listener3: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue4: 
   - speaker: {fileID: 11400000, guid: 4f0d762d586271340859268cdbfa6430, type: 2}

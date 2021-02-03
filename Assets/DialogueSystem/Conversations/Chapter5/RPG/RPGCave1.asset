@@ -17,8 +17,8 @@ MonoBehaviour:
     dialogue: 
     listener1: {fileID: 11400000, guid: 0d6dd02f0c1502648a7f7114264a3720, type: 2}
     dialogue2: "No os preocupeis mocosos, sorprendentemente, no me han mandado aqu\xED
-      para detener vuestro avance, al menos no de forma permanente... aunque eso
-      realmente depende de vosotros."
+      para detener vuestro avance, estoy aqu\xED para advertiros y deciros que no
+      vais por el camino equivocado."
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
     listener3: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
@@ -35,15 +35,16 @@ MonoBehaviour:
     dialogue: 
     listener1: {fileID: 11400000, guid: 0d6dd02f0c1502648a7f7114264a3720, type: 2}
     dialogue2: "Mi jefe me ha dicho que solo os debo dejar pasar si resolv\xE9is
-      el puzle que os tengo preparado."
+      un puzle, pero lo que est\xE1 haciendo ya sobrepasa los l\xEDmites de mi moralidad,
+      as\xED que no puedo seguir acatando sus \xF3rdenes."
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
     listener3: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue4: 
   - speaker: {fileID: 11400000, guid: f8f161c3634a91540bcd1e152ecfe0ae, type: 2}
-    dialogue: " Esto es... \xBFY para qu\xE9 querr\xEDa \xE9l que hici\xE9ramos esto?
-      Si conseguimos formar el ant\xEDdoto perfecto podr\xEDamos curar a todos los
-      enfermos y llevarlo ante la justicia."
+    dialogue: "Esto es... \xBFY para qu\xE9 querr\xEDa \xE9l que nos plantearas un
+      puzzle? Si conseguimos formar el ant\xEDdoto perfecto podr\xEDamos curar a
+      todos los enfermos y llevarlo ante la justicia."
     listener1: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
@@ -55,13 +56,13 @@ MonoBehaviour:
     listener1: {fileID: 11400000, guid: 0d6dd02f0c1502648a7f7114264a3720, type: 2}
     dialogue2: "Mira ni\xF1o, no tengo ni idea, en este trabajo yo solo acato \xF3rdenes,
       como todos por aqu\xED, y aunque yo no lo entiendo t\xFA lo que deber\xEDas
-      hacer es alegrarte de que no se nos ha ordenado que os machaquemos."
+      hacer es alegrarte de que no te voy a poner ninguna traba para que avances."
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
     listener3: {fileID: 11400000, guid: e722f24fbecb2804b8a40ad8275d646b, type: 2}
     dialogue4: 
   - speaker: {fileID: 11400000, guid: 080ba70f87e7c1940bf90d98ba18dd13, type: 2}
-    dialogue: "Est\xE1 bien... aceptamos el reto."
+    dialogue: "Est\xE1 bien... seguimos adelante."
     listener1: {fileID: 11400000, guid: 5eab9f292c8da244cb16e02a08ee3bfb, type: 2}
     dialogue2: 
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}

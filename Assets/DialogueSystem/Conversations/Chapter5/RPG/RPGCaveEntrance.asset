@@ -45,4 +45,4 @@ MonoBehaviour:
     listener2: {fileID: 11400000, guid: b133d2980e48a52498d64f1dbd9e23c1, type: 2}
     dialogue3: 
     listener3: {fileID: 11400000, guid: d10ecfe38086a0b47820494ecb643916, type: 2}
-    dialogue4: "Ya se nos ocurrir\xE1 algo."
+    dialogue4: Veamos a ver que nos tiene que decir, no hay otra forma de avanzar.
